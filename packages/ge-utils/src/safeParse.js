@@ -1,3 +1,3 @@
-import { tryCatch, always } from 'ramda';
+import R from 'ramda';
 
-export default tryCatch(JSON.parse, always(undefined));
+export default R.tryCatch(JSON.parse, R.always(undefined));

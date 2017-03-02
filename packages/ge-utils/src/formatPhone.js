@@ -1,17 +1,17 @@
-import { pipe, replace, unless, ifElse } from 'ramda';
+import R from 'ramda';
 import startsWith from './startsWith';
 
 const startsWith00 = startsWith('00');
 const startsWithPlus = startsWith('+');
 
-const formatPhone = pipe(
-  replace(/[^\d+]/g, ''),
-  unless(
+const formatPhone = R.pipe(
+  R.replace(/[^\d+]/g, ''),
+  R.unless(
     startsWithPlus,
-    ifElse(
+    R.ifElse(
       startsWith00,
-      replace('00', '+'),
-      replace('0', '+32')
+      R.replace('00', '+'),
+      R.replace('0', '+32')
     )
   )
 );

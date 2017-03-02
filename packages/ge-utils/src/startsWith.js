@@ -1,5 +1,5 @@
-import { compose, equals, take, length } from 'ramda';
+import R from 'ramda';
 
-const startsWith = s => compose(equals(s), take(length(s)));
+const startsWith = s => R.compose(R.equals(s), R.take(R.length(s)));
 
 export default startsWith;
