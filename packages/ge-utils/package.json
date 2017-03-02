@@ -1,0 +1,54 @@
+{
+  "name": "@goldwasserexchange/utils",
+  "version": "0.0.1",
+  "description": "GE Utils",
+  "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/goldwasserexchange/ge-utils"
+  },
+  "scripts": {
+    "lint": "eslint . --ignore-path .gitignore",
+    "build": "babel src --out-dir lib"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "rules": {
+      "comma-dangle": [
+        2,
+        "always-multiline"
+      ],
+      "linebreak-style": 0
+    }
+  },
+  "babel": {
+    "presets": [
+      [
+        "es2015",
+        {
+          "modules": false,
+          "loose": true
+        }
+      ]
+    ],
+    "plugins": [
+      "ramda"
+    ]
+  },
+  "dependencies": {
+    "ramda": "0.23.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.23.0",
+    "babel-core": "6.23.1",
+    "babel-plugin-ramda": "1.1.6",
+    "babel-preset-es2015": "6.22.0",
+    "eslint": "3.16.1",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.10.0"
+  }
+}
