@@ -1,10 +1,9 @@
 {
   "name": "@goldwasserexchange/utils",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "GE Utils",
   "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
   "license": "UNLICENSED",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://bitbucket.org/goldwasserexchange/ge-utils"
