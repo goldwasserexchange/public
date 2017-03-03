@@ -2,3 +2,6 @@
 bitbucket-pipelines.yml
 src
 lib
+test
+.nyc_output
+coverage

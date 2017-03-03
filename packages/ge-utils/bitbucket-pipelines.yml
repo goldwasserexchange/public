@@ -8,6 +8,7 @@ pipelines:
           - printf "//`node -p \"require('url').parse(process.env.NPM_REGISTRY_URL || 'https://registry.npmjs.org').host\"`/:_authToken=${NPM_TOKEN}\nregistry=${NPM_REGISTRY_URL:-https://registry.npmjs.org}\n" >> ~/.npmrc
           - npm install
           - npm run lint
+          - npm test
   tags:
     v*:
       - step:
@@ -16,5 +17,6 @@ pipelines:
             - printf "//`node -p \"require('url').parse(process.env.NPM_REGISTRY_URL || 'https://registry.npmjs.org').host\"`/:_authToken=${NPM_TOKEN}\nregistry=${NPM_REGISTRY_URL:-https://registry.npmjs.org}\n" >> ~/.npmrc
             - npm install
             - npm run lint
+            - npm test
             - npm run build:publish
             - npm publish
