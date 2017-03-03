@@ -1,1 +1,4 @@
-
+.gitignore
+bitbucket-pipelines.yml
+src
+lib

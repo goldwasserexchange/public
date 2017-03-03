@@ -11,7 +11,8 @@
   },
   "scripts": {
     "lint": "eslint . --ignore-path .gitignore",
-    "build": "babel src --out-dir lib"
+    "build": "rimraf lib && babel src --out-dir lib",
+    "build:publish": "babel src --out-dir ."
   },
   "eslintConfig": {
     "extends": "airbnb",
@@ -49,6 +50,7 @@
     "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.10.0"
+    "eslint-plugin-react": "6.10.0",
+    "rimraf": "2.6.1"
   }
 }
