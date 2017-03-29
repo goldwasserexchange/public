@@ -1,4 +1,4 @@
-import { isAccount, mod, modValid, valid } from '../src/actorAccount';
+import { isAccount, mod, modValid, valid, structuredCommunication } from '../src/actorAccount';
 
 const account = '100/0002465/74';
 
@@ -31,4 +31,9 @@ test('valid with valid account', () => {
 test('valid with valid account', () => {
   const invalidAccount = '100/0002465/73';
   expect(valid(invalidAccount)).toBe(false);
+});
+
+test('structuredCommunication', () => {
+  const comm = '+++ 100 / 0002 / 46574 +++';
+  expect(structuredCommunication(account)).toBe(comm);
 });
