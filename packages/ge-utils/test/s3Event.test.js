@@ -1,4 +1,3 @@
-import test from 'ava';
 import { event, bucket, key } from '../src/s3Event';
 
 const s3 = {
@@ -11,8 +10,8 @@ const awsEvent = {
   ],
 };
 
-test('event', t => t.deepEqual(event(awsEvent), s3));
+test('event', () => expect(event(awsEvent)).toEqual(s3));
 
-test('bucket', t => t.is(bucket(awsEvent), s3.bucket.name));
+test('bucket', () => expect(bucket(awsEvent)).toBe(s3.bucket.name));
 
-test('key', t => t.is(key(awsEvent), s3.object.key));
+test('key', () => expect(key(awsEvent)).toBe(s3.object.key));

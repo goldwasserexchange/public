@@ -1,25 +1,24 @@
-import test from 'ava';
 import lambdaResponse from '../src/lambdaResponse';
 
-test('statusCode only', (t) => {
+test('statusCode only', () => {
   const statusCode = 200;
-  t.deepEqual(lambdaResponse(statusCode), { statusCode });
+  expect(lambdaResponse(statusCode)).toEqual({ statusCode });
 });
 
-test('statusCode and body', (t) => {
+test('statusCode and body', () => {
   const statusCode = 200;
   const body = { data: 'OK' };
-  t.deepEqual(lambdaResponse(statusCode, body), {
+  expect(lambdaResponse(statusCode, body)).toEqual({
     statusCode,
     body: JSON.stringify(body),
   });
 });
 
-test('statusCode, body and headers', (t) => {
+test('statusCode, body and headers', () => {
   const statusCode = 200;
   const body = { data: 'OK' };
   const headers = { 'Cache-Control': 'no-cache' };
-  t.deepEqual(lambdaResponse(statusCode, body, headers), {
+  expect(lambdaResponse(statusCode, body, headers)).toEqual({
     statusCode,
     body: JSON.stringify(body),
     headers,

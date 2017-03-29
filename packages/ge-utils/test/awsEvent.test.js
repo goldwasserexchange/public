@@ -1,12 +1,11 @@
-import test from 'ava';
 import awsEvent from '../src/awsEvent';
 
-test('awsEvent', (t) => {
+test('awsEvent', () => {
   const obj = { test: 'ok' };
   const event = {
     Records: [
       { service: obj },
     ],
   };
-  t.deepEqual(awsEvent('service')(event), obj);
+  expect(awsEvent('service')(event)).toEqual(obj);
 });

@@ -1,8 +1,7 @@
-import test from 'ava';
 import startsWith from '../src/startsWith';
 
-test('startsWith', (t) => {
+test('startsWith', () => {
   const string = 'This is a string';
   const startsWithThis = startsWith('This');
-  t.true(startsWithThis(string));
+  expect(startsWithThis(string)).toBe(true);
 });
