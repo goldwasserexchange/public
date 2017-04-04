@@ -18,5 +18,5 @@ pipelines:
             - npm install
             - npm run lint
             - npm test
-            - npm run build:publish
+            - npm run build
             - npm publish
