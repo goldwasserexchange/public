@@ -1,7 +1,7 @@
 import R from 'ramda';
 import parseInt10 from './parseInt10';
 
-const stringModulo = R.curry((dividend, divisor) => {
+export default R.curry((dividend, divisor) => {
   let div = '';
   let remainder = '';
 
@@ -19,5 +19,3 @@ const stringModulo = R.curry((dividend, divisor) => {
 
   return remainder === '' ? 0 : parseInt10(remainder);
 });
-
-export default stringModulo;

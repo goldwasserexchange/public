@@ -4,7 +4,7 @@ import startsWith from './startsWith';
 const startsWith00 = startsWith('00');
 const startsWithPlus = startsWith('+');
 
-const formatPhone = R.pipe(
+export default R.pipe(
   R.replace(/[^\d+]/g, ''),
   R.unless(
     startsWithPlus,
@@ -15,5 +15,3 @@ const formatPhone = R.pipe(
     )
   )
 );
-
-export default formatPhone;

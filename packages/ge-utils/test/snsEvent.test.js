@@ -1,4 +1,8 @@
-import { event, subject, rawMessage, message } from '../src/snsEvent';
+import snsEvent from '../src/snsEvent';
+import snsEventSubject from '../src/snsEventSubject';
+import snsEventRawMessage from '../src/snsEventRawMessage';
+import snsEventMessage from '../src/snsEventMessage';
+
 
 const sns = {
   Subject: 'hello',
@@ -10,10 +14,7 @@ const awsEvent = {
   ],
 };
 
-test('event', () => expect(event(awsEvent)).toEqual(sns));
-
-test('subject', () => expect(subject(awsEvent)).toBe(sns.Subject));
-
-test('rawMessage', () => expect(rawMessage(awsEvent)).toBe(sns.Message));
-
-test('message', () => expect(message(awsEvent)).toEqual(JSON.parse(sns.Message)));
+test('snsEvent', () => expect(snsEvent(awsEvent)).toEqual(sns));
+test('snsEventSubject', () => expect(snsEventSubject(awsEvent)).toBe(sns.Subject));
+test('snsEventRawMessage', () => expect(snsEventRawMessage(awsEvent)).toBe(sns.Message));
+test('snsEventMessage', () => expect(snsEventMessage(awsEvent)).toEqual(JSON.parse(sns.Message)));
