@@ -8,31 +8,68 @@ test('statusCode only', () => {
 
 test('statusCode and headers', () => {
   const statusCode = 200;
-  const headers = { 'Cache-Control': 'no-cache' };
-  expect(lambdaResponse(statusCode, null, headers)).toEqual({ statusCode, headers });
+  const resHeaders = { 'Cache-Control': 'no-cache' };
+  expect(lambdaResponse(statusCode, null, resHeaders)).toEqual({ statusCode, headers: resHeaders });
 });
 
 test('statusCode and body', () => {
   const statusCode = 200;
   const body = { data: 'OK' };
-  const headers = { ETag: etag(JSON.stringify(body)) };
+  const resHeaders = { ETag: etag(JSON.stringify(body)) };
   expect(lambdaResponse(statusCode, body)).toEqual({
     statusCode,
     body: JSON.stringify(body),
-    headers,
+    headers: resHeaders,
   });
 });
 
 test('statusCode, body and headers', () => {
   const statusCode = 200;
   const body = { data: 'OK' };
-  const headers = {
+  const resHeaders = {
     'Cache-Control': 'no-cache',
     ETag: etag(JSON.stringify(body)),
   };
-  expect(lambdaResponse(statusCode, body, headers)).toEqual({
+  expect(lambdaResponse(statusCode, body, resHeaders)).toEqual({
     statusCode,
     body: JSON.stringify(body),
-    headers,
+    headers: resHeaders,
+  });
+});
+
+test('statusCode, body, headers and matching ifNoneMatch', () => {
+  const statusCode = 200;
+  const expectedStatusCode = 304;
+  const body = { data: 'OK' };
+  const tag = etag(JSON.stringify(body));
+  const resHeaders = {
+    'Cache-Control': 'private',
+    ETag: tag,
+  };
+  const reqHeaders = {
+    'If-None-Match': tag,
+  };
+  expect(lambdaResponse(statusCode, body, resHeaders, reqHeaders)).toEqual({
+    statusCode: expectedStatusCode,
+    headers: resHeaders,
+  });
+});
+
+test('statusCode, body, headers and unmatching ifNoneMatch', () => {
+  const statusCode = 200;
+  const expectedStatusCode = 200;
+  const oldBody = { data: 'old' };
+  const newBody = { data: 'new' };
+  const resHeaders = {
+    'Cache-Control': 'private',
+    ETag: etag(JSON.stringify(newBody)),
+  };
+  const reqHeaders = {
+    'If-None-Match': etag(JSON.stringify(oldBody)),
+  };
+  expect(lambdaResponse(statusCode, newBody, resHeaders, reqHeaders)).toEqual({
+    statusCode: expectedStatusCode,
+    body: JSON.stringify(newBody),
+    headers: resHeaders,
   });
 });
