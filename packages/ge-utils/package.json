@@ -9,7 +9,7 @@
     "url": "https://bitbucket.org/goldwasserexchange/ge-utils"
   },
   "scripts": {
-    "lint": "eslint . --ignore-path .gitignore",
+    "lint": "eslint . --ignore-path .gitignore --cache",
     "test": "cross-env BABEL_ENV=commonjs jest --coverage",
     "generate-index": "cross-env BABEL_ENV=commonjs babel-node ./scripts/generateIndex",
     "clean": "rimraf lib es",

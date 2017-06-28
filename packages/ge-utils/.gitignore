@@ -4,3 +4,4 @@ es
 .nyc_output
 coverage
 jest
+.eslintcache
