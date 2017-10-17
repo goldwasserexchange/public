@@ -1,4 +1,4 @@
-import R from 'ramda';
+import * as R from 'ramda';
 import onlyDigits from './onlyDigits';
 
 const insertSlash = R.curry((idx, list) => R.insert(idx, ' / ', list));

@@ -1,4 +1,4 @@
-import R from 'ramda';
+import * as R from 'ramda';
 
 export default R.curry((keysMap, obj) =>
   R.reduce(

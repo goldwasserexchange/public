@@ -1,4 +1,4 @@
-import R from 'ramda';
+import * as R from 'ramda';
 import parseInt10 from './parseInt10';
 
 export default R.curry((dividend, divisor) => {

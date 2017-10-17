@@ -1,4 +1,4 @@
-import R from 'ramda';
+import * as R from 'ramda';
 import lambdaResponse from './lambdaResponse';
 
 const addCorsHeaders = R.merge({ 'Access-Control-Allow-Origin': '*' });

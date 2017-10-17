@@ -1,4 +1,4 @@
-import R from 'ramda';
+import * as R from 'ramda';
 import parseInt10 from './parseInt10';
 import isActorAccount from './isActorAccount';
 import actorAccountMod from './actorAccountMod';

@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import R from 'ramda';
+import * as R from 'ramda';
 
 const listFiles = () => fs.readdirSync(path.join(process.cwd(), 'src'));
 const removeIndex = R.filter(R.complement(R.equals('index.js')));

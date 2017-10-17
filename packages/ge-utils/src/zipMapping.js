@@ -1,4 +1,4 @@
-import R from 'ramda';
+import * as R from 'ramda';
 
 const zipMapping = mapping => R.pipe(
   R.props(R.values(mapping)),

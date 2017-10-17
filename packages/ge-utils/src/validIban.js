@@ -1,4 +1,4 @@
-import R from 'ramda';
+import * as R from 'ramda';
 import removeSpaces from './removeSpaces';
 import moveCharsToEnd from './moveCharsToEnd';
 import stringModulo from './stringModulo';
