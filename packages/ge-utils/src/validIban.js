@@ -3,7 +3,7 @@ import removeSpaces from './removeSpaces';
 import moveCharsToEnd from './moveCharsToEnd';
 import stringModulo from './stringModulo';
 
-const toDigit = R.when(isNaN, R.compose(char => `${char.charCodeAt(0) - 55}`, R.toUpper));
+const toDigit = R.when(isNaN, R.compose(char => `${char.charCodeAt(0) - 55}`, R.toUpper)); // eslint-disable-line no-restricted-globals
 
 export default R.pipe(
   removeSpaces,
