@@ -18,7 +18,7 @@
     "build": "npm run clean && npm run generate-index && npm run build:commonjs && npm run build:es"
   },
   "main": "lib/index.js",
-  "modules": "es/index.js",
+  "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "eslintConfig": {
     "extends": "airbnb",
