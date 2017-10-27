@@ -1,3 +1,3 @@
-import * as R from 'ramda';
+import { replace } from 'ramda';
 
-export default R.replace(/\s/g, '');
+export default replace(/\s/g, '');

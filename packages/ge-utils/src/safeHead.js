@@ -1,3 +1,3 @@
-import * as R from 'ramda';
+import { tryCatch, head, always } from 'ramda';
 
-export default R.tryCatch(R.head, R.always(undefined));
+export default tryCatch(head, always(undefined));

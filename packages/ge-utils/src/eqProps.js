@@ -1,7 +1,7 @@
-import * as R from 'ramda';
+import { curry, reduce, has, eqProps } from 'ramda';
 
-export default R.curry((props, a, b) => R.reduce(
-  (acc, k) => acc && R.has(k, a) && R.has(k, b) && R.eqProps(k, a, b),
+export default curry((props, a, b) => reduce(
+  (acc, k) => acc && has(k, a) && has(k, b) && eqProps(k, a, b),
   true,
   props
 ));

@@ -1,7 +1,7 @@
-import * as R from 'ramda';
+import { pipe, replace, when, test } from 'ramda';
 
-export default R.pipe(
-  R.replace(/[^\d+]/g, ''),
-  R.when(R.test(/^00[1-9][\d]{8,14}$/), R.replace(/^00/, '+')),
-  R.when(R.test(/^0[\d]{8,9}$/), R.replace(/^0/, '+32'))
+export default pipe(
+  replace(/[^\d+]/g, ''),
+  when(test(/^00[1-9][\d]{8,14}$/), replace(/^00/, '+')),
+  when(test(/^0[\d]{8,9}$/), replace(/^0/, '+32'))
 );

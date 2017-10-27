@@ -1,4 +1,4 @@
-import * as R from 'ramda';
+import { compose, prop } from 'ramda';
 import snsEvent from './snsEvent';
 
-export default R.compose(R.prop('Subject'), snsEvent);
+export default compose(prop('Subject'), snsEvent);

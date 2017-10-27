@@ -1,4 +1,3 @@
-import * as R from 'ramda';
+import { curry } from 'ramda';
 
-// eslint-disable-next-line no-restricted-properties
-export default R.curry((d, f) => Math.round(f * Math.pow(10, d)) / Math.pow(10, d));
+export default curry((d, f) => Math.round(f * (10 ** d)) / (10 ** d));

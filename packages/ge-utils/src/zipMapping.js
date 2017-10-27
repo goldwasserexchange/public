@@ -1,8 +1,8 @@
-import * as R from 'ramda';
+import { pipe, props, values, zipObj, keys } from 'ramda';
 
-const zipMapping = mapping => R.pipe(
-  R.props(R.values(mapping)),
-  R.zipObj(R.keys(mapping))
+const zipMapping = mapping => pipe(
+  props(values(mapping)),
+  zipObj(keys(mapping))
 );
 
 export default zipMapping;

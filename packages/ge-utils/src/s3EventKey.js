@@ -1,6 +1,6 @@
-import * as R from 'ramda';
+import { compose, path, replace } from 'ramda';
 import s3Event from './s3Event';
 
-const rawKey = R.compose(R.path(['object', 'key']), s3Event);
+const rawKey = compose(path(['object', 'key']), s3Event);
 
-export default R.compose(decodeURIComponent, R.replace(/\+/g, ''), rawKey);
+export default compose(decodeURIComponent, replace(/\+/g, ''), rawKey);

@@ -1,5 +1,5 @@
-import * as R from 'ramda';
+import { compose, prop, head } from 'ramda';
 
-const awsEvent = service => R.compose(R.prop(service), R.head, R.prop('Records'));
+const awsEvent = service => compose(prop(service), head, prop('Records'));
 
 export default awsEvent;

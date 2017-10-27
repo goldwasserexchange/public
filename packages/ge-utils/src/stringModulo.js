@@ -1,11 +1,11 @@
-import * as R from 'ramda';
+import { curry, forEach } from 'ramda';
 import parseInt10 from './parseInt10';
 
-export default R.curry((dividend, divisor) => {
+export default curry((dividend, divisor) => {
   let div = '';
   let remainder = '';
 
-  R.forEach((char) => {
+  forEach((char) => {
     const operator = `${remainder}${div}${char}`;
     if (operator < parseInt10(divisor)) {
       div += char;

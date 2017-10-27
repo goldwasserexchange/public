@@ -1,3 +1,3 @@
-import * as R from 'ramda';
+import { test } from 'ramda';
 
-export default R.test(/^\d{3}\/\d{7}\/\d{2}$/);
+export default test(/^\d{3}\/\d{7}\/\d{2}$/);

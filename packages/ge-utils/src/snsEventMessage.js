@@ -1,5 +1,5 @@
-import * as R from 'ramda';
+import { compose } from 'ramda';
 import snsEventRawMessage from './snsEventRawMessage';
 import safeParse from './safeParse';
 
-export default R.compose(safeParse, snsEventRawMessage);
+export default compose(safeParse, snsEventRawMessage);

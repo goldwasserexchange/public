@@ -1,15 +1,15 @@
-import * as R from 'ramda';
+import { when, test, compose, toUpper, pipe, map, join, __, equals } from 'ramda';
 import removeSpaces from './removeSpaces';
 import moveCharsToEnd from './moveCharsToEnd';
 import stringModulo from './stringModulo';
 
-const toDigit = R.when(isNaN, R.compose(char => `${char.charCodeAt(0) - 55}`, R.toUpper)); // eslint-disable-line no-restricted-globals
+const toDigit = when(test(/[A-Za-z]/), compose(char => `${char.charCodeAt(0) - 55}`, toUpper));
 
-export default R.pipe(
+export default pipe(
   removeSpaces,
   moveCharsToEnd(4),
-  R.map(toDigit),
-  R.join(''),
-  stringModulo(R.__, 97), // eslint-disable-line no-underscore-dangle
-  R.equals(1)
+  map(toDigit),
+  join(''),
+  stringModulo(__, 97), // eslint-disable-line no-underscore-dangle
+  equals(1)
 );

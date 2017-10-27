@@ -1,10 +1,10 @@
-import * as R from 'ramda';
+import { pipe, take, mathMod, __ } from 'ramda';
 import parseInt10 from './parseInt10';
 import onlyDigits from './onlyDigits';
 
-export default R.pipe(
+export default pipe(
   onlyDigits,
-  R.take(10),
+  take(10),
   parseInt10,
-  R.mathMod(R.__, 97) // eslint-disable-line no-underscore-dangle
+  mathMod(__, 97) // eslint-disable-line no-underscore-dangle
 );

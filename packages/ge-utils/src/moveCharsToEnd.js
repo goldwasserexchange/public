@@ -1,3 +1,3 @@
-import * as R from 'ramda';
+import { curry, drop, take } from 'ramda';
 
-export default R.curry((n, s) => `${R.drop(n, s)}${R.take(n, s)}`);
+export default curry((n, s) => `${drop(n, s)}${take(n, s)}`);

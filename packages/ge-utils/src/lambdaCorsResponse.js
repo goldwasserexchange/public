@@ -1,7 +1,7 @@
-import * as R from 'ramda';
+import { merge } from 'ramda';
 import lambdaResponse from './lambdaResponse';
 
-const addCorsHeaders = R.merge({ 'Access-Control-Allow-Origin': '*' });
+const addCorsHeaders = merge({ 'Access-Control-Allow-Origin': '*' });
 
 const lambdaCorsResponse = (statusCode, body, resHeaders, reqHeaders) =>
   lambdaResponse(statusCode, body, addCorsHeaders(resHeaders), reqHeaders);

@@ -1,4 +1,4 @@
-import * as R from 'ramda';
+import { compose, toUpper, join, splitEvery } from 'ramda';
 import removeSpaces from './removeSpaces';
 
-export default R.compose(R.toUpper, R.join(' '), R.splitEvery(4), removeSpaces);
+export default compose(toUpper, join(' '), splitEvery(4), removeSpaces);

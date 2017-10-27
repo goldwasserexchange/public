@@ -1,8 +1,8 @@
-import * as R from 'ramda';
+import { curry, reduce, assoc, keys } from 'ramda';
 
-export default R.curry((keysMap, obj) =>
-  R.reduce(
-    (acc, key) => R.assoc(keysMap[key] || key, obj[key], acc),
+export default curry((keysMap, obj) =>
+  reduce(
+    (acc, key) => assoc(keysMap[key] || key, obj[key], acc),
     {},
-    R.keys(obj)
+    keys(obj)
   ));
