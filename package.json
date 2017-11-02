@@ -1,11 +1,16 @@
 {
   "name": "@goldwasserexchange/javascript",
   "description": "A serie of tools to lint, build and deploy javascript code",
+  "scripts": {
+    "commit": "git-cz"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goldwasserexchange/javascript.git"
   },
   "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-lerna-changelog": "^1.2.1",
     "lerna": "^2.5.1"
   },
   "author": "Hans Scheuren",
@@ -13,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/goldwasserexchange/javascript/issues"
   },
-  "homepage": "https://github.com/goldwasserexchange/javascript#readme"
+  "homepage": "https://github.com/goldwasserexchange/javascript#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  }
 }
