@@ -1,5 +1,17 @@
 {
-	"devDependencies": {
-		"lerna": "^2.5.1"
-	}
+  "name": "@goldwasserexchange/javascript",
+  "description": "A serie of tools to lint, build and deploy javascript code",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/javascript.git"
+  },
+  "devDependencies": {
+    "lerna": "^2.5.1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldwasserexchange/javascript/issues"
+  },
+  "homepage": "https://github.com/goldwasserexchange/javascript#readme"
 }
