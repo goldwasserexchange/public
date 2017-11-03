@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.10.0"></a>
+# [0.10.0](https://github.com/goldwasserexchange/javascript/compare/v0.9.0...v0.10.0) (2017-11-03)
+
+
+### Features
+
+* **eslint-config:** remove import/no-dynamic-require custom rule ([76bd8ad](https://github.com/goldwasserexchange/javascript/commit/76bd8ad))
+
+
+
+
 <a name="0.9.0"></a>
 # [0.9.0](https://github.com/goldwasserexchange/javascript/compare/v0.8.0...v0.9.0) (2017-11-03)
 
