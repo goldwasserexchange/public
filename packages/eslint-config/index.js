@@ -31,7 +31,6 @@ module.exports = {
       }
     ],
     "max-len": 0,
-    "newline-per-chained-call": 0,
     "no-console": 1,
     "no-use-before-define": 0,
     "require-yield": 0,
