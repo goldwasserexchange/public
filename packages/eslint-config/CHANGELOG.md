@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.15.0"></a>
+# [0.15.0](https://github.com/goldwasserexchange/javascript/compare/v0.14.0...v0.15.0) (2017-11-03)
+
+
+### Features
+
+* **eslint-config:** remove jsx-a11y/heading-has-content custom rule ([3af0fb5](https://github.com/goldwasserexchange/javascript/commit/3af0fb5))
+
+
+
+
 <a name="0.14.0"></a>
 # [0.14.0](https://github.com/goldwasserexchange/javascript/compare/v0.13.0...v0.14.0) (2017-11-03)
 
