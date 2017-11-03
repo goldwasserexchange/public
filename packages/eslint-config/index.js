@@ -32,7 +32,6 @@ module.exports = {
     ],
     "max-len": 0,
     "import/newline-after-import": 0,
-    "jsx-a11y/heading-has-content": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,
     "react/forbid-prop-types": 0,
