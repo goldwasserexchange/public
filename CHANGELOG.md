@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.16.0"></a>
+# [0.16.0](https://github.com/goldwasserexchange/javascript/compare/v0.15.0...v0.16.0) (2017-11-03)
+
+
+### Features
+
+* **eslint-config:** remove react/jsx-first-prop-new-line custom rule ([7f6af1c](https://github.com/goldwasserexchange/javascript/commit/7f6af1c))
+
+
+
+
 <a name="0.15.0"></a>
 # [0.15.0](https://github.com/goldwasserexchange/javascript/compare/v0.14.0...v0.15.0) (2017-11-03)
 
