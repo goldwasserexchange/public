@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.14.0"></a>
+# [0.14.0](https://github.com/goldwasserexchange/javascript/compare/v0.13.0...v0.14.0) (2017-11-03)
+
+
+### Features
+
+* **eslint-config:** remove import/prefer-default-export custom rule ([184f64e](https://github.com/goldwasserexchange/javascript/commit/184f64e))
+
+
+
+
 <a name="0.13.0"></a>
 # [0.13.0](https://github.com/goldwasserexchange/javascript/compare/v0.12.0...v0.13.0) (2017-11-03)
 
