@@ -23,7 +23,6 @@ module.exports = {
       2,
       "always-multiline"
     ],
-    "class-methods-use-this": 0,
     "indent": [
       2,
       2,
