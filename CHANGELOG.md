@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/goldwasserexchange/javascript/compare/v0.2.0...v0.3.0) (2017-11-03)
+
+
+### Features
+
+* **eslint-config:** remove custom eslint rule class-method-use-this ([cafe38a](https://github.com/goldwasserexchange/javascript/commit/cafe38a))
+
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/goldwasserexchange/javascript/compare/v0.1.0...v0.2.0) (2017-11-03)
 
