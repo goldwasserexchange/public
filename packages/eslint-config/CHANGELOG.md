@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.19.0"></a>
+# [0.19.0](https://github.com/goldwasserexchange/javascript/compare/v0.18.0...v0.19.0) (2017-11-03)
+
+
+### Features
+
+* **eslint-config:** remove react/require-extension custom rule ([daeb2ea](https://github.com/goldwasserexchange/javascript/commit/daeb2ea))
+
+
+
+
 <a name="0.18.0"></a>
 # [0.18.0](https://github.com/goldwasserexchange/javascript/compare/v0.17.1...v0.18.0) (2017-11-03)
 
