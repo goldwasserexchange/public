@@ -31,7 +31,6 @@ module.exports = {
       }
     ],
     "max-len": 0,
-    "no-use-before-define": 0,
     "require-yield": 0,
     "import/extensions": 0,
     "import/imports-first": 0,
