@@ -1,6 +1,9 @@
 module.exports = {
   "parser": "babel-eslint",
-  "extends": "airbnb",
+  "extends": [
+    "airbnb",
+    "@goldwasserexchange/eslint-config-style",
+  ],
   "env": {
     "browser": true,
     "node": true,
@@ -19,18 +22,6 @@ module.exports = {
     }
   },
   "rules": {
-    "comma-dangle": [
-      2,
-      "always-multiline"
-    ],
-    "indent": [
-      2,
-      2,
-      {
-        "SwitchCase": 1
-      }
-    ],
-    "max-len": 0,
     "import/newline-after-import": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,
