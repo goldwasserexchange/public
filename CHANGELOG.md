@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.20.0"></a>
+# [0.20.0](https://github.com/goldwasserexchange/javascript/compare/v0.19.0...v0.20.0) (2017-11-03)
+
+
+### Features
+
+* **eslint-config:** remove react/self-closing-comp custom rule ([a77a2a4](https://github.com/goldwasserexchange/javascript/commit/a77a2a4))
+
+
+
+
 <a name="0.19.0"></a>
 # [0.19.0](https://github.com/goldwasserexchange/javascript/compare/v0.18.0...v0.19.0) (2017-11-03)
 
