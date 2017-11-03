@@ -19,10 +19,6 @@ module.exports = {
     }
   },
   "rules": {
-    "arrow-parens": [
-      "error",
-      "always"
-    ],
     "arrow-body-style": [
       2,
       "as-needed"
