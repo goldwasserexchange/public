@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/goldwasserexchange/javascript/compare/v0.4.0...v0.5.0) (2017-11-03)
+
+
+### Features
+
+* **eslint-config:** remove no-console custom rule ([cf5f81b](https://github.com/goldwasserexchange/javascript/commit/cf5f81b))
+
+
+
+
 <a name="0.4.0"></a>
 # [0.4.0](https://github.com/goldwasserexchange/javascript/compare/v0.3.0...v0.4.0) (2017-11-03)
 
