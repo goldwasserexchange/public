@@ -32,7 +32,6 @@ module.exports = {
     ],
     "max-len": 0,
     "import/newline-after-import": 0,
-    "import/no-named-as-default": 0,
     "import/no-unresolved": 0,
     "import/prefer-default-export": 0,
     "jsx-a11y/heading-has-content": 0,
