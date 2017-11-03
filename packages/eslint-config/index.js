@@ -39,11 +39,4 @@ module.exports = {
     "redux-saga/no-yield-in-race": 2,
     "redux-saga/yield-effects": 2
   },
-  "settings": {
-    "import/resolver": {
-      "webpack": {
-        "config": "./internals/webpack/webpack.dev.babel.js"
-      }
-    }
-  }
 };
