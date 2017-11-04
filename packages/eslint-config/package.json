@@ -9,7 +9,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "devDependencies": {
-    "@goldwasserexchange/eslint-config-style": "^0.20.3",
+    "@goldwasserexchange/eslint-config-base": "^0.0.1",
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-airbnb-base": "^12.1.0",

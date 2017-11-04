@@ -2,7 +2,7 @@ module.exports = {
   "parser": "babel-eslint",
   "extends": [
     "airbnb",
-    "@goldwasserexchange/eslint-config-style",
+    "@goldwasserexchange/eslint-config-base",
   ],
   "env": {
     "browser": true,
@@ -10,6 +10,7 @@ module.exports = {
     "es6": true
   },
   "plugins": [
+    "import",
     "redux-saga",
     "react",
     "jsx-a11y"
@@ -22,7 +23,6 @@ module.exports = {
     }
   },
   "rules": {
-    "import/newline-after-import": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,
     "react/forbid-prop-types": 0,
