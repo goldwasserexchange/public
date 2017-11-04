@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-style",
-  "version": "0.20.3",
+  "version": "0.20.6",
   "description": "Goldwasser Exchange ES Lint code style config",
   "main": "index.js",
   "scripts": {
