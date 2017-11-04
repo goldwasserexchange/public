@@ -1,0 +1,25 @@
+{
+  "name": "@goldwasserexchange/eslint-config-base",
+  "version": "0.0.1",
+  "description": "Goldwasser Exchange ES Lint base config\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "devDependencies": {
+    "@goldwasserexchange/eslint-config-import": "^0.20.4",
+    "@goldwasserexchange/eslint-config-style": "^0.20.3",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "peerDependencies": {
+    "@goldwasserexchange/eslint-config-import": "^0.20.4",
+    "@goldwasserexchange/eslint-config-style": "^0.20.3",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
