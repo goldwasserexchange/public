@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/goldwasserexchange/javascript/compare/v0.20.6...v1.0.0) (2017-11-05)
+
+
+### Bug Fixes
+
+* **eslint-config-import:** fix typo in airbnb rules name ([010371a](https://github.com/goldwasserexchange/javascript/commit/010371a))
+
+
+### Code Refactoring
+
+* **eslint-config:** use goldwasserexchange/eslint-config-react ([f53c1af](https://github.com/goldwasserexchange/javascript/commit/f53c1af))
+
+
+### BREAKING CHANGES
+
+* **eslint-config:** react/forbid-prop-types is used with airbnb default behavior
+
+
+
+
 <a name="0.20.6"></a>
 ## [0.20.6](https://github.com/goldwasserexchange/javascript/compare/v0.20.5...v0.20.6) (2017-11-04)
 
