@@ -1,6 +1,6 @@
 module.exports = {
   "parser": "babel-eslint",
-  "extends": "airbnb-base/rules/style",
+  "extends": "airbnb/rules/react",
   "env": {
     "browser": true,
     "node": true,
