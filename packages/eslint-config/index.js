@@ -2,6 +2,7 @@ module.exports = {
   "parser": "babel-eslint",
   "extends": [
     "airbnb",
+    "plugin:redux-saga/recommended",
     "@goldwasserexchange/eslint-config-base",
     "@goldwasserexchange/eslint-config-react",
   ],
@@ -26,7 +27,5 @@ module.exports = {
   "rules": {
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,
-    "redux-saga/no-yield-in-race": 2,
-    "redux-saga/yield-effects": 2
   },
 };
