@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/goldwasserexchange/javascript/compare/v1.0.1...v1.1.0) (2017-11-06)
+
+
+### Features
+
+* **eslint-config:** use redux-saga/recommended rules ([6b856e0](https://github.com/goldwasserexchange/javascript/commit/6b856e0))
+
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/goldwasserexchange/javascript/compare/v1.0.0...v1.0.1) (2017-11-05)
 
