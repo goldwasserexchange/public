@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.9.1"></a>
+## [1.9.1](https://github.com/goldwasserexchange/javascript/compare/v1.9.0...v1.9.1) (2017-11-06)
+
+
+### Bug Fixes
+
+* **lint-js:** add missing #!/usr/bin/env to lint-js index ([790b6f2](https://github.com/goldwasserexchange/javascript/commit/790b6f2))
+
+
+
+
 <a name="1.9.0"></a>
 # [1.9.0](https://github.com/goldwasserexchange/javascript/compare/v1.8.0...v1.9.0) (2017-11-06)
 
