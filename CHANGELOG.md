@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.8.0"></a>
+# [1.8.0](https://github.com/goldwasserexchange/javascript/compare/v1.7.3...v1.8.0) (2017-11-06)
+
+
+### Features
+
+* **lint-js:** use .gitignore as default .eslintignore ([fea1100](https://github.com/goldwasserexchange/javascript/commit/fea1100))
+
+
+### Reverts
+
+* **lint-js:** use hereRelative again ([736dd35](https://github.com/goldwasserexchange/javascript/commit/736dd35))
+
+
+
+
 <a name="1.7.3"></a>
 ## [1.7.3](https://github.com/goldwasserexchange/javascript/compare/v1.7.2...v1.7.3) (2017-11-06)
 
