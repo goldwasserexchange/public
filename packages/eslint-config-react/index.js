@@ -1,6 +1,6 @@
 module.exports = {
   "parser": "babel-eslint",
-  "extends": require.resolve("eslint-config-airbnb-base/rules/react"),
+  "extends": require.resolve("eslint-config-airbnb/rules/react"),
   "env": {
     "browser": true,
     "node": true,
