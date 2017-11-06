@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.7.3"></a>
+## [1.7.3](https://github.com/goldwasserexchange/javascript/compare/v1.7.2...v1.7.3) (2017-11-06)
+
+
+### Bug Fixes
+
+* **lint-js:** use require.resolve instead of here relative ([68e89ca](https://github.com/goldwasserexchange/javascript/commit/68e89ca))
+
+
+
+
 <a name="1.7.2"></a>
 ## [1.7.2](https://github.com/goldwasserexchange/javascript/compare/v1.7.1...v1.7.2) (2017-11-06)
 
