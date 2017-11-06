@@ -3,10 +3,10 @@ const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 module.exports = {
   "parser": "babel-eslint",
   "extends": [
-    require.resolve("eslint-config-airbnb"),
     require.resolve("@goldwasserexchange/eslint-config-strict"),
     ifAnyDep('redux-saga', "plugin:redux-saga/recommended"),
     ifAnyDep('react', require.resolve("@goldwasserexchange/eslint-config-react")),
+    ifAnyDep('react', require.resolve("eslint-config-airbnb/rules/react-a11y"),)
   ].filter(Boolean),
   "env": {
     "browser": true,
