@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.4.1"></a>
+## [1.4.1](https://github.com/goldwasserexchange/javascript/compare/v1.4.0...v1.4.1) (2017-11-06)
+
+
+### Bug Fixes
+
+* **eslint-config:** add [@goldwasserexchange](https://github.com/goldwasserexchange)/read-pkg-up-helpers to peer dependencies ([6128042](https://github.com/goldwasserexchange/javascript/commit/6128042))
+
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/goldwasserexchange/javascript/compare/v1.3.2...v1.4.0) (2017-11-06)
 
