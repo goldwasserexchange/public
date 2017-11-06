@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.4.3"></a>
+## [1.4.3](https://github.com/goldwasserexchange/javascript/compare/v1.4.2...v1.4.3) (2017-11-06)
+
+
+### Reverts
+
+* **read-pkg-up-helpers:** revert to using lodash ([dfd46f6](https://github.com/goldwasserexchange/javascript/commit/dfd46f6))
+
+
+
+
 <a name="1.4.2"></a>
 ## [1.4.2](https://github.com/goldwasserexchange/javascript/compare/v1.4.1...v1.4.2) (2017-11-06)
 
