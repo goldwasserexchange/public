@@ -26,8 +26,5 @@
     "eslint-plugin-redux-saga": "^0.6.0",
     "redux-saga": "^0.16.0",
     "yargs-parser": "^8.0.0"
-  },
-  "bin": {
-    "gw-lint-js": "./index.js"
   }
 }
