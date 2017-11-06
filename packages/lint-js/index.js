@@ -4,6 +4,8 @@ const yargsParser = require('yargs-parser')
 const {hasPkgProp, resolveBin, hasFile} = require('@goldwasserexchange/read-pkg-up-helpers')
 
 let args = process.argv.slice(2)
+const here = p => path.join(__dirname, p)
+const hereRelative = p => here(p).replace(process.cwd(), '.')
 const parsedArgs = yargsParser(args)
 
 const useBuiltinConfig =
@@ -13,7 +15,7 @@ const useBuiltinConfig =
   !hasPkgProp('eslintConfig')
 
 const config = useBuiltinConfig
-  ? ['--config', require.resolve('./config/eslintrc.js')]
+  ? ['--config', hereRelative('./config/eslintrc.js')]
   : []
 
 const useBuiltinIgnore =
@@ -22,7 +24,7 @@ const useBuiltinIgnore =
   !hasPkgProp('eslintIgnore')
 
 const ignore = useBuiltinIgnore
-  ? ['--ignore-path', require.resolve('./config/eslintignore')]
+  ? ['--ignore-path', hereRelative('./config/eslintignore')]
   : []
 
 const cache = args.includes('--no-cache') ? [] : ['--cache']
