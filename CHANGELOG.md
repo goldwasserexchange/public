@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.9.0"></a>
+# [1.9.0](https://github.com/goldwasserexchange/javascript/compare/v1.8.0...v1.9.0) (2017-11-06)
+
+
+### Features
+
+* **lint-js:** add a bin field to package.json ([5f8abd9](https://github.com/goldwasserexchange/javascript/commit/5f8abd9))
+
+
+
+
 <a name="1.8.0"></a>
 # [1.8.0](https://github.com/goldwasserexchange/javascript/compare/v1.7.3...v1.8.0) (2017-11-06)
 
