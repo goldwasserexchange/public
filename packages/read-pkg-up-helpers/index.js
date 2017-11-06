@@ -2,12 +2,17 @@
 
 const readPkgUp = require('read-pkg-up');
 const fs = require('fs');
+const path = require('path');
 const arrify = require('arrify');
 const { has } = require('lodash');
 
-const { pkg } = readPkgUp.sync({
+const { pkg, path: pkgPath } = readPkgUp.sync({
   cwd: fs.realpathSync(process.cwd()),
 });
+const appDirectory = path.dirname(pkgPath)
+
+const fromRoot = (...p) => path.join(appDirectory, ...p)
+const hasFile = (...p) => fs.existsSync(fromRoot(...p))
 
 const hasPkgProp = props => arrify(props).some(prop => has(pkg, prop))
 
@@ -22,6 +27,7 @@ const ifAnyDep = (deps, t, f) => (hasAnyDep(arrify(deps)) ? t : f)
 
 
 module.exports = {
+  hasFile,
   hasPkgProp,
   hasPkgSubProp,
   hasPeerDep,
