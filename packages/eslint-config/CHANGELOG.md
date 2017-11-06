@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/goldwasserexchange/javascript/compare/v1.4.5...v1.5.0) (2017-11-06)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/eslint-config
+
 <a name="1.4.5"></a>
 ## [1.4.5](https://github.com/goldwasserexchange/javascript/compare/v1.4.4...v1.4.5) (2017-11-06)
 
