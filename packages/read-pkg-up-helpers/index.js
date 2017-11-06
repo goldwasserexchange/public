@@ -3,13 +3,13 @@
 const readPkgUp = require('read-pkg-up');
 const fs = require('fs');
 const arrify = require('arrify');
-const lodash = require('lodash');
+const { has } = require('ramda');
 
 const { pkg } = readPkgUp.sync({
   cwd: fs.realpathSync(process.cwd()),
 });
 
-const hasPkgProp = props => arrify(props).some(prop => lodash.has(pkg, prop))
+const hasPkgProp = props => arrify(props).some(prop => has(prop, pkg))
 
 const hasPkgSubProp = pkgProp => props => hasPkgProp(arrify(props).map(p => `${pkgProp}.${p}`));
 
