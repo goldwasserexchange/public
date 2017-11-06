@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Goldwasser Exchange ES Lint config",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "@goldwasserexchange/eslint-config-base": "^1.3.1",
-    "@goldwasserexchange/eslint-config-react": "^1.3.1",
+    "@goldwasserexchange/eslint-config-react": "^1.3.2",
     "@goldwasserexchange/eslint-config-strict": "^1.3.1",
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^16.1.0",
@@ -23,7 +23,7 @@
   },
   "peerDependencies": {
     "@goldwasserexchange/eslint-config-base": "^1.3.1",
-    "@goldwasserexchange/eslint-config-react": "^1.3.1",
+    "@goldwasserexchange/eslint-config-react": "^1.3.2",
     "@goldwasserexchange/eslint-config-strict": "^1.3.1",
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^16.1.0",
