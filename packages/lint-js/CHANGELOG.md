@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.9.2"></a>
+## [1.9.2](https://github.com/goldwasserexchange/javascript/compare/v1.9.1...v1.9.2) (2017-11-06)
+
+
+### Reverts
+
+* **lint-js:** revert to dc42d8a73bb2eafb7af69b47481d5a15f0b41c6b ([3205449](https://github.com/goldwasserexchange/javascript/commit/3205449))
+
+
+
+
 <a name="1.9.1"></a>
 ## [1.9.1](https://github.com/goldwasserexchange/javascript/compare/v1.9.0...v1.9.1) (2017-11-06)
 
