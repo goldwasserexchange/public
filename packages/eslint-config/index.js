@@ -1,11 +1,13 @@
+const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
+
 module.exports = {
   "parser": "babel-eslint",
   "extends": [
     require.resolve("eslint-config-airbnb"),
-    "plugin:redux-saga/recommended",
     require.resolve("@goldwasserexchange/eslint-config-strict"),
-    require.resolve("@goldwasserexchange/eslint-config-react"),
-  ],
+    ifAnyDep('redux-saga', "plugin:redux-saga/recommended"),
+    ifAnyDep('react', require.resolve("@goldwasserexchange/eslint-config-react")),
+  ].filter(Boolean),
   "env": {
     "browser": true,
     "node": true,
@@ -13,17 +15,15 @@ module.exports = {
   },
   "plugins": [
     "import",
-    "redux-saga",
-    "react",
-    "jsx-a11y"
-  ],
+    ifAnyDep('redux-saga', "redux-saga"),
+    ifAnyDep('react', "react"),
+    ifAnyDep('react', "jsx-a11y")
+  ].filter(Boolean),
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": ifAnyDep('react', true, false),
     }
-  },
-  "rules": {
-  },
+  }
 };
