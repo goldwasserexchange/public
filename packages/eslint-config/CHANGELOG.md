@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/goldwasserexchange/javascript/compare/v1.1.0...v1.2.0) (2017-11-06)
+
+
+### Features
+
+* **eslint-config:** remove jsx-a11y/no-static-element-interactions and jsx-a11y/no-noninteractive-e ([8f51582](https://github.com/goldwasserexchange/javascript/commit/8f51582))
+
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/goldwasserexchange/javascript/compare/v1.0.1...v1.1.0) (2017-11-06)
 
