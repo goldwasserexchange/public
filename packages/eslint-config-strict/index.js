@@ -1,8 +1,8 @@
 module.exports = {
   "parser": "babel-eslint",
   "extends": [
-    "@goldwasserexchange/eslint-config-base",
-    "airbnb-base/rules/strict",
+    require.resolve("@goldwasserexchange/eslint-config-base"),
+    require.resolve("eslint-config-airbnb-base/rules/strict"),
   ],
   "env": {
     "browser": true,

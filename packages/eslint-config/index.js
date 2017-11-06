@@ -1,10 +1,10 @@
 module.exports = {
   "parser": "babel-eslint",
   "extends": [
-    "airbnb",
+    require.resolve("eslint-config-airbnb"),
     "plugin:redux-saga/recommended",
-    "@goldwasserexchange/eslint-config-base",
-    "@goldwasserexchange/eslint-config-react",
+    require.resolve("@goldwasserexchange/eslint-config-strict"),
+    require.resolve("@goldwasserexchange/eslint-config-react"),
   ],
   "env": {
     "browser": true,
