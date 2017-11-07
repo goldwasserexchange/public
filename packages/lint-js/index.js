@@ -40,7 +40,7 @@ args = filesGiven ? args.filter(a => !parsedArgs._.includes(a) || a.endsWith('.j
 const result = spawn.sync(
   resolveBin('eslint'),
   [...config, ...ignore, ...cache, ...args],
-  {stdio: 'inherit'},
+  {stdio: 'inherit'}
 )
 
 process.exit(result.status)
