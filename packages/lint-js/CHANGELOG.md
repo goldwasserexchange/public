@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.9.3"></a>
+## [1.9.3](https://github.com/goldwasserexchange/javascript/compare/v1.9.2...v1.9.3) (2017-11-07)
+
+
+### Bug Fixes
+
+* **lint-js:** remove trailing coma in spawn-sync ([4615d11](https://github.com/goldwasserexchange/javascript/commit/4615d11))
+
+
+
+
 <a name="1.9.2"></a>
 ## [1.9.2](https://github.com/goldwasserexchange/javascript/compare/v1.9.1...v1.9.2) (2017-11-06)
 
