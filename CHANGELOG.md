@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.9.5"></a>
+## [1.9.5](https://github.com/goldwasserexchange/javascript/compare/v1.9.4...v1.9.5) (2017-11-08)
+
+
+### Bug Fixes
+
+* **eslint-plugin-import:** downgrade the minimum version of eslint-plugin-import that is required ([95146d9](https://github.com/goldwasserexchange/javascript/commit/95146d9))
+
+
+
+
 <a name="1.9.4"></a>
 ## [1.9.4](https://github.com/goldwasserexchange/javascript/compare/v1.9.3...v1.9.4) (2017-11-08)
 
