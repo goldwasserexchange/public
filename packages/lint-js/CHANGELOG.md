@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.9.4"></a>
+## [1.9.4](https://github.com/goldwasserexchange/javascript/compare/v1.9.3...v1.9.4) (2017-11-08)
+
+
+### Bug Fixes
+
+* **lint-js:** add babel-eslint dependency ([7e38d7b](https://github.com/goldwasserexchange/javascript/commit/7e38d7b))
+
+
+
+
 <a name="1.9.3"></a>
 ## [1.9.3](https://github.com/goldwasserexchange/javascript/compare/v1.9.2...v1.9.3) (2017-11-07)
 
