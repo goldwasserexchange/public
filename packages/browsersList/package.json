@@ -1,6 +1,5 @@
 {
   "name": "@goldwasserexchange/browserslist",
-  "version": "1.0.0",
   "description": "the shared browserslist used by Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
