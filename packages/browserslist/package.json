@@ -1,0 +1,11 @@
+{
+  "name": "@goldwasserexchange/browserslist",
+  "description": "the shared browserslist used by Goldwasser Exchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "version": "1.10.0"
+}
