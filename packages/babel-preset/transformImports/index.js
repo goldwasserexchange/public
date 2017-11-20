@@ -36,9 +36,10 @@ const ramdaTransform = ifAnyDep(
 
 module.exports = [
   require.resolve('babel-plugin-transform-imports'),
-  {
-    ...goldwasserExchangeUtilsTransform,
-    ...reactRouterTransform,
-    ...ramdaTransform,
-  }
+  Object.assign(
+    {},
+    goldwasserExchangeUtilsTransform,
+    reactRouterTransform,
+    ramdaTransform,
+  )
 ]
