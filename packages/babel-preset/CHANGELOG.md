@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.13.1"></a>
+## [1.13.1](https://github.com/goldwasserexchange/javascript/compare/v1.13.0...v1.13.1) (2017-11-20)
+
+
+### Bug Fixes
+
+* **babel-preset/transformImports:** fix object spread not supported by node ([254c0e2](https://github.com/goldwasserexchange/javascript/commit/254c0e2))
+
+
+
+
 <a name="1.13.0"></a>
 # [1.13.0](https://github.com/goldwasserexchange/javascript/compare/v1.12.0...v1.13.0) (2017-11-20)
 
