@@ -1,3 +1,4 @@
+const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 const R = require('ramda');
 
 const plugins = [
@@ -13,12 +14,15 @@ const plugins = [
     },
   ],
   // Transforms JSX
-  [
-    require.resolve('babel-plugin-transform-react-jsx'),
-    {
-      useBuiltIns: true,
-    },
-  ],
+  ifAnyDep(
+    'react',
+    [
+      require.resolve('babel-plugin-transform-react-jsx'),
+      {
+        useBuiltIns: true,
+      },
+    ]
+  ),
   // Polyfills the runtime needed for async/await and generators
   [
     require.resolve('babel-plugin-transform-runtime'),
@@ -27,7 +31,7 @@ const plugins = [
       polyfill: false,
       regenerator: true,
     },
-  ],
+  ].filter(Boolean),
 ];
 
 const getPlugins = env => [
@@ -42,9 +46,15 @@ const getPlugins = env => [
     (env === 'development' || env === 'test')
       ? [
         // Adds component stack to warning messages
-        require.resolve('babel-plugin-transform-react-jsx-source'),
+        ifAnyDep(
+          'react',
+          require.resolve('babel-plugin-transform-react-jsx-source')
+        ),
         // Adds __self attribute to JSX which React will use for some warnings
-        require.resolve('babel-plugin-transform-react-jsx-self'),
+        ifAnyDep(
+          'react',
+          require.resolve('babel-plugin-transform-react-jsx-self')
+        ),
       ]
       : []
   ),
@@ -70,16 +80,22 @@ const getPlugins = env => [
   ...(
     env === 'production'
       ? [
-        require.resolve('babel-plugin-recharts'),
-        [
-          require.resolve('babel-plugin-lodash'),
-          {
-            id: [
-              'lodash',
-              'recompose'
-            ]
-          }
-        ],
+        ifAnyDep(
+          'recharts',
+          require.resolve('babel-plugin-recharts')
+        ),
+        ifAnyDep(
+          'lodash',
+          [
+            require.resolve('babel-plugin-lodash'),
+            {
+              id: [
+                'lodash',
+                'recompose'
+              ]
+            }
+          ]
+        ),
         [
           require.resolve('babel-plugin-transform-imports'),
           {
@@ -97,12 +113,24 @@ const getPlugins = env => [
             },
           }
         ],
-        require.resolve('babel-plugin-transform-react-remove-prop-types'),
-        require.resolve('babel-plugin-transform-react-constant-elements'),
-        require.resolve('babel-plugin-transform-react-inline-elements'),
-        require.resolve('react-loadable/babel'),
+        ifAnyDep(
+          'prop-types',
+          require.resolve('babel-plugin-transform-react-remove-prop-types')
+        ),
+        ifAnyDep(
+          'react',
+          require.resolve('babel-plugin-transform-react-constant-elements')
+        ),
+        ifAnyDep(
+          'react',
+          require.resolve('babel-plugin-transform-react-inline-elements')
+        ),
+        ifAnyDep(
+          'react-loadable',
+          require.resolve('react-loadable/babel')
+        ),
         require.resolve('babel-plugin-minify-dead-code-elimination'),
-      ]
+      ].filter(Boolean)
       : []
   ),
 ];
