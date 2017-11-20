@@ -1,5 +1,5 @@
 const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
-const R = require('ramda');
+const transformImports = require('./transformImports');
 
 const plugins = [
   // class { handleClick = () => { } }
@@ -96,23 +96,7 @@ const getPlugins = env => [
             }
           ]
         ),
-        [
-          require.resolve('babel-plugin-transform-imports'),
-          {
-            '@goldwasserexchange/utils': {
-              transform: R.concat('@goldwasserexchange/utils/es/'),
-              preventFullImport: true,
-            },
-            'react-router': {
-              transform: R.concat('react-router/es6/'),
-              preventFullImport: true,
-            },
-            ramda: {
-              transform: R.concat('ramda/es/'),
-              preventFullImport: true,
-            },
-          }
-        ],
+        transformImports,
         ifAnyDep(
           'prop-types',
           require.resolve('babel-plugin-transform-react-remove-prop-types')
