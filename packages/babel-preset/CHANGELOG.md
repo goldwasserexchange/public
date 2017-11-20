@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.12.0"></a>
+# [1.12.0](https://github.com/goldwasserexchange/javascript/compare/v1.11.2...v1.12.0) (2017-11-20)
+
+
+### Features
+
+* **babel-preset/getPlugins:** use ifAnyDep in babel-preset getPlugins ([ac8573a](https://github.com/goldwasserexchange/javascript/commit/ac8573a))
+* **babel-preset/getPresetEnv:** use ifAnyDep in requirePresetEnv ([0a9e274](https://github.com/goldwasserexchange/javascript/commit/0a9e274))
+* **babel-preset/getPresetEnv:** use ifAnyDep in target of getPresetEnv ([696ddb4](https://github.com/goldwasserexchange/javascript/commit/696ddb4))
+* **babel-preset/getPresetEnv:** use ifAnyDep to determine babel-preset-env module ([9a61069](https://github.com/goldwasserexchange/javascript/commit/9a61069))
+* **babel-preset/getPresets:** use ifAnyDep in getPresets ([3344de6](https://github.com/goldwasserexchange/javascript/commit/3344de6))
+
+
+
+
 <a name="1.11.2"></a>
 ## [1.11.2](https://github.com/goldwasserexchange/javascript/compare/v1.11.1...v1.11.2) (2017-11-20)
 
