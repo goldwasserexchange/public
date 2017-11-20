@@ -1,7 +1,10 @@
-
+const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 const getTargets = require('./getTargets');
 
 const requirePresetEnv = require('./requirePresetEnv');
+
+const node = 'commonjs';
+const browser = env => env === 'test' ? 'commonjs' : false;
 
 module.exports = env => [
   requirePresetEnv(env),
@@ -10,6 +13,10 @@ module.exports = env => [
     // Disable polyfill transforms
     useBuiltIns: false,
     // transform modules to CJS only on test
-    modules: env === 'test' ? 'commonjs' : false,
+    modules:ifAnyDep(
+      'react',
+      browser(env),
+      node
+    )
   },
 ];
