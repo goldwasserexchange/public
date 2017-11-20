@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.11.2"></a>
+## [1.11.2](https://github.com/goldwasserexchange/javascript/compare/v1.11.1...v1.11.2) (2017-11-20)
+
+
+### Bug Fixes
+
+* **babel-preset:** remove env check ([086b340](https://github.com/goldwasserexchange/javascript/commit/086b340))
+
+
+
+
 <a name="1.11.1"></a>
 ## [1.11.1](https://github.com/goldwasserexchange/javascript/compare/v1.11.0...v1.11.1) (2017-11-19)
 
