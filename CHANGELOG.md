@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.13.0"></a>
+# [1.13.0](https://github.com/goldwasserexchange/javascript/compare/v1.12.0...v1.13.0) (2017-11-20)
+
+
+### Features
+
+* **babel-preset/getPlugins:** extract babel-plugin-transform-imports config to it's own file ([81a62d7](https://github.com/goldwasserexchange/javascript/commit/81a62d7))
+
+
+
+
 <a name="1.12.0"></a>
 # [1.12.0](https://github.com/goldwasserexchange/javascript/compare/v1.11.2...v1.12.0) (2017-11-20)
 
