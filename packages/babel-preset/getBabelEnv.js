@@ -4,11 +4,7 @@ const getBabelEnv = () => {
   // We are not using `env` because it’s ignored in versions > babel-core@6.10.4:
   // https://github.com/babel/babel/issues/4539
   // https://github.com/facebookincubator/create-react-app/issues/720
-  // It’s also nice that we can enforce `NODE_ENV` being specified.
   const env = process.env.BABEL_ENV || process.env.NODE_ENV;
-  if (env !== 'development' && env !== 'test' && env !== 'production' && env !== 'dll') {
-    throw new Error(`You specify need to specify 'NODE_ENV' or 'BABE_ENC' environment variables. Valid values are "development", "test", "dll", and "production". Instead, received: ${JSON.stringify(env)}.`);
-  }
   return env;
 };
 
