@@ -96,7 +96,7 @@ const getPlugins = env => [
             }
           ]
         ),
-        transformImports,
+        transformImports(),
         ifAnyDep(
           'prop-types',
           require.resolve('babel-plugin-transform-react-remove-prop-types')
