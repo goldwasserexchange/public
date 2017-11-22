@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.14.0"></a>
+# [1.14.0](https://github.com/goldwasserexchange/javascript/compare/v1.13.1...v1.14.0) (2017-11-22)
+
+
+### Features
+
+* **babel-preset:** add support for BABEL_TARGET to choose a es or commonjs build ([92ead0f](https://github.com/goldwasserexchange/javascript/commit/92ead0f))
+
+
+
+
 <a name="1.13.1"></a>
 ## [1.13.1](https://github.com/goldwasserexchange/javascript/compare/v1.13.0...v1.13.1) (2017-11-20)
 
