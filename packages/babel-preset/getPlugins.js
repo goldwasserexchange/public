@@ -34,7 +34,7 @@ const plugins = [
   ].filter(Boolean),
 ];
 
-const getPlugins = env => [
+const getPlugins = (env, target) => [
   ...plugins,
   // The following two plugins are currently necessary to make React warnings
   // include more valuable information. They are included here because they are
@@ -59,7 +59,7 @@ const getPlugins = env => [
       : []
   ),
   ...(
-    env === 'test'
+    (target === 'node' || (target === 'browser' && env === 'test'))
       ? [
         // Compiles import() to a deferred require()
         require.resolve('babel-plugin-dynamic-import-node'),

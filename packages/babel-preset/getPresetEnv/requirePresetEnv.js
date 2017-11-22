@@ -1,14 +1,7 @@
 const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
-const node = require('babel-preset-env').default;
 
-const browser = env => (env !== 'test')
+const requirePresetEnv = (env, target) => (target === 'node' || (target === 'browser' && env === 'test'))
   ? require.resolve('babel-preset-env')
-  : node;
-
-const requirePresetEnv = env => ifAnyDep(
-  'react',
-  browser(env),
-  node
-);
+  : require('babel-preset-env').default;
 
 module.exports = requirePresetEnv;

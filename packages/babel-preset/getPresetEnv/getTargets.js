@@ -6,15 +6,15 @@ const node = {
   node: 'current',
 };
 
-const browser = env => (env !== 'test')
-  ? {
+const browser = (env, target) => (target === 'node' || (target === 'browser' && env === 'test'))
+  ? node
+  : {
     // Browserlist support
     browsers,
     // We currently minify with uglify
     // Remove after https://github.com/mishoo/UglifyJS2/issues/448
     uglify: true,
-  }
-  : node;
+  };
 
 const getTargets = env => ifAnyDep(
   'react',

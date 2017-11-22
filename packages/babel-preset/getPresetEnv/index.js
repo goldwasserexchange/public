@@ -4,19 +4,15 @@ const getTargets = require('./getTargets');
 const requirePresetEnv = require('./requirePresetEnv');
 
 const node = 'commonjs';
-const browser = env => env === 'test' ? 'commonjs' : false;
+const browser = (env, target) => (target === 'node' || (target === 'browser' && env === 'test')) ? 'commonjs' : false;
 
-module.exports = env => [
-  requirePresetEnv(env),
+module.exports = (env, target) => [
+  requirePresetEnv(env, target),
   {
-    targets: getTargets(env),
+    targets: getTargets(env, target),
     // Disable polyfill transforms
     useBuiltIns: false,
     // transform modules to CJS only on test
-    modules:ifAnyDep(
-      'react',
-      browser(env),
-      node
-    )
+    modules: browser(env, target),
   },
 ];

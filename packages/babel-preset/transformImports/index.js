@@ -1,17 +1,17 @@
 const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 const R = require('ramda');
-const getBabeltarget = require('../getBabelTarget');
+const getBabelESTarget = require('../getBabelESTarget');
 
 const goldwasserExchangeUtilsEsTargets = {
   es: 'es',
   commonjs: 'lib'
 };
 
-const goldwasserExchangeUtilsTransform = (babelTarget) => ifAnyDep(
+const goldwasserExchangeUtilsTransform = (babelESTarget) => ifAnyDep(
   '@goldwasserexchange/utils',
   {
     '@goldwasserexchange/utils': {
-      transform: R.concat(`@goldwasserexchange/utils/${goldwasserExchangeUtilsEsTargets[babelTarget]}/`),
+      transform: R.concat(`@goldwasserexchange/utils/${goldwasserExchangeUtilsEsTargets[babelESTarget]}/`),
       preventFullImport: true,
     },
   },
@@ -23,11 +23,11 @@ const reactRouterTargets = {
   commonjs: 'lib'
 };
 
-const reactRouterTransform = (babelTarget) => ifAnyDep(
+const reactRouterTransform = (babelESTarget) => ifAnyDep(
   'react-router',
   {
     'react-router': {
-      transform: R.concat(`react-router/${reactRouterTargets[babelTarget]}/`),
+      transform: R.concat(`react-router/${reactRouterTargets[babelESTarget]}/`),
       preventFullImport: true,
     },
   },
@@ -39,11 +39,11 @@ const ramdaTargets = {
   commonjs: 'src'
 };
 
-const ramdaTransform = (babelTarget) => ifAnyDep(
+const ramdaTransform = (babelESTarget) => ifAnyDep(
   'ramda',
   {
     ramda: {
-      transform: R.concat(`ramda/${ramdaTargets[babelTarget]}/`),
+      transform: R.concat(`ramda/${ramdaTargets[babelESTarget]}/`),
       preventFullImport: true,
     },
   },
@@ -51,14 +51,14 @@ const ramdaTransform = (babelTarget) => ifAnyDep(
 );
 
 module.exports = () => {
-  const babelTarget = getBabeltarget(true);
+  const babelESTarget = getBabelESTarget(true);
   return [
     require.resolve('babel-plugin-transform-imports'),
     Object.assign(
       {},
-      goldwasserExchangeUtilsTransform(babelTarget),
-      reactRouterTransform(babelTarget),
-      ramdaTransform(babelTarget),
+      goldwasserExchangeUtilsTransform(babelESTarget),
+      reactRouterTransform(babelESTarget),
+      ramdaTransform(babelESTarget),
     )
   ];
 };
