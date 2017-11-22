@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/goldwasserexchange/javascript/compare/v1.14.0...v2.0.0) (2017-11-22)
+
+
+### Bug Fixes
+
+* **babel-preset:** rename BABEL_TARGET to BABEL_ES_TARGET ([8c814a1](https://github.com/goldwasserexchange/javascript/commit/8c814a1))
+
+
+### Features
+
+* **babel-preset:** allow to choose to build for node or the browser ([36141bc](https://github.com/goldwasserexchange/javascript/commit/36141bc))
+
+
+### BREAKING CHANGES
+
+* **babel-preset:** BABEL_TARGET as been renamed to BABEL_ES_TARGET
+
+
+
+
 <a name="1.14.0"></a>
 # [1.14.0](https://github.com/goldwasserexchange/javascript/compare/v1.13.1...v1.14.0) (2017-11-22)
 
