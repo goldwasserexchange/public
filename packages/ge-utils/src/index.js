@@ -1,6 +1,7 @@
 export { default as actorAccountCommunication } from './actorAccountCommunication';
 export { default as actorAccountMod } from './actorAccountMod';
 export { default as awsEvent } from './awsEvent';
+export { default as combine } from './combine';
 export { default as eqProps } from './eqProps';
 export { default as etag } from './etag';
 export { default as formatIban } from './formatIban';
