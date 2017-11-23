@@ -117,6 +117,6 @@ const getPlugins = (env, target) => [
       ].filter(Boolean)
       : []
   ),
-];
+].filter(Boolean);
 
 module.exports = getPlugins;
