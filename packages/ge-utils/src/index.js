@@ -19,6 +19,7 @@ export { default as rejectNilOrEmpty } from './rejectNilOrEmpty';
 export { default as removeSpaces } from './removeSpaces';
 export { default as renameKeys } from './renameKeys';
 export { default as round } from './round';
+export { default as roundObject } from './roundObject';
 export { default as s3Event } from './s3Event';
 export { default as s3EventBucket } from './s3EventBucket';
 export { default as s3EventKey } from './s3EventKey';
