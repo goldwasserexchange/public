@@ -1,21 +1,22 @@
 import fs from 'fs';
 import path from 'path';
-import { filter, complement, equals, pipe, map, join, concat, __ } from 'ramda';
+import { reject, equals, pipe, map, join, concat, __ } from 'ramda';
 
 const listFiles = () => fs.readdirSync(path.join(process.cwd(), 'src'));
-const removeIndex = filter(complement(equals('index.js')));
+const removeIndex = reject(equals('index.js'));
 const moduleName = file => path.basename(file, '.js');
-const importLine = file => `export { default as ${moduleName(file)} } from './${moduleName(file)}';`;
-const importLines = pipe(
-  map(importLine),
+const exportLine = file => `export { default as ${moduleName(file)} } from './${moduleName(file)}';`;
+const exportLines = pipe(
+  map(exportLine),
   join('\n'),
-  concat(__, '\n\n') // eslint-disable-line no-underscore-dangle
+  concat(__, '\n') // eslint-disable-line no-underscore-dangle
 );
 
 const generateIndex = pipe(
   listFiles,
   removeIndex,
-  importLines
+  exportLines,
+  index => fs.writeFileSync(path.join(process.cwd(), 'src', 'index.js'), index),
 );
 
-fs.writeFileSync(path.join(process.cwd(), 'src', 'index.js'), generateIndex());
+generateIndex();

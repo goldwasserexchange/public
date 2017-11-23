@@ -34,4 +34,3 @@ export { default as stringModulo } from './stringModulo';
 export { default as validActorAccount } from './validActorAccount';
 export { default as validIban } from './validIban';
 export { default as zipMapping } from './zipMapping';
-
