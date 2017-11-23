@@ -4,6 +4,7 @@ const browsers = require('@goldwasserexchange/browserslist');
 
 const node = {
   node: 'current',
+  uglify: true,
 };
 
 const browser = (env, target) => (target === 'node' || (target === 'browser' && env === 'test'))
