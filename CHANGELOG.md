@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.0.4"></a>
+## [2.0.4](https://github.com/goldwasserexchange/javascript/compare/v2.0.3...v2.0.4) (2017-11-23)
+
+
+### Bug Fixes
+
+* **babel-preset:** add support for exponentiation operator ([ce1da32](https://github.com/goldwasserexchange/javascript/commit/ce1da32))
+* **babel-preset:** add uglify target to node configuration in babel-preset-env ([4cbc8a7](https://github.com/goldwasserexchange/javascript/commit/4cbc8a7))
+
+
+
+
 <a name="2.0.3"></a>
 ## [2.0.3](https://github.com/goldwasserexchange/javascript/compare/v2.0.2...v2.0.3) (2017-11-23)
 
