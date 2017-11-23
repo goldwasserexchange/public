@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/goldwasserexchange/javascript/compare/v2.0.0...v2.0.1) (2017-11-23)
+
+
+### Bug Fixes
+
+* **babel-preset:** fix undefined in preset and plugin arrays ([707d577](https://github.com/goldwasserexchange/javascript/commit/707d577))
+
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/goldwasserexchange/javascript/compare/v1.14.0...v2.0.0) (2017-11-22)
 
