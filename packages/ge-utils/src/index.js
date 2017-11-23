@@ -4,6 +4,7 @@ export { default as awsEvent } from './awsEvent';
 export { default as combine } from './combine';
 export { default as eqProps } from './eqProps';
 export { default as etag } from './etag';
+export { default as filterLength } from './filterLength';
 export { default as formatIban } from './formatIban';
 export { default as formatPhone } from './formatPhone';
 export { default as isActorAccount } from './isActorAccount';
