@@ -9,12 +9,12 @@
     "url": "https://bitbucket.org/goldwasserexchange/ge-utils"
   },
   "scripts": {
-    "lint": "node ./node_modules/@goldwasserexchange/lint-js",
-    "test": "cross-env BABEL_ENV=commonjs jest --coverage",
-    "generate-index": "cross-env BABEL_ENV=commonjs babel-node ./scripts/generateIndex",
+    "lint": "cross-env NODE_ENV=test node ./node_modules/@goldwasserexchange/lint-js",
+    "test": "cross-env NODE_ENV=test BABEL_ES_TARGET=commonjs jest --coverage",
+    "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel-node ./scripts/generateIndex",
     "clean": "rimraf lib es",
-    "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
-    "build:es": "cross-env BABEL_ENV=es babel src --out-dir es",
+    "build:commonjs": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel src --out-dir lib",
+    "build:es": "cross-env NODE_ENV=production BABEL_ES_TARGET=es babel src --out-dir es",
     "build": "npm run clean && npm run generate-index && npm run build:commonjs && npm run build:es"
   },
   "main": "lib/index.js",
@@ -25,66 +25,21 @@
   },
   "babel": {
     "presets": [
-      [
-        "es2015",
-        {
-          "modules": false,
-          "loose": true
-        }
-      ],
-      "stage-0"
+      "@goldwasserexchange/babel-preset"
     ],
     "plugins": [
       "annotate-pure-calls"
-    ],
-    "env": {
-      "commonjs": {
-        "plugins": [
-          [
-            "transform-es2015-modules-commonjs",
-            {
-              "loose": true
-            }
-          ],
-          [
-            "transform-imports",
-            {
-              "ramda": {
-                "transform": "ramda/src/${member}",
-                "preventFullImport": true
-              }
-            }
-          ]
-        ]
-      },
-      "es": {
-        "plugins": [
-          [
-            "transform-imports",
-            {
-              "ramda": {
-                "transform": "ramda/es/${member}",
-                "preventFullImport": true
-              }
-            }
-          ]
-        ]
-      }
-    }
+    ]
   },
   "dependencies": {
     "json-stringify-safe": "^5.0.1",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
+    "@goldwasserexchange/babel-preset": "^2.0.3",
     "@goldwasserexchange/lint-js": "^1.9.5",
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
     "babel-plugin-annotate-pure-calls": "^0.2.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "babel-plugin-transform-imports": "^1.4.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
     "cross-env": "^5.1.0",
     "jest": "^21.2.1",
     "rimraf": "^2.6.2"
