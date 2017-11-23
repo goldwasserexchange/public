@@ -8,6 +8,7 @@ export { default as formatIban } from './formatIban';
 export { default as formatPhone } from './formatPhone';
 export { default as isActorAccount } from './isActorAccount';
 export { default as isNilOrEmpty } from './isNilOrEmpty';
+export { default as joinNotNilOrEmptyWithSpace } from './joinNotNilOrEmptyWithSpace';
 export { default as lambdaCorsResponse } from './lambdaCorsResponse';
 export { default as lambdaHandler } from './lambdaHandler';
 export { default as lambdaResponse } from './lambdaResponse';
