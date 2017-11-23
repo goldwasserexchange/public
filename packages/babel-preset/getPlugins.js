@@ -31,8 +31,8 @@ const plugins = [
       polyfill: false,
       regenerator: true,
     },
-  ].filter(Boolean),
-];
+  ],
+].filter(Boolean);
 
 const getPlugins = (env, target) => [
   ...plugins,

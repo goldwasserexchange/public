@@ -10,6 +10,6 @@ const getPresets = (env, target) => [
     'react',
     require.resolve('babel-preset-react')
   ),
-];
+].filter(Boolean);
 
 module.exports = getPresets;
