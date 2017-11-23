@@ -1,10 +1,12 @@
 const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 const getTargets = require('./getTargets');
-
+const getBabelESTarget = require('../getBabelESTarget');
 const requirePresetEnv = require('./requirePresetEnv');
 
+const babelESTarget = getBabelESTarget();
+
 const node = 'commonjs';
-const browser = (env, target) => (target === 'node' || (target === 'browser' && env === 'test')) ? 'commonjs' : false;
+const modules = (env, target) => ((target === 'node' || (target === 'browser' && env === 'test')) && babelESTarget !== 'es') ? 'commonjs' : false;
 
 module.exports = (env, target) => [
   requirePresetEnv(env, target),
@@ -13,6 +15,6 @@ module.exports = (env, target) => [
     // Disable polyfill transforms
     useBuiltIns: false,
     // transform modules to CJS only on test
-    modules: browser(env, target),
+    modules: modules(env, target),
   },
 ];
