@@ -36,7 +36,7 @@
     "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "@goldwasserexchange/babel-preset": "^2.0.3",
+    "@goldwasserexchange/babel-preset": "^2.0.4",
     "@goldwasserexchange/lint-js": "^1.9.5",
     "babel-cli": "^6.26.0",
     "babel-plugin-annotate-pure-calls": "^0.2.0",
