@@ -4,6 +4,7 @@ const transformImports = require('./transformImports');
 const plugins = [
   // class { handleClick = () => { } }
   require.resolve('babel-plugin-transform-class-properties'),
+  require.resolve('babel-plugin-transform-exponentiation-operator'),
   // The following two plugins use Object.assign directly, instead of Babel's
   // extends helper. Note that this assumes `Object.assign` is available.
   // { ...todo, completed: true }
