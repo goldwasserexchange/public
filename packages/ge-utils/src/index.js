@@ -15,6 +15,7 @@ export { default as lambdaHandler } from './lambdaHandler';
 export { default as lambdaResponse } from './lambdaResponse';
 export { default as log } from './log';
 export { default as moveCharsToEnd } from './moveCharsToEnd';
+export { default as notFirstOrFirstAndSecond } from './notFirstOrFirstAndSecond';
 export { default as onlyDigits } from './onlyDigits';
 export { default as parseInt10 } from './parseInt10';
 export { default as rejectNilOrEmpty } from './rejectNilOrEmpty';
