@@ -9,6 +9,7 @@ module.exports = {
     ifAnyDep('react', require.resolve("eslint-config-airbnb/rules/react-a11y")),
     ifAnyDep('ramda', require.resolve("@goldwasserexchange/eslint-config-ramda")),
     ifAnyDep('jest', require.resolve("@goldwasserexchange/eslint-config-jest")),
+    require.resolve("@goldwasserexchange/eslint-config-unicorn"),
   ].filter(Boolean),
   "env": {
     "browser": true,

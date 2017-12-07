@@ -14,6 +14,7 @@
     "@goldwasserexchange/eslint-config-ramda": "^2.1.0",
     "@goldwasserexchange/eslint-config-react": "^1.9.5",
     "@goldwasserexchange/eslint-config-strict": "^1.9.5",
+    "@goldwasserexchange/eslint-config-unicorn": "^3.1.0",
     "@goldwasserexchange/read-pkg-up-helpers": "^1.5.0",
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^16.1.0",
@@ -24,6 +25,7 @@
     "eslint-plugin-ramda": "^2.3.0",
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-redux-saga": "^0.6.0",
+    "eslint-plugin-unicorn": "^3.0.0",
     "redux-saga": "^0.16.0"
   },
   "peerDependencies": {
