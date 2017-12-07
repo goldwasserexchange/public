@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "Goldwasser Exchange ES Lint config",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "@goldwasserexchange/eslint-config-base": "^1.9.5",
-    "@goldwasserexchange/eslint-config-jest": "^1.0.0",
+    "@goldwasserexchange/eslint-config-jest": "^3.0.0",
     "@goldwasserexchange/eslint-config-ramda": "^2.1.0",
     "@goldwasserexchange/eslint-config-react": "^1.9.5",
     "@goldwasserexchange/eslint-config-strict": "^1.9.5",
@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "@goldwasserexchange/eslint-config-base": "^1.9.5",
-    "@goldwasserexchange/eslint-config-jest": "^1.0.0",
+    "@goldwasserexchange/eslint-config-jest": "^3.0.0",
     "@goldwasserexchange/eslint-config-ramda": "^2.1.0",
     "@goldwasserexchange/eslint-config-react": "^1.9.5",
     "@goldwasserexchange/eslint-config-strict": "^1.9.5",
