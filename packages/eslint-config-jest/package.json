@@ -1,0 +1,19 @@
+{
+  "name": "@goldwasserexchange/eslint-config-jest",
+  "version": "1.0.0",
+  "description": "Goldwasser Exchange ES Lint Jest config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-plugin-jest": "^21.4.2"
+  },
+  "peerDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-plugin-jest": "^21.4.2"
+  }
+}
