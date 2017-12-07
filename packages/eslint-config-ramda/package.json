@@ -1,0 +1,19 @@
+{
+  "name": "@goldwasserexchange/eslint-config-ramda",
+  "version": "1.0.0",
+  "description": "Goldwasser Exchange ES Lint Ramda config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-plugin-ramda": "^2.3.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-plugin-ramda": "^2.3.0"
+  }
+}
