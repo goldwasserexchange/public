@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.2.1"></a>
+## [2.2.1](https://github.com/goldwasserexchange/javascript/compare/v2.2.0...v2.2.1) (2017-12-07)
+
+
+### Bug Fixes
+
+* **lint-js:** fix missing dependency on [@goldwasserexchange](https://github.com/goldwasserexchange)/eslint-config-ramda ([74016b0](https://github.com/goldwasserexchange/javascript/commit/74016b0))
+
+
+
+
 <a name="2.2.0"></a>
 # [2.2.0](https://github.com/goldwasserexchange/javascript/compare/v2.1.0...v2.2.0) (2017-12-07)
 
