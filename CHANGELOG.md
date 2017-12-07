@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/goldwasserexchange/javascript/compare/v2.1.0...v2.2.0) (2017-12-07)
+
+
+### Features
+
+* **eslint-config:** add eslint-config-ramda to eslint-config ([b69b8d3](https://github.com/goldwasserexchange/javascript/commit/b69b8d3))
+
+
+
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/goldwasserexchange/javascript/compare/v2.0.4...v2.1.0) (2017-12-07)
 
