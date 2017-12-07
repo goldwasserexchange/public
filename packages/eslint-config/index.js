@@ -6,7 +6,8 @@ module.exports = {
     require.resolve("@goldwasserexchange/eslint-config-strict"),
     ifAnyDep('redux-saga', "plugin:redux-saga/recommended"),
     ifAnyDep('react', require.resolve("@goldwasserexchange/eslint-config-react")),
-    ifAnyDep('react', require.resolve("eslint-config-airbnb/rules/react-a11y"))
+    ifAnyDep('react', require.resolve("eslint-config-airbnb/rules/react-a11y")),
+    ifAnyDep('ramda', require.resolve("@goldwasserexchange/eslint-config-ramda")),
   ].filter(Boolean),
   "env": {
     "browser": true,
