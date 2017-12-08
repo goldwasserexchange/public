@@ -1,7 +1,7 @@
 module.exports = {
   "parser": "babel-eslint",
   "plugins": [
-    require.resolve("eslint-plugin-unicorn"),
+    "unicorn",
   ],
   "env": {
     "browser": true,
