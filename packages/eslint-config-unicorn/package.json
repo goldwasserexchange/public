@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-unicorn",
-  "version": "3.1.0",
+  "version": "3.2.1",
   "description": "Goldwasser Exchange ES Lint Unicorn config",
   "main": "index.js",
   "scripts": {
