@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.2.0"></a>
+# [3.2.0](https://github.com/goldwasserexchange/javascript/compare/v3.1.0...v3.2.0) (2017-12-08)
+
+
+### Features
+
+* **lint-js:** add eslint-config-unicorn dependencies to lint-js ([4ec0e16](https://github.com/goldwasserexchange/javascript/commit/4ec0e16))
+
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/goldwasserexchange/javascript/compare/v2.2.2...v3.0.0) (2017-12-07)
 
