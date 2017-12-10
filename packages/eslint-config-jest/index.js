@@ -1,7 +1,7 @@
 module.exports = {
   "parser": "babel-eslint",
   "plugins": [
-    require.resolve("eslint-plugin-jest"),
+    "jest",
   ],
   "env": {
     "browser": true,
