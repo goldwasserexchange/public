@@ -1,0 +1,19 @@
+{
+  "name": "ge-scripts",
+  "version": "1.0.0",
+  "description": "CLI toolbox for common scripts for Goldwasser Exchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "dependencies": {
+    "@goldwasserexchange/lint-js": "^3.2.1",
+    "cross-spawn": "^5.1.0",
+    "globby": "^7.1.1"
+  },
+  "bin": {
+    "ge-scripts": "./index.js"
+  }
+}
