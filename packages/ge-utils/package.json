@@ -9,7 +9,7 @@
     "url": "https://bitbucket.org/goldwasserexchange/ge-utils"
   },
   "scripts": {
-    "lint": "cross-env NODE_ENV=test node ./node_modules/@goldwasserexchange/lint-js",
+    "lint": "cross-env NODE_ENV=test ge-scripts lint-js",
     "test": "cross-env NODE_ENV=test BABEL_ES_TARGET=commonjs jest --coverage",
     "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel-node ./scripts/generateIndex",
     "clean": "rimraf lib es",
@@ -41,6 +41,7 @@
     "babel-cli": "^6.26.0",
     "babel-plugin-annotate-pure-calls": "^0.2.0",
     "cross-env": "^5.1.0",
+    "ge-scripts": "3.3.0",
     "jest": "^21.2.1",
     "rimraf": "^2.6.2"
   }
