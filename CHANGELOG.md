@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.3.2"></a>
+## [3.3.2](https://github.com/goldwasserexchange/javascript/compare/v3.3.1...v3.3.2) (2017-12-11)
+
+
+### Bug Fixes
+
+* **eslint-config-jest:** use overrides to only apply jest rules to test files ([7436444](https://github.com/goldwasserexchange/javascript/commit/7436444))
+
+
+
+
 <a name="3.3.1"></a>
 ## [3.3.1](https://github.com/goldwasserexchange/javascript/compare/v3.3.0...v3.3.1) (2017-12-10)
 
