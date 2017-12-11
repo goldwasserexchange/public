@@ -10,8 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "@goldwasserexchange/lint-js": "^3.3.2",
-    "cross-spawn": "^5.1.0",
-    "globby": "^7.1.1"
+    "cross-spawn": "^5.1.0"
   },
   "bin": {
     "ge-scripts": "./index.js"
