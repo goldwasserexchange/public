@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.7.0"></a>
+# [3.7.0](https://github.com/goldwasserexchange/javascript/compare/v3.6.0...v3.7.0) (2017-12-13)
+
+
+### Features
+
+* **colors:** add and name color scales colors ([e1118ef](https://github.com/goldwasserexchange/javascript/commit/e1118ef))
+
+
+
+
 <a name="3.6.0"></a>
 # [3.6.0](https://github.com/goldwasserexchange/javascript/compare/v3.5.0...v3.6.0) (2017-12-13)
 
