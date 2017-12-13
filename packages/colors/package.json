@@ -1,0 +1,13 @@
+{
+  "name": "@goldwasserexchange/colors",
+  "version": "0.0.1",
+  "description": "the colors used by Goldwasser Exchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
