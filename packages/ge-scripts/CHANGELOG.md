@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.4.0"></a>
+# [3.4.0](https://github.com/goldwasserexchange/javascript/compare/v3.3.2...v3.4.0) (2017-12-13)
+
+
+
+
+**Note:** Version bump only for package ge-scripts
+
 <a name="3.3.2"></a>
 ## [3.3.2](https://github.com/goldwasserexchange/javascript/compare/v3.3.1...v3.3.2) (2017-12-11)
 
