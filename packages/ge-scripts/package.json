@@ -9,6 +9,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
+    "@goldwasserexchange/babel": "^3.8.0",
     "@goldwasserexchange/lint-js": "^3.8.0",
     "cross-spawn": "^5.1.0"
   },
