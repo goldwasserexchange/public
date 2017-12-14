@@ -1,0 +1,15 @@
+{
+  "name": "@goldwasserexchange/widths",
+  "version": "1.0.0",
+  "description": "the widths used by Goldwasser Exchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "dependencies": {
+    "@goldwasserexchange/media-queries": "^3.11.0",
+    "@goldwasserexchange/utils": "^1.9.1"
+  }
+}
