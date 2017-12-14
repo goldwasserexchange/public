@@ -24,5 +24,8 @@
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
+  },
+  "dependencies": {
+    "ge-scripts": "^3.9.1"
   }
 }

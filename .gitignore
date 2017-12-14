@@ -77,3 +77,7 @@ typings/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# dist directories
+lib
+es
