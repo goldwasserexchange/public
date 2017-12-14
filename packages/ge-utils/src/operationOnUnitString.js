@@ -1,6 +1,6 @@
-import { pipe, juxt, replace, join } from 'ramda';
+import { curry, pipe, juxt, replace, join } from 'ramda';
 
-const operationOnUnit = f => pipe(
+const operationOnUnit = curry((f, unitString) => pipe(
   juxt([
     pipe(
       parseFloat,
@@ -9,6 +9,6 @@ const operationOnUnit = f => pipe(
     replace(/\d/g, ''),
   ]),
   join(''),
-);
+)(unitString));
 
 export default operationOnUnit;
