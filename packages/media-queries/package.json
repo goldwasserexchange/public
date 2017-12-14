@@ -1,0 +1,17 @@
+{
+  "name": "@goldwasserexchange/media-queries",
+  "version": "1.0.0",
+  "description": "the media queries used by Goldwasser Exchange",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node ./scripts/generate",
+    "prepublish": "npm run generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@goldwasserexchange/utils": "1.9.0"
+  }
+}
