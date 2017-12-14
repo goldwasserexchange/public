@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.10.0"></a>
+# [3.10.0](https://github.com/goldwasserexchange/javascript/compare/v3.9.1...v3.10.0) (2017-12-14)
+
+
+### Bug Fixes
+
+* **babel:** fix typo in babel config ([cf2fe98](https://github.com/goldwasserexchange/javascript/commit/cf2fe98))
+
+
+
+
 <a name="3.9.1"></a>
 ## [3.9.1](https://github.com/goldwasserexchange/javascript/compare/v3.9.0...v3.9.1) (2017-12-14)
 
