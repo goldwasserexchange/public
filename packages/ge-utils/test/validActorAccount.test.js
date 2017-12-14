@@ -10,7 +10,7 @@ test('validActorAccount with invalid account', () => {
   expect(validActorAccount(account)).toBe(false);
 });
 
-test('validActorAccount with invalid account', () => {
+test('validActorAccount with invalid account number', () => {
   const account = '100/0002465/73';
   expect(validActorAccount(account)).toBe(false);
 });

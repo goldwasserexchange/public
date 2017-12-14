@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/utils",
-  "version": "1.8.1",
+  "version": "1.9.0",
   "description": "GE Utils",
   "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
   "license": "UNLICENSED",
@@ -12,10 +12,9 @@
     "lint": "cross-env NODE_ENV=test ge-scripts lint-js",
     "test": "cross-env NODE_ENV=test BABEL_ES_TARGET=commonjs jest --coverage",
     "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel-node ./scripts/generateIndex",
-    "clean": "rimraf lib es",
-    "build:commonjs": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel src --out-dir lib",
-    "build:es": "cross-env NODE_ENV=production BABEL_ES_TARGET=es babel src --out-dir es",
-    "build": "npm run clean && npm run generate-index && npm run build:commonjs && npm run build:es"
+    "build:commonjs": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs ge-scripts babel",
+    "build:es": "cross-env NODE_ENV=production BABEL_ES_TARGET=es ge-scripts babel",
+    "build": "npm run generate-index && npm run build:commonjs && npm run build:es"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -36,13 +35,9 @@
     "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "@goldwasserexchange/babel-preset": "^2.0.4",
-    "@goldwasserexchange/lint-js": "^1.9.5",
-    "babel-cli": "^6.26.0",
     "babel-plugin-annotate-pure-calls": "^0.2.0",
     "cross-env": "^5.1.0",
-    "ge-scripts": "3.3.0",
-    "jest": "^21.2.1",
-    "rimraf": "^2.6.2"
+    "ge-scripts": "3.10.0",
+    "jest": "^21.2.1"
   }
 }

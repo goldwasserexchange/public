@@ -12,9 +12,9 @@ test('safeHead with list', () => {
 
 test('safeHead with empty list', () => {
   const list = [];
-  expect(safeHead(list)).toBe(undefined);
+  expect(safeHead(list)).toBeUndefined();
 });
 
 test('safeHead with neither string nor list', () => {
-  expect(safeHead(true)).toBe(undefined);
+  expect(safeHead(true)).toBeUndefined();
 });

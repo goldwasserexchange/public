@@ -1,10 +1,10 @@
-import { compose, join } from 'ramda';
+import { pipe, join } from 'ramda';
 
 import rejectNilOrEmpty from './rejectNilOrEmpty';
 
-const joinNotNilOrEmptyWithSpace = compose(
+const joinNotNilOrEmptyWithSpace = pipe(
+  rejectNilOrEmpty,
   join(' '),
-  rejectNilOrEmpty
 );
 
 export default joinNotNilOrEmptyWithSpace;
