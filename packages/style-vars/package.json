@@ -1,0 +1,23 @@
+{
+  "name": "@goldwasserexchange/style-vars",
+  "version": "3.9.1",
+  "description": "the style variables used by Goldwasser Exchange",
+  "main": "index.js",
+  "scripts": {
+    "build:commonjs": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs ge-scripts babel",
+    "build:es": "cross-env NODE_ENV=production BABEL_ES_TARGET=es ge-scripts babel",
+    "build": "npm run build:commonjs && npm run build:es",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "dependencies": {
+    "@goldwasserexchange/babel": "^3.9.1",
+    "@goldwasserexchange/colors": "^3.7.0",
+    "@goldwasserexchange/font-weights": "^3.6.0",
+    "@goldwasserexchange/fonts": "^3.5.0",
+    "cross-env": "^5.1.1",
+    "ge-scripts": "^3.9.1"
+  }
+}
