@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/style-vars",
-  "version": "3.10.0",
+  "version": "3.13.0",
   "description": "the style variables used by Goldwasser Exchange",
   "main": "index.js",
   "scripts": {

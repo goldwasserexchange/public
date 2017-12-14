@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.13.0"></a>
+# [3.13.0](https://github.com/goldwasserexchange/javascript/compare/v3.12.0...v3.13.0) (2017-12-14)
+
+
+### Features
+
+* **style-vars:** use goldwasserexchange/widths in style-vars ([6fc598a](https://github.com/goldwasserexchange/javascript/commit/6fc598a))
+
+
+
+
 <a name="3.10.0"></a>
 # [3.10.0](https://github.com/goldwasserexchange/javascript/compare/v3.9.1...v3.10.0) (2017-12-14)
 
