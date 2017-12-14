@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.13.1"></a>
+## [3.13.1](https://github.com/goldwasserexchange/javascript/compare/v3.13.0...v3.13.1) (2017-12-14)
+
+
+### Bug Fixes
+
+* **style-vars:** fix main, module and jsnext:main target ([32eb3d5](https://github.com/goldwasserexchange/javascript/commit/32eb3d5))
+
+
+
+
 <a name="3.13.0"></a>
 # [3.13.0](https://github.com/goldwasserexchange/javascript/compare/v3.12.0...v3.13.0) (2017-12-14)
 
