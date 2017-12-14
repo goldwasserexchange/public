@@ -1,0 +1,20 @@
+{
+  "name": "@goldwasserexchange/postcss-config",
+  "version": "1.0.0",
+  "description": "the postcss configuration for Goldwasser Exchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "dependencies": {
+    "@goldwasserexchange/browserslist": "^1.10.1",
+    "@goldwasserexchange/media-queries": "^3.11.0",
+    "@goldwasserexchange/style-vars": "^3.13.1",
+    "lost": "^8.2.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-focus": "^3.0.0",
+    "postcss-reporter": "^5.0.0"
+  }
+}
