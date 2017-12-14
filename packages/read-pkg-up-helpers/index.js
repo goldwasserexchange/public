@@ -52,6 +52,7 @@ const resolveBin = (modName, {executable = modName, cwd = process.cwd()} = {}) =
 }
 
 module.exports = {
+  fromRoot,
   hasFile,
   hasPkgProp,
   hasPkgSubProp,
