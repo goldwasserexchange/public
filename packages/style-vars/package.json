@@ -17,6 +17,7 @@
     "@goldwasserexchange/colors": "^3.7.0",
     "@goldwasserexchange/font-weights": "^3.6.0",
     "@goldwasserexchange/fonts": "^3.5.0",
+    "@goldwasserexchange/widths": "^3.12.0",
     "cross-env": "^5.1.1",
     "ge-scripts": "^3.10.0"
   }
