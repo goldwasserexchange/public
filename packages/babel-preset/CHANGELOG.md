@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.8.0"></a>
+# [3.8.0](https://github.com/goldwasserexchange/javascript/compare/v3.7.0...v3.8.0) (2017-12-14)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/babel-preset
+
 <a name="2.0.4"></a>
 ## [2.0.4](https://github.com/goldwasserexchange/javascript/compare/v2.0.3...v2.0.4) (2017-11-23)
 

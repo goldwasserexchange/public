@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.8.0"></a>
+# [3.8.0](https://github.com/goldwasserexchange/javascript/compare/v3.7.0...v3.8.0) (2017-12-14)
+
+
+### Features
+
+* **read-pkg-up-helpers:** export fromRoot to use it from elsewhere ([d42025d](https://github.com/goldwasserexchange/javascript/commit/d42025d))
+
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/goldwasserexchange/javascript/compare/v1.4.5...v1.5.0) (2017-11-06)
 
