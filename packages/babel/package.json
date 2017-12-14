@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/babel",
-  "version": "3.8.0",
+  "version": "3.9.1",
   "description": "a common script to preconfigure and use babel",
   "main": "index.js",
   "scripts": {

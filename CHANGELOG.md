@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.9.1"></a>
+## [3.9.1](https://github.com/goldwasserexchange/javascript/compare/v3.9.0...v3.9.1) (2017-12-14)
+
+
+### Bug Fixes
+
+* **babel:** remove unneeded console.log and use here instead of hereRelative ([77074c3](https://github.com/goldwasserexchange/javascript/commit/77074c3))
+
+
+
+
 <a name="3.9.0"></a>
 # [3.9.0](https://github.com/goldwasserexchange/javascript/compare/v3.8.0...v3.9.0) (2017-12-14)
 
