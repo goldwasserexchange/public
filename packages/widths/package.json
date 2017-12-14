@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/widths",
-  "version": "1.0.0",
+  "version": "3.12.0",
   "description": "the widths used by Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
