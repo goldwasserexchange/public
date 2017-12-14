@@ -2,7 +2,9 @@
   "name": "@goldwasserexchange/style-vars",
   "version": "3.13.0",
   "description": "the style variables used by Goldwasser Exchange",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "jsnext:main": "es/index.js",
   "scripts": {
     "build:commonjs": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs ge-scripts babel",
     "build:es": "cross-env NODE_ENV=production BABEL_ES_TARGET=es ge-scripts babel",
