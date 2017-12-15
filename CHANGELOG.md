@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.15.2"></a>
+## [3.15.2](https://github.com/goldwasserexchange/javascript/compare/v3.15.1...v3.15.2) (2017-12-15)
+
+
+### Bug Fixes
+
+* **color-scales:** export color scales individually ([785d04d](https://github.com/goldwasserexchange/javascript/commit/785d04d))
+
+
+
+
 <a name="3.15.1"></a>
 ## [3.15.1](https://github.com/goldwasserexchange/javascript/compare/v3.15.0...v3.15.1) (2017-12-15)
 
