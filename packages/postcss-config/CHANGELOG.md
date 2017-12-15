@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.17.4"></a>
+## [3.17.4](https://github.com/goldwasserexchange/javascript/tree/master/packages/postcss-config/compare/v3.17.3...v3.17.4) (2017-12-15)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/postcss-config
+
 <a name="3.17.3"></a>
 ## [3.17.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/postcss-config/compare/v3.17.2...v3.17.3) (2017-12-15)
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.17.4"></a>
+## [3.17.4](https://github.com/goldwasserexchange/javascript/compare/v3.17.3...v3.17.4) (2017-12-15)
+
+
+### Bug Fixes
+
+* **widths:** fix import in width ([777e144](https://github.com/goldwasserexchange/javascript/commit/777e144))
+
+
+
+
 <a name="3.17.3"></a>
 ## [3.17.3](https://github.com/goldwasserexchange/javascript/compare/v3.17.2...v3.17.3) (2017-12-15)
 
