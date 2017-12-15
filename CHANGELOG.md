@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.14.2"></a>
+## [3.14.2](https://github.com/goldwasserexchange/javascript/compare/v3.14.1...v3.14.2) (2017-12-15)
+
+
+### Bug Fixes
+
+* **postcss-config:** transform postcss-config in a function returning the config ([7904fd8](https://github.com/goldwasserexchange/javascript/commit/7904fd8))
+
+
+
+
 <a name="3.14.1"></a>
 ## [3.14.1](https://github.com/goldwasserexchange/javascript/compare/v3.14.0...v3.14.1) (2017-12-15)
 
