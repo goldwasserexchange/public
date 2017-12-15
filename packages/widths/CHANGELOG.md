@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.17.3"></a>
+## [3.17.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/widths/compare/v3.17.2...v3.17.3) (2017-12-15)
+
+
+### Bug Fixes
+
+* **widths:** fix typo in widths import ([e8dfe00](https://github.com/goldwasserexchange/javascript/tree/master/packages/widths/commit/e8dfe00))
+
+
+
+
 <a name="3.17.2"></a>
 ## [3.17.2](https://github.com/goldwasserexchange/javascript/tree/master/packages/widths/compare/v3.17.1...v3.17.2) (2017-12-15)
 
