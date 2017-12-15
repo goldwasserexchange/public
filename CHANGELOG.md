@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.14.1"></a>
+## [3.14.1](https://github.com/goldwasserexchange/javascript/compare/v3.14.0...v3.14.1) (2017-12-15)
+
+
+### Bug Fixes
+
+* **postcss-config:** add missing code in index.js ([cf7cfbe](https://github.com/goldwasserexchange/javascript/commit/cf7cfbe))
+
+
+
+
 <a name="3.14.0"></a>
 # [3.14.0](https://github.com/goldwasserexchange/javascript/compare/v3.13.1...v3.14.0) (2017-12-14)
 
