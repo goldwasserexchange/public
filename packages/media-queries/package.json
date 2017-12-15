@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/media-queries",
-  "version": "3.11.0",
+  "version": "3.14.3",
   "description": "the media queries used by Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
