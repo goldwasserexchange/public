@@ -1,13 +1,13 @@
-import blueShort from './scales/blueShort';
-import blueExtended from './scales/blueExtended';
-import negativePositive from './scales/negativePositive';
+import _blueShort from './scales/blueShort';
+import _blueExtended from './scales/blueExtended';
+import _negativePositive from './scales/negativePositive';
 
-export blueShort;
-export blueExtended;
-export negativePositive;
+export const blueShort = _blueShort;
+export const blueExtended = _blueExtended;
+export const negativePositive = _negativePositive;
 
 export default {
-  blueShort,
-  blueExtended,
-  negativePositive,
+  blueShort: _blueShort,
+  blueExtended: _blueExtended,
+  negativePositive: _negativePositive,
 };
