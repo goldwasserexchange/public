@@ -4,7 +4,7 @@ const cssnext = require('postcss-cssnext');
 const postcssFocus = require('postcss-focus');
 const postcssReporter = require('postcss-reporter');
 const styleVars = require('@goldwasserexchange/style-vars').default;
-const mediaQueries = require('@goldwasserexchange/media-queries');
+const mediaQueries = require('@goldwasserexchange/media-queries').default;
 
 const browsers = require('@goldwasserexchange/browserslist');
 
