@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/postcss-config",
-  "version": "3.17.4",
+  "version": "3.17.5",
   "description": "the postcss configuration for Goldwasser Exchange",
   "main": "index.js",
   "scripts": {

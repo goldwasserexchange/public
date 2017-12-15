@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.17.5"></a>
+## [3.17.5](https://github.com/goldwasserexchange/javascript/tree/master/packages/postcss-config/compare/v3.17.4...v3.17.5) (2017-12-15)
+
+
+### Bug Fixes
+
+* **postcss-config:** fix media-queries import in postcss config ([56506ff](https://github.com/goldwasserexchange/javascript/tree/master/packages/postcss-config/commit/56506ff))
+
+
+
+
 <a name="3.17.4"></a>
 ## [3.17.4](https://github.com/goldwasserexchange/javascript/tree/master/packages/postcss-config/compare/v3.17.3...v3.17.4) (2017-12-15)
 
