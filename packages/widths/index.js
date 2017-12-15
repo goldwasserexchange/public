@@ -1,4 +1,4 @@
-const { breakPointsMinMax: { centerContainer } = {} } = require('@goldwasserexchange/media-queries');
+const { breakPointsArbitrary: { centerContainer } = {} } = require('@goldwasserexchange/media-queries');
 const { operationOnUnitString } = require('@goldwasserexchange/utils');
 
 const widths = {
