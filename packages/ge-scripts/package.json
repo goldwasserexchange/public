@@ -15,5 +15,6 @@
   },
   "bin": {
     "ge-scripts": "./index.js"
-  }
+  },
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts"
 }

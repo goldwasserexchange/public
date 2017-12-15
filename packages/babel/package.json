@@ -14,5 +14,6 @@
     "babel-cli": "^6.26.0",
     "cross-spawn": "^5.1.0",
     "rimraf": "^2.6.2"
-  }
+  },
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/babel"
 }

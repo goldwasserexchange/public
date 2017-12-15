@@ -11,5 +11,6 @@
   "dependencies": {
     "@goldwasserexchange/media-queries": "^3.11.0",
     "@goldwasserexchange/utils": "^1.9.1"
-  }
+  },
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/widths"
 }

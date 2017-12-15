@@ -12,5 +12,6 @@
   "license": "MIT",
   "devDependencies": {
     "@goldwasserexchange/utils": "1.9.0"
-  }
+  },
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries"
 }

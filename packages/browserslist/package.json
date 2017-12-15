@@ -7,5 +7,6 @@
   },
   "author": "Hans Scheuren",
   "license": "MIT",
-  "version": "1.10.1"
+  "version": "1.10.1",
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/browserslist"
 }
