@@ -8,7 +8,7 @@ const mediaQueries = require('@goldwasserexchange/media-queries');
 
 const browsers = require('@goldwasserexchange/browserslist');
 
-module.exports = {
+module.exports = () => ({
   plugins: [
     postcssFocus(), // Add a :focus to every :hover
     cssnext({ // Allow future CSS features to be used, also auto-prefixes the CSS...
@@ -28,5 +28,5 @@ module.exports = {
       clearAllMessages: true,
     }),
   ],
-};
+});
 
