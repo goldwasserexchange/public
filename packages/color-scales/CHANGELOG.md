@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.15.3"></a>
+## [3.15.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/color-scales/compare/v3.15.2...v3.15.3) (2017-12-15)
+
+
+### Bug Fixes
+
+* **color-scales:** finish fixing individual color scales exports ([a496089](https://github.com/goldwasserexchange/javascript/tree/master/packages/color-scales/commit/a496089))
+
+
+
+
 <a name="3.15.2"></a>
 ## [3.15.2](https://github.com/goldwasserexchange/javascript/tree/master/packages/color-scales/compare/v3.15.1...v3.15.2) (2017-12-15)
 
