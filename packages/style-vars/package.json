@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/style-vars",
-  "version": "3.14.3",
+  "version": "3.15.0",
   "description": "the style variables used by Goldwasser Exchange",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@goldwasserexchange/babel": "^3.14.3",
-    "@goldwasserexchange/colors": "^3.14.3",
+    "@goldwasserexchange/colors": "^3.15.0",
     "@goldwasserexchange/font-weights": "^3.14.3",
     "@goldwasserexchange/fonts": "^3.14.3",
     "@goldwasserexchange/widths": "^3.14.3",
