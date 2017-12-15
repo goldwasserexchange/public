@@ -15,10 +15,8 @@ module.exports = {
   elementdarkblue: '#146ca3',
   elementdarkerblue: '#c4dae8',
   linkBlue: '#3294d1',
-  astronautGW2: '#21346C',
   lochmaraGW: '#2a78c0',
   stTropazGW: '#245797',
-  lochmaraGW2: '#2a78c0',
   sailGW: '#b9dbf4',
   pattensBlueGW: '#dff1ff'
 };
