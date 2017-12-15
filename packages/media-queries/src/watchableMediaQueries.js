@@ -6,4 +6,4 @@ const watchableMediaQueries = {
   centerContainer: '(min-width: 1300px)',
 }
 
-module.exports = watchableMediaQueries;
+export default watchableMediaQueries;

@@ -7,7 +7,7 @@ const template = (minMaxBreakPoint) => (
   centerContainer: '(min-width: ${minMaxBreakPoint.centerContainerUpMin})',
 }
 
-module.exports = watchableMediaQueries;
+export default watchableMediaQueries;
 `);
 
 module.exports = template;

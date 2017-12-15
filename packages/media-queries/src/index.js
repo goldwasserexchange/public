@@ -1,3 +1,8 @@
+export { default as watchableMediaQueries } from './watchableMediaQueries';
+export { default as breakPointsMinMax } from './breakPointsMinMax';
+export { default as breakPoints } from './breakPoints';
+export { default as breakPointsArbitrary } from './breakPointsArbitrary';
+
 const mediaQueries = {
   upSm: '(width >= 34em)',
   upMd: '(width >= 48em)',
@@ -14,4 +19,4 @@ const mediaQueries = {
   upCenterContainer: '(width >= 1300px)',
 };
 
-module.exports = mediaQueries;
+export default mediaQueries;

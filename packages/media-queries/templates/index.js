@@ -1,5 +1,10 @@
 const template = (minMaxBreakPoint) => (
-`const mediaQueries = {
+`export { default as watchableMediaQueries } from './watchableMediaQueries';
+export { default as breakPointsMinMax } from './breakPointsMinMax';
+export { default as breakPoints } from './breakPoints';
+export { default as breakPointsArbitrary } from './breakPointsArbitrary';
+
+const mediaQueries = {
   upSm: '(width >= ${minMaxBreakPoint.smMin})',
   upMd: '(width >= ${minMaxBreakPoint.mdMin})',
   upLg: '(width >= ${minMaxBreakPoint.lgMin})',
@@ -15,7 +20,7 @@ const template = (minMaxBreakPoint) => (
   upCenterContainer: '(width >= ${minMaxBreakPoint.centerContainerUpMin})',
 };
 
-module.exports = mediaQueries;
+export default mediaQueries;
 `)
 
 module.exports = template;

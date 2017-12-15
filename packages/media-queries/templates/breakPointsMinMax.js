@@ -1,7 +1,7 @@
 const template = (minMaxBreakPoint) => (
 `const breakPointsMinMax = ${JSON.stringify(minMaxBreakPoint, null, 2)};
 
-module.exports = breakPointsMinMax;
+export default breakPointsMinMax;
 `
 );
 

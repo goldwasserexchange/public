@@ -11,4 +11,4 @@ const breakPointsMinMax = {
   "centerContainerUpMin": "1300px"
 };
 
-module.exports = breakPointsMinMax;
+export default breakPointsMinMax;
