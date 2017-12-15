@@ -1,11 +1,21 @@
-const fs = require('fs');
+const fse = require('fs-extra');
 const path = require('path');
+
 const { operationOnUnitString } = require('@goldwasserexchange/utils');
+const requireDir = require('require-dir');
 
-const breakPoints = require('../breakPoints');
-const breakPointsArbitrary = require('../breakPointsArbitrary');
+const indexTemplate = require('../templates');
+const watchableMediaQueriesTemplate = require('../templates/watchableMediaQueries');
+const breakPointsMinMaxTemplate = require('../templates/breakPointsMinMax');
 
-const getMinMq = operationOnUnitString((val) => val - 0.1)
+const breakPoints = require('../src/breakPoints');
+const breakPointsArbitrary = require('../src/breakPointsArbitrary');
+
+const basePath = path.resolve(__dirname, '../src/');
+
+const getMinMq = operationOnUnitString((val) => val - 0.1);
+
+const templates = requireDir('../templates');
 
 let minMaxBreakPoint = {};
 let lastI = 'xs';
@@ -22,41 +32,15 @@ for (var i in breakPointsArbitrary) {
   lastI = i;
 };
 
-fs.writeFileSync(path.resolve(__dirname, '../breakPointsMinMax.js'),
-`const breakPointsMinMax = ${JSON.stringify(minMaxBreakPoint, null, 2)};
 
-module.exports = breakPointsMinMax;
-`);
+const outputTemplated = (templateName) => fse.outputFile(
+  path.resolve(basePath, `./${templateName}.js`),
+  templates[templateName](minMaxBreakPoint),
+).then(() => Promise.resolve(templateName));
 
-fs.writeFileSync(path.resolve(__dirname, '../index.js'),
-`const mediaQueries = {
-  upSm: '(width >= ${minMaxBreakPoint.smMin})',
-  upMd: '(width >= ${minMaxBreakPoint.mdMin})',
-  upLg: '(width >= ${minMaxBreakPoint.lgMin})',
-  downLg: '(width <= ${minMaxBreakPoint.lgMax})',
-  downMd: '(width <= ${minMaxBreakPoint.mdMax})',
-  downSm: '(width <= ${minMaxBreakPoint.smMax})',
-  onlyXs: '(width <= ${minMaxBreakPoint.xsMax})',
-  onlySm: '(width >= ${minMaxBreakPoint.smMin}) and (width <= ${minMaxBreakPoint.smMax})',
-  onlyMd: '(width >= ${minMaxBreakPoint.mdMin}) and (width <= ${minMaxBreakPoint.mdMax})',
-  onlyLg: '(width >= ${minMaxBreakPoint.lgMin}) and (width <= ${minMaxBreakPoint.lgMax})',
-  onlyXl: '(width >= ${minMaxBreakPoint.xlMin})',
-  downCenterContainer: '(width <= ${minMaxBreakPoint.centerContainerDownMax})',
-  upCenterContainer: '(width >= ${minMaxBreakPoint.centerContainerUpMin})',
-};
-
-module.exports = mediaQueries;
-`)
-
-fs.writeFileSync(path.resolve(__dirname, '../watchableMediaQueries.js'),
-`const watchableMediaQueries = {
-  sm: '(min-width: ${minMaxBreakPoint.smMin})',
-  md: '(min-width: ${minMaxBreakPoint.mdMin})',
-  lg: '(min-width: ${minMaxBreakPoint.lgMin})',
-  print: 'print',
-  centerContainer: '(min-width: ${minMaxBreakPoint.centerContainerUpMin})',
-}
-
-module.exports = watchableMediaQueries;
-`
-)
+Promise.all(Object.keys(templates).map((key) => outputTemplated(key)))
+.then((results) => {
+  console.log('files succesfully templated:');
+  results.forEach((result) => console.log(`templates/${result}.js => src/${result}.js`))
+})
+.catch((err) => console.error('error in file generation', err))

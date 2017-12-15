@@ -2,16 +2,25 @@
   "name": "@goldwasserexchange/media-queries",
   "version": "3.16.0",
   "description": "the media queries used by Goldwasser Exchange",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "jsnext:main": "es/index.js",
   "scripts": {
+    "build:commonjs": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs ge-scripts babel",
+    "build:es": "cross-env NODE_ENV=production BABEL_ES_TARGET=es ge-scripts babel",
+    "build": "npm run build:commonjs && npm run build:es",
     "generate": "node ./scripts/generate",
-    "prepublish": "npm run generate",
+    "prepublish": "npm run generate && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hans Scheuren",
   "license": "MIT",
   "devDependencies": {
-    "@goldwasserexchange/utils": "1.9.0"
+    "@goldwasserexchange/utils": "1.9.0",
+    "fs-extra": "^5.0.0",
+    "ge-scripts": "^3.14.3",
+    "require-dir": "^0.3.2"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries"
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries",
+  "dependencies": {}
 }
