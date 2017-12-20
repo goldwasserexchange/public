@@ -6,6 +6,7 @@ const widths = {
   halfCenterContainerWidth: operationOnUnitString((x) => x / 2, centerContainer),
   selectButtonWidthSmallScreen: '3em',
   selectButtonWidthLargeScreen: '2.5em',
+  highlightmargin: '0.5em',
 }
 
 module.exports = widths;
