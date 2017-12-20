@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.18.0"></a>
+# [3.18.0](https://github.com/goldwasserexchange/javascript/compare/v3.17.5...v3.18.0) (2017-12-20)
+
+
+### Features
+
+* **widths:** add highlight margin to width ([94b9de3](https://github.com/goldwasserexchange/javascript/commit/94b9de3))
+
+
+
+
 <a name="3.17.5"></a>
 ## [3.17.5](https://github.com/goldwasserexchange/javascript/compare/v3.17.4...v3.17.5) (2017-12-15)
 
