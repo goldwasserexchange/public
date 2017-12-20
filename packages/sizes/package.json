@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/sizes",
-  "version": "3.18.0",
+  "version": "3.18.1",
   "description": "the sizes used by Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
