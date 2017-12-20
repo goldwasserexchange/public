@@ -1,7 +1,7 @@
 {
-  "name": "@goldwasserexchange/widths",
+  "name": "@goldwasserexchange/sizes",
   "version": "3.18.0",
-  "description": "the widths used by Goldwasser Exchange",
+  "description": "the sizes used by Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
