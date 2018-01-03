@@ -51,6 +51,18 @@ const resolveBin = (modName, {executable = modName, cwd = process.cwd()} = {}) =
   }
 }
 
+const getEngines = () => pkg.engines;
+
+const getNodeEngine = () => {
+  const engines = getEngines();
+  return engines ? engines.node : undefined;
+}
+
+const getNpmEngine = () => {
+  const engines = getEngines();
+  return engines ? engines.node : undefined;
+}
+
 module.exports = {
   fromRoot,
   hasFile,
@@ -62,4 +74,6 @@ module.exports = {
   hasAnyDep,
   ifAnyDep,
   resolveBin,
+  getNodeEngine,
+  getNpmEngine,
 };
