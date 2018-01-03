@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.19.0"></a>
+# [3.19.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel/compare/v3.18.2...v3.19.0) (2018-01-03)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/babel
+
 <a name="3.14.3"></a>
 ## [3.14.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel/compare/v3.14.2...v3.14.3) (2017-12-15)
 

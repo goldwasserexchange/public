@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.19.0"></a>
+# [3.19.0](https://github.com/goldwasserexchange/javascript/compare/v3.18.2...v3.19.0) (2018-01-03)
+
+
+### Features
+
+* **babel-preset:** add date-fns babel plugin ([690ea1f](https://github.com/goldwasserexchange/javascript/commit/690ea1f))
+
+
+
+
 <a name="3.18.2"></a>
 ## [3.18.2](https://github.com/goldwasserexchange/javascript/compare/v3.18.1...v3.18.2) (2017-12-20)
 
