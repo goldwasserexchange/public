@@ -97,6 +97,10 @@ const getPlugins = (env, target) => [
             }
           ]
         ),
+        ifAnyDep(
+          'date-fns',
+          require.resolve('babel-plugin-date-fns')
+        ),
         transformImports(),
         ifAnyDep(
           'prop-types',
