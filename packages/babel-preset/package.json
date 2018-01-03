@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "@goldwasserexchange/browserslist": "^3.14.3",
+    "@goldwasserexchange/node-semver-tools": "^1.0.0",
     "@goldwasserexchange/read-pkg-up-helpers": "^3.14.3",
     "babel": "6.23.0",
     "babel-plugin-date-fns": "^0.1.0",

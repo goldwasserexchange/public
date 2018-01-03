@@ -8,10 +8,10 @@ const babelESTarget = getBabelESTarget();
 const node = 'commonjs';
 const modules = (env, target) => ((target === 'node' || (target === 'browser' && env === 'test')) && babelESTarget !== 'es') ? 'commonjs' : false;
 
-module.exports = (env, target) => [
+module.exports = (env, target, nodeVersion) => [
   requirePresetEnv(env, target),
   {
-    targets: getTargets(env, target),
+    targets: getTargets(env, target, nodeVersion),
     // Disable polyfill transforms
     useBuiltIns: false,
     // transform modules to CJS only on test

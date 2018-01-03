@@ -2,13 +2,13 @@ const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 
 const browsers = require('@goldwasserexchange/browserslist');
 
-const node = {
-  node: 'current',
+const node = (nodeVersion) => ({
+  node: nodeVersion || 'current',
   uglify: true,
-};
+});
 
-const browser = (env, target) => (target === 'node' || (target === 'browser' && env === 'test'))
-  ? node
+const browser = (env, target, nodeVersion) => (target === 'node' || (target === 'browser' && env === 'test'))
+  ? node(nodeVersion)
   : {
     // Browserlist support
     browsers,

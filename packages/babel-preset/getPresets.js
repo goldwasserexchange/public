@@ -1,10 +1,11 @@
-const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
+const { ifAnyDep, getNodeEngine } = require('@goldwasserexchange/read-pkg-up-helpers');
+const nodeSemver = require('@goldwasserexchange/node-semver-tools');
 
 const getPresetEnv = require('./getPresetEnv');
 
 const getPresets = (env, target) => [
   // ES features necessary for user's Node version
-  getPresetEnv(env, target),
+  getPresetEnv(env, target, nodeSemver.minSatisfying(getNodeEngine())),
   // JSX, Flow
   ifAnyDep(
     'react',
