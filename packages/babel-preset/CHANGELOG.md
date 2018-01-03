@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.20.0"></a>
+# [3.20.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.19.0...v3.20.0) (2018-01-03)
+
+
+### Features
+
+* **babel-preset:** detect node version fixed in package.json engines to use as target (fallback to ([a9fa55d](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/commit/a9fa55d))
+
+
+
+
 <a name="3.19.0"></a>
 # [3.19.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.18.2...v3.19.0) (2018-01-03)
 

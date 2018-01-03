@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.20.0"></a>
+# [3.20.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.19.0...v3.20.0) (2018-01-03)
+
+
+### Features
+
+* **read-pkg-up-helpers:** add getNodeEngine and getNpmEngine methods ([e8c3409](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/e8c3409))
+
+
+
+
 <a name="3.14.3"></a>
 ## [3.14.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.14.2...v3.14.3) (2017-12-15)
 

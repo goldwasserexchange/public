@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.20.0"></a>
+# [3.20.0](https://github.com/goldwasserexchange/javascript/compare/v3.19.0...v3.20.0) (2018-01-03)
+
+
+### Features
+
+* **babel-preset:** detect node version fixed in package.json engines to use as target (fallback to ([a9fa55d](https://github.com/goldwasserexchange/javascript/commit/a9fa55d))
+* **node-semver-tools:** create node semver tools to get node versions from ranges ([f5a43bb](https://github.com/goldwasserexchange/javascript/commit/f5a43bb))
+* **read-pkg-up-helpers:** add getNodeEngine and getNpmEngine methods ([e8c3409](https://github.com/goldwasserexchange/javascript/commit/e8c3409))
+
+
+
+
 <a name="3.19.0"></a>
 # [3.19.0](https://github.com/goldwasserexchange/javascript/compare/v3.18.2...v3.19.0) (2018-01-03)
 
