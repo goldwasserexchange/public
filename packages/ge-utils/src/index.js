@@ -15,6 +15,7 @@ export { default as lambdaCorsResponse } from './lambdaCorsResponse';
 export { default as lambdaHandler } from './lambdaHandler';
 export { default as lambdaResponse } from './lambdaResponse';
 export { default as lensIsNotEmpty } from './lensIsNotEmpty';
+export { default as lensLt } from './lensLt';
 export { default as lensMin } from './lensMin';
 export { default as log } from './log';
 export { default as mathMinSpread } from './mathMinSpread';
