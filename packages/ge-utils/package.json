@@ -10,7 +10,7 @@
   },
   "scripts": {
     "lint": "cross-env NODE_ENV=test ge-scripts lint-js",
-    "test": "cross-env NODE_ENV=test BABEL_ES_TARGET=commonjs jest --coverage --collectCoverageFrom src/*.js",
+    "test": "cross-env NODE_ENV=test BABEL_ES_TARGET=commonjs jest  --collectCoverageFrom src/*.js --coverage",
     "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel-node ./scripts/generateIndex",
     "build:commonjs": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs ge-scripts babel",
     "build:es": "cross-env NODE_ENV=production BABEL_ES_TARGET=es ge-scripts babel",
