@@ -1,9 +1,9 @@
 import { pipe, view, isEmpty, not } from 'ramda';
 
-const lensIsEmpty = lens => pipe(
+const lensIsNotEmpty = lens => pipe(
   view(lens),
   isEmpty,
   not,
 );
 
-export default lensIsEmpty;
+export default lensIsNotEmpty;
