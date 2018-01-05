@@ -14,6 +14,7 @@ export { default as lambdaCorsResponse } from './lambdaCorsResponse';
 export { default as lambdaHandler } from './lambdaHandler';
 export { default as lambdaResponse } from './lambdaResponse';
 export { default as log } from './log';
+export { default as mathMinSpread } from './mathMinSpread';
 export { default as moveCharsToEnd } from './moveCharsToEnd';
 export { default as onlyDigits } from './onlyDigits';
 export { default as operationOnUnitString } from './operationOnUnitString';
