@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.21.0"></a>
+# [3.21.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-ramda/compare/v3.20.0...v3.21.0) (2018-01-10)
+
+
+### Features
+
+* **eslint-config-ramda:** add ramda/prefer-complement rule ([ad78609](https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-ramda/commit/ad78609))
+
+
+
+
 <a name="3.14.3"></a>
 ## [3.14.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-ramda/compare/v3.14.2...v3.14.3) (2017-12-15)
 

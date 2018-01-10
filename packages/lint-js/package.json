@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/lint-js",
-  "version": "3.20.0",
+  "version": "3.21.0",
   "description": "a common script to preconfigure and use eslint",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,11 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/eslint-config": "^3.20.0",
+    "@goldwasserexchange/eslint-config": "^3.21.0",
     "@goldwasserexchange/eslint-config-base": "^3.14.3",
     "@goldwasserexchange/eslint-config-import": "^3.14.3",
     "@goldwasserexchange/eslint-config-jest": "^3.14.3",
-    "@goldwasserexchange/eslint-config-ramda": "^3.14.3",
+    "@goldwasserexchange/eslint-config-ramda": "^3.21.0",
     "@goldwasserexchange/eslint-config-react": "^3.14.3",
     "@goldwasserexchange/eslint-config-strict": "^3.14.3",
     "@goldwasserexchange/eslint-config-style": "^3.14.3",
