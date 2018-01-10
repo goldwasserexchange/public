@@ -33,6 +33,7 @@ module.exports = {
     "ramda/no-redundant-not": "error",
     "ramda/no-redundant-or": "error",
     "ramda/pipe-simplification": "error",
+    "ramda/prefer-complement": "error",
     "ramda/prefer-ramda-boolean": "error",
     "ramda/prop-satisfies-simplification": "error",
     "ramda/reduce-simplification": "error",
