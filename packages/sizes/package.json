@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/sizes",
-  "version": "3.21.0",
+  "version": "3.21.1",
   "description": "the sizes used by Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/media-queries": "^3.21.0",
+    "@goldwasserexchange/media-queries": "^3.21.1",
     "@goldwasserexchange/utils": "^1.9.1"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/widths"

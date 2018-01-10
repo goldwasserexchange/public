@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/lint-js",
-  "version": "3.21.0",
+  "version": "3.21.1",
   "description": "a common script to preconfigure and use eslint",
   "main": "index.js",
   "scripts": {
