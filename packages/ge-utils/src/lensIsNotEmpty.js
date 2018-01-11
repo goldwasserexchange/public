@@ -1,9 +1,7 @@
-import { pipe, view, isEmpty, not } from 'ramda';
+import { complement } from 'ramda';
 
-const lensIsNotEmpty = lens => pipe(
-  view(lens),
-  isEmpty,
-  not,
-);
+import lensIsEmpty from './lensIsEmpty';
+
+const lensIsNotEmpty = lens => complement(lensIsEmpty(lens));
 
 export default lensIsNotEmpty;
