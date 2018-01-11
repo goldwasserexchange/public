@@ -19,7 +19,6 @@ module.exports = () => ({
         },
         customMedia: {
           extensions: mediaQueries,
-          appendExtensions: true,
         },
       },
     }),
