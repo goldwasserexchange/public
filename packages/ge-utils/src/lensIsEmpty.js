@@ -1,8 +1,8 @@
-import { pipe, view, isEmpty } from 'ramda';
+import { pipe, view, isEmpty, curry } from 'ramda';
 
-const lensIsEmpty = lens => pipe(
+const lensIsEmpty = (lens, obj) => pipe(
   view(lens),
   isEmpty,
-);
+)(obj);
 
-export default lensIsEmpty;
+export default curry(lensIsEmpty);

@@ -1,7 +1,7 @@
-import { complement } from 'ramda';
+import { complement, curry } from 'ramda';
 
 import lensIsEmpty from './lensIsEmpty';
 
-const lensIsNotEmpty = lens => complement(lensIsEmpty(lens));
+const lensIsNotEmpty = (lens, obj) => complement(lensIsEmpty(lens))(obj);
 
-export default lensIsNotEmpty;
+export default curry(lensIsNotEmpty);
