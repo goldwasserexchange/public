@@ -14,6 +14,7 @@ export { default as joinNotNilOrEmptyWithSpace } from './joinNotNilOrEmptyWithSp
 export { default as lambdaCorsResponse } from './lambdaCorsResponse';
 export { default as lambdaHandler } from './lambdaHandler';
 export { default as lambdaResponse } from './lambdaResponse';
+export { default as lensEquals } from './lensEquals';
 export { default as lensIsEmpty } from './lensIsEmpty';
 export { default as lensIsNotEmpty } from './lensIsNotEmpty';
 export { default as lensLt } from './lensLt';
