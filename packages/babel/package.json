@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/babel",
-  "version": "3.21.5",
+  "version": "3.21.6",
   "description": "a common script to preconfigure and use babel",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/babel-preset": "^3.21.5",
+    "@goldwasserexchange/babel-preset": "^3.21.6",
     "@goldwasserexchange/read-pkg-up-helpers": "^3.20.0",
     "babel-cli": "^6.26.0",
     "cross-spawn": "^5.1.0",

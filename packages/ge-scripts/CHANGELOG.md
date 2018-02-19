@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.21.6"></a>
+## [3.21.6](https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/compare/v3.21.5...v3.21.6) (2018-02-19)
+
+
+
+
+**Note:** Version bump only for package ge-scripts
+
 <a name="3.21.5"></a>
 ## [3.21.5](https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/compare/v3.21.3...v3.21.5) (2018-02-19)
 
