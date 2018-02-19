@@ -5,15 +5,12 @@ const node = (nodeVersion) => ({
   uglify: false,
 });
 
-const getTargets = (env, target, nodeVersion) => {
-	const result = (target === 'node' || (target === 'browser' && env === 'test'))
-	  ? node(nodeVersion)
-	  : {
-      // Browserlist support
-      browsers,
-	  };
-	console.log(result);
-	return result;
-}
+const getTargets = (env, target, nodeVersion) => (target === 'node' || (target === 'browser' && env === 'test'))
+  ? node(nodeVersion)
+  : {
+    // Browserlist support
+    browsers,
+  };
+
 
 module.exports = getTargets;
