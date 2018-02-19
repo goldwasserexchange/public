@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.21.9"></a>
+## [3.21.9](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.21.8...v3.21.9) (2018-02-19)
+
+
+### Bug Fixes
+
+* **babel-preset:** export a function instead of an object ([380dc8e](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/commit/380dc8e))
+
+
+
+
 <a name="3.21.8"></a>
 ## [3.21.8](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.21.7...v3.21.8) (2018-02-19)
 
