@@ -10,7 +10,7 @@ const plugins = getPlugins(env, target);
 
 const presets = getPresets(env, target);
 
-module.exports = {
+module.exports = () => ({
   presets,
   plugins,
-};
+});
