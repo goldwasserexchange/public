@@ -9,12 +9,12 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
     "@babel/core": "^7.0.0-beta.40",
     "@babel/preset-env": "^7.0.0-beta.40",
     "@goldwasserexchange/browserslist": "^3.14.3",
     "@goldwasserexchange/node-semver-tools": "^3.21.7",
     "@goldwasserexchange/read-pkg-up-helpers": "^3.20.0",
-    "babel-cli": "^6.26.0",
     "babel-plugin-date-fns": "^0.1.0",
     "babel-plugin-dynamic-import-node": "^1.2.0",
     "babel-plugin-lodash": "^3.3.2",
