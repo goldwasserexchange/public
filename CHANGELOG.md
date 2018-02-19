@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.21.3"></a>
+## [3.21.3](https://github.com/goldwasserexchange/javascript/compare/v3.21.2...v3.21.3) (2018-02-19)
+
+
+### Bug Fixes
+
+* **babel-preset:** fix [#5](https://github.com/goldwasserexchange/javascript/issues/5) ([3e9d2f0](https://github.com/goldwasserexchange/javascript/commit/3e9d2f0))
+* **babel-preset:** fix [#6](https://github.com/goldwasserexchange/javascript/issues/6) ([06f83f3](https://github.com/goldwasserexchange/javascript/commit/06f83f3))
+* **babel-preset:** fix getPresetEnv getTargets ([b1dcc79](https://github.com/goldwasserexchange/javascript/commit/b1dcc79))
+
+
+
+
 <a name="3.21.2"></a>
 ## [3.21.2](https://github.com/goldwasserexchange/javascript/compare/v3.21.1...v3.21.2) (2018-01-11)
 
