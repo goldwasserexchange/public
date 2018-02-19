@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.21.5"></a>
+## [3.21.5](https://github.com/goldwasserexchange/javascript/compare/v3.21.3...v3.21.5) (2018-02-19)
+
+
+### Bug Fixes
+
+* **babel-preset:** set uglify to false ([6cd48e3](https://github.com/goldwasserexchange/javascript/commit/6cd48e3))
+
+
+
+
 <a name="3.21.4"></a>
 ## [3.21.4](https://github.com/goldwasserexchange/javascript/compare/v3.21.3...v3.21.4) (2018-02-19)
 
