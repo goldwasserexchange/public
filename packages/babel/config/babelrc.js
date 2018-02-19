@@ -1,5 +1,5 @@
 module.exports = {
   presets: [
-    '@goldwasserexchange/babel-preset',
+    'module:@goldwasserexchange/babel-preset',
   ],
 };
