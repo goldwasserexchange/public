@@ -9,7 +9,7 @@ const getPresets = (env, target) => [
   // JSX, Flow
   ifAnyDep(
     'react',
-    require.resolve('babel-preset-react')
+    require.resolve('@babel/preset-react')
   ),
 ].filter(Boolean);
 

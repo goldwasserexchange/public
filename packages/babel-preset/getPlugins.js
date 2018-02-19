@@ -3,13 +3,13 @@ const transformImports = require('./transformImports');
 
 const plugins = [
   // class { handleClick = () => { } }
-  require.resolve('babel-plugin-transform-class-properties'),
-  require.resolve('babel-plugin-transform-exponentiation-operator'),
+  require.resolve('@babel/plugin-proposal-class-properties'),
+  require.resolve('@babel/plugin-transform-exponentiation-operator'),
   // The following two plugins use Object.assign directly, instead of Babel's
   // extends helper. Note that this assumes `Object.assign` is available.
   // { ...todo, completed: true }
   [
-    require.resolve('babel-plugin-transform-object-rest-spread'),
+    require.resolve('@babel/plugin-syntax-object-rest-spread'),
     {
       useBuiltIns: true,
     },
@@ -18,7 +18,7 @@ const plugins = [
   ifAnyDep(
     'react',
     [
-      require.resolve('babel-plugin-transform-react-jsx'),
+      require.resolve('@babel/plugin-transform-react-jsx'),
       {
         useBuiltIns: true,
       },
@@ -26,7 +26,7 @@ const plugins = [
   ),
   // Polyfills the runtime needed for async/await and generators
   [
-    require.resolve('babel-plugin-transform-runtime'),
+    require.resolve('@babel/plugin-transform-runtime'),
     {
       helpers: false,
       polyfill: false,
@@ -49,12 +49,12 @@ const getPlugins = (env, target) => [
         // Adds component stack to warning messages
         ifAnyDep(
           'react',
-          require.resolve('babel-plugin-transform-react-jsx-source')
+          require.resolve('@babel/plugin-transform-react-jsx-source')
         ),
         // Adds __self attribute to JSX which React will use for some warnings
         ifAnyDep(
           'react',
-          require.resolve('babel-plugin-transform-react-jsx-self')
+          require.resolve('@babel/plugin-transform-react-jsx-self')
         ),
       ]
       : []
@@ -68,14 +68,14 @@ const getPlugins = (env, target) => [
       : [
         // function* () { yield 42; yield 43; }
         [
-          require.resolve('babel-plugin-transform-regenerator'),
+          require.resolve('@babel/plugin-transform-regenerator'),
           {
             // Async functions are converted to generators by babel-preset-env
             async: false,
           },
         ],
         // Adds syntax support for import()
-        require.resolve('babel-plugin-syntax-dynamic-import'),
+        require.resolve('@babel/plugin-syntax-dynamic-import'),
       ]
   ),
   ...(
@@ -108,11 +108,11 @@ const getPlugins = (env, target) => [
         ),
         ifAnyDep(
           'react',
-          require.resolve('babel-plugin-transform-react-constant-elements')
+          require.resolve('@babel/plugin-transform-react-constant-elements')
         ),
         ifAnyDep(
           'react',
-          require.resolve('babel-plugin-transform-react-inline-elements')
+          require.resolve('@babel/plugin-transform-react-inline-elements')
         ),
         ifAnyDep(
           'react-loadable',
