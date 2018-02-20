@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.21.12"></a>
+## [3.21.12](https://github.com/goldwasserexchange/javascript/compare/v3.21.11...v3.21.12) (2018-02-20)
+
+
+### Bug Fixes
+
+* **babel:** babelrc should export a function ([7c9131c](https://github.com/goldwasserexchange/javascript/commit/7c9131c))
+
+
+
+
 <a name="3.21.11"></a>
 ## [3.21.11](https://github.com/goldwasserexchange/javascript/compare/v3.21.10...v3.21.11) (2018-02-19)
 
