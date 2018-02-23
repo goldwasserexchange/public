@@ -42,6 +42,7 @@ export { default as snsEventRawMessage } from './snsEventRawMessage';
 export { default as snsEventSubject } from './snsEventSubject';
 export { default as startsWith } from './startsWith';
 export { default as stringModulo } from './stringModulo';
+export { default as tapP } from './tapP';
 export { default as transposeWith } from './transposeWith';
 export { default as validActorAccount } from './validActorAccount';
 export { default as validIban } from './validIban';
