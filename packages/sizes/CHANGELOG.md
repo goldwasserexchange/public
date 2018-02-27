@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.21.13"></a>
+## [3.21.13](https://github.com/goldwasserexchange/javascript/tree/master/packages/widths/compare/v3.21.12...v3.21.13) (2018-02-27)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/sizes
+
 <a name="3.21.12"></a>
 ## [3.21.12](https://github.com/goldwasserexchange/javascript/tree/master/packages/widths/compare/v3.21.11...v3.21.12) (2018-02-20)
 

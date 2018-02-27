@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.21.13"></a>
+## [3.21.13](https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries/compare/v3.21.12...v3.21.13) (2018-02-27)
+
+
+### Bug Fixes
+
+* **media-queries:** use rem instead of em in media-queries ([6024146](https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries/commit/6024146))
+
+
+
+
 <a name="3.21.12"></a>
 ## [3.21.12](https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries/compare/v3.21.11...v3.21.12) (2018-02-20)
 

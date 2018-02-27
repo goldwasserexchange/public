@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/node-semver-tools",
-  "version": "3.21.7",
+  "version": "3.21.13",
   "description": "A series of tools to use the semver package with preloaded versions of node",
   "main": "index.js",
   "scripts": {

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.21.13"></a>
+## [3.21.13](https://github.com/goldwasserexchange/javascript/compare/v3.21.12...v3.21.13) (2018-02-27)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/node-semver-tools
+
 <a name="3.21.7"></a>
 ## [3.21.7](https://github.com/goldwasserexchange/javascript/compare/v3.21.6...v3.21.7) (2018-02-19)
 
