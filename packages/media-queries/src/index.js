@@ -4,17 +4,17 @@ export { default as breakPoints } from './breakPoints';
 export { default as breakPointsArbitrary } from './breakPointsArbitrary';
 
 const mediaQueries = {
-  upSm: '(width >= 34em)',
-  upMd: '(width >= 48em)',
-  upLg: '(width >= 62em)',
-  downLg: '(width <= 74.9em)',
-  downMd: '(width <= 61.9em)',
-  downSm: '(width <= 47.9em)',
-  onlyXs: '(width <= 33.9em)',
-  onlySm: '(width >= 34em) and (width <= 47.9em)',
-  onlyMd: '(width >= 48em) and (width <= 61.9em)',
-  onlyLg: '(width >= 62em) and (width <= 74.9em)',
-  onlyXl: '(width >= 75em)',
+  upSm: '(width >= 34rem)',
+  upMd: '(width >= 48rem)',
+  upLg: '(width >= 62rem)',
+  downLg: '(width <= 74.9rem)',
+  downMd: '(width <= 61.9rem)',
+  downSm: '(width <= 47.9rem)',
+  onlyXs: '(width <= 33.9rem)',
+  onlySm: '(width >= 34rem) and (width <= 47.9rem)',
+  onlyMd: '(width >= 48rem) and (width <= 61.9rem)',
+  onlyLg: '(width >= 62rem) and (width <= 74.9rem)',
+  onlyXl: '(width >= 75rem)',
   downCenterContainer: '(width <= 1299.9px)',
   upCenterContainer: '(width >= 1300px)',
 };
