@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.23.0"></a>
+# [3.23.0](https://github.com/goldwasserexchange/javascript/compare/v3.22.0...v3.23.0) (2018-02-28)
+
+
+### Bug Fixes
+
+* **babel-preset:** don not force to configure babelESTarget and fallback to commonjs ([7da526d](https://github.com/goldwasserexchange/javascript/commit/7da526d))
+
+
+### Features
+
+* **babel:** automatic generation of an es and/or commonjs build ([52b9ed4](https://github.com/goldwasserexchange/javascript/commit/52b9ed4))
+* **read-pkg-up-helpers:** create getPkgMainDir and getPkgModuleDir helpers ([67f1757](https://github.com/goldwasserexchange/javascript/commit/67f1757))
+
+
+
+
 <a name="3.22.0"></a>
 # [3.22.0](https://github.com/goldwasserexchange/javascript/compare/v3.21.13...v3.22.0) (2018-02-28)
 

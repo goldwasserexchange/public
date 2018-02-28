@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.23.0"></a>
+# [3.23.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.22.0...v3.23.0) (2018-02-28)
+
+
+### Bug Fixes
+
+* **babel-preset:** don not force to configure babelESTarget and fallback to commonjs ([7da526d](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/commit/7da526d))
+
+
+
+
 <a name="3.22.0"></a>
 # [3.22.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.21.13...v3.22.0) (2018-02-28)
 

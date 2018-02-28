@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.23.0"></a>
+# [3.23.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.22.0...v3.23.0) (2018-02-28)
+
+
+### Features
+
+* **read-pkg-up-helpers:** create getPkgMainDir and getPkgModuleDir helpers ([67f1757](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/67f1757))
+
+
+
+
 <a name="3.20.0"></a>
 # [3.20.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.19.0...v3.20.0) (2018-01-03)
 
