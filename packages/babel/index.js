@@ -1,7 +1,7 @@
 const path = require('path')
 const spawn = require('cross-spawn')
 const rimraf = require('rimraf')
-const {hasPkgProp, fromRoot, resolveBin, hasFile} = require('@goldwasserexchange/read-pkg-up-helpers');
+const {hasPkgProp, fromRoot, resolveBin, hasFile, getPkgMainDir, getPkgModuleDir } = require('@goldwasserexchange/read-pkg-up-helpers');
 
 const args = process.argv.slice(2);
 const here = p => path.join(__dirname, p);
@@ -33,10 +33,59 @@ if (!useSpecifiedOutDir && !args.includes('--no-clean')) {
   rimraf.sync(fromRoot(outDir))
 }
 
-const result = spawn.sync(
-  resolveBin('babel-cli', {executable: 'babel'}),
-  [...outDirParam, ...copyFiles, ...ignore, ...config, 'src'].concat(args),
-  {stdio: 'inherit'}
-);
+if (process.env.BABEL_ES_TARGET) {
+  const result = spawn.sync(
+    resolveBin('babel-cli', {executable: 'babel'}),
+    [...outDirParam, ...copyFiles, ...ignore, ...config, 'src'].concat(args),
+    {stdio: 'inherit'}
+  );
+} else {
+  if (hasPkgProp('module')) {
+    const resultEs = spawn.sync(
+      resolveBin('cross-env', {executable: 'cross-env'}),
+      [
+        `BABEL_ES_TARGET=es`,
+        'babel',
+        ...['--out-dir', getPkgModuleDir()],
+        ...copyFiles,
+        ...ignore,
+        ...config,
+        'src'
+      ].concat(args),
+      {stdio: 'inherit'}
+    );
 
-process.exit(result.status);
+    if (resultEs.status !== 0) {
+      process.exit(resultEs);
+    } else {
+      console.log('successfully generated es build')
+    }
+  }
+
+  if (hasPkgProp('main')) {
+    const resultMain = spawn.sync(
+      resolveBin('cross-env', {executable: 'cross-env'}),
+      [
+        `BABEL_ES_TARGET=commonjs`,
+        'babel',
+        ...['--out-dir', getPkgMainDir()],
+        ...copyFiles,
+        ...ignore,
+        ...config,
+        'src'
+      ].concat(args),
+      {stdio: 'inherit'}
+    );
+
+    if (resultMain.status !== 0) {
+      process.exit(resultMain);
+    } else {
+      console.log('successfully generated commonjs build')
+    }
+  }
+
+  if (!hasPkgProp('main') && !(hasPkgProp('module'))) {
+    console.log('you should have a main or module field in your package.json or give a BABEL_ES_TARGET environment variable!')
+    process.exit(1)
+  }
+}
