@@ -9,9 +9,7 @@
     "node": ">=6.10"
   },
   "scripts": {
-    "build:commonjs": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs ge-scripts babel",
-    "build:es": "cross-env NODE_ENV=production BABEL_ES_TARGET=es ge-scripts babel",
-    "build": "npm run build:commonjs && npm run build:es",
+    "build": "cross-env NODE_ENV=production ge-scripts babel",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
