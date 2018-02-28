@@ -63,6 +63,9 @@ const getNpmEngine = () => {
   return engines ? engines.node : undefined;
 }
 
+const getPkgMainDir = () => path.dirname(pkg.main);
+const getPkgModuleDir = () => path.dirname(pkg.module)
+
 module.exports = {
   fromRoot,
   hasFile,
@@ -76,4 +79,6 @@ module.exports = {
   resolveBin,
   getNodeEngine,
   getNpmEngine,
+  getPkgMainDir,
+  getPkgModuleDir,
 };
