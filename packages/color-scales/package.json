@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
+  "engines": {
+    "node": ">=6.10"
+  },
   "scripts": {
     "build:commonjs": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs ge-scripts babel",
     "build:es": "cross-env NODE_ENV=production BABEL_ES_TARGET=es ge-scripts babel",
