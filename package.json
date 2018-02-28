@@ -26,6 +26,6 @@
     }
   },
   "dependencies": {
-    "ge-scripts": "^3.9.1"
+    "ge-scripts": "^3.22.0"
   }
 }
