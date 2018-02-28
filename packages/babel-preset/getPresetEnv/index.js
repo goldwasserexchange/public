@@ -6,7 +6,7 @@ const requirePresetEnv = require('./requirePresetEnv');
 const babelESTarget = getBabelESTarget();
 
 const node = 'commonjs';
-const modules = (env, target) => ((target === 'node' || (target === 'browser' && env === 'test')) && babelESTarget !== 'es') ? 'commonjs' : false;
+const modules = (env, target) => babelESTarget === 'es' ? false : babelESTarget;
 
 module.exports = (env, target, nodeVersion) => [
   requirePresetEnv(env, target),
