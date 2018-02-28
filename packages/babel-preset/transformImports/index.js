@@ -51,7 +51,7 @@ const ramdaTransform = (babelESTarget) => ifAnyDep(
 );
 
 module.exports = () => {
-  const babelESTarget = getBabelESTarget(true);
+  const babelESTarget = getBabelESTarget();
   return [
     require.resolve('babel-plugin-transform-imports'),
     Object.assign(
