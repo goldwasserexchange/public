@@ -1,6 +1,6 @@
 {
   "name": "ge-scripts",
-  "version": "3.24.0",
+  "version": "3.24.1",
   "description": "CLI toolbox for common scripts for Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/babel": "^3.24.0",
+    "@goldwasserexchange/babel": "^3.24.1",
     "@goldwasserexchange/lint-js": "^3.24.0",
     "cross-spawn": "^5.1.0"
   },

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.24.1"></a>
+## [3.24.1](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel/compare/v3.24.0...v3.24.1) (2018-03-01)
+
+
+### Bug Fixes
+
+* **babel:** fix missing import ([2e4308b](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel/commit/2e4308b))
+
+
+
+
 <a name="3.24.0"></a>
 # [3.24.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel/compare/v3.23.1...v3.24.0) (2018-03-01)
 
