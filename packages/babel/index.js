@@ -94,6 +94,29 @@ if (process.env.BABEL_ES_TARGET) {
     }
   }
 
+  if (hasPkgProp('browser')) {
+    const resultEs = spawn.sync(
+      resolveBin('cross-env', {executable: 'cross-env'}),
+      [
+        `BABEL_TARGET=${process.env.BABEL_TARGET || 'browser'}`,
+        `BABEL_ES_TARGET=es`,
+        'babel',
+        ...['--out-dir', getPkgBrowserDir()],
+        ...copyFiles,
+        ...ignore,
+        ...config,
+        'src'
+      ].concat(args),
+      {stdio: 'inherit'}
+    );
+
+    if (resultEs.status !== 0) {
+      process.exit(resultEs);
+    } else {
+      console.log('successfully generated es build')
+    }
+  }
+
   if (!hasPkgProp('main') && !(hasPkgProp('module'))) {
     console.log('you should have a main or module field in your package.json or give a BABEL_ES_TARGET environment variable!')
     process.exit(1)
