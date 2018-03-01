@@ -98,7 +98,7 @@ if (process.env.BABEL_ES_TARGET) {
     const resultEs = spawn.sync(
       resolveBin('cross-env', {executable: 'cross-env'}),
       [
-        `BABEL_TARGET=${process.env.BABEL_TARGET || 'browser'}`,
+        `BABEL_TARGET=browser`,
         `BABEL_ES_TARGET=es`,
         'babel',
         ...['--out-dir', getPkgBrowserDir()],
