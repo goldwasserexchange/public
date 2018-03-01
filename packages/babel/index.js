@@ -35,8 +35,16 @@ if (!useSpecifiedOutDir && !args.includes('--no-clean')) {
 
 if (process.env.BABEL_ES_TARGET) {
   const result = spawn.sync(
-    resolveBin('babel-cli', {executable: 'babel'}),
-    [...outDirParam, ...copyFiles, ...ignore, ...config, 'src'].concat(args),
+    resolveBin('cross-env', {executable: 'cross-env'}),
+    [
+      `BABEL_TARGET=${process.env.BABEL_TARGET || 'node'}`,
+      'babel',
+      ...outDirParam,
+      ...copyFiles,
+      ...ignore,
+      ...config,
+      'src'
+    ].concat(args),
     {stdio: 'inherit'}
   );
 } else {
@@ -44,6 +52,7 @@ if (process.env.BABEL_ES_TARGET) {
     const resultEs = spawn.sync(
       resolveBin('cross-env', {executable: 'cross-env'}),
       [
+        `BABEL_TARGET=${process.env.BABEL_TARGET || 'browser'}`,
         `BABEL_ES_TARGET=es`,
         'babel',
         ...['--out-dir', getPkgModuleDir()],
@@ -66,6 +75,7 @@ if (process.env.BABEL_ES_TARGET) {
     const resultMain = spawn.sync(
       resolveBin('cross-env', {executable: 'cross-env'}),
       [
+        `BABEL_TARGET=${process.env.BABEL_TARGET || 'node'}`,
         `BABEL_ES_TARGET=commonjs`,
         'babel',
         ...['--out-dir', getPkgMainDir()],
