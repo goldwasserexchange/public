@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.24.0"></a>
+# [3.24.0](https://github.com/goldwasserexchange/javascript/compare/v3.23.1...v3.24.0) (2018-03-01)
+
+
+### Features
+
+* **babel:** handle BABEL_TARGET environment variable ([58a9bf1](https://github.com/goldwasserexchange/javascript/commit/58a9bf1))
+* **babel:** use browser field to deploy a browser + es version ([7be44dd](https://github.com/goldwasserexchange/javascript/commit/7be44dd))
+* **read-pkg-up-helpers:** create getPkgBrowserDir util ([dfacaad](https://github.com/goldwasserexchange/javascript/commit/dfacaad))
+
+
+
+
 <a name="3.23.1"></a>
 ## [3.23.1](https://github.com/goldwasserexchange/javascript/compare/v3.23.0...v3.23.1) (2018-02-28)
 
