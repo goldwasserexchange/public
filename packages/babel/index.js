@@ -1,7 +1,7 @@
 const path = require('path')
 const spawn = require('cross-spawn')
 const rimraf = require('rimraf')
-const {hasPkgProp, fromRoot, resolveBin, hasFile, getPkgMainDir, getPkgModuleDir } = require('@goldwasserexchange/read-pkg-up-helpers');
+const {hasPkgProp, fromRoot, resolveBin, hasFile, getPkgMainDir, getPkgModuleDir, getPkgBrowserDir } = require('@goldwasserexchange/read-pkg-up-helpers');
 
 const args = process.argv.slice(2);
 const here = p => path.join(__dirname, p);
