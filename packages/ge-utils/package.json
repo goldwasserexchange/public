@@ -15,11 +15,12 @@
     "lint": "cross-env NODE_ENV=test ge-scripts lint-js",
     "test": "cross-env NODE_ENV=test BABEL_ES_TARGET=commonjs jest --coverage --collectCoverageFrom **/src/*.js --collectCoverageFrom !**/src/index.js",
     "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel-node ./scripts/generateIndex",
-    "build": "npm run generate-index && cross-env NODE_ENV=production BABEL_TARGET=browser ge-scripts babel"
+    "build": "npm run generate-index && cross-env NODE_ENV=production BABEL_TARGET=node ge-scripts babel"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
-  "jsnext:main": "es/index.js",
+  "browser": "browser/index.js",
+  "ge__browser": "browser/index.js",
   "eslintConfig": {
     "extends": "@goldwasserexchange"
   },
@@ -35,10 +36,10 @@
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.40",
     "@babel/node": "^7.0.0-beta.40",
-    "@goldwasserexchange/babel-preset": "^3.23.1",
+    "@goldwasserexchange/babel-preset": "^3.24.0",
     "babel-core": "^7.0.0-bridge.0",
     "cross-env": "^5.1.0",
-    "ge-scripts": "^3.23.1",
+    "ge-scripts": "^3.24.2",
     "jest": "^22.4.2"
   }
 }
