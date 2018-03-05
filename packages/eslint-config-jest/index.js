@@ -6,7 +6,7 @@ module.exports = {
   "env": {
     "browser": true,
     "node": true,
-    "es6": true
+    "es6": true,
   },
   "parserOptions": {
     "ecmaVersion": 6,
@@ -27,8 +27,12 @@ module.exports = {
   },
   "overrides": [
     {
+      "env": {
+        "jest/globals": true
+      },
       "files": [
-        '**/*.test.js'
+        '**/*.test.js',
+        '**/__mocks__/*.js'
       ],
       "rules": {
         "jest/no-disabled-tests": "error",
@@ -39,6 +43,7 @@ module.exports = {
         "jest/prefer-to-be-null": "error",
         "jest/prefer-to-be-undefined": "error",
         "jest/valid-expect": "error",
+        "no-underscore-dangle": 0
       }
     }
   ]
