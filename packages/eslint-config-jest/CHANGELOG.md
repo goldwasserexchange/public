@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.25.0"></a>
+# [3.25.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-jest/compare/v3.24.2...v3.25.0) (2018-03-05)
+
+
+### Features
+
+* **eslint-config-jest:** add env jest/globals, no-underscorde-dangle rule and '**/__mocks__/*.js fi ([f2946e1](https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-jest/commit/f2946e1))
+
+
+
+
 <a name="3.14.3"></a>
 ## [3.14.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-jest/compare/v3.14.2...v3.14.3) (2017-12-15)
 
