@@ -1,7 +1,7 @@
 const browsers = require('@goldwasserexchange/browserslist');
 
 const node = (nodeVersion) => ({
-  node: nodeVersion.replace(/v/g, '') || 'current',
+  node: nodeVersion ? nodeVersion.replace(/v/g, '') : 'current',
 });
 
 const getTargets = (env, target, nodeVersion) => (target === 'node' || (target === 'browser' && env === 'test'))
