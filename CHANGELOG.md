@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.25.1"></a>
+## [3.25.1](https://github.com/goldwasserexchange/javascript/compare/v3.25.0...v3.25.1) (2018-03-09)
+
+
+### Bug Fixes
+
+* **babel-preset:** fix [#8](https://github.com/goldwasserexchange/javascript/issues/8) cannot read property replace of null ([9508646](https://github.com/goldwasserexchange/javascript/commit/9508646))
+
+
+
+
 <a name="3.25.0"></a>
 # [3.25.0](https://github.com/goldwasserexchange/javascript/compare/v3.24.2...v3.25.0) (2018-03-05)
 
