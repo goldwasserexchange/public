@@ -9,7 +9,7 @@ const plugins = [
   // extends helper. Note that this assumes `Object.assign` is available.
   // { ...todo, completed: true }
   [
-    require.resolve('@babel/plugin-syntax-object-rest-spread'),
+    require.resolve('@babel/plugin-proposal-object-rest-spread'),
     {
       useBuiltIns: true,
     },
