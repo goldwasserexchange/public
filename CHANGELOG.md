@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.25.3"></a>
+## [3.25.3](https://github.com/goldwasserexchange/javascript/compare/v3.25.2...v3.25.3) (2018-03-09)
+
+
+### Bug Fixes
+
+* **babel-preset:** add dependency on [@babel](https://github.com/babel)/runtime ([34178bb](https://github.com/goldwasserexchange/javascript/commit/34178bb))
+
+
+
+
 <a name="3.25.2"></a>
 ## [3.25.2](https://github.com/goldwasserexchange/javascript/compare/v3.25.1...v3.25.2) (2018-03-09)
 
