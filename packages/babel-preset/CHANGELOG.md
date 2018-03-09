@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.25.2"></a>
+## [3.25.2](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.25.1...v3.25.2) (2018-03-09)
+
+
+### Bug Fixes
+
+* **babel-preset:** use [@babel](https://github.com/babel)/plugin-proposal-object-rest-spread instead of [@babel](https://github.com/babel)/plugin-syntax-obj ([e960cb1](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/commit/e960cb1))
+
+
+
+
 <a name="3.25.1"></a>
 ## [3.25.1](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.25.0...v3.25.1) (2018-03-09)
 

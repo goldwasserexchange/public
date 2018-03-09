@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/babel-preset",
-  "version": "3.25.1",
+  "version": "3.25.2",
   "description": "the babel preset for Goldwasser Exchange projects",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,5 @@
     "ramda": "^0.25.0",
     "react-loadable": "^5.3.1"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset",
-  "devDependencies": {}
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset"
 }
