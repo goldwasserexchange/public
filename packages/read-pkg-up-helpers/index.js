@@ -10,58 +10,58 @@ const { has } = require('lodash');
 const { pkg, path: pkgPath } = readPkgUp.sync({
   cwd: fs.realpathSync(process.cwd()),
 });
-const appDirectory = path.dirname(pkgPath)
+const appDirectory = path.dirname(pkgPath);
 
-const fromRoot = (...p) => path.join(appDirectory, ...p)
-const hasFile = (...p) => fs.existsSync(fromRoot(...p))
+const fromRoot = (...p) => path.join(appDirectory, ...p);
+const hasFile = (...p) => fs.existsSync(fromRoot(...p));
 
-const hasPkgProp = props => arrify(props).some(prop => has(pkg, prop))
+const hasPkgProp = props => arrify(props).some(prop => has(pkg, prop));
 
 const hasPkgSubProp = pkgProp => props => hasPkgProp(arrify(props).map(p => `${pkgProp}.${p}`));
 
 const hasPeerDep = hasPkgSubProp('peerDependencies');
 const hasDep = hasPkgSubProp('dependencies');
 const hasDevDep = hasPkgSubProp('devDependencies');
-const hasAnyDep = args => [hasDep, hasDevDep, hasPeerDep].some(fn => fn(args))
+const hasAnyDep = args => [hasDep, hasDevDep, hasPeerDep].some(fn => fn(args));
 
-const ifAnyDep = (deps, t, f) => (hasAnyDep(arrify(deps)) ? t : f)
+const ifAnyDep = (deps, t, f) => (hasAnyDep(arrify(deps)) ? t : f);
 
-const resolveBin = (modName, {executable = modName, cwd = process.cwd()} = {}) => {
-  let pathFromWhich
+const resolveBin = (modName, { executable = modName, cwd = process.cwd() } = {}) => {
+  let pathFromWhich;
   try {
-    pathFromWhich = fs.realpathSync(which.sync(executable))
-  } catch (_error) {
-    // ignore _error
+    pathFromWhich = fs.realpathSync(which.sync(executable));
+  } catch (err) {
+    // ignore err
   }
   try {
-    const modPkgPath = require.resolve(`${modName}/package.json`)
-    const modPkgDir = path.dirname(modPkgPath)
-    const {bin} = require(modPkgPath)
-    const binPath = typeof bin === 'string' ? bin : bin[executable]
-    const fullPathToBin = path.join(modPkgDir, binPath)
+    const modPkgPath = require.resolve(`${modName}/package.json`);
+    const modPkgDir = path.dirname(modPkgPath);
+    const { bin } = require(modPkgPath); // eslint-disable-line import/no-dynamic-require,global-require
+    const binPath = typeof bin === 'string' ? bin : bin[executable];
+    const fullPathToBin = path.join(modPkgDir, binPath);
     if (fullPathToBin === pathFromWhich) {
-      return executable
+      return executable;
     }
-    return fullPathToBin.replace(cwd, '.')
-  } catch (error) {
+    return fullPathToBin.replace(cwd, '.');
+  } catch (err) {
     if (pathFromWhich) {
-      return executable
+      return executable;
     }
-    throw error
+    throw err;
   }
-}
+};
 
 const getEngines = () => pkg.engines;
 
 const getNodeEngine = () => {
   const engines = getEngines();
   return engines ? engines.node : undefined;
-}
+};
 
 const getNpmEngine = () => {
   const engines = getEngines();
   return engines ? engines.node : undefined;
-}
+};
 
 const getPkgMainDir = () => path.dirname(pkg.main);
 const getPkgModuleDir = () => path.dirname(pkg.module);

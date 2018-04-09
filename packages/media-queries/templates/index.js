@@ -1,5 +1,5 @@
-const template = (minMaxBreakPoint) => (
-`export { default as watchableMediaQueries } from './watchableMediaQueries';
+const template = minMaxBreakPoint => (
+  `export { default as watchableMediaQueries } from './watchableMediaQueries';
 export { default as breakPointsMinMax } from './breakPointsMinMax';
 export { default as breakPoints } from './breakPoints';
 export { default as breakPointsArbitrary } from './breakPointsArbitrary';
@@ -21,6 +21,6 @@ const mediaQueries = {
 };
 
 export default mediaQueries;
-`)
+`);
 
 module.exports = template;

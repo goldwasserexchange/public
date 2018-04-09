@@ -1,9 +1,14 @@
 #!/usr/bin/env node
 
-const path = require('path');
 const spawn = require('cross-spawn');
+const messages = require('./messages');
 
-const [executor, ignoredBin, script, ...args] = process.argv;
+const [executor, /* eslint-disable no-unused-vars */ ignoredBin /* eslint-enable */, script, ...args] = process.argv;
+
+function handleSignal(result) {
+  console.log(messages[result.signal](script)); // eslint-disable-line no-console
+  process.exit(1);
+}
 
 function getEnv() {
   // this is required to address an issue in cross-spawn
@@ -11,52 +16,36 @@ function getEnv() {
   return Object.keys(process.env)
     .filter(key => process.env[key] !== undefined)
     .reduce(
-      (envCopy, key) => {
-        envCopy[key] = process.env[key]
-        return envCopy
-      },
+      (envCopy, key) => ({
+        ...envCopy,
+        [key]: process.env[key],
+
+      }),
       {
         [`SCRIPTS_${script.toUpperCase()}`]: true,
       },
-    )
+    );
 }
 
 if (script) {
   let scriptPath;
   try {
-    scriptPath = require.resolve('@goldwasserexchange/' + script);
-  } catch(err) {
-
+    scriptPath = require.resolve(`@goldwasserexchange/${script}`);
+  } catch (err) {
+    console.log('error', err); // eslint-disable-line no-console
   }
   if (scriptPath) {
     const result = spawn.sync(executor, [scriptPath, ...args], {
       stdio: 'inherit',
       env: getEnv(),
-    })
+    });
 
     if (result.signal) {
-      handleSignal(result)
+      handleSignal(result);
     } else {
-      process.exit(result.status)
+      process.exit(result.status);
     }
   } else {
-    throw new Error(`Unknown script "${script}".`)
+    throw new Error(`Unknown script "${script}".`);
   }
-}
-
-function handleSignal(result) {
-  if (result.signal === 'SIGKILL') {
-    console.log(
-      `The script "${script}" failed because the process exited too early. ` +
-        'This probably means the system ran out of memory or someone called ' +
-        '`kill -9` on the process.',
-    )
-  } else if (result.signal === 'SIGTERM') {
-    console.log(
-      `The script "${script}" failed because the process exited too early. ` +
-        'Someone might have called `kill` or `killall`, or the system could ' +
-        'be shutting down.',
-    )
-  }
-  process.exit(1)
 }

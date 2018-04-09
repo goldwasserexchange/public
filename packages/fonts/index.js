@@ -3,4 +3,4 @@ module.exports = {
   mainFontLoading: 'sans-serif',
   menuFont: '"adelle", serif',
   menuFontLoading: 'serif',
-}
+};

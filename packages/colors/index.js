@@ -18,5 +18,5 @@ module.exports = {
   lochmaraGW: '#2a78c0',
   stTropazGW: '#245797',
   sailGW: '#b9dbf4',
-  pattensBlueGW: '#dff1ff'
+  pattensBlueGW: '#dff1ff',
 };

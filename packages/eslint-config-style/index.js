@@ -1,30 +1,30 @@
 module.exports = {
-  "parser": "babel-eslint",
-  "extends": require.resolve("eslint-config-airbnb-base/rules/style"),
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
+  parser: 'babel-eslint',
+  extends: require.resolve('eslint-config-airbnb-base/rules/style'),
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
   },
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
-  "rules": {
-    "comma-dangle": [
+  rules: {
+    'comma-dangle': [
       2,
-      "always-multiline"
+      'always-multiline',
     ],
-    "indent": [
+    indent: [
       2,
       2,
       {
-        "SwitchCase": 1
-      }
+        SwitchCase: 1,
+      },
     ],
-    "max-len": 0,
+    'max-len': 0,
   },
 };

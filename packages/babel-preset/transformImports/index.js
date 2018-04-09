@@ -5,10 +5,10 @@ const getBabelTarget = require('../getBabelTarget');
 
 const goldwasserExchangeUtilsEsTargets = {
   browser: 'browser',
-  node: 'es'
+  node: 'es',
 };
 
-const goldwasserExchangeUtilsTransform = (babelTarget) => ifAnyDep(
+const goldwasserExchangeUtilsTransform = babelTarget => ifAnyDep(
   '@goldwasserexchange/utils',
   {
     '@goldwasserexchange/utils': {
@@ -21,10 +21,10 @@ const goldwasserExchangeUtilsTransform = (babelTarget) => ifAnyDep(
 
 const reactRouterTargets = {
   es: 'es6',
-  commonjs: 'lib'
+  commonjs: 'lib',
 };
 
-const reactRouterTransform = (babelESTarget) => ifAnyDep(
+const reactRouterTransform = babelESTarget => ifAnyDep(
   'react-router',
   {
     'react-router': {
@@ -37,10 +37,10 @@ const reactRouterTransform = (babelESTarget) => ifAnyDep(
 
 const ramdaTargets = {
   es: 'es',
-  commonjs: 'src'
+  commonjs: 'src',
 };
 
-const ramdaTransform = (babelESTarget) => ifAnyDep(
+const ramdaTransform = babelESTarget => ifAnyDep(
   'ramda',
   {
     ramda: {
@@ -61,6 +61,6 @@ module.exports = () => {
       goldwasserExchangeUtilsTransform(babelTarget),
       reactRouterTransform(babelESTarget),
       ramdaTransform(babelESTarget),
-    )
+    ),
   ];
 };
