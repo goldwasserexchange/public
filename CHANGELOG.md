@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.28.0"></a>
+# [3.28.0](https://github.com/goldwasserexchange/javascript/compare/v3.27.0...v3.28.0) (2018-04-18)
+
+
+### Features
+
+* **babel-preset:** allow to customize preset-env useBuilIn option with USE_BUILT_INS env variable ([1ddbc3d](https://github.com/goldwasserexchange/javascript/commit/1ddbc3d))
+
+
+
+
 <a name="3.27.0"></a>
 # [3.27.0](https://github.com/goldwasserexchange/javascript/compare/v3.26.0...v3.27.0) (2018-04-17)
 
