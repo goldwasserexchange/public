@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/color-scales",
-  "version": "3.28.0",
+  "version": "3.28.1",
   "description": "the color scales used by Goldwasser Exchange",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -19,6 +19,6 @@
   "dependencies": {
     "@goldwasserexchange/colors": "^3.27.0",
     "cross-env": "^5.1.1",
-    "ge-scripts": "^3.28.0"
+    "ge-scripts": "^3.28.1"
   }
 }

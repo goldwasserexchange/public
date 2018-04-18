@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.28.1"></a>
+## [3.28.1](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.28.0...v3.28.1) (2018-04-18)
+
+
+### Bug Fixes
+
+* **babel-preset:** add loose option true to plugin-proposal-object-rest-spread ([77b498f](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/commit/77b498f))
+
+
+
+
 <a name="3.28.0"></a>
 # [3.28.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.27.0...v3.28.0) (2018-04-18)
 
