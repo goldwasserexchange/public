@@ -19,4 +19,5 @@ module.exports = {
   stTropazGW: '#245797',
   sailGW: '#b9dbf4',
   pattensBlueGW: '#dff1ff',
+  blackHazeGw: '#F7F7F7',
 };

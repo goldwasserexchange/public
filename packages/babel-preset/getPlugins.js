@@ -11,6 +11,7 @@ const plugins = [
   [
     require.resolve('@babel/plugin-proposal-object-rest-spread'),
     {
+      loose: true,
       useBuiltIns: true,
     },
   ],

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.27.0"></a>
+# [3.27.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/colors/compare/v3.26.0...v3.27.0) (2018-04-17)
+
+
+### Features
+
+* **colors:** create balckHazeGw color ([00b7b4a](https://github.com/goldwasserexchange/javascript/tree/master/packages/colors/commit/00b7b4a))
+
+
+
+
 <a name="3.15.0"></a>
 # [3.15.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/colors/compare/v3.14.3...v3.15.0) (2017-12-15)
 

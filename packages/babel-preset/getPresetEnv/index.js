@@ -9,7 +9,7 @@ module.exports = (env, target, nodeVersion) => [
   {
     targets: getTargets(env, target, nodeVersion),
     // Disable polyfill transforms
-    useBuiltIns: false,
+    useBuiltIns: process.env.USE_BUILT_INS || false,
     // transform modules to CJS only on test
     modules: babelESTarget === 'es' ? false : babelESTarget,
   },
