@@ -9,7 +9,7 @@
     "url": "https://bitbucket.org/goldwasserexchange/ge-utils"
   },
   "engines": {
-    "node": ">=6.10"
+    "node": ">=8.10"
   },
   "scripts": {
     "lint": "cross-env NODE_ENV=test ge-scripts lint-js",
