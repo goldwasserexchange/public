@@ -35,6 +35,7 @@ export { default as s3Event } from './s3Event';
 export { default as s3EventBucket } from './s3EventBucket';
 export { default as s3EventKey } from './s3EventKey';
 export { default as safeHead } from './safeHead';
+export { default as safeLocaleCompare } from './safeLocaleCompare';
 export { default as safeParse } from './safeParse';
 export { default as snsEvent } from './snsEvent';
 export { default as snsEventMessage } from './snsEventMessage';
