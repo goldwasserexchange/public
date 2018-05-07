@@ -4,9 +4,7 @@
   "description": "CLI toolbox for common scripts for Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cross-env NODE_ENV=production node ./src/index babel",
-    "prepublish": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {
     "presets": [
@@ -18,11 +16,11 @@
   "dependencies": {
     "@goldwasserexchange/babel": "^3.28.1",
     "@goldwasserexchange/lint-js": "^3.25.0",
-    "cross-spawn": "^5.1.0"
+    "cross-spawn": "^5.1.0",
+    "ramda": "^0.25.0"
   },
   "bin": {
     "ge-scripts": "./index.js"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts",
-  "devDependencies": {}
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts"
 }
