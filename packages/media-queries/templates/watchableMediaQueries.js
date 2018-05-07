@@ -5,7 +5,7 @@ const template = minMaxBreakPoint => (
   lg: '(min-width: ${minMaxBreakPoint.lgMin})',
   print: 'print',
   centerContainer: '(min-width: ${minMaxBreakPoint.centerContainerUpMin})',
-}
+};
 
 export default watchableMediaQueries;
 `);

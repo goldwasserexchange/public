@@ -1,5 +1,7 @@
 const template = minMaxBreakPoint => (
-  `const breakPointsMinMax = ${JSON.stringify(minMaxBreakPoint, null, 2)};
+  `const breakPointsMinMax = {
+  ${Object.keys(minMaxBreakPoint).map((breakPoint, index) => `${index !== 0 ? '\n  ' : ''}${breakPoint}: '${minMaxBreakPoint[breakPoint]}'`)},
+};
 
 export default breakPointsMinMax;
 `
