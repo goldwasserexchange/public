@@ -3,7 +3,9 @@
   "description": "A serie of tools to lint, build and deploy javascript code",
   "scripts": {
     "commit": "git-cz",
-    "publish": "lerna publish --conventional-commits"
+    "publish": "lerna publish --conventional-commits",
+    "lint:js": "cross-env NODE_ENV=test ge-scripts lint-js --cache-location lint_cache/.eslintcache",
+    "test": "npm run lint:js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,18 @@
   },
   "dependencies": {
     "ge-scripts": "^3.22.0"
+  },
+  "eslintConfig": {
+    "extends": "./packages/eslint-config/index.js",
+    "overrides": [
+      {
+        "files": [
+          "packages/**/scripts/*.js"
+        ],
+        "rules": {
+          "import/no-extraneous-dependencies": 0
+        }
+      }
+    ]
   }
 }

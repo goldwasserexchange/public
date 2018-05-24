@@ -93,9 +93,9 @@ const getPlugins = (env, target) => [
             {
               id: [
                 'lodash',
-                'recompose'
-              ]
-            }
+                'recompose',
+              ],
+            },
           ]
         ),
         ifAnyDep(

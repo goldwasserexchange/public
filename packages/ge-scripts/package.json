@@ -6,12 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "babel": {
+    "presets": [
+      "module:@goldwasserexchange/babel-preset"
+    ]
+  },
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
     "@goldwasserexchange/babel": "^3.28.1",
     "@goldwasserexchange/lint-js": "^3.25.0",
-    "cross-spawn": "^5.1.0"
+    "cross-spawn": "^5.1.0",
+    "ramda": "^0.25.0"
   },
   "bin": {
     "ge-scripts": "./index.js"
