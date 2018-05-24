@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.28.2"></a>
+## [3.28.2](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.28.1...v3.28.2) (2018-05-24)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/read-pkg-up-helpers
+
 <a name="3.24.0"></a>
 # [3.24.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.23.1...v3.24.0) (2018-03-01)
 

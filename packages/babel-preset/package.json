@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/babel-preset",
-  "version": "3.28.1",
+  "version": "3.28.2",
   "description": "the babel preset for Goldwasser Exchange projects",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,9 @@
     "@babel/preset-env": "^7.0.0-beta.40",
     "@babel/preset-react": "^7.0.0-beta.40",
     "@babel/runtime": "^7.0.0-beta.40",
-    "@goldwasserexchange/browserslist": "^3.22.0",
-    "@goldwasserexchange/node-semver-tools": "^3.28.1",
-    "@goldwasserexchange/read-pkg-up-helpers": "^3.24.0",
+    "@goldwasserexchange/browserslist": "^3.28.2",
+    "@goldwasserexchange/node-semver-tools": "^3.28.2",
+    "@goldwasserexchange/read-pkg-up-helpers": "^3.28.2",
     "babel-plugin-date-fns": "^0.1.0",
     "babel-plugin-dynamic-import-node": "^1.2.0",
     "babel-plugin-lodash": "^3.3.2",

@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config",
-  "version": "3.25.0",
+  "version": "3.28.2",
   "description": "Goldwasser Exchange ES Lint config",
   "main": "index.js",
   "scripts": {
@@ -9,13 +9,13 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "devDependencies": {
-    "@goldwasserexchange/eslint-config-base": "^3.14.3",
-    "@goldwasserexchange/eslint-config-jest": "^3.25.0",
-    "@goldwasserexchange/eslint-config-ramda": "^3.21.0",
-    "@goldwasserexchange/eslint-config-react": "^3.14.3",
-    "@goldwasserexchange/eslint-config-strict": "^3.14.3",
-    "@goldwasserexchange/eslint-config-unicorn": "^3.14.3",
-    "@goldwasserexchange/read-pkg-up-helpers": "^3.24.0",
+    "@goldwasserexchange/eslint-config-base": "^3.28.2",
+    "@goldwasserexchange/eslint-config-jest": "^3.28.2",
+    "@goldwasserexchange/eslint-config-ramda": "^3.28.2",
+    "@goldwasserexchange/eslint-config-react": "^3.28.2",
+    "@goldwasserexchange/eslint-config-strict": "^3.28.2",
+    "@goldwasserexchange/eslint-config-unicorn": "^3.28.2",
+    "@goldwasserexchange/read-pkg-up-helpers": "^3.28.2",
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-airbnb-base": "^12.1.0",

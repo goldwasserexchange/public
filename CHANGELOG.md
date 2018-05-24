@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.28.2"></a>
+## [3.28.2](https://github.com/goldwasserexchange/javascript/compare/v3.28.1...v3.28.2) (2018-05-24)
+
+
+### Bug Fixes
+
+* **ge-scripts:** fix ge-scripts by using ramda instead of building ([ba89227](https://github.com/goldwasserexchange/javascript/commit/ba89227))
+
+
+
+
 <a name="3.28.1"></a>
 ## [3.28.1](https://github.com/goldwasserexchange/javascript/compare/v3.28.0...v3.28.1) (2018-04-18)
 
