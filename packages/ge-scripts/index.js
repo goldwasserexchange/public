@@ -4,7 +4,7 @@ const spawn = require('cross-spawn');
 const messages = require('./messages');
 const { set, lensProp, view } = require('ramda');
 
-const [executor, /* eslint-disable no-unused-vars */ ignoredBin /* eslint-enable */, script, ...args] = process.argv;
+const [executor, , script, ...args] = process.argv;
 
 function handleSignal(result) {
   console.log(messages[result.signal](script)); // eslint-disable-line no-console
