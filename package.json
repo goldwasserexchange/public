@@ -12,7 +12,7 @@
     "url": "git+https://github.com/goldwasserexchange/javascript.git"
   },
   "devDependencies": {
-    "commitizen": "^2.9.6",
+    "commitizen": "^2.10.0",
     "cz-lerna-changelog": "^1.2.1",
     "lerna": "^2.5.1"
   },
