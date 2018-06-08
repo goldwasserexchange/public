@@ -1,0 +1,15 @@
+{
+  "name": "@goldwasserexchange/replace-in-chunk-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Webpack plugin to search and replace in a specific chunk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goldwasserexchange/javascript/tree/master/packages/replace-in-chunk-webpack-plugin"
+  },
+  "author": "Jonathan Goldwasser",
+  "license": "MIT"
+}
