@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/media-queries",
-  "version": "3.28.2",
+  "version": "3.28.3",
   "description": "the media queries used by Goldwasser Exchange",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@goldwasserexchange/utils": "1.9.0",
     "fs-extra": "^5.0.0",
-    "ge-scripts": "^3.28.2",
+    "ge-scripts": "^3.28.3",
     "require-dir": "^0.3.2"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries"
