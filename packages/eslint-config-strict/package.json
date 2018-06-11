@@ -18,5 +18,8 @@
     "eslint": "^4.10.0",
     "eslint-config-airbnb-base": "^12.1.0"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-strict"
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-strict",
+  "publishConfig": {
+    "access": "public"
+  }
 }

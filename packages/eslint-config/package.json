@@ -46,5 +46,8 @@
     "eslint-plugin-redux-saga": "^0.6.0",
     "redux-saga": "^0.16.0"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config"
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config",
+  "publishConfig": {
+    "access": "public"
+  }
 }

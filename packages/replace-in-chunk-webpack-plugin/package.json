@@ -11,5 +11,8 @@
     "url": "https://github.com/goldwasserexchange/javascript/tree/master/packages/replace-in-chunk-webpack-plugin"
   },
   "author": "Jonathan Goldwasser",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

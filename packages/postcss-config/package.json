@@ -17,5 +17,8 @@
     "postcss-focus": "^3.0.0",
     "postcss-reporter": "^5.0.0"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/postcss-config"
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/postcss-config",
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -22,5 +22,8 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-react"
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-react",
+  "publishConfig": {
+    "access": "public"
+  }
 }

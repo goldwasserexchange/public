@@ -34,5 +34,8 @@
     "redux-saga": "^0.16.0",
     "yargs-parser": "^8.0.0"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint-js"
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint-js",
+  "publishConfig": {
+    "access": "public"
+  }
 }

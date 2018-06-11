@@ -20,5 +20,8 @@
     "@goldwasserexchange/colors": "^3.27.0",
     "cross-env": "^5.1.1",
     "ge-scripts": "^3.28.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

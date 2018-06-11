@@ -24,5 +24,8 @@
     "cross-env": "^5.1.1",
     "ge-scripts": "^3.28.3"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style-vars"
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style-vars",
+  "publishConfig": {
+    "access": "public"
+  }
 }

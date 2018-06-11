@@ -8,5 +8,8 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "version": "3.28.2",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/browserslist"
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/browserslist",
+  "publishConfig": {
+    "access": "public"
+  }
 }

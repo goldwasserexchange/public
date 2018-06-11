@@ -12,5 +12,8 @@
     "@goldwasserexchange/media-queries": "^3.28.3",
     "@goldwasserexchange/utils": "^1.9.1"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/widths"
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/widths",
+  "publishConfig": {
+    "access": "public"
+  }
 }

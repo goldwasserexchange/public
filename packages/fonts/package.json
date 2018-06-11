@@ -8,5 +8,8 @@
   },
   "author": "Hans Scheuren",
   "license": "MIT",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/fonts"
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/fonts",
+  "publishConfig": {
+    "access": "public"
+  }
 }
