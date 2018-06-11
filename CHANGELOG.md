@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.29.0"></a>
+# [3.29.0](https://github.com/goldwasserexchange/javascript/compare/v3.28.3...v3.29.0) (2018-06-11)
+
+
+### Features
+
+* **replace-in-chunk-webpack-plugin:** create replace-in-chunk-webpack-plugin package ([801fe71](https://github.com/goldwasserexchange/javascript/commit/801fe71))
+
+
+
+
 <a name="3.28.3"></a>
 ## [3.28.3](https://github.com/goldwasserexchange/javascript/compare/v3.28.2...v3.28.3) (2018-06-08)
 
