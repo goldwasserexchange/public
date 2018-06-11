@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-react",
-  "version": "3.28.2",
+  "version": "3.29.1",
   "description": "Goldwasser Exchange ES Lint React config",
   "main": "index.js",
   "scripts": {

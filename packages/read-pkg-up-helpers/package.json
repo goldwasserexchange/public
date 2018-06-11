@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/read-pkg-up-helpers",
-  "version": "3.28.2",
+  "version": "3.29.1",
   "description": "A serie of utilities to get info from the closest package.json going up in the directory tree",
   "main": "index.js",
   "scripts": {

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.29.1"></a>
+## [3.29.1](https://github.com/goldwasserexchange/javascript/compare/v3.29.0...v3.29.1) (2018-06-11)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/javascript
+
 <a name="3.29.0"></a>
 # [3.29.0](https://github.com/goldwasserexchange/javascript/compare/v3.28.3...v3.29.0) (2018-06-11)
 
