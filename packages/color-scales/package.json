@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production ge-scripts babel",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/color-scales",

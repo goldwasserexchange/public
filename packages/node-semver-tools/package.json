@@ -4,7 +4,7 @@
   "description": "A series of tools to use the semver package with preloaded versions of node",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node ./scripts/getNodeVersions",
+    "prepublishOnly": "node ./scripts/getNodeVersions",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hans Scheuren",
