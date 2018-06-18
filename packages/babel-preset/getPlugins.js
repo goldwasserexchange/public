@@ -1,5 +1,8 @@
 const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 const transformImports = require('./transformImports');
+const getBabelESTarget = require('./getBabelESTarget');
+
+const babelESTarget = getBabelESTarget();
 
 const plugins = [
   // class { handleClick = () => { } }
@@ -106,6 +109,15 @@ const getPlugins = (env, target) => [
         ifAnyDep(
           'prop-types',
           require.resolve('babel-plugin-transform-react-remove-prop-types')
+        ),
+        ifAnyDep(
+          'ramda',
+          [
+            require.resolve('babel-plugin-ramda'),
+            {
+              useES: babelESTarget === 'es',
+            },
+          ]
         ),
         ifAnyDep(
           'react',
