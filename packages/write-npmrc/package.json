@@ -11,5 +11,8 @@
   "license": "MIT",
   "bin": {
     "write-npmrc": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
