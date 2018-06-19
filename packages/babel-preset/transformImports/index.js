@@ -35,22 +35,6 @@ const reactRouterTransform = babelESTarget => ifAnyDep(
   {}
 );
 
-const ramdaTargets = {
-  es: 'es',
-  commonjs: 'src',
-};
-
-const ramdaTransform = babelESTarget => ifAnyDep(
-  'ramda',
-  {
-    ramda: {
-      transform: R.concat(`ramda/${ramdaTargets[babelESTarget]}/`),
-      preventFullImport: true,
-    },
-  },
-  {}
-);
-
 module.exports = () => {
   const babelESTarget = getBabelESTarget();
   const babelTarget = getBabelTarget();
@@ -60,7 +44,6 @@ module.exports = () => {
       {},
       goldwasserExchangeUtilsTransform(babelTarget),
       reactRouterTransform(babelESTarget),
-      ramdaTransform(babelESTarget),
     ),
   ];
 };
