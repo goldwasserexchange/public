@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^4.10.0",
-    "eslint-plugin-ramda": "2.4.0"
+    "eslint-plugin-ramda": "2.5.1"
   },
   "peerDependencies": {
     "eslint": "^4.10.0",
