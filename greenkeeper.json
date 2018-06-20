@@ -1,0 +1,35 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/babel-preset/package.json",
+        "packages/babel/package.json",
+        "packages/browserslist/package.json",
+        "packages/color-scales/package.json",
+        "packages/colors/package.json",
+        "packages/eslint-config-base/package.json",
+        "packages/eslint-config-import/package.json",
+        "packages/eslint-config-jest/package.json",
+        "packages/eslint-config-ramda/package.json",
+        "packages/eslint-config-react/package.json",
+        "packages/eslint-config-strict/package.json",
+        "packages/eslint-config-style/package.json",
+        "packages/eslint-config-unicorn/package.json",
+        "packages/eslint-config/package.json",
+        "packages/font-weights/package.json",
+        "packages/fonts/package.json",
+        "packages/ge-scripts/package.json",
+        "packages/lint-js/package.json",
+        "packages/media-queries/package.json",
+        "packages/node-semver-tools/package.json",
+        "packages/postcss-config/package.json",
+        "packages/read-pkg-up-helpers/package.json",
+        "packages/replace-in-chunk-webpack-plugin/package.json",
+        "packages/sizes/package.json",
+        "packages/style-vars/package.json",
+        "packages/write-npmrc/package.json"
+      ]
+    }
+  }
+}
