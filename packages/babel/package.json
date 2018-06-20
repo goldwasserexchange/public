@@ -13,7 +13,7 @@
     "@goldwasserexchange/babel-preset": "^3.29.1",
     "@goldwasserexchange/read-pkg-up-helpers": "^3.29.1",
     "cross-env": "^5.1.3",
-    "cross-spawn": "^5.1.0",
+    "cross-spawn": "^6.0.5",
     "rimraf": "^2.6.2"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/babel",
