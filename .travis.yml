@@ -3,6 +3,7 @@ node_js:
   - 10
   - 8
 before_install:
+  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
   - npm install -g npm@latest
   - npm install -g greenkeeper-lockfile@2 # greenkeeper-lockfile 2.0.0 offers support for monorepos
 # Travis will use `npm ci` by default if lockfiles are present but if dependencies in the
