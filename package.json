@@ -13,7 +13,9 @@
   },
   "devDependencies": {
     "commitizen": "^2.10.0",
+    "cross-env": "^5.2.0",
     "cz-lerna-changelog": "^1.2.1",
+    "ge-scripts": "^3.29.1",
     "lerna": "^2.5.1"
   },
   "author": "Hans Scheuren",
@@ -26,9 +28,6 @@
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
-  },
-  "dependencies": {
-    "ge-scripts": "^3.22.0"
   },
   "eslintConfig": {
     "extends": "./packages/eslint-config/index.js",
