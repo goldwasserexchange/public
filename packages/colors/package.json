@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/colors",
-  "version": "3.30.2",
+  "version": "3.30.3",
   "description": "the colors used by Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
