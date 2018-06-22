@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.30.0"></a>
+# [3.30.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.29.1...v3.30.0) (2018-06-22)
+
+
+### Features
+
+* **babel-preset:** use babel-plugin-ramda ([#18](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/issues/18)) ([f336fbf](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/commit/f336fbf)), closes [#9](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/issues/9)
+
+
+
+
 <a name="3.29.1"></a>
 ## [3.29.1](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.29.0...v3.29.1) (2018-06-11)
 
