@@ -10,11 +10,11 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^4.12.1",
-    "eslint-plugin-unicorn": "^3.0.0"
+    "eslint-plugin-unicorn": "^4.0.3"
   },
   "dependencies": {
     "eslint": "^4.12.1",
-    "eslint-plugin-unicorn": "^3.0.0"
+    "eslint-plugin-unicorn": "^4.0.3"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/eslint-config-unicorn",
   "publishConfig": {

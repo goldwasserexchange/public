@@ -18,9 +18,9 @@
   "license": "MIT",
   "devDependencies": {
     "@goldwasserexchange/utils": "1.9.0",
-    "fs-extra": "^5.0.0",
+    "fs-extra": "^6.0.1",
     "ge-scripts": "^3.29.1",
-    "require-dir": "^0.3.2"
+    "require-dir": "^1.0.0"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries",
   "publishConfig": {
