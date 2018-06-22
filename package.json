@@ -5,7 +5,7 @@
     "commit": "git-cz",
     "bootstrap": "lerna bootstrap",
     "publish": "lerna publish --conventional-commits",
-    "lint:js": "cross-env NODE_ENV=test node ./packages/ge-scripts lint-js --cache-location lint_cache/.eslintcache",
+    "lint:js": "cross-env NODE_ENV=test ge-scripts lint-js --cache-location lint_cache/.eslintcache",
     "test": "npm run lint:js"
   },
   "repository": {
@@ -16,7 +16,7 @@
     "commitizen": "^2.10.0",
     "cross-env": "^5.2.0",
     "cz-lerna-changelog": "^1.2.1",
-    "ge-scripts": "file:packages/ge-scripts",
+    "ge-scripts": "^3.29.1",
     "lerna": "^2.5.1"
   },
   "author": "Hans Scheuren",
