@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/postcss-config",
-  "version": "3.30.1",
+  "version": "3.30.2",
   "description": "the postcss configuration for Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/browserslist": "^3.29.1",
-    "@goldwasserexchange/media-queries": "^3.30.1",
-    "@goldwasserexchange/style-vars": "^3.30.1",
+    "@goldwasserexchange/browserslist": "^3.30.2",
+    "@goldwasserexchange/media-queries": "^3.30.2",
+    "@goldwasserexchange/style-vars": "^3.30.2",
     "lost": "^8.2.0",
     "postcss-cssnext": "^3.0.2",
     "postcss-focus": "^3.0.0",
