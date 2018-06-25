@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/fonts",
-  "version": "3.29.1",
+  "version": "3.30.3",
   "description": "the fonts used by Goldwasser Exchange",
   "main": "index.js",
   "scripts": {

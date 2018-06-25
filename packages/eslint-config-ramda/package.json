@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-ramda",
-  "version": "3.29.1",
+  "version": "3.30.3",
   "description": "Goldwasser Exchange ES Lint Ramda config",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^4.10.0",
-    "eslint-plugin-ramda": "2.4.0"
+    "eslint-plugin-ramda": "^2.4.0"
   },
   "peerDependencies": {
     "eslint": "^4.10.0",

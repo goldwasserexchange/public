@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.30.1"></a>
+## [3.30.1](https://github.com/goldwasserexchange/javascript/compare/v3.30.0...v3.30.1) (2018-06-22)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/javascript
+
+<a name="3.30.0"></a>
+# [3.30.0](https://github.com/goldwasserexchange/javascript/compare/v3.29.1...v3.30.0) (2018-06-22)
+
+
+### Bug Fixes
+
+* **write-npmrc:** set registry key in .npmrc ([b7d9736](https://github.com/goldwasserexchange/javascript/commit/b7d9736))
+
+
+### Features
+
+* **babel-preset:** use babel-plugin-ramda ([#18](https://github.com/goldwasserexchange/javascript/issues/18)) ([f336fbf](https://github.com/goldwasserexchange/javascript/commit/f336fbf)), closes [#9](https://github.com/goldwasserexchange/javascript/issues/9)
+* **write-npmrc:** create write-npmrc package ([#16](https://github.com/goldwasserexchange/javascript/issues/16)) ([b7c020a](https://github.com/goldwasserexchange/javascript/commit/b7c020a))
+
+
+
+
 <a name="3.29.1"></a>
 ## [3.29.1](https://github.com/goldwasserexchange/javascript/compare/v3.29.0...v3.29.1) (2018-06-11)
 

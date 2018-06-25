@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-strict",
-  "version": "3.29.1",
+  "version": "3.30.3",
   "description": "Goldwasser Exchange ES Lint strict config",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "devDependencies": {
-    "@goldwasserexchange/eslint-config-base": "^3.29.1",
+    "@goldwasserexchange/eslint-config-base": "^3.30.3",
     "eslint": "^4.10.0",
     "eslint-config-airbnb-base": "^12.1.0"
   },
