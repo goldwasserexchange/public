@@ -16,7 +16,7 @@
     "test": "cross-env NODE_ENV=test BABEL_ES_TARGET=commonjs jest --coverage --collectCoverageFrom **/src/*.js --collectCoverageFrom !**/src/index.js",
     "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel-node ./scripts/generateIndex",
     "build": "npm run generate-index && cross-env NODE_ENV=production BABEL_TARGET=node ge-scripts babel",
-    "prepublish": "npm run build"
+    "prepublish": "npm run test && npm run build"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -37,10 +37,10 @@
   "devDependencies": {
     "@babel/core": "7.0.0-beta.51",
     "@babel/node": "7.0.0-beta.51",
-    "@goldwasserexchange/babel-preset": "^3.28.1",
+    "@goldwasserexchange/babel-preset": "^3.30.5",
     "babel-core": "^7.0.0-bridge.0",
     "cross-env": "^5.1.4",
-    "ge-scripts": "^3.28.1",
+    "ge-scripts": "^3.30.5",
     "jest": "^22.4.3"
   },
   "publishConfig": {
