@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-import",
-  "version": "3.29.1",
+  "version": "3.30.3",
   "description": "Goldwasser Exchange ES Lint import config",
   "main": "index.js",
   "scripts": {

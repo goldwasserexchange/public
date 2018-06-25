@@ -1,0 +1,18 @@
+{
+  "name": "@goldwasserexchange/write-npmrc",
+  "version": "3.30.3",
+  "description": "Writes a .npmrc file in the current directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jonathan Goldwasser",
+  "license": "MIT",
+  "bin": {
+    "write-npmrc": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

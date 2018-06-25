@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/color-scales",
-  "version": "3.29.1",
+  "version": "3.30.3",
   "description": "the color scales used by Goldwasser Exchange",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -17,9 +17,9 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/colors": "^3.29.1",
+    "@goldwasserexchange/colors": "^3.30.3",
     "cross-env": "^5.1.1",
-    "ge-scripts": "^3.29.1"
+    "ge-scripts": "^3.30.3"
   },
   "publishConfig": {
     "access": "public"

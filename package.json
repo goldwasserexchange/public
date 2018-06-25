@@ -3,6 +3,7 @@
   "description": "A serie of tools to lint, build and deploy javascript code",
   "scripts": {
     "commit": "git-cz",
+    "bootstrap": "lerna bootstrap",
     "publish": "lerna publish --conventional-commits",
     "lint:js": "cross-env NODE_ENV=test ge-scripts lint-js --cache-location lint_cache/.eslintcache",
     "test": "npm run lint:js"
@@ -13,7 +14,9 @@
   },
   "devDependencies": {
     "commitizen": "^2.10.0",
+    "cross-env": "^5.2.0",
     "cz-lerna-changelog": "^1.2.1",
+    "ge-scripts": "^3.29.1",
     "lerna": "^2.5.1"
   },
   "author": "Hans Scheuren",
@@ -26,9 +29,6 @@
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
-  },
-  "dependencies": {
-    "ge-scripts": "^3.22.0"
   },
   "eslintConfig": {
     "extends": "./packages/eslint-config/index.js",
