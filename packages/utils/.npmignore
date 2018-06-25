@@ -1,8 +1,0 @@
-.gitignore
-bitbucket-pipelines.yml
-src
-test
-.nyc_output
-coverage
-jest
-scripts
