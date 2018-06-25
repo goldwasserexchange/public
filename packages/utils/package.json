@@ -1,0 +1,49 @@
+{
+  "name": "@goldwasserexchange/utils",
+  "version": "1.15.0",
+  "description": "GE Utils",
+  "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goldwasserexchange/javascript/tree/master/packages/utils"
+  },
+  "engines": {
+    "node": ">=8.10"
+  },
+  "scripts": {
+    "lint": "cross-env NODE_ENV=test ge-scripts lint-js",
+    "test": "cross-env NODE_ENV=test BABEL_ES_TARGET=commonjs jest --coverage --collectCoverageFrom **/src/*.js --collectCoverageFrom !**/src/index.js",
+    "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel-node ./scripts/generateIndex",
+    "build": "npm run generate-index && cross-env NODE_ENV=production BABEL_TARGET=node ge-scripts babel",
+    "prepublish": "npm run test && npm run build"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "browser": "browser/index.js",
+  "ge__browser": "browser/index.js",
+  "eslintConfig": {
+    "extends": "@goldwasserexchange"
+  },
+  "babel": {
+    "presets": [
+      "module:@goldwasserexchange/babel-preset"
+    ]
+  },
+  "dependencies": {
+    "json-stringify-safe": "^5.0.1",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.51",
+    "@babel/node": "7.0.0-beta.51",
+    "@goldwasserexchange/babel-preset": "^3.30.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "cross-env": "^5.1.4",
+    "ge-scripts": "^3.30.3",
+    "jest": "^22.4.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
