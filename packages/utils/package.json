@@ -3,10 +3,10 @@
   "version": "1.15.0",
   "description": "GE Utils",
   "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/goldwasserexchange/ge-utils"
+    "url": "https://github.com/goldwasserexchange/javascript/tree/master/packages/utils"
   },
   "engines": {
     "node": ">=8.10"
