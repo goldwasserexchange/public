@@ -16,7 +16,7 @@
     "test": "cross-env NODE_ENV=test BABEL_ES_TARGET=commonjs jest --coverage --collectCoverageFrom **/src/*.js --collectCoverageFrom !**/src/index.js",
     "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel-node ./scripts/generateIndex",
     "build": "npm run generate-index && cross-env NODE_ENV=production BABEL_TARGET=node ge-scripts babel",
-    "prepublish": "npm run test && npm run build"
+    "prepublishOnly": "npm run test && npm run build"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
