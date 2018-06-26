@@ -6,7 +6,8 @@
     "bootstrap": "lerna bootstrap",
     "publish": "lerna publish --conventional-commits",
     "lint:js": "cross-env NODE_ENV=test ge-scripts lint-js --cache-location lint_cache/.eslintcache",
-    "test": "npm run lint:js"
+    "test": "npm run lint:js",
+    "lerna": "lerna --"
   },
   "repository": {
     "type": "git",
