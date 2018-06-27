@@ -1,17 +1,17 @@
 language: node_js
 node_js:
-- 10
-- 8
+  - 10
+  - 8
 before_install:
-- printf "//`node -p \"require('url').parse(process.env.NPM_REGISTRY_URL || 'https://registry.npmjs.org').host\"`/:_authToken=${NPM_TOKEN}\nregistry=${NPM_REGISTRY_URL:-https://registry.npmjs.org}\n" >> ~/.npmrc
-- npm install -g npm@latest
-- npm install -g greenkeeper-lockfile@2 # greenkeeper-lockfile 2.0.0 offers support for monorepos
+  - printf "//`node -p \"require('url').parse(process.env.NPM_REGISTRY_URL || 'https://registry.npmjs.org').host\"`/:_authToken=${NPM_TOKEN}\nregistry=${NPM_REGISTRY_URL:-https://registry.npmjs.org}\n" >> ~/.npmrc
+  - npm install -g npm@latest
+  - npm install -g greenkeeper-lockfile@2 # greenkeeper-lockfile 2.0.0 offers support for monorepos
 # Travis will use `npm ci` by default if lockfiles are present but if dependencies in the
 # package lock do not match those in package.json, npm ci will exit with an error. We
 # need to force `npm install`.
 install:
-- npm install
-- npm run bootstrap
+  - npm install
+  - npm run bootstrap
 before_script: greenkeeper-lockfile-update
 after_script: greenkeeper-lockfile-upload
 notifications:
