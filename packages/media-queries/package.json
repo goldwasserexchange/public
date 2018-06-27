@@ -12,7 +12,8 @@
     "build": "cross-env NODE_ENV=production ge-scripts babel",
     "generate": "node ./scripts/generate",
     "prepublishOnly": "npm run generate && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postBootstrap": "npm run prepublishOnly"
   },
   "author": "Hans Scheuren",
   "license": "MIT",
