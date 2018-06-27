@@ -81,3 +81,5 @@ Thumbs.db
 # dist directories
 lib
 es
+browser
+ge__browser
