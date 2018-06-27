@@ -8,13 +8,13 @@ export default ({
   markerDataKey,
   valuesKey,
 }) => {
-  const _getAll = async (marker) => { // eslint-disable-line no-underscore-dangle
+  const request = async (marker) => {
     const { [markerDataKey]: nextMarker, [valuesKey]: values } = await service[method]({ ...params, [markerParamsKey]: marker }).promise();
 
     return nextMarker
-      ? concat(values, await _getAll(nextMarker))
+      ? concat(values, await request(nextMarker))
       : values;
   };
 
-  return _getAll;
+  return request;
 };
