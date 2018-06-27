@@ -1,19 +1,19 @@
 language: node_js
 node_js:
-- 10
-- 8
+  - 10
+  - 8
 before_install:
-- printf "//`node -p \"require('url').parse(process.env.NPM_REGISTRY_URL || 'https://registry.npmjs.org').host\"`/:_authToken=${NPM_TOKEN}\nregistry=${NPM_REGISTRY_URL:-https://registry.npmjs.org}\n" >> ~/.npmrc
-- npm install -g npm@latest
-- npm install -g greenkeeper-lockfile@2 # greenkeeper-lockfile 2.0.0 offers support for monorepos
+  - printf "//`node -p \"require('url').parse(process.env.NPM_REGISTRY_URL || 'https://registry.npmjs.org').host\"`/:_authToken=${NPM_TOKEN}\nregistry=${NPM_REGISTRY_URL:-https://registry.npmjs.org}\n" >> ~/.npmrc
+  - npm install -g npm@latest
+  - npm install -g greenkeeper-lockfile@2 # greenkeeper-lockfile 2.0.0 offers support for monorepos
 # Travis will use `npm ci` by default if lockfiles are present but if dependencies in the
 # package lock do not match those in package.json, npm ci will exit with an error. We
 # need to force `npm install`.
 install:
-- npm install
-- npm run bootstrap
+  - npm install
+  - npm run bootstrap
 before_script: greenkeeper-lockfile-update
 after_script: greenkeeper-lockfile-upload
 notifications:
   slack:
-    secure: ig9Yw2P4IJsJSP4jcmPehrIXt6F46bU/ldh+p4ReJKFA6dc0tMMx0JJaTiEhaOrjitYUUnLuQKMoLXnhn4iZKIbTGB230vFxFGatPRdqjqSN4cj5ZtPzk3qg81eW8DbUYOxFYb5ZYZAee408aNSxKnpxYEU8udIjANwgxB2kJHoQWtXccWiNKj+MMX0OuoO++h/yVJcBtplwx1VRbv1oiNoOqpeJHJzjzBBGjRmSfQ783XLWj/rb2rIFd6RTQq055NqLuedEaLVB5YahtSE9242vzBAT4zsVuVPi4YrufbNuGPV38tY7N3XuzXrxo0V3eJJFAoI4FRtlxDowGNbCTqje47xpq4+Yj174pG3fb9rLTpcS9T21DiRCrxclTarhzxydyDE3AGpBEHEXT87dS0UpwmEuP+ze+28tljZANNQRmB/Kk4O97t47IZZNsXY2mcTPeApxEB/uPzqS8nUpFbTuyLMdosLYdm4fSx4h/D4jpwVrowzBgRUa/CtyxQZyqUhgUu9U9NwJNeEYZGnMozMSES3WeiJySNocgqV0vfCMwn6wxXuCAW42+Q5J818CG8z4TB9D5CLmarKECqU6GyN5j2k2yveKRBVxWJ/sghde+6gv06hYp5FYi5Wp1nuldxertmq1xQn1rKPKRbCaF1RBxXBNif8qK5VDvTCV/yo=
+    secure: s1EHtFg2IIMRX+MGzbQwcHvAVLlDzOCJCpv8cwuw7BEyRVQcDKVApVoP7gTb3EAXXCDozXph7eVnqzxJ3fOWTrn1WsIDIkSO+1Gibrmfy2lAt/OJGyin61HJMxs0y4BERRWWr/8nYeBPIK0L31F/iIpeA+P2Gttecu+OCfEPW9ODHEuAOY2k2DtO6YPtIIR1TZvSsSCAWtXACaUzF6BDUH0u+3Ru4VyGY4jtfUFucs8S+EGgiycvQYNhpF2WLVpaDPzO7+2CWWLvyMTPN0zEdcLr3iXhaGxBXerfsr2a2+uEdA8vH2UA78nOcH/GQtKVRPvR6LFKnTxKevl0eRt0DYXHMwOg36UcE+SRVQiVtYvRDRe63UnOG00Dud6r9BkiaMbmzKZ4ZT5HBB5YMOSv3AvIzWztOBcJprZERRCRVzCkgRF2GSrl9/LhCrfp8QEmQy9p2KCfIqJY4YOPyuggLQbpFZGskJIMajWK1GLtONRag+OMuETNtevVy9SRKLU5VcY7Zu7rZTObnmMDYvkoMeKFDYppWJGvIOUuk34X6HrOCqu4S/6O3+1lYGLCXDeEU/kUSMA368NUoCChXBP3Y75xh+6A5NpUSP1AVsxmRTOjN2/2Eoccutb6qGgUwtfYlxv+RMAG8fOi4sCO5LWsRXdSacIvR+mVXPbcnv6aNa8=
