@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.31.0"></a>
+# [3.31.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries/compare/v3.30.3...v3.31.0) (2018-07-04)
+
+
+### Bug Fixes
+
+* **package.json:** try to fix linting in pipeline ([8a8568c](https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries/commit/8a8568c))
+
+
+
+
 <a name="3.30.1"></a>
 ## [3.30.1](https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries/compare/v3.30.0...v3.30.1) (2018-06-22)
 

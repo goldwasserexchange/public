@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config",
-  "version": "3.30.3",
+  "version": "3.31.0",
   "description": "Goldwasser Exchange ES Lint config",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "@goldwasserexchange/eslint-config-react": "^3.30.3",
     "@goldwasserexchange/eslint-config-strict": "^3.30.3",
     "@goldwasserexchange/eslint-config-unicorn": "^3.30.3",
-    "@goldwasserexchange/read-pkg-up-helpers": "^3.30.3",
+    "@goldwasserexchange/read-pkg-up-helpers": "^3.31.0",
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-airbnb-base": "^12.1.0",

@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/media-queries",
-  "version": "3.30.3",
+  "version": "3.31.0",
   "description": "the media queries used by Goldwasser Exchange",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -18,9 +18,9 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "devDependencies": {
-    "@goldwasserexchange/utils": "^1.9.0",
+    "@goldwasserexchange/utils": "^3.31.0",
     "fs-extra": "^5.0.0",
-    "ge-scripts": "^3.30.3",
+    "ge-scripts": "^3.31.0",
     "require-dir": "^0.3.2"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries",
