@@ -4,7 +4,8 @@
   "description": "CLI toolbox for common scripts for Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "ge-scripts inject-eslint-config"
   },
   "babel": {
     "presets": [
