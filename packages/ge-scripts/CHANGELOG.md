@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.33.0"></a>
+# [3.33.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/compare/v3.32.0...v3.33.0) (2018-07-04)
+
+
+### Features
+
+* **ge-scripts:** add inject-eslint-config to ge-scripts ([09c028b](https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/commit/09c028b))
+
+
+
+
 <a name="3.31.0"></a>
 # [3.31.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/compare/v3.30.3...v3.31.0) (2018-07-04)
 
