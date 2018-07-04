@@ -1,6 +1,7 @@
 // inspired by https://github.com/kentcdodds/kcd-scripts/blob/2d2a1b0b9bea5f772ffefa3144e5bf2c9264e3d0/src/utils.js
 
 const readPkgUp = require('read-pkg-up');
+const writePkg = require('write-pkg');
 const fs = require('fs');
 const path = require('path');
 const which = require('which');
@@ -11,6 +12,8 @@ const { pkg, path: pkgPath } = readPkgUp.sync({
   cwd: fs.realpathSync(process.cwd()),
 });
 const appDirectory = path.dirname(pkgPath);
+
+const appendToPkg = appendFn => writePkg(pkgPath, Object.assign({}, pkg || {}, appendFn(pkg) || {}));
 
 const fromRoot = (...p) => path.join(appDirectory, ...p);
 const hasFile = (...p) => fs.existsSync(fromRoot(...p));
@@ -83,4 +86,5 @@ module.exports = {
   getPkgMainDir,
   getPkgModuleDir,
   getPkgBrowserDir,
+  appendToPkg,
 };
