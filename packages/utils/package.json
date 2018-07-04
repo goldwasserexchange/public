@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/utils",
-  "version": "3.33.0",
+  "version": "3.34.0",
   "description": "GE Utils",
   "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
   "license": "MIT",
@@ -41,7 +41,7 @@
     "@goldwasserexchange/babel-preset": "^3.31.0",
     "babel-core": "^7.0.0-bridge.0",
     "cross-env": "^5.1.4",
-    "ge-scripts": "^3.33.0",
+    "ge-scripts": "^3.34.0",
     "jest": "^22.4.3"
   },
   "publishConfig": {
