@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.32.0"></a>
+# [3.32.0](https://github.com/goldwasserexchange/javascript/compare/v3.31.0...v3.32.0) (2018-07-04)
+
+
+### Features
+
+* **inject-eslint-config:** create inject-eslint-config util ([f33af37](https://github.com/goldwasserexchange/javascript/commit/f33af37))
+
+
+
+
 <a name="3.31.0"></a>
 # [3.31.0](https://github.com/goldwasserexchange/javascript/compare/v3.30.3...v3.31.0) (2018-07-04)
 

@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/inject-eslint-config",
-  "version": "0.0.1",
+  "version": "3.32.0",
   "description": "a script to inject the extends of our eslint config in the root package.json",
   "main": "index.js",
   "scripts": {
