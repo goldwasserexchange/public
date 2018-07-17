@@ -1,0 +1,37 @@
+{
+  "name": "@goldwasserexchange/aws-lenses",
+  "version": "0.0.1",
+  "description": "Ramda lenses for AWS Lambda events",
+  "main": "index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production ge-scripts babel",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=8.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goldwasserexchange/javascript/tree/master/packages/aws-lenses"
+  },
+  "keywords": [
+    "aws",
+    "ramda",
+    "lens",
+    "lenses",
+    "event",
+    "events",
+    "lambda"
+  ],
+  "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
+  "license": "MIT",
+  "dependencies": {
+    "@goldwasserexchange/utils": "^3.34.0",
+    "ramda": "^0.25.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
