@@ -39,7 +39,7 @@ const s3 = new S3();
 export default async (event) => {
   const data = await s3.getObject({
     Bucket: view(bucketName, event),
-    Key: view(objectKey, vent)
+    Key: view(objectKey, event)
   }).promise();
   // ...
 }
