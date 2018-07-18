@@ -16,7 +16,7 @@ export default async (event) => {
 
 ### Example with SQS
 ```
-import { view } from 'ramda';
+import { map, view } from 'ramda';
 import { records } from '@goldwasserexchange/aws-lenses/services/common';
 import { bodyJson } from '@goldwasserexchange/aws-lenses/services/sqs';
 
