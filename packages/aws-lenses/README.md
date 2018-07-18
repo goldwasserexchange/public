@@ -3,7 +3,7 @@ Ramda lenses for AWS Lambda events
 
 ## Usage
 ### Example with SNS
-```
+```javascript
 import { view } from 'ramda';
 import { messageJson } from '@goldwasserexchange/aws-lenses/services/sns'
 
@@ -15,7 +15,7 @@ export default async (event) => {
 ```
 
 ### Example with SQS
-```
+```javascript
 import { map, view } from 'ramda';
 import { records } from '@goldwasserexchange/aws-lenses/services/common';
 import { bodyJson } from '@goldwasserexchange/aws-lenses/services/sqs';
@@ -28,7 +28,7 @@ export default async (event) => {
 ```
 
 ### Example with S3
-```
+```javascript
 import { S3 } from 'aws-sdk';
 import { view } from 'ramda';
 import { bucketName, objectKey } from '@goldwasserexchange/aws-lenses/services/s3';
