@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.31.0"></a>
+# [3.31.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.30.3...v3.31.0) (2018-07-04)
+
+
+### Features
+
+* **read-pkg-up-helpers:** create appendToPkg util ([b0071f8](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/b0071f8))
+
+
+
+
 <a name="3.30.0"></a>
 # [3.30.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.29.1...v3.30.0) (2018-06-22)
 

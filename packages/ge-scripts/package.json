@@ -1,10 +1,11 @@
 {
   "name": "ge-scripts",
-  "version": "3.30.3",
+  "version": "3.34.0",
   "description": "CLI toolbox for common scripts for Goldwasser Exchange",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "ge-scripts inject-eslint-config"
   },
   "babel": {
     "presets": [
@@ -14,7 +15,8 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/lint-js": "^3.30.3",
+    "@goldwasserexchange/inject-eslint-config": "^3.32.0",
+    "@goldwasserexchange/lint-js": "^3.31.0",
     "cross-spawn": "^5.1.0",
     "ramda": "^0.25.0"
   },
@@ -24,6 +26,5 @@
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts",
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {}
+  }
 }
