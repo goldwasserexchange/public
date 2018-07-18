@@ -2,12 +2,12 @@
   "name": "@goldwasserexchange/aws-lenses",
   "version": "0.0.1",
   "description": "Ramda lenses for AWS Lambda events",
-  "main": "index.js",
-  "module": "es/index.js",
+  "module": "services/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cross-env NODE_ENV=production ge-scripts babel",
-    "prepublishOnly": "npm run build"
+    "build": "cross-env NODE_ENV=production BABEL_TARGET=node ge-scripts babel",
+    "prepublishOnly": "npm run build",
+    "postBootstrap": "npm run prepublishOnly"
   },
   "engines": {
     "node": ">=8.10"
@@ -30,6 +30,10 @@
   "dependencies": {
     "@goldwasserexchange/utils": "^3.34.0",
     "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "ge-scripts": "^3.34.0"
   },
   "publishConfig": {
     "access": "public"
