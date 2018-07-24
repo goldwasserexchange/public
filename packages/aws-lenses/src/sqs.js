@@ -1,6 +1,8 @@
 import { lensProp, compose, lens, path, assoc, toString, identity } from 'ramda';
 import { json } from './common';
 
+export const messageId = lensProp('messageId');
+
 export const body = lensProp('body');
 export const bodyJson = compose(body, json);
 
