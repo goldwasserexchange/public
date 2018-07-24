@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.36.0"></a>
+# [3.36.0](https://github.com/goldwasserexchange/javascript/compare/v3.35.0...v3.36.0) (2018-07-24)
+
+
+### Features
+
+* **utils:** serialize error in log util ([6e0b64b](https://github.com/goldwasserexchange/javascript/commit/6e0b64b))
+
+
+
+
 <a name="3.35.0"></a>
 # [3.35.0](https://github.com/goldwasserexchange/javascript/compare/v3.34.0...v3.35.0) (2018-07-24)
 
