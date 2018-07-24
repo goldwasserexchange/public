@@ -44,3 +44,24 @@ export default async (event) => {
   // ...
 }
 ```
+
+### Example with SES with S3 action and SNS notification
+```javascript
+import { S3 } from 'aws-sdk';
+import { view } from 'ramda';
+import { messageJson } from '@goldwasserexchange/aws-lenses/services/sns';
+import { actionBucketName, actionObjectKey } from '@goldwasserexchange/aws-lenses/services/ses';
+
+const s3 = new S3();
+
+// Lambda function triggered by SNS
+export default async (event) => {
+  const message = view(messageJson, event);
+
+  const emailData = await s3.getObject({
+    Bucket: view(actionBucketName, message),
+    Key: view(actionObjectKey, message)
+  }).promise();
+  // ...
+}
+```
