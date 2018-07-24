@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.35.0"></a>
+# [3.35.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/lint-js/compare/v3.34.0...v3.35.0) (2018-07-24)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/lint-js
+
 <a name="3.31.0"></a>
 # [3.31.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/lint-js/compare/v3.30.3...v3.31.0) (2018-07-04)
 
