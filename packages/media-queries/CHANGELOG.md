@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.37.0"></a>
+# [3.37.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries/compare/v3.36.0...v3.37.0) (2018-07-26)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/media-queries
+
 <a name="3.36.0"></a>
 # [3.36.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/media-queries/compare/v3.35.0...v3.36.0) (2018-07-24)
 
