@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/style-vars",
-  "version": "3.39.0",
+  "version": "3.40.0",
   "description": "the style variables used by Goldwasser Exchange",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -17,13 +17,13 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/babel": "^3.39.0",
+    "@goldwasserexchange/babel": "^3.40.0",
     "@goldwasserexchange/colors": "^3.30.3",
     "@goldwasserexchange/font-weights": "^3.30.3",
     "@goldwasserexchange/fonts": "^3.30.3",
-    "@goldwasserexchange/sizes": "^3.39.0",
+    "@goldwasserexchange/sizes": "^3.40.0",
     "cross-env": "^5.1.1",
-    "ge-scripts": "^3.39.0"
+    "ge-scripts": "^3.40.0"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style-vars",
   "publishConfig": {

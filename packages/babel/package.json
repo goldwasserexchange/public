@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/babel",
-  "version": "3.39.0",
+  "version": "3.40.0",
   "description": "a common script to preconfigure and use babel",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.0.0-beta.40",
-    "@goldwasserexchange/babel-preset": "^3.39.0",
-    "@goldwasserexchange/read-pkg-up-helpers": "^3.39.0",
+    "@goldwasserexchange/babel-preset": "^3.40.0",
+    "@goldwasserexchange/read-pkg-up-helpers": "^3.40.0",
     "cross-env": "^5.1.3",
     "cross-spawn": "^5.1.0",
     "rimraf": "^2.6.2"
