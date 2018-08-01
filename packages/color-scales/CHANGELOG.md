@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.38.0"></a>
+# [3.38.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/color-scales/compare/v3.37.0...v3.38.0) (2018-08-01)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/color-scales
+
 <a name="3.35.0"></a>
 # [3.35.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/color-scales/compare/v3.34.0...v3.35.0) (2018-07-24)
 
