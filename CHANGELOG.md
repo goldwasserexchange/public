@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.39.0"></a>
+# [3.39.0](https://github.com/goldwasserexchange/javascript/compare/v3.37.0...v3.39.0) (2018-08-01)
+
+
+### Features
+
+* **read-pkg-up-helpers:** create getPkgSrc and getPkgSrcDir ([92556ac](https://github.com/goldwasserexchange/javascript/commit/92556ac))
+
+
+
+
 <a name="3.38.0"></a>
 # [3.38.0](https://github.com/goldwasserexchange/javascript/compare/v3.37.0...v3.38.0) (2018-08-01)
 
