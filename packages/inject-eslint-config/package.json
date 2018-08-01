@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/inject-eslint-config",
-  "version": "3.40.0",
+  "version": "3.41.0",
   "description": "a script to inject the extends of our eslint config in the root package.json",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/read-pkg-up-helpers": "^3.40.0"
+    "@goldwasserexchange/read-pkg-up-helpers": "^3.41.0"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/inject-eslint-config",
   "publishConfig": {

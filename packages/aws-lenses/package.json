@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/aws-lenses",
-  "version": "3.40.0",
+  "version": "3.41.0",
   "description": "Ramda lenses for AWS Lambda events",
   "module": "services/index.js",
   "scripts": {
@@ -28,12 +28,12 @@
   "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/utils": "^3.40.0",
+    "@goldwasserexchange/utils": "^3.41.0",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "ge-scripts": "^3.40.0"
+    "ge-scripts": "^3.41.0"
   },
   "publishConfig": {
     "access": "public"
