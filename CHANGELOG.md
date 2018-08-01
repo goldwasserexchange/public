@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.42.0"></a>
+# [3.42.0](https://github.com/goldwasserexchange/javascript/compare/v3.41.0...v3.42.0) (2018-08-01)
+
+
+### Features
+
+* **read-pkg-up-helpers:** secure get package source and destination fields if the field do not exis ([0887809](https://github.com/goldwasserexchange/javascript/commit/0887809))
+
+
+
+
 <a name="3.41.0"></a>
 # [3.41.0](https://github.com/goldwasserexchange/javascript/compare/v3.37.0...v3.41.0) (2018-08-01)
 
