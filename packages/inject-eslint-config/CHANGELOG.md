@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.43.0"></a>
+# [3.43.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/inject-eslint-config/compare/v3.42.0...v3.43.0) (2018-08-02)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/inject-eslint-config
+
 <a name="3.42.0"></a>
 # [3.42.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/inject-eslint-config/compare/v3.41.0...v3.42.0) (2018-08-01)
 
