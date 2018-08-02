@@ -91,4 +91,6 @@ module.exports = {
   appendToPkg,
   getPkgSrc,
   getPkgSrcDir,
+  pkg,
+  pkgPath,
 };

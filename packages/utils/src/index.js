@@ -20,6 +20,7 @@ export { default as lensIsNotEmpty } from './lensIsNotEmpty';
 export { default as lensLt } from './lensLt';
 export { default as lensMin } from './lensMin';
 export { default as log } from './log';
+export { default as matchBetween } from './matchBetween';
 export { default as mathMinSpread } from './mathMinSpread';
 export { default as mergeWithConcat } from './mergeWithConcat';
 export { default as moveCharsToEnd } from './moveCharsToEnd';
