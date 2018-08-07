@@ -17,7 +17,7 @@
     "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel-node ./scripts/generateIndex",
     "build": "npm run generate-index && cross-env NODE_ENV=production BABEL_TARGET=node ge-scripts babel",
     "prepublishOnly": "npm run test && npm run build",
-    "postBootstrap": "npm run prepublishOnly"
+    "postBootstrap": "npm run build"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
