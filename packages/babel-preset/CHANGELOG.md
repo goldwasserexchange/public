@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.44.0"></a>
+# [3.44.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.43.0...v3.44.0) (2018-08-08)
+
+
+### Features
+
+* **babel-preset plugins:** add babel-plugin-module-resolver ([cd09392](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/commit/cd09392))
+
+
+
+
 <a name="3.43.0"></a>
 # [3.43.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.42.0...v3.43.0) (2018-08-02)
 
