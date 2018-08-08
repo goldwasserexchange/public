@@ -41,7 +41,6 @@ const plugins = [
     require.resolve('@babel/plugin-transform-runtime'),
     {
       helpers: false,
-      polyfill: false,
       regenerator: true,
     },
   ],
