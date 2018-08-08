@@ -1,10 +1,18 @@
-const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
+const { ifAnyDep, fromRoot, getPkgSrcDir } = require('@goldwasserexchange/read-pkg-up-helpers');
 const transformImports = require('./transformImports');
 const getBabelESTarget = require('./getBabelESTarget');
 
 const babelESTarget = getBabelESTarget();
 
 const plugins = [
+  [
+    require.resolve('babel-plugin-module-resolver'),
+    {
+      alias: {
+        '~': fromRoot(getPkgSrcDir()),
+      },
+    },
+  ],
   // class { handleClick = () => { } }
   require.resolve('@babel/plugin-proposal-class-properties'),
   require.resolve('@babel/plugin-transform-exponentiation-operator'),
