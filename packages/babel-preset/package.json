@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/babel-preset",
-  "version": "3.44.2",
+  "version": "3.44.3",
   "description": "the babel preset for Goldwasser Exchange projects",
   "main": "index.js",
   "scripts": {
