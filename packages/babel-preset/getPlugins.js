@@ -9,7 +9,7 @@ const plugins = [
     require.resolve('babel-plugin-module-resolver'),
     {
       alias: {
-        '~': fromRoot(getPkgSrcDir()),
+        '~': fromRoot(getPkgSrcDir() || './src'),
       },
     },
   ],
