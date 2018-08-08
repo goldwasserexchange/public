@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.44.2"></a>
+## [3.44.2](https://github.com/goldwasserexchange/javascript/tree/master/packages/aws-lenses/compare/v3.44.1...v3.44.2) (2018-08-08)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/aws-lenses
+
 <a name="3.44.1"></a>
 ## [3.44.1](https://github.com/goldwasserexchange/javascript/tree/master/packages/aws-lenses/compare/v3.44.0...v3.44.1) (2018-08-08)
 
