@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.45.0"></a>
+# [3.45.0](https://github.com/goldwasserexchange/javascript/compare/v3.44.4...v3.45.0) (2018-08-10)
+
+
+### Features
+
+* **webpack-config:** create webpack-config package ([4d66712](https://github.com/goldwasserexchange/javascript/commit/4d66712))
+
+
+
+
 <a name="3.44.4"></a>
 ## [3.44.4](https://github.com/goldwasserexchange/javascript/compare/v3.44.3...v3.44.4) (2018-08-08)
 
