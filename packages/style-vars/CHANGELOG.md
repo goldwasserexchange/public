@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.45.7"></a>
+## [3.45.7](https://github.com/goldwasserexchange/javascript/tree/master/packages/style-vars/compare/v3.45.6...v3.45.7) (2018-08-10)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/style-vars
+
 <a name="3.44.4"></a>
 ## [3.44.4](https://github.com/goldwasserexchange/javascript/tree/master/packages/style-vars/compare/v3.44.3...v3.44.4) (2018-08-08)
 

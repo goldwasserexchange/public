@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/media-queries",
-  "version": "3.45.6",
+  "version": "3.45.7",
   "description": "the media queries used by Goldwasser Exchange",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -18,7 +18,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "devDependencies": {
-    "@goldwasserexchange/utils": "^3.44.4",
+    "@goldwasserexchange/utils": "^3.45.7",
     "fs-extra": "^5.0.0",
     "ge-scripts": "^3.45.6",
     "require-dir": "^0.3.2"

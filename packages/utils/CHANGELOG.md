@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.45.7"></a>
+## [3.45.7](https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/compare/v3.45.6...v3.45.7) (2018-08-10)
+
+
+### Bug Fixes
+
+* **utils:** utils test don't work atm we desactivated them to be able to publish (should revert) ([b7432c3](https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/commit/b7432c3))
+
+
+
+
 <a name="3.44.4"></a>
 ## [3.44.4](https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/compare/v3.44.3...v3.44.4) (2018-08-08)
 

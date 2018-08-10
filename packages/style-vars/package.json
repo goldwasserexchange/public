@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/style-vars",
-  "version": "3.45.6",
+  "version": "3.45.7",
   "description": "the style variables used by Goldwasser Exchange",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -21,7 +21,7 @@
     "@goldwasserexchange/colors": "^3.45.6",
     "@goldwasserexchange/font-weights": "^3.45.6",
     "@goldwasserexchange/fonts": "^3.45.6",
-    "@goldwasserexchange/sizes": "^3.45.6",
+    "@goldwasserexchange/sizes": "^3.45.7",
     "cross-env": "^5.1.1",
     "ge-scripts": "^3.45.6"
   },
