@@ -16,6 +16,7 @@
     "@babel/polyfill": "^7.0.0-rc.1",
     "@goldwasserexchange/babel-preset": "^3.44.4",
     "@goldwasserexchange/node-semver-tools": "^3.31.0",
+    "@goldwasserexchange/postcss-config": "^3.44.4",
     "@goldwasserexchange/read-pkg-up-helpers": "^3.43.0",
     "babel-loader": "8.0.0-beta.4",
     "case-sensitive-paths-webpack-plugin": "^2.1.2",
