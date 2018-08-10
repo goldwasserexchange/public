@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.45.3"></a>
+## [3.45.3](https://github.com/goldwasserexchange/javascript/compare/v3.45.2...v3.45.3) (2018-08-10)
+
+
+### Bug Fixes
+
+* **webpack-config:** add goldwasser exchange postcss-config dependency ([b56156d](https://github.com/goldwasserexchange/javascript/commit/b56156d))
+
+
+
+
 <a name="3.45.2"></a>
 ## [3.45.2](https://github.com/goldwasserexchange/javascript/compare/v3.45.1...v3.45.2) (2018-08-10)
 
