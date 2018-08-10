@@ -10,9 +10,9 @@ const browsers = require('@goldwasserexchange/browserslist');
 
 module.exports = () => ({
   plugins: [
-    postcssFocus(), // Add a :focus to every :hover
-    cssnext({ // Allow future CSS features to be used, also auto-prefixes the CSS...
-      browsers, // ...based on this browser list
+    postcssFocus(),
+    cssnext({
+      browsers,
       features: {
         customProperties: {
           variables: styleVars,
@@ -23,7 +23,7 @@ module.exports = () => ({
       },
     }),
     lost(),
-    postcssReporter({ // Posts messages from plugins to the terminal
+    postcssReporter({
       clearAllMessages: true,
     }),
   ],
