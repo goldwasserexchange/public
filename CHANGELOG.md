@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.45.8"></a>
+## [3.45.8](https://github.com/goldwasserexchange/javascript/compare/v3.45.7...v3.45.8) (2018-08-10)
+
+
+### Bug Fixes
+
+* **webpack-config:** fix path to postcss.config.js ([4352831](https://github.com/goldwasserexchange/javascript/commit/4352831))
+
+
+
+
 <a name="3.45.7"></a>
 ## [3.45.7](https://github.com/goldwasserexchange/javascript/compare/v3.45.6...v3.45.7) (2018-08-10)
 
