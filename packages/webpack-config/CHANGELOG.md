@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.45.5"></a>
+## [3.45.5](https://github.com/goldwasserexchange/javascript/tree/master/packages/style-vars/compare/v3.45.4...v3.45.5) (2018-08-10)
+
+
+### Bug Fixes
+
+* **webpack-config:** change broken dependency on postcss-config ([6c36e09](https://github.com/goldwasserexchange/javascript/tree/master/packages/style-vars/commit/6c36e09))
+
+
+
+
 <a name="3.45.3"></a>
 ## [3.45.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/style-vars/compare/v3.45.2...v3.45.3) (2018-08-10)
 
