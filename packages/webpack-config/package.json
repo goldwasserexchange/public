@@ -34,7 +34,7 @@
     "incstr": "^1.2.3",
     "lodash": "^4.17.10",
     "optimize-css-assets-webpack-plugin": "^5.0.0",
-    "postcss-loader": "^3.0.0",
+    "postcss-loader": "2.1.6",
     "ramda": "^0.25.0",
     "react-dev-utils": "6.0.0-next.3e165448",
     "speed-measure-webpack-plugin": "^1.2.2",
