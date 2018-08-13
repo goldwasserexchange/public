@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.45.11"></a>
+## [3.45.11](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.45.10...v3.45.11) (2018-08-13)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/babel-preset
+
 <a name="3.44.4"></a>
 ## [3.44.4](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.44.3...v3.44.4) (2018-08-08)
 
