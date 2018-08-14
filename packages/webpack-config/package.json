@@ -44,6 +44,7 @@
     "webpack": "^4.16.5",
     "webpack-bundle-analyzer": "^2.13.1",
     "webpack-concat-plugin": "^3.0.0",
+    "webpack-dashboard": "^2.0.0",
     "webpack-hot-middleware": "^2.22.3",
     "webpack-jarvis": "^0.3.2",
     "webpack-pwa-manifest": "^3.6.3",

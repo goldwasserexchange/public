@@ -17,8 +17,10 @@ const Jarvis = require('./config/jarvis');
 const friendlyErrors = require('./config/friendlyErrors');
 const duplicateChecker = require('./config/duplicateChecker');
 const pwaManifest = require('./config/pwaManifest');
+const webpackDashboard = require('./config/webpackDashboard');
 
 module.exports = [
+  webpackDashboard,
   duplicateChecker,
   friendlyErrors,
   Jarvis,
