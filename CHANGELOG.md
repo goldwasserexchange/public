@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.46.0"></a>
+# [3.46.0](https://github.com/goldwasserexchange/javascript/compare/v3.45.12...v3.46.0) (2018-08-14)
+
+
+### Features
+
+* **webpack-config:** add webpackDashboard plugin becaus we won't be using express for the devserver ([32a4084](https://github.com/goldwasserexchange/javascript/commit/32a4084))
+
+
+
+
 <a name="3.45.12"></a>
 ## [3.45.12](https://github.com/goldwasserexchange/javascript/compare/v3.45.11...v3.45.12) (2018-08-13)
 
