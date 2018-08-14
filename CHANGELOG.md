@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.49.0"></a>
+# [3.49.0](https://github.com/goldwasserexchange/javascript/compare/v3.48.0...v3.49.0) (2018-08-14)
+
+
+### Features
+
+* **webpack-server:** auto-open browser on webpack production server launch ([cebb4ee](https://github.com/goldwasserexchange/javascript/commit/cebb4ee))
+
+
+
+
 <a name="3.48.0"></a>
 # [3.48.0](https://github.com/goldwasserexchange/javascript/compare/v3.47.0...v3.48.0) (2018-08-14)
 
