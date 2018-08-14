@@ -1,3 +1,6 @@
+const path = require('path');
+const ip = require('ip');
+const compression = require('compression');
 const chalk = require('chalk');
 const errorOverlayMiddleware = require('react-dev-utils/errorOverlayMiddleware');
 const noopServiceWorkerMiddleware = require('react-dev-utils/noopServiceWorkerMiddleware');
@@ -12,6 +15,7 @@ const {
 } = require('react-dev-utils/WebpackDevServerUtils');
 const openBrowser = require('react-dev-utils/openBrowser');
 const argv = require('minimist')(process.argv.slice(2));
+const express = require('express');
 
 // Tools like Cloud9 rely on this.
 const DEFAULT_PORT = parseInt(argv.port || process.env.PORT, 10) || 3000;
@@ -31,43 +35,64 @@ choosePort(HOST, DEFAULT_PORT).then((port) => {
   const protocol = process.env.HTTPS === 'true' ? 'https' : 'http';
   const appName = pkg.name;
   const urls = prepareUrls(protocol, HOST, port);
-  const compiler = createCompiler(
-    webpack,
-    webpackConfig,
-    appName,
-    urls,
-    false,
-  );
-  const serverConfig = {
-    disableHostCheck: process.env.DANGEROUSLY_DISABLE_HOST_CHECK === 'true',
-    compress: true,
-    clientLogLevel: 'none',
-    hot: true,
-    publicPath: webpackConfig.output.publicPath,
-    quiet: true,
-    https: protocol === 'https',
-    host: HOST,
-    overlay: false,
-    historyApiFallback: {
-      disableDotRule: true,
-    },
-    public: urls.lanUrlForConfig,
-    before(app) {
-      app.use(errorOverlayMiddleware());
-      app.use(noopServiceWorkerMiddleware());
-    },
-  };
-  const devServer = new WebpackDevServer(compiler, serverConfig);
-  devServer.listen(port, HOST, (err) => { // eslint-disable-line consistent-return
-    if (err) {
-      return console.log(err); // eslint-disable-line no-console
-    }
-    console.log(chalk.cyan('Starting the development server...\n')); // eslint-disable-line no-console
-    openBrowser(urls.localUrlForBrowser);
-  });
+  let server;
+  if (process.env.NODE_ENV !== 'production') {
+    const compiler = createCompiler(
+      webpack,
+      webpackConfig,
+      appName,
+      urls,
+      false,
+    );
+    const serverConfig = {
+      disableHostCheck: process.env.DANGEROUSLY_DISABLE_HOST_CHECK === 'true',
+      compress: true,
+      clientLogLevel: 'none',
+      hot: true,
+      publicPath: webpackConfig.output.publicPath,
+      quiet: true,
+      https: protocol === 'https',
+      host: HOST,
+      overlay: false,
+      historyApiFallback: {
+        disableDotRule: true,
+      },
+      public: urls.lanUrlForConfig,
+      before(app) {
+        app.use(errorOverlayMiddleware());
+        app.use(noopServiceWorkerMiddleware());
+      },
+    };
+    server = new WebpackDevServer(compiler, serverConfig);
+    server.listen(port, HOST, (err) => { // eslint-disable-line consistent-return
+      if (err) {
+        return console.log(err); // eslint-disable-line no-console
+      }
+      console.log(chalk.cyan('Starting the development server...\n')); // eslint-disable-line no-console
+      openBrowser(urls.localUrlForBrowser);
+    });
+  } else {
+    const app = express();
+    app.use(compression());
+    app.use(webpackConfig.output.publicPath, express.static(webpackConfig.output.path));
+    app.get('*', (req, res) => res.sendFile(path.resolve(webpackConfig.output.path, 'index.html')));
+    server = app.listen(port, (err) => {
+      if (err) {
+        console.log(chalk.red(err)); // eslint-disable-line no-console
+      } else {
+        console.log(`Server started ${chalk.green('✓')}`); // eslint-disable-line no-console
+        console.log(chalk.bold('Access URLs:')); // eslint-disable-line no-console
+        console.log(`Localhost: ${chalk.magenta(`http://localhost:${port}`)}`); // eslint-disable-line no-console
+        console.log(`LAN: ${chalk.magenta(`http://${ip.address()}:${port}`)}`); // eslint-disable-line no-console
+        console.log(chalk.blue(`Press ${chalk.italic('CTRL-C')} to stop`)); // eslint-disable-line no-console
+      }
+    });
+  }
   ['SIGINT', 'SIGTERM'].forEach((sig) => {
     process.on(sig, () => {
-      devServer.close();
+      if (server) {
+        server.close();
+      }
       process.exit();
     });
   });
