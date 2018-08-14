@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/webpack-server",
-  "version": "1.0.0",
+  "version": "3.47.0",
   "description": "the webpack server preconfigured with goldwasserexchange defaults",
   "main": "index.js",
   "scripts": {
