@@ -80,10 +80,11 @@ choosePort(HOST, DEFAULT_PORT).then((port) => {
       if (err) {
         console.log(chalk.red(err)); // eslint-disable-line no-console
       } else {
+        openBrowser(urls.localUrlForBrowser);
         console.log(`Server started ${chalk.green('✓')}`); // eslint-disable-line no-console
         console.log(chalk.bold('Access URLs:')); // eslint-disable-line no-console
-        console.log(`Localhost: ${chalk.magenta(`http://localhost:${port}`)}`); // eslint-disable-line no-console
-        console.log(`LAN: ${chalk.magenta(`http://${ip.address()}:${port}`)}`); // eslint-disable-line no-console
+        console.log(`Localhost: ${chalk.magenta(urls.localUrlForTerminal)}`); // eslint-disable-line no-console
+        console.log(`LAN: ${chalk.magenta(urls.lanUrlForTerminal)}`); // eslint-disable-line no-console
         console.log(chalk.blue(`Press ${chalk.italic('CTRL-C')} to stop`)); // eslint-disable-line no-console
       }
     });
