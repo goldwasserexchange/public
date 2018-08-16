@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/webpack-config",
-  "version": "3.46.0",
+  "version": "3.49.1",
   "description": "the common webpack configuration for goldwasser exchange",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "@babel/polyfill": "^7.0.0-rc.1",
     "@goldwasserexchange/babel-preset": "^3.45.11",
     "@goldwasserexchange/node-semver-tools": "^3.45.6",
-    "@goldwasserexchange/postcss-config": "^3.45.11",
+    "@goldwasserexchange/postcss-config": "^3.49.1",
     "@goldwasserexchange/read-pkg-up-helpers": "^3.45.6",
     "babel-loader": "8.0.0-beta.4",
     "case-sensitive-paths-webpack-plugin": "^2.1.2",
