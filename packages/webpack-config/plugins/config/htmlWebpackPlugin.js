@@ -1,11 +1,15 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpackPkgConfig = require('../../webpackPkgConfig');
+const { fromRoot, getPkgSrcDir } = require('@goldwasserexchange/read-pkg-up-helpers');
+
+const { htmlTemplate } = webpackPkgConfig;
 
 module.exports = new HtmlWebpackPlugin(Object.assign(
   {},
   {
     inject: true,
     env: process.env,
-    template: 'app/index.ejs',
+    template: htmlTemplate || `${fromRoot(getPkgSrcDir())}/index.ejs`,
   },
   process.env.NODE_ENV === 'production'
     ? {
