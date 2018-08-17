@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.51.0"></a>
+# [3.51.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.50.0...v3.51.0) (2018-08-17)
+
+
+### Features
+
+* **babel-preset:** add babel-plugin-root-import ([147b9f6](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/commit/147b9f6))
+
+
+
+
 <a name="3.45.11"></a>
 ## [3.45.11](https://github.com/goldwasserexchange/javascript/tree/master/packages/babel-preset/compare/v3.45.10...v3.45.11) (2018-08-13)
 
