@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.49.2"></a>
+## [3.49.2](https://github.com/goldwasserexchange/javascript/compare/v3.49.1...v3.49.2) (2018-08-17)
+
+
+### Bug Fixes
+
+* **webpack-server:** remove unused ip dependency ([e56e046](https://github.com/goldwasserexchange/javascript/commit/e56e046)), closes [#26](https://github.com/goldwasserexchange/javascript/issues/26)
+
+
+
+
 <a name="3.49.1"></a>
 ## [3.49.1](https://github.com/goldwasserexchange/javascript/compare/v3.49.0...v3.49.1) (2018-08-16)
 
