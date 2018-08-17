@@ -1,8 +1,8 @@
 import log from './log';
 
-const logEvent = log('Event');
-const logResult = log('Result');
-const logError = log('Error');
+const logEvent = event => log('Event', event);
+const logResult = result => log('Result', result);
+const logError = error => log('Error', error);
 
 const logAndSucceed = (data, callback) => {
   logResult(data);

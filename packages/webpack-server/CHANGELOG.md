@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.49.1"></a>
+## [3.49.1](https://github.com/goldwasserexchange/javascript/tree/master/packages/webpack-server/compare/v3.49.0...v3.49.1) (2018-08-16)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/webpack-server
+
 <a name="3.49.0"></a>
 # [3.49.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/webpack-server/compare/v3.48.0...v3.49.0) (2018-08-14)
 
