@@ -6,11 +6,9 @@ const babelESTarget = getBabelESTarget();
 
 const plugins = [
   [
-    require.resolve('babel-plugin-module-resolver'),
+    require.resolve('babel-plugin-root-import'),
     {
-      alias: {
-        '~': fromRoot(getPkgSrcDir() || './src'),
-      },
+      rootPathSuffix: fromRoot(getPkgSrcDir() || './src'),
     },
   ],
   // class { handleClick = () => { } }
