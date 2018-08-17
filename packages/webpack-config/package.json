@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/webpack-config",
-  "version": "3.49.1",
+  "version": "3.50.0",
   "description": "the common webpack configuration for goldwasser exchange",
   "main": "index.js",
   "scripts": {

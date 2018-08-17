@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.50.0"></a>
+# [3.50.0](https://github.com/goldwasserexchange/javascript/compare/v3.49.2...v3.50.0) (2018-08-17)
+
+
+### Features
+
+* **webpack-config:** read template file from package.json for HTML Webpack plugin ([b055439](https://github.com/goldwasserexchange/javascript/commit/b055439)), closes [#25](https://github.com/goldwasserexchange/javascript/issues/25)
+
+
+
+
 <a name="3.49.2"></a>
 ## [3.49.2](https://github.com/goldwasserexchange/javascript/compare/v3.49.1...v3.49.2) (2018-08-17)
 
