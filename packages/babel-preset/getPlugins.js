@@ -25,6 +25,10 @@ const plugins = [
       useBuiltIns: true,
     },
   ],
+  ifAnyDep(
+    'react-universal-component',
+    require.resolve('babel-plugin-universal-import')
+  ),
   // Transforms JSX
   ifAnyDep(
     'react',
