@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.51.2"></a>
+## [3.51.2](https://github.com/goldwasserexchange/javascript/compare/v3.51.1...v3.51.2) (2018-08-17)
+
+
+### Bug Fixes
+
+* **webpack-config:** fix output file naming and hashes ([2b7c240](https://github.com/goldwasserexchange/javascript/commit/2b7c240))
+
+
+
+
 <a name="3.51.1"></a>
 ## [3.51.1](https://github.com/goldwasserexchange/javascript/compare/v3.51.0...v3.51.1) (2018-08-17)
 
