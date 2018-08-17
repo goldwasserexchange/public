@@ -1,5 +1,4 @@
 const path = require('path');
-const ip = require('ip');
 const compression = require('compression');
 const chalk = require('chalk');
 const errorOverlayMiddleware = require('react-dev-utils/errorOverlayMiddleware');
