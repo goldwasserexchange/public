@@ -11,7 +11,6 @@ const {
 const _ = require('lodash');
 const { pkg } = require('@goldwasserexchange/read-pkg-up-helpers');
 const getStartUrl = require('../../utils/getStartUrl');
-const buildId = require('../../utils/buildId');
 const webpackPkgConfig = require('../../webpackPkgConfig');
 
 
@@ -27,7 +26,7 @@ const pkgFavIcons = pkg.favicons || {};
 module.exports = (webpackPkgConfig.target && webpackPkgConfig.target === 'web') && new WebpackPwaManifest(Object.assign(
   {},
   {
-    filename: `static/${buildId}manifest.[hash].json`,
+    filename: 'static/manifest.[hash].json',
     name: join(' ', nameParts),
     short_name: head(nameParts),
     orientation: 'portrait',
@@ -43,19 +42,19 @@ module.exports = (webpackPkgConfig.target && webpackPkgConfig.target === 'web') 
       {
         src: path.resolve(pkgFavIcons.square),
         sizes: [57, 60, 72, 76, 114, 120, 144, 152, 180],
-        destination: path.join('static', buildId, 'icons', 'ios'),
+        destination: path.join('static', 'icons', 'ios'),
         ios: true,
       },
       {
         src: path.resolve(pkgFavIcons.round),
         size: 1024,
-        destination: path.join('static', buildId, 'icons', 'ios'),
+        destination: path.join('static', 'icons', 'ios'),
         ios: 'startup',
       },
       {
         src: path.resolve(pkgFavIcons.round),
         sizes: [36, 48, 72, 96, 144, 192, 256, 384, 512],
-        destination: path.join('static', buildId, 'icons', 'android'),
+        destination: path.join('static', 'icons', 'android'),
       },
     ],
     theme_color: '#76beea',
