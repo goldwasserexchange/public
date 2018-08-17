@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.52.0"></a>
+# [3.52.0](https://github.com/goldwasserexchange/javascript/compare/v3.51.2...v3.52.0) (2018-08-17)
+
+
+### Features
+
+* **babel-preset:** use babel-plugin-universal-import with dependency condition on react-universal-c ([3a197bf](https://github.com/goldwasserexchange/javascript/commit/3a197bf)), closes [#10](https://github.com/goldwasserexchange/javascript/issues/10)
+
+
+
+
 <a name="3.51.2"></a>
 ## [3.51.2](https://github.com/goldwasserexchange/javascript/compare/v3.51.1...v3.51.2) (2018-08-17)
 
