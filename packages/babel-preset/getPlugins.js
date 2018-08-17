@@ -9,6 +9,7 @@ const plugins = [
     require.resolve('babel-plugin-root-import'),
     {
       rootPathSuffix: fromRoot(getPkgSrcDir() || './src'),
+      rootPathPrefix: '#',
     },
   ],
   // class { handleClick = () => { } }
