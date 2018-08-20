@@ -1,8 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpackPkgConfig = require('../../webpackPkgConfig');
 const { fromRoot, getPkgSrcDir } = require('@goldwasserexchange/read-pkg-up-helpers');
-
-const { target, htmlTemplate } = webpackPkgConfig;
+const { target, htmlTemplate } = require('../../webpackPkgConfig');
 
 module.exports = target === 'web' && new HtmlWebpackPlugin(Object.assign(
   {},

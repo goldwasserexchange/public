@@ -1,3 +1,3 @@
-const webpackPkgConfig = require('./webpackPkgConfig');
+const { target = 'node' } = require('./webpackPkgConfig');
 
-module.exports = webpackPkgConfig.target || 'node';
+module.exports = target;

@@ -11,7 +11,7 @@ const {
 const _ = require('lodash');
 const { pkg } = require('@goldwasserexchange/read-pkg-up-helpers');
 const getStartUrl = require('../../utils/getStartUrl');
-const webpackPkgConfig = require('../../webpackPkgConfig');
+const { target } = require('../../webpackPkgConfig');
 
 
 const nameParts = pipe(
@@ -23,7 +23,7 @@ const nameParts = pipe(
 const pkgManifest = pkg.manifest || {};
 const pkgFavIcons = pkg.favicons || {};
 
-module.exports = (webpackPkgConfig.target && webpackPkgConfig.target === 'web') && new WebpackPwaManifest(Object.assign(
+module.exports = target === 'web' && new WebpackPwaManifest(Object.assign(
   {},
   {
     filename: 'static/manifest.[hash].json',
