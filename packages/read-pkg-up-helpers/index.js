@@ -69,7 +69,7 @@ const getNpmEngine = () => {
 const getPkgMainDir = () => pkg.main && path.dirname(pkg.main);
 const getPkgModuleDir = () => pkg.module && path.dirname(pkg.module);
 const getPkgBrowserDir = () => pkg.browser && path.dirname(pkg.browser);
-const getPkgSrc = () => pkg.src;
+const getPkgSrc = () => pkg.src || '.';
 const getPkgSrcDir = () => getPkgSrc() && path.dirname(getPkgSrc());
 
 module.exports = {

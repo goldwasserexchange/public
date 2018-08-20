@@ -3,7 +3,7 @@ const {
 } = require('ramda');
 const WorkboxPlugin = require('workbox-webpack-plugin');
 
-const { workbox: workboxConfig } = require('../../webpackPkgConfig');
+const { workbox: workboxConfig = {} } = require('../../webpackPkgConfig');
 
 const workBoxConfigInclude = workboxConfig.include || {};
 

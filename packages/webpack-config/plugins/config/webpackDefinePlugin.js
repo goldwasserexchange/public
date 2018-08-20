@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-const { defineEnv } = require('../../webpackPkgConfig');
+const { defineEnv = [] } = require('../../webpackPkgConfig');
 const { isEmpty } = require('ramda');
 
 const definedEnv = defineEnv.reduce(

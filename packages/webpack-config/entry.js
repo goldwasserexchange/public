@@ -4,7 +4,7 @@ const webpackPkgConfig = require('./webpackPkgConfig');
 
 module.exports = [
   (process.env.NODE_ENV === 'production' && webpackPkgConfig.target === 'web') && '@babel/polyfill',
-  'whatwg-fetch',
+  (process.env.NODE_ENV === 'production' && webpackPkgConfig.target === 'web') && 'whatwg-fetch',
   (process.env.NODE_ENV === 'development' && hasAnyDep('webpack-hot-middleware')) && 'eventsource-polyfill', // Necessary for hot reloading with IE
   (process.env.NODE_ENV === 'development' && hasAnyDep('webpack-hot-middleware')) && 'webpack-hot-middleware/client?reload=true',
 
