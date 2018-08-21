@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-const { defineEnv } = require('../../webpackPkgConfig');
+const { target, defineEnv = [] } = require('../../webpackPkgConfig');
 const { isEmpty } = require('ramda');
 
 const definedEnv = defineEnv.reduce(
@@ -7,7 +7,7 @@ const definedEnv = defineEnv.reduce(
   {}
 );
 
-module.exports = new webpack.DefinePlugin({
+module.exports = target === 'web' && new webpack.DefinePlugin({
   'process.env': Object.assign(
     {},
     {

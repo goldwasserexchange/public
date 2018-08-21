@@ -1,7 +1,5 @@
 const { isEmpty } = require('ramda');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const webpackPkgConfig = require('../../webpackPkgConfig');
-
-const copyList = webpackPkgConfig.copy || [];
+const { copy: copyList = [] } = require('../../webpackPkgConfig');
 
 module.exports = !isEmpty(copyList) && new CopyWebpackPlugin(copyList);

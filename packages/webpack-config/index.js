@@ -12,6 +12,7 @@ const resolve = require('./resolve');
 const devtool = require('./devtool');
 const performance = require('./performance');
 const target = require('./target');
+const externals = require('./externals');
 
 const smp = new SpeedMeasurePlugin();
 
@@ -27,6 +28,7 @@ const config = {
   devtool,
   performance,
   target, // Make web variables accessible to webpack, e.g. window
+  externals,
   stats: true,
 };
 

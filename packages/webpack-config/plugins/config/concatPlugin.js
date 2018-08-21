@@ -1,9 +1,8 @@
 const { isEmpty } = require('ramda');
 const ConcatPlugin = require('webpack-concat-plugin');
 const generateName = require('../../utils/generateName');
-const webpackPkgConfig = require('../../webpackPkgConfig');
+const { concat: concatBaseObject = {} } = require('../../webpackPkgConfig');
 
-const concatBaseObject = webpackPkgConfig.concat || {};
 const concatDefaultConfig = concatBaseObject.default || [];
 const concatStageConfig = concatBaseObject[process.env.STAGE || 'dev'] || [];
 const filesToConcat = [

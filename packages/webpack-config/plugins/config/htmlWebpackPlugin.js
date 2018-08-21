@@ -1,10 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpackPkgConfig = require('../../webpackPkgConfig');
 const { fromRoot, getPkgSrcDir } = require('@goldwasserexchange/read-pkg-up-helpers');
+const { target, htmlTemplate } = require('../../webpackPkgConfig');
 
-const { htmlTemplate } = webpackPkgConfig;
-
-module.exports = new HtmlWebpackPlugin(Object.assign(
+module.exports = target === 'web' && new HtmlWebpackPlugin(Object.assign(
   {},
   {
     inject: true,

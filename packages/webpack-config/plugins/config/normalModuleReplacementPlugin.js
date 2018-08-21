@@ -1,9 +1,7 @@
 const { isEmpty } = require('ramda');
 const webpack = require('webpack');
-const webpackPkgConfig = require('../../webpackPkgConfig');
 const { fromRoot } = require('@goldwasserexchange/read-pkg-up-helpers');
-
-const config = webpackPkgConfig.normalModuleReplacement || {};
+const { normalModuleReplacement: config = {} } = require('../../webpackPkgConfig');
 
 module.exports = !isEmpty(config) && config.regex && config.replaceWith && new webpack.NormalModuleReplacementPlugin(
   new RegExp(config.regex),
