@@ -1,4 +1,5 @@
-const { getPkgSrcDir, fromRoot } = require('@goldwasserexchange/read-pkg-up-helpers');
+const { pathOr } = require('ramda');
+const { pkg, getPkgSrcDir, fromRoot } = require('@goldwasserexchange/read-pkg-up-helpers');
 
 module.exports = [
   {
@@ -8,6 +9,13 @@ module.exports = [
     use: {
       loader: require.resolve('babel-loader'),
       options: {
+        presets: pathOr(
+          [
+            `module:${require.resolve('@goldwasserexchange/babel-preset')}`,
+          ],
+          ['babel', 'presets'],
+          pkg
+        ),
         cacheDirectory: process.env.NODE_ENV !== 'production',
         compact: process.env.NODE_ENV === 'production',
         highlightCode: true,
