@@ -1,6 +1,6 @@
 // PostCSS plugins
 const lost = require('lost');
-const cssnext = require('postcss-cssnext');
+const postcssPresetEnv = require('postcss-preset-env');
 const postcssFocus = require('postcss-focus');
 const postcssReporter = require('postcss-reporter');
 const styleVars = require('@goldwasserexchange/style-vars').default;
@@ -11,13 +11,14 @@ const browsers = require('@goldwasserexchange/browserslist');
 module.exports = () => ({
   plugins: [
     postcssFocus(),
-    cssnext({
+    postcssPresetEnv({
       browsers,
+      stage: 2,
       features: {
-        customProperties: {
+        'custom-properties': {
           variables: styleVars,
         },
-        customMedia: {
+        'custom-media-queries': {
           extensions: mediaQueries,
         },
       },
