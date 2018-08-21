@@ -1,3 +1,4 @@
 const { pkg: { gewebpack = {} } } = require('@goldwasserexchange/read-pkg-up-helpers');
+const requireFromRootIfString = require('./utils/requireFromRootIfString');
 
-module.exports = gewebpack;
+module.exports = requireFromRootIfString(gewebpack);
