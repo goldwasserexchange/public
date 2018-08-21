@@ -1,8 +1,9 @@
 const {
-  isEmpty, isNil, reduce, concat, map,
+  isEmpty, isNil, reduce, concat,
 } = require('ramda');
 const WorkboxPlugin = require('workbox-webpack-plugin');
 
+const stringArrayToRegexArray = require('../../utils/stringArrayToRegexArray');
 const { workbox: workboxConfig = {} } = require('../../webpackPkgConfig');
 
 const workBoxConfigInclude = workboxConfig.include || {};
@@ -11,10 +12,7 @@ const include = reduce(
   (acc, key) => concat(
     acc,
     key === 'regex'
-      ? map(
-        regexString => new RegExp(regexString),
-        workBoxConfigInclude[key]
-      )
+      ? stringArrayToRegexArray(workBoxConfigInclude[key])
       : workBoxConfigInclude[key]
   ),
   [],

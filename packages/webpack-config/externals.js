@@ -1,3 +1,4 @@
+const stringArrayToRegexArray = require('./utils/stringArrayToRegexArray');
 const { externals = [] } = require('./webpackPkgConfig');
 
-module.exports = externals;
+module.exports = stringArrayToRegexArray(externals);
