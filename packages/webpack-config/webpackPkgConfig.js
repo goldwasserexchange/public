@@ -1,3 +1,3 @@
-const { pkg: { gewebpack = {} } = require('@goldwasserexchange/read-pkg-up-helpers');
+const { pkg: { gewebpack = {} } } = require('@goldwasserexchange/read-pkg-up-helpers');
 
 module.exports = gewebpack;
