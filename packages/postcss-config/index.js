@@ -17,6 +17,7 @@ module.exports = () => ({
       features: {
         'custom-properties': {
           variables: styleVars,
+          preserve: false,
         },
         'custom-media-queries': {
           extensions: mediaQueries,
