@@ -1,6 +1,5 @@
 const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 const R = require('ramda');
-const getBabelESTarget = require('../getBabelESTarget');
 const getBabelTarget = require('../getBabelTarget');
 
 const goldwasserExchangeUtilsEsTargets = {
@@ -19,31 +18,13 @@ const goldwasserExchangeUtilsTransform = babelTarget => ifAnyDep(
   {}
 );
 
-const reactRouterTargets = {
-  es: 'es6',
-  commonjs: 'lib',
-};
-
-const reactRouterTransform = babelESTarget => ifAnyDep(
-  'react-router',
-  {
-    'react-router': {
-      transform: R.concat(`react-router/${reactRouterTargets[babelESTarget]}/`),
-      preventFullImport: true,
-    },
-  },
-  {}
-);
-
 module.exports = () => {
-  const babelESTarget = getBabelESTarget();
   const babelTarget = getBabelTarget();
   return [
     require.resolve('babel-plugin-transform-imports'),
     Object.assign(
       {},
       goldwasserExchangeUtilsTransform(babelTarget),
-      reactRouterTransform(babelESTarget),
     ),
   ];
 };

@@ -1,6 +1,7 @@
 // inspired by https://github.com/kentcdodds/kcd-scripts/blob/2d2a1b0b9bea5f772ffefa3144e5bf2c9264e3d0/src/utils.js
 
 const readPkgUp = require('read-pkg-up');
+const writePkg = require('write-pkg');
 const fs = require('fs');
 const path = require('path');
 const which = require('which');
@@ -11,6 +12,8 @@ const { pkg, path: pkgPath } = readPkgUp.sync({
   cwd: fs.realpathSync(process.cwd()),
 });
 const appDirectory = path.dirname(pkgPath);
+
+const appendToPkg = appendFn => writePkg(pkgPath, Object.assign({}, pkg || {}, appendFn(pkg) || {}));
 
 const fromRoot = (...p) => path.join(appDirectory, ...p);
 const hasFile = (...p) => fs.existsSync(fromRoot(...p));
@@ -63,9 +66,11 @@ const getNpmEngine = () => {
   return engines ? engines.node : undefined;
 };
 
-const getPkgMainDir = () => path.dirname(pkg.main);
-const getPkgModuleDir = () => path.dirname(pkg.module);
-const getPkgBrowserDir = () => path.dirname(pkg.browser);
+const getPkgMainDir = () => pkg.main && path.dirname(pkg.main);
+const getPkgModuleDir = () => pkg.module && path.dirname(pkg.module);
+const getPkgBrowserDir = () => pkg.browser && path.dirname(pkg.browser);
+const getPkgSrc = () => pkg.src || '.';
+const getPkgSrcDir = () => getPkgSrc() && path.dirname(getPkgSrc());
 
 module.exports = {
   fromRoot,
@@ -83,4 +88,9 @@ module.exports = {
   getPkgMainDir,
   getPkgModuleDir,
   getPkgBrowserDir,
+  appendToPkg,
+  getPkgSrc,
+  getPkgSrcDir,
+  pkg,
+  pkgPath,
 };

@@ -18,5 +18,6 @@ module.exports = {
   ],
   rules: {
     'import/newline-after-import': 0,
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
 };

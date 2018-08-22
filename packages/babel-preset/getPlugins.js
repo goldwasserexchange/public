@@ -1,10 +1,17 @@
-const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
+const { ifAnyDep, fromRoot, getPkgSrcDir } = require('@goldwasserexchange/read-pkg-up-helpers');
 const transformImports = require('./transformImports');
 const getBabelESTarget = require('./getBabelESTarget');
 
 const babelESTarget = getBabelESTarget();
 
 const plugins = [
+  [
+    require.resolve('babel-plugin-root-import'),
+    {
+      rootPathSuffix: fromRoot(getPkgSrcDir() || './src'),
+      rootPathPrefix: '#',
+    },
+  ],
   // class { handleClick = () => { } }
   require.resolve('@babel/plugin-proposal-class-properties'),
   require.resolve('@babel/plugin-transform-exponentiation-operator'),
@@ -18,6 +25,10 @@ const plugins = [
       useBuiltIns: true,
     },
   ],
+  ifAnyDep(
+    'react-universal-component',
+    require.resolve('babel-plugin-universal-import')
+  ),
   // Transforms JSX
   ifAnyDep(
     'react',
@@ -33,7 +44,6 @@ const plugins = [
     require.resolve('@babel/plugin-transform-runtime'),
     {
       helpers: false,
-      polyfill: false,
       regenerator: true,
     },
   ],

@@ -3,6 +3,83 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.43.0"></a>
+# [3.43.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.42.0...v3.43.0) (2018-08-02)
+
+
+### Features
+
+* **read-pkg-up:** export pkg and pkgPath ([e908ee4](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/e908ee4))
+
+
+
+
+<a name="3.42.0"></a>
+# [3.42.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.41.0...v3.42.0) (2018-08-01)
+
+
+### Features
+
+* **read-pkg-up-helpers:** secure get package source and destination fields if the field do not exis ([0887809](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/0887809))
+
+
+
+
+<a name="3.41.0"></a>
+# [3.41.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.37.0...v3.41.0) (2018-08-01)
+
+
+### Features
+
+* **read-pkg-up-helpers:** create getPkgSrc and getPkgSrcDir ([92556ac](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/92556ac))
+
+
+
+
+<a name="3.40.0"></a>
+# [3.40.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.37.0...v3.40.0) (2018-08-01)
+
+
+### Features
+
+* **read-pkg-up-helpers:** create getPkgSrc and getPkgSrcDir ([92556ac](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/92556ac))
+
+
+
+
+<a name="3.39.0"></a>
+# [3.39.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.37.0...v3.39.0) (2018-08-01)
+
+
+### Features
+
+* **read-pkg-up-helpers:** create getPkgSrc and getPkgSrcDir ([92556ac](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/92556ac))
+
+
+
+
+<a name="3.38.0"></a>
+# [3.38.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.37.0...v3.38.0) (2018-08-01)
+
+
+### Features
+
+* **read-pkg-up-helpers:** create getPkgSrc and getPkgSrcDir ([92556ac](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/92556ac))
+
+
+
+
+<a name="3.31.0"></a>
+# [3.31.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.30.3...v3.31.0) (2018-07-04)
+
+
+### Features
+
+* **read-pkg-up-helpers:** create appendToPkg util ([b0071f8](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/b0071f8))
+
+
+
+
 <a name="3.30.0"></a>
 # [3.30.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.29.1...v3.30.0) (2018-06-22)
 
