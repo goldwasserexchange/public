@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/postcss-config/compare/v3.52.0...v4.0.0) (2018-08-22)
+
+
+### Bug Fixes
+
+* **postcss-config:** add preserve option to custom-properties ([211faee](https://github.com/goldwasserexchange/javascript/tree/master/packages/postcss-config/commit/211faee))
+
+
+
+
 <a name="3.52.0"></a>
 # [3.52.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/postcss-config/compare/v3.51.2...v3.52.0) (2018-08-17)
 

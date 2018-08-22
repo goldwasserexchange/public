@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/goldwasserexchange/javascript/compare/v3.52.0...v4.0.0) (2018-08-22)
+
+
+### Bug Fixes
+
+* **postcss-config:** add preserve option to custom-properties ([211faee](https://github.com/goldwasserexchange/javascript/commit/211faee))
+* **webpack-config:** add missing } in webpackPkgConfig ([639070d](https://github.com/goldwasserexchange/javascript/commit/639070d))
+* **webpack-config:** do not run extract-css-chunks-webpack-plugin when target is not web ([7637d44](https://github.com/goldwasserexchange/javascript/commit/7637d44))
+* **webpack-config:** fix webpack config for node projects ([658fdac](https://github.com/goldwasserexchange/javascript/commit/658fdac))
+* **webpack-config:** remove css and chunking from optimization when target is not web ([32ff20e](https://github.com/goldwasserexchange/javascript/commit/32ff20e))
+* **webpack-config:** remove whatwg-fetch entry when target is not web ([ee99eac](https://github.com/goldwasserexchange/javascript/commit/ee99eac))
+* **webpack-config:** use DefinePlugin only when target is web ([74d2e8f](https://github.com/goldwasserexchange/javascript/commit/74d2e8f))
+
+
+### Code Refactoring
+
+* **webpack-config:** rename gwwebpack to gewebpack ([9204a2f](https://github.com/goldwasserexchange/javascript/commit/9204a2f)), closes [#28](https://github.com/goldwasserexchange/javascript/issues/28)
+
+
+### Features
+
+* **inject-eslint-config:** add import/resolver settings for babel-plugin-root-import ([4196f66](https://github.com/goldwasserexchange/javascript/commit/4196f66))
+* **utils:** add awsGetAll ([e391c3d](https://github.com/goldwasserexchange/javascript/commit/e391c3d))
+* **webpack-config:** add support for externals ([d271034](https://github.com/goldwasserexchange/javascript/commit/d271034))
+* **webpack-config:** give default webpack preset that can be overriden from package.json ([4cf1d61](https://github.com/goldwasserexchange/javascript/commit/4cf1d61)), closes [#31](https://github.com/goldwasserexchange/javascript/issues/31)
+* **webpack-config:** support js config files for gewebpack ([7b66e8e](https://github.com/goldwasserexchange/javascript/commit/7b66e8e)), closes [#32](https://github.com/goldwasserexchange/javascript/issues/32)
+
+
+### BREAKING CHANGES
+
+* **webpack-config:** you need to change the gwwebpack key of package.json to gewebpack
+
+
+
+
 <a name="3.52.0"></a>
 # [3.52.0](https://github.com/goldwasserexchange/javascript/compare/v3.51.2...v3.52.0) (2018-08-17)
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.52.0...v4.0.0) (2018-08-22)
+
+
+### Bug Fixes
+
+* **webpack-config:** fix webpack config for node projects ([658fdac](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/commit/658fdac))
+
+
+
+
 <a name="3.43.0"></a>
 # [3.43.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/read-pkg-up-helpers/compare/v3.42.0...v3.43.0) (2018-08-02)
 
