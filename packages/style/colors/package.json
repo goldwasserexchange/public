@@ -1,0 +1,15 @@
+{
+  "name": "@goldwasserexchange/colors",
+  "version": "3.45.6",
+  "description": "the colors used by Goldwasser Exchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/colors",
+  "publishConfig": {
+    "access": "public"
+  }
+}
