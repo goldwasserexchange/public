@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/lint-js/compare/v4.0.2...v4.1.0) (2018-08-23)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/lint-js
+
 <a name="4.0.0"></a>
 # [4.0.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/lint-js/compare/v3.52.0...v4.0.0) (2018-08-22)
 

@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/write-npmrc",
-  "version": "3.45.6",
+  "version": "4.1.0",
   "description": "Writes a .npmrc file in the current directory",
   "main": "index.js",
   "scripts": {

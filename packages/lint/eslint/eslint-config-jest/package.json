@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-jest",
-  "version": "3.45.6",
+  "version": "4.1.0",
   "description": "Goldwasser Exchange ES Lint Jest config",
   "main": "index.js",
   "scripts": {

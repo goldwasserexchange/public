@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/goldwasserexchange/javascript/compare/v4.0.2...v4.1.0) (2018-08-23)
+
+
+### Bug Fixes
+
+* **main package.json:** fix the eslint config path from the main package.json ([5a4d797](https://github.com/goldwasserexchange/javascript/commit/5a4d797))
+
+
+### Features
+
+* **webpack-config:** add .mjs extension to webpack resolve ([9c8595d](https://github.com/goldwasserexchange/javascript/commit/9c8595d))
+
+
+
+
 <a name="4.0.2"></a>
 ## [4.0.2](https://github.com/goldwasserexchange/javascript/compare/v4.0.1...v4.0.2) (2018-08-23)
 

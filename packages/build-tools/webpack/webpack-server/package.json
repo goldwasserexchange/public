@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/webpack-server",
-  "version": "4.0.2",
+  "version": "4.1.0",
   "description": "the webpack server preconfigured with goldwasserexchange defaults",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@goldwasserexchange/read-pkg-up-helpers": "^4.0.0",
-    "@goldwasserexchange/webpack-config": "^4.0.2",
+    "@goldwasserexchange/read-pkg-up-helpers": "^4.1.0",
+    "@goldwasserexchange/webpack-config": "^4.1.0",
     "chalk": "^2.4.1",
     "compression": "^1.7.3",
     "express": "^4.16.3",

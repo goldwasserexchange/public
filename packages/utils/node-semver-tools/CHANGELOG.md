@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/node-semver-tools/compare/v4.0.2...v4.1.0) (2018-08-23)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/node-semver-tools
+
 <a name="3.31.0"></a>
 # [3.31.0](https://github.com/goldwasserexchange/javascript/compare/v3.30.3...v3.31.0) (2018-07-04)
 

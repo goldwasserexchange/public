@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/font-weights",
-  "version": "3.45.6",
+  "version": "4.1.0",
   "description": "the font weights used by Goldwasser Exchange",
   "main": "index.js",
   "scripts": {

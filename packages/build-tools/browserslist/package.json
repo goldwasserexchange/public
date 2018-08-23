@@ -7,7 +7,7 @@
   },
   "author": "Hans Scheuren",
   "license": "MIT",
-  "version": "3.45.6",
+  "version": "4.1.0",
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/browserslist",
   "publishConfig": {
     "access": "public"
