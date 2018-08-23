@@ -85,4 +85,4 @@ browser
 ge__browser
 
 # specific dist directories
-packages/aws-lenses/services
+packages/utils/aws-lenses/services
