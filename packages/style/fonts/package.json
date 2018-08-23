@@ -1,0 +1,15 @@
+{
+  "name": "@goldwasserexchange/fonts",
+  "version": "3.45.6",
+  "description": "the fonts used by Goldwasser Exchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/fonts",
+  "publishConfig": {
+    "access": "public"
+  }
+}
