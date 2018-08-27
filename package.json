@@ -1,6 +1,6 @@
 {
-  "name": "@goldwasserexchange/javascript",
-  "description": "A serie of tools to lint, build and deploy javascript code",
+  "name": "@goldwasserexchange/public",
+  "description": "Goldwasser Exchange's public packages",
   "scripts": {
     "commit": "git-cz",
     "bootstrap": "lerna bootstrap && lerna run postBootstrap",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goldwasserexchange/javascript.git"
+    "url": "git+https://github.com/goldwasserexchange/public.git"
   },
   "devDependencies": {
     "commitizen": "^2.10.0",
@@ -23,9 +23,9 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/goldwasserexchange/javascript/issues"
+    "url": "https://github.com/goldwasserexchange/public/issues"
   },
-  "homepage": "https://github.com/goldwasserexchange/javascript#readme",
+  "homepage": "https://github.com/goldwasserexchange/public#readme",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
