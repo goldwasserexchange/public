@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.2.1"></a>
+## [4.2.1](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/compare/v4.2.0...v4.2.1) (2018-08-31)
+
+
+### Bug Fixes
+
+* **webpack-config:** fix ternary problem in runtimeChunk configuration ([ab757b2](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/commit/ab757b2))
+
+
+
+
 <a name="4.2.0"></a>
 # [4.2.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/compare/v4.1.0...v4.2.0) (2018-08-31)
 
