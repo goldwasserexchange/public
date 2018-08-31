@@ -1,17 +1,21 @@
 const { getPkgSrcDir } = require('@goldwasserexchange/read-pkg-up-helpers');
-
-module.exports = {
-  modules: [getPkgSrcDir(), 'node_modules'],
-  extensions: [
+const {
+  extensions = [
     '.mjs',
     '.js',
     '.jsx',
     '.react.js',
   ],
-  mainFields: [
+  mainFields = [
     'module',
     'jsnext:main',
     'browser',
     'main',
   ],
+} = require('./webpackPkgConfig');
+
+module.exports = {
+  modules: [getPkgSrcDir(), 'node_modules'],
+  extensions,
+  mainFields,
 };
