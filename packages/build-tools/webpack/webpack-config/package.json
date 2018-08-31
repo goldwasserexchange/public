@@ -13,7 +13,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.0.0-rc.1",
+    "@babel/polyfill": "^7.0.0",
     "@goldwasserexchange/babel-preset": "^4.2.0",
     "@goldwasserexchange/node-semver-tools": "^4.1.0",
     "@goldwasserexchange/postcss-config": "^4.2.0",

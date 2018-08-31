@@ -9,7 +9,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@babel/cli": "^7.0.0-rc.1",
+    "@babel/cli": "^7.0.0",
     "@goldwasserexchange/babel-preset": "^4.2.0",
     "@goldwasserexchange/read-pkg-up-helpers": "^4.1.0",
     "cross-env": "^5.1.3",
