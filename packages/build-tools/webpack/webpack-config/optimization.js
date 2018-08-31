@@ -3,7 +3,10 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const { target } = require('./webpackPkgConfig');
 const {
   optimization: {
-    splitChunks,
+    splitChunks = {
+      chunks: 'all',
+      minChunks: 2,
+    },
     runtimeChunk = true,
   } = {},
 } = require('./webpackPkgConfig');
@@ -43,20 +46,14 @@ module.exports = process.env.NODE_ENV === 'production'
       ? {
         splitChunks,
       }
-      : {
-        cacheGroups: {
-          vendor: {
-            test: /node_modules/, // you may add "vendor.js" here if you want to
-            name: 'vendor',
-            chunks: 'initial',
-            enforce: true,
-          },
-        },
-      },
+      : {},
     runtimeChunk == null
       ? {}
       : {
         runtimeChunk,
       }
   )
-  : {};
+  : {
+    splitChunks,
+    runtimeChunk,
+  };
