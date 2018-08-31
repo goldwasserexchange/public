@@ -45,9 +45,9 @@ module.exports = process.env.NODE_ENV === 'production'
       }
       : {},
     runtimeChunk == null
-      ? {
+      ? {}
+      : {
         runtimeChunk,
       }
-      : {}
   )
   : {};
