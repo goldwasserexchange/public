@@ -1,6 +1,12 @@
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const { target } = require('./webpackPkgConfig');
+const {
+  optimization: {
+    splitChunks,
+    runtimeChunk = true,
+  },
+} = require('./webpackPkgConfig');
 
 module.exports = process.env.NODE_ENV === 'production'
   ? Object.assign(
@@ -33,13 +39,14 @@ module.exports = process.env.NODE_ENV === 'production'
         target === 'web' && new OptimizeCSSAssetsPlugin(),
       ].filter(Boolean),
     },
-    target === 'web'
+    splitChunks
       ? {
-        splitChunks: {
-          chunks: 'all',
-          minChunks: 2,
-        },
-        runtimeChunk: true,
+        splitChunks,
+      }
+      : {},
+    runtimeChunk == null
+      ? {
+        runtimeChunk,
       }
       : {}
   )
