@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.2.2"></a>
+## [4.2.2](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-server/compare/v4.2.1...v4.2.2) (2018-08-31)
+
+
+
+
+**Note:** Version bump only for package @goldwasserexchange/webpack-server
+
 <a name="4.2.1"></a>
 ## [4.2.1](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-server/compare/v4.2.0...v4.2.1) (2018-08-31)
 
