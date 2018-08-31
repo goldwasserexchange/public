@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.2.0"></a>
+# [4.2.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/compare/v4.1.0...v4.2.0) (2018-08-31)
+
+
+### Bug Fixes
+
+* **webpack-config:** the .mjs extension should be the first resolverd ([2ed4baa](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/commit/2ed4baa))
+
+
+### Features
+
+* **webpack-config:** make extensions and mainFields configurable ([5cc487e](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/commit/5cc487e))
+* **webpack-config:** make optimization.splitChunks and optimization.runTimeChunk configurable ([390afd5](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/commit/390afd5))
+
+
+
+
 <a name="4.1.0"></a>
 # [4.1.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/compare/v4.0.2...v4.1.0) (2018-08-23)
 
