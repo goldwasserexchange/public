@@ -9,4 +9,4 @@ phases:
 
 cache:
   paths:
-    - ${HOME}/.npm
+    - ${HOME}/.npm/**/*
