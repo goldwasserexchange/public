@@ -5,7 +5,7 @@ const {
   optimization: {
     splitChunks,
     runtimeChunk = true,
-  },
+  } = {},
 } = require('./webpackPkgConfig');
 
 module.exports = process.env.NODE_ENV === 'production'
