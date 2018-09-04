@@ -9,7 +9,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "^8.0.2",
+    "babel-eslint": "^9.0.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.7.0"
   },
