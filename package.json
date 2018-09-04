@@ -1,12 +1,15 @@
 {
   "name": "@goldwasserexchange/public",
   "description": "Goldwasser Exchange's public packages",
+  "private": true,
+  "workspaces": [
+    "packages/**/*"
+  ],
   "scripts": {
     "commit": "git-cz",
-    "bootstrap": "lerna bootstrap && lerna run postBootstrap",
+    "build": "lerna run build",
     "publish": "lerna publish --conventional-commits",
-    "lint:js": "cross-env NODE_ENV=test ge-scripts lint-js --cache-location lint_cache/.eslintcache",
-    "test": "npm run lint:js",
+    "lint": "ge-scripts lint-js --cache-location lint_cache/.eslintcache",
     "lerna": "lerna"
   },
   "repository": {
@@ -15,9 +18,8 @@
   },
   "devDependencies": {
     "commitizen": "^2.10.0",
-    "cross-env": "^5.2.0",
     "cz-lerna-changelog": "^1.2.1",
-    "ge-scripts": "^3.29.1",
+    "ge-scripts": "^4.2.0",
     "lerna": "^2.5.1"
   },
   "author": "Hans Scheuren",
@@ -32,16 +34,6 @@
     }
   },
   "eslintConfig": {
-    "extends": "./packages/lint/eslint/eslint-config/index.js",
-    "overrides": [
-      {
-        "files": [
-          "packages/**/scripts/*.js"
-        ],
-        "rules": {
-          "import/no-extraneous-dependencies": 0
-        }
-      }
-    ]
+    "extends": "@goldwasserexchange"
   }
 }
