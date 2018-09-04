@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=production BABEL_TARGET=node ge-scripts babel",
-    "prepublishOnly": "npm run build",
-    "postBootstrap": "npm run prepublishOnly"
+    "prepublishOnly": "npm run build"
   },
   "engines": {
     "node": ">=8.10"
