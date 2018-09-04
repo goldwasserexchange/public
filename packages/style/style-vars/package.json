@@ -22,7 +22,7 @@
     "@goldwasserexchange/font-weights": "^4.1.0",
     "@goldwasserexchange/fonts": "^4.1.0",
     "@goldwasserexchange/sizes": "^4.2.0",
-    "cross-env": "^5.1.1",
+    "cross-env": "^5.2.0",
     "ge-scripts": "^4.2.0"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/style-vars",
