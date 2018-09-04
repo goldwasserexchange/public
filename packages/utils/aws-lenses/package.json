@@ -30,10 +30,6 @@
     "@goldwasserexchange/utils": "^4.2.0",
     "ramda": "^0.25.0"
   },
-  "devDependencies": {
-    "cross-env": "^5.2.0",
-    "ge-scripts": "^4.2.0"
-  },
   "publishConfig": {
     "access": "public"
   }

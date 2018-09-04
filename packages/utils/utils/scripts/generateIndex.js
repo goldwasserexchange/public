@@ -1,6 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import { reject, equals, pipe, map, join, concat, __ } from 'ramda';
+const fs = require('fs');
+const path = require('path');
+const {
+  reject, equals, pipe, map, join, concat, __,
+} = require('ramda');
 
 const listFiles = () => fs.readdirSync(path.join(process.cwd(), 'src'));
 const removeIndex = reject(equals('index.js'));

@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test": "cross-env NODE_ENV=test BABEL_ES_TARGET=commonjs jest --coverage --collectCoverageFrom **/src/*.js --collectCoverageFrom !**/src/index.js",
-    "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs babel-node ./scripts/generateIndex",
+    "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs node ./scripts/generateIndex",
     "build": "npm run generate-index && cross-env NODE_ENV=production BABEL_TARGET=node ge-scripts babel",
     "prepublishOnly": "npm run build"
   },
@@ -33,15 +33,6 @@
     "json-stringify-safe": "^5.0.1",
     "ramda": "^0.25.0",
     "serialize-error": "^2.1.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/node": "^7.0.0",
-    "@goldwasserexchange/babel-preset": "^4.2.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "cross-env": "^5.2.0",
-    "ge-scripts": "^4.2.0",
-    "jest": "^23.5.0"
   },
   "publishConfig": {
     "access": "public"
