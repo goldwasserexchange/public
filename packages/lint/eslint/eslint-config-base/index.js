@@ -17,7 +17,4 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: [
-    'import',
-  ],
 };
