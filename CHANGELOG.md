@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.4.0"></a>
+# [4.4.0](https://github.com/goldwasserexchange/public/compare/v4.3.1...v4.4.0) (2018-09-05)
+
+
+### Features
+
+* **jest-config:** create jest-config package ([cdeb699](https://github.com/goldwasserexchange/public/commit/cdeb699))
+* **node-semver-tools:** update node versions ([e8c8dcd](https://github.com/goldwasserexchange/public/commit/e8c8dcd))
+
+
+
+
 <a name="4.3.1"></a>
 ## [4.3.1](https://github.com/goldwasserexchange/public/compare/v4.3.0...v4.3.1) (2018-08-31)
 

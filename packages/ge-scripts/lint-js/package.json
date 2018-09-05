@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/lint-js",
-  "version": "4.1.0",
+  "version": "4.4.0",
   "description": "a common script to preconfigure and use eslint",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "@goldwasserexchange/eslint-config": "^4.1.0",
-    "@goldwasserexchange/read-pkg-up-helpers": "^4.1.0",
+    "@goldwasserexchange/eslint-config": "^4.4.0",
+    "@goldwasserexchange/read-pkg-up-helpers": "^4.4.0",
     "cross-spawn": "^5.1.0",
     "eslint": "^4.10.0",
     "yargs-parser": "^8.0.0"

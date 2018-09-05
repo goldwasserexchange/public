@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-ramda",
-  "version": "4.1.0",
+  "version": "4.4.0",
   "description": "Goldwasser Exchange ES Lint Ramda config",
   "main": "index.js",
   "scripts": {
