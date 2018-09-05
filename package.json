@@ -6,6 +6,7 @@
     "packages/**/*"
   ],
   "scripts": {
+    "precommit": "lint-staged",
     "commit": "git-cz",
     "build": "lerna run build",
     "publish": "lerna publish --conventional-commits",
@@ -29,6 +30,7 @@
     "isomorphic-fetch": "^2.2.1",
     "jest": "^23.5.0",
     "lerna": "^2.5.1",
+    "lint-staged": "^7.2.2",
     "require-dir": "^0.3.2"
   },
   "author": "Hans Scheuren",
@@ -44,5 +46,10 @@
   },
   "eslintConfig": {
     "extends": "@goldwasserexchange"
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn lint"
+    ]
   }
 }
