@@ -17,9 +17,7 @@ module.exports = {
     es6: true,
   },
   plugins: [
-    'import',
     ifAnyDep('redux-saga', 'redux-saga'),
-    ifAnyDep('react', 'react'),
     ifAnyDep('react', 'jsx-a11y'),
   ].filter(Boolean),
   parserOptions: {

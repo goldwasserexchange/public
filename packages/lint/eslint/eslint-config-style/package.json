@@ -8,12 +8,8 @@
   },
   "author": "Hans Scheuren",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^4.10.0",
-    "eslint-config-airbnb-base": "^12.1.0"
-  },
-  "peerDependencies": {
-    "eslint": "^4.10.0",
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
     "eslint-config-airbnb-base": "^12.1.0"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-style",

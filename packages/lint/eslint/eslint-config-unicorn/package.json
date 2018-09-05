@@ -8,12 +8,8 @@
   },
   "author": "Hans Scheuren",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^4.12.1",
-    "eslint-plugin-unicorn": "^3.0.0"
-  },
   "dependencies": {
-    "eslint": "^4.12.1",
+    "babel-eslint": "^9.0.0",
     "eslint-plugin-unicorn": "^3.0.0"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-unicorn",

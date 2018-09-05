@@ -12,9 +12,6 @@
   "dependencies": {
     "semver": "^5.4.1"
   },
-  "devDependencies": {
-    "isomorphic-fetch": "^2.2.1"
-  },
   "publishConfig": {
     "access": "public"
   },

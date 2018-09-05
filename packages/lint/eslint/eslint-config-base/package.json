@@ -8,19 +8,11 @@
   },
   "author": "Hans Scheuren",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@goldwasserexchange/eslint-config-import": "^4.1.0",
     "@goldwasserexchange/eslint-config-style": "^4.1.0",
-    "eslint": "^4.10.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.7.0"
-  },
-  "peerDependencies": {
-    "@goldwasserexchange/eslint-config-import": "^3.14.3",
-    "@goldwasserexchange/eslint-config-style": "^3.14.3",
-    "eslint": "^4.10.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.7.0"
+    "babel-eslint": "^9.0.0",
+    "eslint-config-airbnb-base": "^12.1.0"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-base",
   "publishConfig": {
