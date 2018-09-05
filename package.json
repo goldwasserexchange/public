@@ -10,6 +10,8 @@
     "build": "lerna run build",
     "publish": "lerna publish --conventional-commits",
     "lint": "ge-scripts lint-js --cache-location lint_cache/.eslintcache",
+    "jest": "jest",
+    "test": "yarn lint && yarn jest",
     "lerna": "lerna"
   },
   "repository": {
@@ -17,9 +19,8 @@
     "url": "git+https://github.com/goldwasserexchange/public.git"
   },
   "devDependencies": {
+    "@goldwasserexchange/jest-config": "^0.0.0",
     "@goldwasserexchange/utils": "^4.2.0",
-    "@babel/core": "^7.0.0",
-    "babel-core": "^7.0.0-bridge.0",
     "commitizen": "^2.10.0",
     "cross-env": "^5.2.0",
     "cz-lerna-changelog": "^1.2.1",

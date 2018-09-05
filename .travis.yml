@@ -6,6 +6,6 @@ cache:
 install:
   - yarn
 before_script:
-  - yarn run build
+  - yarn build
 script:
-  - yarn run lint
+  - yarn test
