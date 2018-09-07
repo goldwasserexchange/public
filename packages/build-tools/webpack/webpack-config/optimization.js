@@ -5,9 +5,8 @@ const {
   optimization: {
     splitChunks = {
       chunks: 'all',
-      minChunks: 2,
     },
-    runtimeChunk = true,
+    runtimeChunk = target === 'web',
   } = {},
 } = require('./webpackPkgConfig');
 
