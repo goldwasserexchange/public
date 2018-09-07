@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.5.0"></a>
+# [4.5.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/compare/v4.4.0...v4.5.0) (2018-09-07)
+
+
+### Features
+
+* **webpack-config:** remove minChunks and set runtimeChunk only for web ([a4120e3](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/commit/a4120e3))
+
+
+
+
 <a name="4.4.0"></a>
 # [4.4.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/compare/v4.3.1...v4.4.0) (2018-09-05)
 
