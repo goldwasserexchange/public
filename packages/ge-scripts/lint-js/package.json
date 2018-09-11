@@ -11,7 +11,7 @@
   "dependencies": {
     "@goldwasserexchange/eslint-config": "^4.4.0",
     "@goldwasserexchange/read-pkg-up-helpers": "^4.4.0",
-    "cross-spawn": "^5.1.0",
+    "cross-spawn": "^6.0.5",
     "eslint": "^4.10.0",
     "yargs-parser": "^8.0.0"
   },

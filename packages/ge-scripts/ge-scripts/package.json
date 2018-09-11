@@ -16,7 +16,7 @@
   "dependencies": {
     "@goldwasserexchange/babel": "^4.4.0",
     "@goldwasserexchange/lint-js": "^4.4.0",
-    "cross-spawn": "^5.1.0",
+    "cross-spawn": "^6.0.5",
     "ramda": "^0.25.0"
   },
   "bin": {
