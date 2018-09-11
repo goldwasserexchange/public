@@ -1,13 +1,13 @@
 {
   "name": "@goldwasserexchange/jest-config",
-  "version": "4.4.0",
+  "version": "4.6.0",
   "description": "Jest config",
   "main": "index.js",
   "author": "Jonathan Goldwasser",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.0.0",
-    "@goldwasserexchange/babel-preset": "^4.4.0",
+    "@goldwasserexchange/babel-preset": "^4.6.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0"
   },
