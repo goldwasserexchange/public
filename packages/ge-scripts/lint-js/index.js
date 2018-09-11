@@ -8,20 +8,18 @@ const here = p => path.join(__dirname, p);
 const hereRelative = p => here(p).replace(process.cwd(), '.');
 const parsedArgs = yargsParser(args);
 
-const useBuiltinConfig =
-  !args.includes('--config') &&
-  !hasFile('.eslintrc') &&
-  !hasFile('.eslintrc.js') &&
-  !hasPkgProp('eslintConfig');
+const useBuiltinConfig = !args.includes('--config')
+  && !hasFile('.eslintrc')
+  && !hasFile('.eslintrc.js')
+  && !hasPkgProp('eslintConfig');
 
 const config = useBuiltinConfig
   ? ['--config', hereRelative('./config/eslintrc.js')]
   : [];
 
-const useBuiltinIgnore =
-  !args.includes('--ignore-path') &&
-  !hasFile('.eslintignore') &&
-  !hasPkgProp('eslintIgnore');
+const useBuiltinIgnore = !args.includes('--ignore-path')
+  && !hasFile('.eslintignore')
+  && !hasPkgProp('eslintIgnore');
 
 const ignore = useBuiltinIgnore
   ? ['--ignore-path', '.gitignore']

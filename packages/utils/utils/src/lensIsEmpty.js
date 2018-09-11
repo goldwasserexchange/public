@@ -1,4 +1,6 @@
-import { pipe, view, isEmpty, curry } from 'ramda';
+import {
+  pipe, view, isEmpty, curry,
+} from 'ramda';
 
 const lensIsEmpty = (lens, obj) => pipe(
   view(lens),

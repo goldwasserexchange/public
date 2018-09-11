@@ -62,4 +62,3 @@ module.exports = target === 'web' && new WebpackPwaManifest(Object.assign(
   },
   pkgManifest,
 ));
-

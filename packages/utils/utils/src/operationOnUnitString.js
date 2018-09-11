@@ -1,4 +1,6 @@
-import { curry, pipe, juxt, replace, join } from 'ramda';
+import {
+  curry, pipe, juxt, replace, join,
+} from 'ramda';
 
 const operationOnUnit = curry((f, unitString) => pipe(
   juxt([

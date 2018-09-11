@@ -1,4 +1,6 @@
-import { lensProp, compose, lensIndex, lens } from 'ramda';
+import {
+  lensProp, compose, lensIndex, lens,
+} from 'ramda';
 import { safeParse } from '@goldwasserexchange/utils';
 
 export const records = lensProp('Records');

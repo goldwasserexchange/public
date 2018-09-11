@@ -1,6 +1,6 @@
 const webpack = require('webpack');
-const { target, defineEnv = [] } = require('../../webpackPkgConfig');
 const { isEmpty } = require('ramda');
+const { target, defineEnv = [] } = require('../../webpackPkgConfig');
 
 const definedEnv = defineEnv.reduce(
   (acc, item) => Object.assign({}, acc, { [item]: JSON.stringify(process.env[item]) }),

@@ -1,4 +1,6 @@
-import { pipe, replace, when, test } from 'ramda';
+import {
+  pipe, replace, when, test,
+} from 'ramda';
 
 export default pipe(
   replace(/[^\d+]/g, ''),

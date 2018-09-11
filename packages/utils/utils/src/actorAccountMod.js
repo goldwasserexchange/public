@@ -1,4 +1,6 @@
-import { pipe, take, mathMod, __ } from 'ramda';
+import {
+  pipe, take, mathMod, __,
+} from 'ramda';
 import parseInt10 from './parseInt10';
 import onlyDigits from './onlyDigits';
 

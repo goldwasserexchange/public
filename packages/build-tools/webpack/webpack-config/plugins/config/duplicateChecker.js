@@ -3,4 +3,3 @@ const DuplicatePackageCheckerPlugin = require('duplicate-package-checker-webpack
 module.exports = new DuplicatePackageCheckerPlugin({
   verbose: true,
 });
-

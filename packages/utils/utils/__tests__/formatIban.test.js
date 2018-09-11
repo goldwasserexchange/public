@@ -5,4 +5,3 @@ test('formatIban', () => {
   const expected = 'BE54 2100 2998 7297';
   expect(formatIban(iban)).toBe(expected);
 });
-

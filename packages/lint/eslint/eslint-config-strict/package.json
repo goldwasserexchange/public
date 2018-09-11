@@ -11,7 +11,7 @@
   "dependencies": {
     "@goldwasserexchange/eslint-config-base": "^4.4.0",
     "babel-eslint": "^9.0.0",
-    "eslint-config-airbnb-base": "^12.1.0"
+    "eslint-config-airbnb-base": "^13.1.0"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-strict",
   "publishConfig": {

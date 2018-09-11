@@ -1,4 +1,6 @@
-import { when, test, compose, toUpper, pipe, map, join, __, equals } from 'ramda';
+import {
+  when, test, compose, toUpper, pipe, map, join, __, equals,
+} from 'ramda';
 import removeSpaces from './removeSpaces';
 import moveCharsToEnd from './moveCharsToEnd';
 import stringModulo from './stringModulo';

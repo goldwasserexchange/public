@@ -1,4 +1,6 @@
-import { view, lt, pipe, curry } from 'ramda';
+import {
+  view, lt, pipe, curry,
+} from 'ramda';
 
 const lensLt = (lens, value, obj) => pipe(
   view(lens),

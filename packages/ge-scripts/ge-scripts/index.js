@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 const spawn = require('cross-spawn');
-const messages = require('./messages');
 const { set, lensProp, view } = require('ramda');
+const messages = require('./messages');
 
 const [executor, , script, ...args] = process.argv;
 

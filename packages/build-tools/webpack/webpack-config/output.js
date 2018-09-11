@@ -1,10 +1,10 @@
 const path = require('path');
-const generateName = require('./utils/generateName');
 const {
   getPkgMainDir,
   getPkgModuleDir,
   getPkgBrowserDir,
 } = require('@goldwasserexchange/read-pkg-up-helpers');
+const generateName = require('./utils/generateName');
 
 module.exports = { // Compile into js/build.js
   path: path.resolve(process.cwd(), getPkgMainDir() || getPkgModuleDir() || getPkgBrowserDir() || 'build'),

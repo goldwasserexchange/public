@@ -12,8 +12,8 @@
     "@goldwasserexchange/eslint-config": "^4.4.0",
     "@goldwasserexchange/read-pkg-up-helpers": "^4.4.0",
     "cross-spawn": "^6.0.5",
-    "eslint": "^4.10.0",
-    "yargs-parser": "^8.0.0"
+    "eslint": "^5.5.0",
+    "yargs-parser": "^10.1.0"
   },
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/lint-js",
   "publishConfig": {

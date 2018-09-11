@@ -1,4 +1,6 @@
-import { unless, is, always, curry } from 'ramda';
+import {
+  unless, is, always, curry,
+} from 'ramda';
 
 const defaultToEmptyString = unless(is(String), always(''));
 

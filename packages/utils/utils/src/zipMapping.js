@@ -1,4 +1,6 @@
-import { pipe, props, values, zipObj, keys } from 'ramda';
+import {
+  pipe, props, values, zipObj, keys,
+} from 'ramda';
 
 const zipMapping = mapping => pipe(
   props(values(mapping)),

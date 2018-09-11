@@ -1,4 +1,6 @@
-import { curry, type, map, pipe, keys, reduce, assoc, prop } from 'ramda';
+import {
+  curry, type, map, pipe, keys, reduce, assoc, prop,
+} from 'ramda';
 import round from './round';
 
 const roundObject = curry((d, obj) => {
