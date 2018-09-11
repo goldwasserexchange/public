@@ -9,7 +9,7 @@
     "@babel/core": "^7.0.0",
     "@goldwasserexchange/babel-preset": "^4.4.0",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.4.2"
+    "babel-jest": "^23.6.0"
   },
   "repository": "https://github.com/goldwasserexchange/public/tree/master/packages/test/jest-config",
   "publishConfig": {
