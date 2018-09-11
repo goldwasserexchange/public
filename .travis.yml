@@ -3,9 +3,13 @@ node_js:
   - 10
 cache:
   yarn: true
+before_install: yarn global add greenkeeper-lockfile@2
 install:
   - yarn
 before_script:
+  - greenkeeper-lockfile-update
   - yarn build
 script:
   - yarn test
+after_script:
+  - greenkeeper-lockfile-upload
