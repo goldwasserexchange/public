@@ -1,0 +1,40 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/build-tools/babel-preset/package.json",
+        "packages/build-tools/browserslist/package.json",
+        "packages/build-tools/postcss-config/package.json",
+        "packages/build-tools/webpack/replace-in-chunk-webpack-plugin/package.json",
+        "packages/build-tools/webpack/webpack-config/package.json",
+        "packages/build-tools/webpack/webpack-server/package.json",
+        "packages/ge-scripts/babel/package.json",
+        "packages/ge-scripts/ge-scripts/package.json",
+        "packages/ge-scripts/inject-eslint-config/package.json",
+        "packages/ge-scripts/lint-js/package.json",
+        "packages/lint/eslint/eslint-config-base/package.json",
+        "packages/lint/eslint/eslint-config-import/package.json",
+        "packages/lint/eslint/eslint-config-jest/package.json",
+        "packages/lint/eslint/eslint-config-ramda/package.json",
+        "packages/lint/eslint/eslint-config-react/package.json",
+        "packages/lint/eslint/eslint-config-strict/package.json",
+        "packages/lint/eslint/eslint-config-style/package.json",
+        "packages/lint/eslint/eslint-config-unicorn/package.json",
+        "packages/lint/eslint/eslint-config/package.json",
+        "packages/style/color-scales/package.json",
+        "packages/style/colors/package.json",
+        "packages/style/font-weights/package.json",
+        "packages/style/fonts/package.json",
+        "packages/style/media-queries/package.json",
+        "packages/style/sizes/package.json",
+        "packages/style/style-vars/package.json",
+        "packages/utils/aws-lenses/package.json",
+        "packages/utils/node-semver-tools/package.json",
+        "packages/utils/read-pkg-up-helpers/package.json",
+        "packages/utils/utils/package.json",
+        "packages/utils/write-npmrc/package.json"
+      ]
+    }
+  }
+}

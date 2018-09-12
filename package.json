@@ -24,12 +24,12 @@
     "@goldwasserexchange/utils": "^4.4.0",
     "commitizen": "^2.10.0",
     "cross-env": "^5.2.0",
-    "cz-lerna-changelog": "^1.2.1",
+    "cz-conventional-changelog": "^2.1.0",
     "fs-extra": "^7.0.0",
     "ge-scripts": "^4.4.0",
     "isomorphic-fetch": "^2.2.1",
     "jest": "^23.6.0",
-    "lerna": "^2.5.1",
+    "lerna": "^3.3.0",
     "lint-staged": "^7.2.2",
     "require-dir": "^1.0.0"
   },
@@ -41,7 +41,7 @@
   "homepage": "https://github.com/goldwasserexchange/public#readme",
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-lerna-changelog"
+      "path": "cz-conventional-changelog"
     }
   },
   "eslintConfig": {
