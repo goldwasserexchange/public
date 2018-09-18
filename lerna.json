@@ -2,6 +2,16 @@
   "packages": [
     "packages/**"
   ],
+  "command": {
+    "create": {
+      "homepage": "https://github.com/goldwasserexchange/public",
+      "license": "MIT"
+    },
+    "publish": {
+      "allowBranch": "master",
+      "conventionalCommits": true
+    }
+  },
   "version": "4.7.0",
   "useWorkspaces": true,
   "npmClient": "yarn"

@@ -9,7 +9,7 @@
     "precommit": "lint-staged",
     "commit": "git-cz",
     "build": "lerna run build",
-    "publish": "lerna publish --conventional-commits",
+    "publish": "lerna publish",
     "lint": "ge-scripts lint-js --cache-location lint_cache/.eslintcache",
     "jest": "jest",
     "test": "yarn lint && yarn jest",
