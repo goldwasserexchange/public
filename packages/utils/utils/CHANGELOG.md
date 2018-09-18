@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.7.0"></a>
+# [4.7.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/utils/compare/v4.6.1...v4.7.0) (2018-09-18)
+
+
+### Bug Fixes
+
+* **utils:** add missing addInvokeRejectOnFnError export ([8b126da](https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/utils/commit/8b126da))
+
+
+### Features
+
+* **utils:** add addInvokeRejectOnFnError ([72d8852](https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/utils/commit/72d8852))
+
+
+
+
+
 <a name="4.6.0"></a>
 # [4.6.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/utils/compare/v4.5.0...v4.6.0) (2018-09-11)
 

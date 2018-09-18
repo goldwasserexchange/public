@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.7.0"></a>
+# [4.7.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/compare/v4.6.1...v4.7.0) (2018-09-18)
+
+
+### Features
+
+* **webpack-config:** switch to terser-webpack-plugin ([0b9f45f](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/commit/0b9f45f))
+
+
+
+
+
 <a name="4.6.1"></a>
 ## [4.6.1](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/compare/v4.6.0...v4.6.1) (2018-09-12)
 
