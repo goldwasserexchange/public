@@ -1,5 +1,6 @@
 export { default as actorAccountCommunication } from './actorAccountCommunication';
 export { default as actorAccountMod } from './actorAccountMod';
+export { default as addInvokeRejectOnFnError } from './addInvokeRejectOnFnError';
 export { default as awsEvent } from './awsEvent';
 export { default as awsGetAll } from './awsGetAll';
 export { default as combine } from './combine';
