@@ -1,4 +1,4 @@
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const { target } = require('./webpackPkgConfig');
 const {
@@ -15,8 +15,8 @@ module.exports = process.env.NODE_ENV === 'production'
     {},
     {
       minimizer: [
-        new UglifyJsPlugin({
-          uglifyOptions: {
+        new TerserPlugin({
+          terserOptions: {
             parse: {
               ecma: 8,
             },
