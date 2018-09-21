@@ -1,23 +1,38 @@
 {
   "name": "@goldwasserexchange/public",
-  "description": "Goldwasser Exchange's public packages",
   "private": true,
-  "workspaces": [
-    "packages/**/*"
-  ],
-  "scripts": {
-    "precommit": "lint-staged",
-    "commit": "git-cz",
-    "build": "lerna run build",
-    "publish": "lerna publish",
-    "lint": "ge-scripts lint-js --cache-location lint_cache/.eslintcache",
-    "jest": "jest",
-    "test": "yarn lint && yarn jest",
-    "lerna": "lerna"
+  "description": "Goldwasser Exchange's public packages",
+  "homepage": "https://github.com/goldwasserexchange/public#readme",
+  "bugs": {
+    "url": "https://github.com/goldwasserexchange/public/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
+  "license": "MIT",
+  "author": "Hans Scheuren",
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "precommit": "lint-staged",
+    "commit": "git-cz",
+    "jest": "jest",
+    "lerna": "lerna",
+    "lint": "ge-scripts lint-js --cache-location lint_cache/.eslintcache",
+    "publish": "lerna publish",
+    "sort": "sort-package-json && lerna exec sort-package-json",
+    "test": "yarn lint && yarn jest"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "eslintConfig": {
+    "extends": "@goldwasserexchange"
   },
   "devDependencies": {
     "@goldwasserexchange/jest-config": "^4.4.0",
@@ -31,21 +46,8 @@
     "jest": "^23.6.0",
     "lerna": "^3.3.0",
     "lint-staged": "^7.2.2",
-    "require-dir": "^1.0.0"
-  },
-  "author": "Hans Scheuren",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/goldwasserexchange/public/issues"
-  },
-  "homepage": "https://github.com/goldwasserexchange/public#readme",
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "eslintConfig": {
-    "extends": "@goldwasserexchange"
+    "require-dir": "^1.0.0",
+    "sort-package-json": "^1.15.0"
   },
   "lint-staged": {
     "*.js": [

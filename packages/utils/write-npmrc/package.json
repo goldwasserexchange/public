@@ -2,19 +2,19 @@
   "name": "@goldwasserexchange/write-npmrc",
   "version": "4.1.0",
   "description": "Writes a .npmrc file in the current directory",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "Jonathan Goldwasser",
-  "license": "MIT",
-  "bin": {
-    "write-npmrc": "./index.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/write-npmrc"
+  },
+  "license": "MIT",
+  "author": "Jonathan Goldwasser",
+  "main": "index.js",
+  "bin": {
+    "write-npmrc": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
     "access": "public"

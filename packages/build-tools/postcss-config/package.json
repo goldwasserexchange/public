@@ -2,12 +2,13 @@
   "name": "@goldwasserexchange/postcss-config",
   "version": "4.7.0",
   "description": "the postcss configuration for Goldwasser Exchange",
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/postcss-config",
+  "license": "MIT",
+  "author": "Hans Scheuren",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Hans Scheuren",
-  "license": "MIT",
   "dependencies": {
     "@goldwasserexchange/browserslist": "^4.1.0",
     "@goldwasserexchange/media-queries": "^4.4.0",
@@ -17,7 +18,6 @@
     "postcss-preset-env": "^5.3.0",
     "postcss-reporter": "^6.0.0"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/postcss-config",
   "publishConfig": {
     "access": "public"
   }

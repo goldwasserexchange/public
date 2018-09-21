@@ -2,24 +2,24 @@
   "name": "@goldwasserexchange/color-scales",
   "version": "4.6.0",
   "description": "the color scales used by Goldwasser Exchange",
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/color-scales",
+  "license": "MIT",
+  "author": "Hans Scheuren",
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
-  "engines": {
-    "node": ">=6.10"
-  },
   "scripts": {
     "build": "cross-env NODE_ENV=production ge-scripts babel",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/color-scales",
-  "author": "Hans Scheuren",
-  "license": "MIT",
   "dependencies": {
     "@goldwasserexchange/colors": "^4.1.0",
     "cross-env": "^5.2.0",
     "ge-scripts": "^4.6.0"
+  },
+  "engines": {
+    "node": ">=6.10"
   },
   "publishConfig": {
     "access": "public"

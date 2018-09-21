@@ -2,21 +2,21 @@
   "name": "@goldwasserexchange/media-queries",
   "version": "4.4.0",
   "description": "the media queries used by Goldwasser Exchange",
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/media-queries",
+  "license": "MIT",
+  "author": "Hans Scheuren",
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
-  "engines": {
-    "node": ">=6.10"
-  },
   "scripts": {
     "build": "cross-env NODE_ENV=production ge-scripts babel",
     "generate": "node ./scripts/generate",
     "prepublishOnly": "npm run generate && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Hans Scheuren",
-  "license": "MIT",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/media-queries",
+  "engines": {
+    "node": ">=6.10"
+  },
   "publishConfig": {
     "access": "public"
   }

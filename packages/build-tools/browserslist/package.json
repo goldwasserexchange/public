@@ -1,14 +1,14 @@
 {
   "name": "@goldwasserexchange/browserslist",
+  "version": "4.1.0",
   "description": "the shared browserslist used by Goldwasser Exchange",
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/browserslist",
+  "license": "MIT",
+  "author": "Hans Scheuren",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Hans Scheuren",
-  "license": "MIT",
-  "version": "4.1.0",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/browserslist",
   "publishConfig": {
     "access": "public"
   }

@@ -2,17 +2,17 @@
   "name": "@goldwasserexchange/eslint-config-ramda",
   "version": "4.4.0",
   "description": "Goldwasser Exchange ES Lint Ramda config",
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-ramda",
+  "license": "MIT",
+  "author": "Hans Scheuren",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Hans Scheuren",
-  "license": "MIT",
   "dependencies": {
     "babel-eslint": "^9.0.0",
     "eslint-plugin-ramda": "^2.5.1"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-ramda",
   "publishConfig": {
     "access": "public"
   }

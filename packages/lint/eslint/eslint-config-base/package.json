@@ -2,19 +2,19 @@
   "name": "@goldwasserexchange/eslint-config-base",
   "version": "4.6.0",
   "description": "Goldwasser Exchange ES Lint base config\"",
+  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-base",
+  "license": "MIT",
+  "author": "Hans Scheuren",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Hans Scheuren",
-  "license": "MIT",
   "dependencies": {
     "@goldwasserexchange/eslint-config-import": "^4.6.0",
     "@goldwasserexchange/eslint-config-style": "^4.6.0",
     "babel-eslint": "^9.0.0",
     "eslint-config-airbnb-base": "^13.1.0"
   },
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-base",
   "publishConfig": {
     "access": "public"
   }
