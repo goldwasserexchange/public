@@ -12,7 +12,7 @@
   "dependencies": {
     "@goldwasserexchange/eslint-config-import": "^4.6.0",
     "@goldwasserexchange/eslint-config-style": "^4.6.0",
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.0",
     "eslint-config-airbnb-base": "^13.1.0"
   },
   "publishConfig": {
