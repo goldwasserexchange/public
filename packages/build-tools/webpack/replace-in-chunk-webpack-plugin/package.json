@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/replace-in-chunk-webpack-plugin",
-  "version": "4.1.0",
+  "version": "4.7.3",
   "description": "Webpack plugin to search and replace in a specific chunk",
   "repository": {
     "type": "git",

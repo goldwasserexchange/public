@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.7.3"></a>
+## [4.7.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/inject-eslint-config/compare/v4.7.2...v4.7.3) (2018-10-03)
+
+**Note:** Version bump only for package @goldwasserexchange/inject-eslint-config
+
+
+
+
+
 <a name="4.6.0"></a>
 # [4.6.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/inject-eslint-config/compare/v4.5.0...v4.6.0) (2018-09-11)
 

@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/webpack-config",
-  "version": "4.7.2",
+  "version": "4.7.3",
   "description": "the common webpack configuration for goldwasser exchange",
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config",
   "license": "MIT",
@@ -12,10 +12,10 @@
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
-    "@goldwasserexchange/babel-preset": "^4.6.0",
-    "@goldwasserexchange/node-semver-tools": "^4.6.0",
-    "@goldwasserexchange/postcss-config": "^4.7.0",
-    "@goldwasserexchange/read-pkg-up-helpers": "^4.6.0",
+    "@goldwasserexchange/babel-preset": "^4.7.3",
+    "@goldwasserexchange/node-semver-tools": "^4.7.3",
+    "@goldwasserexchange/postcss-config": "^4.7.3",
+    "@goldwasserexchange/read-pkg-up-helpers": "^4.7.3",
     "babel-loader": "^8.0.2",
     "case-sensitive-paths-webpack-plugin": "^2.1.2",
     "copy-webpack-plugin": "^4.5.2",

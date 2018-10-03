@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.7.3"></a>
+## [4.7.3](https://github.com/goldwasserexchange/public/compare/v4.7.2...v4.7.3) (2018-10-03)
+
+**Note:** Version bump only for package @goldwasserexchange/public
+
+
+
+
+
 <a name="4.7.2"></a>
 ## [4.7.2](https://github.com/goldwasserexchange/public/compare/v4.7.1...v4.7.2) (2018-09-20)
 

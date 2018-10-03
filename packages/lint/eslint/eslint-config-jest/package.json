@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-jest",
-  "version": "4.4.0",
+  "version": "4.7.3",
   "description": "Goldwasser Exchange ES Lint Jest config",
   "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-jest",
   "license": "MIT",

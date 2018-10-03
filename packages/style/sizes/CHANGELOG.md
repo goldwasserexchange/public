@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.7.3"></a>
+## [4.7.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/style/widths/compare/v4.7.2...v4.7.3) (2018-10-03)
+
+**Note:** Version bump only for package @goldwasserexchange/sizes
+
+
+
+
+
 <a name="4.7.0"></a>
 # [4.7.0](https://github.com/goldwasserexchange/javascript/tree/master/packages/style/widths/compare/v4.6.1...v4.7.0) (2018-09-18)
 
