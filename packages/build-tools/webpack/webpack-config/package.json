@@ -33,7 +33,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.0",
     "postcss-loader": "3.0.0",
     "ramda": "^0.25.0",
-    "react-dev-utils": "6.0.3",
+    "react-dev-utils": "6.0.4",
     "speed-measure-webpack-plugin": "^1.2.2",
     "terser-webpack-plugin": "^1.1.0",
     "unused-files-webpack-plugin": "^3.4.0",
