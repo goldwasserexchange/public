@@ -18,6 +18,7 @@ const friendlyErrors = require('./config/friendlyErrors');
 const duplicateChecker = require('./config/duplicateChecker');
 const pwaManifest = require('./config/pwaManifest');
 const webpackDashboard = require('./config/webpackDashboard');
+const sriPlugin = require('./config/sriPlugin');
 
 module.exports = [
   webpackDashboard,
@@ -40,4 +41,5 @@ module.exports = [
   normalModuleReplacementPlugin,
   copyPlugin,
   concatPlugin,
+  sriPlugin,
 ].filter(Boolean);

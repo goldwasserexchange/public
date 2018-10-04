@@ -11,4 +11,5 @@ module.exports = { // Compile into js/build.js
   publicPath: process.env.PUBLIC_URL || '/',
   filename: generateName('.js'),
   chunkFilename: generateName('.chunk.js'),
+  crossOriginLoading: 'anonymous',
 };
