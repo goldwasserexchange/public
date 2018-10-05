@@ -21,7 +21,9 @@
     "commit": "git-cz",
     "jest": "jest",
     "lerna": "lerna",
-    "lint": "ge-scripts lint-js --cache-location lint_cache/.eslintcache",
+    "lint": "yarn lint:pkg && yarn lint:js",
+    "lint:js": "ge-scripts lint-js --cache-location lint_cache/.eslintcache",
+    "lint:pkg": "npmPkgJsonLint ./packages",
     "publish": "lerna publish",
     "sort": "sort-package-json && lerna exec sort-package-json",
     "test": "yarn lint && yarn jest"
@@ -46,12 +48,19 @@
     "jest": "^23.6.0",
     "lerna": "^3.4.1",
     "lint-staged": "^7.2.2",
+    "npm-package-json-lint": "^3.3.1",
     "require-dir": "^1.0.0",
     "sort-package-json": "^1.15.0"
   },
   "lint-staged": {
     "*.js": [
-      "yarn lint"
+      "yarn lint:js"
+    ],
+    "packages/**/package.json": [
+      "yarn lint:pkg"
     ]
+  },
+  "npmPackageJsonLintConfig": {
+    "extends": "./packages/lint/npm-package-json-lint/npm-package-json-lint-config/index.js"
   }
 }
