@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/color-scales",
   "version": "4.7.3",
-  "description": "the color scales used by Goldwasser Exchange",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/color-scales",
+  "description": "The color scales used by Goldwasser Exchange",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "lib/index.js",

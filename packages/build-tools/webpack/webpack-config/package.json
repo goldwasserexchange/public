@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/webpack-config",
   "version": "4.7.3",
-  "description": "the common webpack configuration for goldwasser exchange",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config",
+  "description": "The common webpack configuration for goldwasser exchange",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",

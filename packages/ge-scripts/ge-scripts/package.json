@@ -2,7 +2,11 @@
   "name": "ge-scripts",
   "version": "4.7.3",
   "description": "CLI toolbox for common scripts for Goldwasser Exchange",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/ge-scripts",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",

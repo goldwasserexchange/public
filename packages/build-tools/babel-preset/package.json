@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/babel-preset",
   "version": "4.7.3",
-  "description": "the babel preset for Goldwasser Exchange projects",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/babel-preset",
+  "description": "The babel preset for Goldwasser Exchange projects",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",

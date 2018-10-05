@@ -7,7 +7,7 @@
     "npm-package-json-lint-config",
     "npm-package-json-lintconfig"
   ],
-  "homepage": "https://github.com/goldwasserexchange/public/tree/master/packages/lint/npm-package-json-lint/npm-package-json-lint-config#readme",
+  "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goldwasserexchange/public.git"

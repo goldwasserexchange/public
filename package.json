@@ -2,7 +2,7 @@
   "name": "@goldwasserexchange/public",
   "private": true,
   "description": "Goldwasser Exchange's public packages",
-  "homepage": "https://github.com/goldwasserexchange/public#readme",
+  "homepage": "https://github.com/goldwasserexchange/public",
   "bugs": {
     "url": "https://github.com/goldwasserexchange/public/issues"
   },

@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/fonts",
   "version": "4.7.3",
-  "description": "the fonts used by Goldwasser Exchange",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/fonts",
+  "description": "The fonts used by Goldwasser Exchange",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",

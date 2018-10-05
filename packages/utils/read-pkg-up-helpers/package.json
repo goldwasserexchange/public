@@ -2,7 +2,11 @@
   "name": "@goldwasserexchange/read-pkg-up-helpers",
   "version": "4.7.3",
   "description": "A serie of utilities to get info from the closest package.json going up in the directory tree",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/read-pkg-up-helpers",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",
