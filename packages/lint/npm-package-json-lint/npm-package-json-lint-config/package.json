@@ -1,0 +1,27 @@
+{
+  "name": "npm-package-json-lint-config",
+  "version": "4.7.3",
+  "description": "Config for npm-package-json-lint",
+  "keywords": [
+    "npm-package-json-lint",
+    "npm-package-json-lint-config",
+    "npm-package-json-lintconfig"
+  ],
+  "homepage": "https://github.com/goldwasserexchange/public/tree/master/packages/lint/npm-package-json-lint/npm-package-json-lint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
+  "license": "MIT",
+  "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "npm-package-json-lint-config-default": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
