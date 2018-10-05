@@ -57,7 +57,7 @@
       "yarn lint:js"
     ],
     "packages/**/package.json": [
-      "yarn lint:pkg"
+      "npmPkgJsonLint"
     ]
   },
   "npmPackageJsonLintConfig": {
