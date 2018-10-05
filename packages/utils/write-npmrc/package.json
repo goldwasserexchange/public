@@ -3,9 +3,10 @@
   "version": "4.7.3",
   "description": "Writes a .npmrc file in the current directory",
   "keywords": [],
+  "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
     "type": "git",
-    "url": "https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/write-npmrc"
+    "url": "git+https://github.com/goldwasserexchange/public.git"
   },
   "license": "MIT",
   "author": "Jonathan Goldwasser",

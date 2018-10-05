@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/babel",
   "version": "4.7.3",
-  "description": "a common script to preconfigure and use babel",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/babel",
+  "description": "A common script to preconfigure and use babel",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",

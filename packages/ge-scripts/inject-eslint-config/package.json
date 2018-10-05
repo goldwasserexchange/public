@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/inject-eslint-config",
   "version": "4.7.3",
-  "description": "a script to inject the extends of our eslint config in the root package.json",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/inject-eslint-config",
+  "description": "A script to inject the extends of our eslint config in the root package.json",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",
