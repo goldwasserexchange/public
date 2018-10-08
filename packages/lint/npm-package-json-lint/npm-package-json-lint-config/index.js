@@ -9,6 +9,9 @@ module.exports = {
       'MIT',
       'UNLICENSED',
     ]],
+    'valid-values-name-scope': ['error', [
+      '@goldwasserexchange',
+    ]],
     'valid-values-publishConfig': ['error', [
       { access: 'public' },
     ]],

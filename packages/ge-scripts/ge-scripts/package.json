@@ -29,5 +29,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "npmPackageJsonLintConfig": {
+    "rules": {
+      "valid-values-name-scope": "off"
+    }
   }
 }
