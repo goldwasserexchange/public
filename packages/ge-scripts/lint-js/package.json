@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/lint-js",
-  "version": "4.7.3",
+  "version": "4.8.0",
   "description": "A common script to preconfigure and use eslint",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -14,8 +14,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@goldwasserexchange/eslint-config": "^4.7.3",
-    "@goldwasserexchange/read-pkg-up-helpers": "^4.7.3",
+    "@goldwasserexchange/eslint-config": "^4.8.0",
+    "@goldwasserexchange/read-pkg-up-helpers": "^4.8.0",
     "cross-spawn": "^6.0.5",
     "eslint": "^5.5.0",
     "yargs-parser": "^10.1.0"

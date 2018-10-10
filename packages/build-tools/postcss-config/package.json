@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/postcss-config",
-  "version": "4.7.3",
+  "version": "4.8.0",
   "description": "The postcss configuration for Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -14,9 +14,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@goldwasserexchange/browserslist": "^4.7.3",
-    "@goldwasserexchange/media-queries": "^4.7.3",
-    "@goldwasserexchange/style-vars": "^4.7.3",
+    "@goldwasserexchange/browserslist": "^4.8.0",
+    "@goldwasserexchange/media-queries": "^4.8.0",
+    "@goldwasserexchange/style-vars": "^4.8.0",
     "lost": "^8.2.0",
     "postcss-focus": "^4.0.0",
     "postcss-preset-env": "^6.0.10",
