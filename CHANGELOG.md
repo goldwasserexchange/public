@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.9.1"></a>
+## [4.9.1](https://github.com/goldwasserexchange/public/compare/v4.9.0...v4.9.1) (2018-10-11)
+
+
+### Bug Fixes
+
+* **inject-eslint-config:** remove redux-saga linting because of rule not found problems ([b7bb244](https://github.com/goldwasserexchange/public/commit/b7bb244))
+
+
+
+
+
 <a name="4.9.0"></a>
 # [4.9.0](https://github.com/goldwasserexchange/public/compare/v4.8.0...v4.9.0) (2018-10-11)
 
