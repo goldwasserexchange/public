@@ -12,6 +12,7 @@ const addEsLintConfig = pkg => ({
     {
       extends: [
         getPath('@goldwasserexchange/eslint-config'),
+        // TODO: readd redux saga
         ifAnyDepGetPath('react', '@goldwasserexchange/eslint-config-react'),
         ifAnyDepGetPath('react', 'eslint-config-airbnb/rules/react-a11y'),
         ifAnyDepGetPath('ramda', '@goldwasserexchange/eslint-config-ramda'),
