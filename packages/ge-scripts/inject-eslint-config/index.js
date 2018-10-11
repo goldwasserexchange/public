@@ -1,23 +1,23 @@
 const path = require('path');
 
-const { appendToPkg, getPkgSrcDir } = require('@goldwasserexchange/read-pkg-up-helpers');
+const { appendToPkg, ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 
-const esLintConfigPath = path.relative(process.cwd(), require.resolve('@goldwasserexchange/eslint-config'));
+const getPath = configName => path.relative(process.cwd(), require.resolve(configName));
+const ifAnyDepGetPath = (deps, configName) => ifAnyDep(deps, getPath(configName));
 
 const addEsLintConfig = pkg => ({
   eslintConfig: Object.assign(
     {},
     pkg.eslintConfig || {},
     {
-      extends: esLintConfigPath,
-      settings: {
-        'import/resolver': {
-          'babel-plugin-root-import': {
-            rootPathPrefix: '#',
-            rootPathSuffix: getPkgSrcDir(),
-          },
-        },
-      },
+      extends: [
+        getPath('@goldwasserexchange/eslint-config'),
+        ifAnyDep('redux-saga', 'plugin:redux-saga/recommended'),
+        ifAnyDepGetPath('react', '@goldwasserexchange/eslint-config-react'),
+        ifAnyDepGetPath('react', 'eslint-config-airbnb/rules/react-a11y'),
+        ifAnyDepGetPath('ramda', '@goldwasserexchange/eslint-config-ramda'),
+        ifAnyDepGetPath('jest', '@goldwasserexchange/eslint-config-jest'),
+      ].filter(Boolean),
     }
   ),
 });
