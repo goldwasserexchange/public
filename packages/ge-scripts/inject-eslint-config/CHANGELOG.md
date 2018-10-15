@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.10.0](https://github.com/goldwasserexchange/public/compare/v4.9.2...v4.10.0) (2018-10-15)
+
+
+### Features
+
+* **eslint-config:** auto select overrides from lerna ([#78](https://github.com/goldwasserexchange/public/issues/78)) ([e9f8c0f](https://github.com/goldwasserexchange/public/commit/e9f8c0f))
+
+
+
+
+
 <a name="4.9.2"></a>
 ## [4.9.2](https://github.com/goldwasserexchange/public/compare/v4.9.1...v4.9.2) (2018-10-11)
 

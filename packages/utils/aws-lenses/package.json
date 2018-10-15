@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/aws-lenses",
-  "version": "4.8.0",
+  "version": "4.10.0",
   "description": "Ramda lenses for AWS Lambda events",
   "keywords": [
     "aws",

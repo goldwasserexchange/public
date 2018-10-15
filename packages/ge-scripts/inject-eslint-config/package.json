@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/inject-eslint-config",
-  "version": "4.9.2",
+  "version": "4.10.0",
   "description": "A script to inject the extends of our eslint config in the root package.json",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
