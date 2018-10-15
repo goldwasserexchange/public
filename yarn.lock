@@ -8340,9 +8340,9 @@ npm-package-json-lint-config-default@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/npm-package-json-lint-config-default/-/npm-package-json-lint-config-default-2.0.0.tgz#3d93f7ec8d85ce5e4a795269a752634c0aced8b3"
 
-npm-package-json-lint@^3.3.1:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/npm-package-json-lint/-/npm-package-json-lint-3.4.0.tgz#731ce3032ad5dbe291cac935ceef5b243282ebfa"
+npm-package-json-lint@^3.4.0:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/npm-package-json-lint/-/npm-package-json-lint-3.4.1.tgz#7a5cc61d2f35f4811e45bed2536e774f6dbbe4ab"
   dependencies:
     ajv "^6.5.4"
     chalk "^2.4.1"
@@ -8353,9 +8353,9 @@ npm-package-json-lint@^3.3.1:
     log-symbols "^2.2.0"
     meow "^5.0.0"
     plur "^3.0.1"
-    semver "^5.5.1"
+    semver "^5.6.0"
     strip-json-comments "^2.0.1"
-    validator "^10.5.0"
+    validator "^10.8.0"
 
 npm-packlist@^1.1.10, npm-packlist@^1.1.6:
   version "1.1.11"
@@ -10509,6 +10509,10 @@ semver@^4.0.3:
   version "4.3.6"
   resolved "https://registry.yarnpkg.com/semver/-/semver-4.3.6.tgz#300bc6e0e86374f7ba61068b5b1ecd57fc6532da"
 
+semver@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
+
 semver@~5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
@@ -11829,7 +11833,7 @@ validate-npm-package-name@^3.0.0:
   dependencies:
     builtins "^1.0.3"
 
-validator@^10.5.0:
+validator@^10.8.0:
   version "10.8.0"
   resolved "https://registry.yarnpkg.com/validator/-/validator-10.8.0.tgz#8acb15a5c39411cbc8ef2be0c98c2514da4410a7"
 
