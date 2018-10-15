@@ -24,6 +24,7 @@ const {
   contains,
   reject,
   isEmpty,
+  uniq,
 } = require('ramda');
 
 const readAndParse = unary(pipe(
@@ -54,8 +55,8 @@ const extender = exts => pipe(
   reduce(
     (acc, { rules = {}, plugins = [], extends: extendsArr = [] }) => ({
       plugins: [...acc.plugins, ...plugins],
-      rules: { ...rules, ...acc.rules },
-      extends: [...acc.extends, ...arrify(extendsArr)],
+      rules: { ...acc.rules, ...rules },
+      extends: uniq([...acc.extends, ...arrify(extendsArr)]),
     }),
     {
       plugins: [],
@@ -71,8 +72,8 @@ const mergeExtender = ({
   const resolvedExtends = extender(exts);
   return {
     ...config,
-    rules: { ...resolvedExtends.rules, ...rules },
-    plugins: [...plugins, ...resolvedExtends.plugins],
+    rules: { ...rules, ...resolvedExtends.rules },
+    plugins: uniq([...plugins, ...resolvedExtends.plugins]),
     extends: resolvedExtends.extends,
   };
 };
