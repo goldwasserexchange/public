@@ -53,26 +53,34 @@ const filterLibraries = (libsMap) => {
 const extender = exts => pipe(
   map(require),
   reduce(
-    (acc, { rules = {}, plugins = [], extends: extendsArr = [] }) => ({
+    (acc, {
+      rules = {},
+      plugins = [],
+      extends: extendsArr = [],
+      settings = {},
+    }) => ({
       plugins: [...acc.plugins, ...plugins],
-      rules: { ...acc.rules, ...rules },
+      rules: { ...rules, ...acc.rules },
+      settings: { ...settings, ...acc.settings },
       extends: uniq([...acc.extends, ...arrify(extendsArr)]),
     }),
     {
       plugins: [],
       rules: {},
+      settings: {},
       extends: [],
     }
   ),
 )(exts);
 
 const mergeExtender = ({
-  rules = {}, plugins = [], extends: exts = [], ...config
+  rules = {}, plugins = [], extends: exts = [], settings = {}, ...config
 }) => {
   const resolvedExtends = extender(exts);
   return {
     ...config,
-    rules: { ...rules, ...resolvedExtends.rules },
+    rules: { ...resolvedExtends.rules, ...rules },
+    settings: { ...resolvedExtends.settings, ...settings },
     plugins: uniq([...plugins, ...resolvedExtends.plugins]),
     extends: resolvedExtends.extends,
   };
