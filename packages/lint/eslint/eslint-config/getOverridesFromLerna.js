@@ -57,7 +57,7 @@ const extender = exts => pipe(
       rules = {},
       plugins = [],
       extends: extendsArr = [],
-      settings = {}
+      settings = {},
     }) => ({
       plugins: [...acc.plugins, ...plugins],
       rules: { ...rules, ...acc.rules },
