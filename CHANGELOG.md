@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.11.1](https://github.com/goldwasserexchange/public/compare/v4.11.0...v4.11.1) (2018-10-16)
+
+
+### Bug Fixes
+
+* **eslint-config:** fix lerna rules extend order ([#79](https://github.com/goldwasserexchange/public/issues/79)) ([ffd4783](https://github.com/goldwasserexchange/public/commit/ffd4783))
+
+
+
+
+
 # [4.11.0](https://github.com/goldwasserexchange/public/compare/v4.10.0...v4.11.0) (2018-10-15)
 
 

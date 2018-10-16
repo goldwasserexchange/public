@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/style-vars",
-  "version": "4.10.0",
+  "version": "4.11.1",
   "description": "The style variables used by Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -24,7 +24,7 @@
     "@goldwasserexchange/fonts": "^4.8.0",
     "@goldwasserexchange/sizes": "^4.8.0",
     "cross-env": "^5.2.0",
-    "ge-scripts": "^4.10.0"
+    "ge-scripts": "^4.11.1"
   },
   "engines": {
     "node": ">=6.10"
