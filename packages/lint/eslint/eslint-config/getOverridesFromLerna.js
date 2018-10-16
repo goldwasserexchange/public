@@ -53,7 +53,12 @@ const filterLibraries = (libsMap) => {
 const extender = exts => pipe(
   map(require),
   reduce(
-    (acc, { rules = {}, plugins = [], extends: extendsArr = [], settings = {} }) => ({
+    (acc, {
+      rules = {},
+      plugins = [],
+      extends: extendsArr = [],
+      settings = {}
+    }) => ({
       plugins: [...acc.plugins, ...plugins],
       rules: { ...rules, ...acc.rules },
       settings: { ...settings, ...acc.settings },
