@@ -7,6 +7,13 @@ const styleVars = require('@goldwasserexchange/style-vars').default;
 const mediaQueries = require('@goldwasserexchange/media-queries').default;
 
 const browsers = require('@goldwasserexchange/browserslist');
+const addDashes = obj => Object.keys(obj).reduce(
+  (acc, key) => ({
+    ...acc,
+    [`--${key}`]: obj[key],
+  }),
+  {}
+);
 
 module.exports = () => ({
   plugins: [
@@ -16,11 +23,19 @@ module.exports = () => ({
       stage: 2,
       features: {
         'custom-properties': {
-          variables: styleVars,
+          importFrom: [
+            () => ({
+              customProperties: addDashes(styleVars),
+            }),
+          ],
           preserve: false,
         },
         'custom-media-queries': {
-          extensions: mediaQueries,
+          importFrom: [
+            () => ({
+              customMedia: addDashes(mediaQueries),
+            }),
+          ],
         },
       },
     }),

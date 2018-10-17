@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.10.0](https://github.com/goldwasserexchange/public/compare/v4.9.2...v4.10.0) (2018-10-15)
+
+
+### Features
+
+* **eslint-config:** auto select overrides from lerna ([#78](https://github.com/goldwasserexchange/public/issues/78)) ([e9f8c0f](https://github.com/goldwasserexchange/public/commit/e9f8c0f))
+
+
+
+
+
+<a name="4.8.0"></a>
+# [4.8.0](https://github.com/goldwasserexchange/public/compare/v4.7.3...v4.8.0) (2018-10-10)
+
+**Note:** Version bump only for package @goldwasserexchange/aws-lenses
+
+
+
+
+
 <a name="4.7.3"></a>
 ## [4.7.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/aws-lenses/compare/v4.7.2...v4.7.3) (2018-10-03)
 

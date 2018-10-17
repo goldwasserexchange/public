@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/sizes",
-  "version": "4.7.3",
+  "version": "4.8.0",
   "description": "The sizes used by Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -14,8 +14,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@goldwasserexchange/media-queries": "^4.7.3",
-    "@goldwasserexchange/utils": "^4.7.3"
+    "@goldwasserexchange/media-queries": "^4.8.0",
+    "@goldwasserexchange/utils": "^4.8.0"
   },
   "publishConfig": {
     "access": "public"

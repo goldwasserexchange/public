@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/node-semver-tools",
-  "version": "4.7.3",
+  "version": "4.8.0",
   "description": "A series of tools to use the semver package with preloaded versions of node",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {

@@ -3,6 +3,91 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.11.1](https://github.com/goldwasserexchange/public/compare/v4.11.0...v4.11.1) (2018-10-16)
+
+
+### Bug Fixes
+
+* **eslint-config:** fix lerna rules extend order ([#79](https://github.com/goldwasserexchange/public/issues/79)) ([ffd4783](https://github.com/goldwasserexchange/public/commit/ffd4783))
+
+
+
+
+
+# [4.11.0](https://github.com/goldwasserexchange/public/compare/v4.10.0...v4.11.0) (2018-10-15)
+
+
+### Features
+
+* **npm-packagejson-lint-config:** enable prefer-property-order using order from sort-package-json ([6d913f4](https://github.com/goldwasserexchange/public/commit/6d913f4))
+
+
+
+
+
+# [4.10.0](https://github.com/goldwasserexchange/public/compare/v4.9.2...v4.10.0) (2018-10-15)
+
+
+### Features
+
+* **eslint-config:** auto select overrides from lerna ([#78](https://github.com/goldwasserexchange/public/issues/78)) ([e9f8c0f](https://github.com/goldwasserexchange/public/commit/e9f8c0f))
+
+
+
+
+
+<a name="4.9.2"></a>
+## [4.9.2](https://github.com/goldwasserexchange/public/compare/v4.9.1...v4.9.2) (2018-10-11)
+
+**Note:** Version bump only for package @goldwasserexchange/public
+
+
+
+
+
+<a name="4.9.1"></a>
+## [4.9.1](https://github.com/goldwasserexchange/public/compare/v4.9.0...v4.9.1) (2018-10-11)
+
+
+### Bug Fixes
+
+* **inject-eslint-config:** remove redux-saga linting because of rule not found problems ([b7bb244](https://github.com/goldwasserexchange/public/commit/b7bb244))
+
+
+
+
+
+<a name="4.9.0"></a>
+# [4.9.0](https://github.com/goldwasserexchange/public/compare/v4.8.0...v4.9.0) (2018-10-11)
+
+
+### Features
+
+* **inject-eslint-config:** create eslint extends based on dependencies and remove the module resolv ([1e406e1](https://github.com/goldwasserexchange/public/commit/1e406e1))
+
+
+
+
+
+<a name="4.8.0"></a>
+# [4.8.0](https://github.com/goldwasserexchange/public/compare/v4.7.3...v4.8.0) (2018-10-10)
+
+
+### Bug Fixes
+
+* **package:** update react-dev-utils to version 6.0.4 ([#68](https://github.com/goldwasserexchange/public/issues/68)) ([17cf793](https://github.com/goldwasserexchange/public/commit/17cf793))
+* **postcss-config:** update postcss-preset-env to v6 and adapt config ([#77](https://github.com/goldwasserexchange/public/issues/77)) ([d25f332](https://github.com/goldwasserexchange/public/commit/d25f332))
+
+
+### Features
+
+* **npm-package-json-lint-config:** add package npm-package-json-lint-config ([3047c38](https://github.com/goldwasserexchange/public/commit/3047c38))
+* **npm-package-json-lint-config:** enable valid-values-name-scope rule ([0a3433d](https://github.com/goldwasserexchange/public/commit/0a3433d))
+
+
+
+
+
 <a name="4.7.3"></a>
 ## [4.7.3](https://github.com/goldwasserexchange/public/compare/v4.7.2...v4.7.3) (2018-10-03)
 

@@ -1,3 +1,5 @@
+const { sortOrder } = require('sort-package-json');
+
 module.exports = {
   extends: require.resolve('npm-package-json-lint-config-default'),
   rules: {
@@ -8,6 +10,9 @@ module.exports = {
     'valid-values-license': ['error', [
       'MIT',
       'UNLICENSED',
+    ]],
+    'valid-values-name-scope': ['error', [
+      '@goldwasserexchange',
     ]],
     'valid-values-publishConfig': ['error', [
       { access: 'public' },
@@ -20,5 +25,6 @@ module.exports = {
     'description-format': ['error', {
       requireCapitalFirstLetter: true,
     }],
+    'prefer-property-order': ['error', sortOrder],
   },
 };
