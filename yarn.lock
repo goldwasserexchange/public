@@ -3259,6 +3259,11 @@ cliui@^4.0.0:
     strip-ansi "^4.0.0"
     wrap-ansi "^2.0.0"
 
+cloc@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/cloc/-/cloc-2.3.4.tgz#55856ed82068d4ba108af78dee8bff72eb6a4073"
+  integrity sha512-3h2sgA+MMF6zdy09s7WzU1rmNpvm3w5j99M+wtysTgT+JMQESCQqmxMIAHr6aufkXfRg7HjAAFhx9VPi2bZogA==
+
 clone-stats@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/clone-stats/-/clone-stats-0.0.1.tgz#b88f94a82cf38b8791d58046ea4029ad88ca99d1"
