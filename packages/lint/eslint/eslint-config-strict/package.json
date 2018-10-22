@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/eslint-config-strict",
-  "version": "4.7.3",
+  "version": "4.8.0",
   "description": "Goldwasser Exchange ES Lint strict config",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-strict",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",
@@ -10,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@goldwasserexchange/eslint-config-base": "^4.7.3",
+    "@goldwasserexchange/eslint-config-base": "^4.8.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0"
   },

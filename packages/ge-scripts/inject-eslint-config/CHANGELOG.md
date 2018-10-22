@@ -3,6 +3,59 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.10.0](https://github.com/goldwasserexchange/public/compare/v4.9.2...v4.10.0) (2018-10-15)
+
+
+### Features
+
+* **eslint-config:** auto select overrides from lerna ([#78](https://github.com/goldwasserexchange/public/issues/78)) ([e9f8c0f](https://github.com/goldwasserexchange/public/commit/e9f8c0f))
+
+
+
+
+
+<a name="4.9.2"></a>
+## [4.9.2](https://github.com/goldwasserexchange/public/compare/v4.9.1...v4.9.2) (2018-10-11)
+
+**Note:** Version bump only for package @goldwasserexchange/inject-eslint-config
+
+
+
+
+
+<a name="4.9.1"></a>
+## [4.9.1](https://github.com/goldwasserexchange/public/compare/v4.9.0...v4.9.1) (2018-10-11)
+
+
+### Bug Fixes
+
+* **inject-eslint-config:** remove redux-saga linting because of rule not found problems ([b7bb244](https://github.com/goldwasserexchange/public/commit/b7bb244))
+
+
+
+
+
+<a name="4.9.0"></a>
+# [4.9.0](https://github.com/goldwasserexchange/public/compare/v4.8.0...v4.9.0) (2018-10-11)
+
+
+### Features
+
+* **inject-eslint-config:** create eslint extends based on dependencies and remove the module resolv ([1e406e1](https://github.com/goldwasserexchange/public/commit/1e406e1))
+
+
+
+
+
+<a name="4.8.0"></a>
+# [4.8.0](https://github.com/goldwasserexchange/public/compare/v4.7.3...v4.8.0) (2018-10-10)
+
+**Note:** Version bump only for package @goldwasserexchange/inject-eslint-config
+
+
+
+
+
 <a name="4.7.3"></a>
 ## [4.7.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/inject-eslint-config/compare/v4.7.2...v4.7.3) (2018-10-03)
 

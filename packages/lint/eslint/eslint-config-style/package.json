@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/eslint-config-style",
-  "version": "4.7.3",
+  "version": "4.8.0",
   "description": "Goldwasser Exchange ES Lint code style config",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-style",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",

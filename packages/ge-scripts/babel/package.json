@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/babel",
-  "version": "4.7.3",
-  "description": "a common script to preconfigure and use babel",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/ge-scripts/babel",
+  "version": "4.8.0",
+  "description": "A common script to preconfigure and use babel",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",
@@ -12,8 +16,8 @@
   "dependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
-    "@goldwasserexchange/babel-preset": "^4.7.3",
-    "@goldwasserexchange/read-pkg-up-helpers": "^4.7.3",
+    "@goldwasserexchange/babel-preset": "^4.8.0",
+    "@goldwasserexchange/read-pkg-up-helpers": "^4.8.0",
     "cross-env": "^5.2.0",
     "cross-spawn": "^6.0.5",
     "rimraf": "^2.6.2"
