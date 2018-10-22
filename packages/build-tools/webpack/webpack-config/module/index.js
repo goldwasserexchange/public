@@ -3,6 +3,7 @@ const cssRules = require('./cssRules');
 const imageRules = require('./imageRules');
 const htmlRules = require('./htmlRules');
 const videoRules = require('./videoRules');
+const pugRules = require('./pugRules');
 const fallbackRules = require('./fallbackRules');
 
 module.exports = {
@@ -16,6 +17,7 @@ module.exports = {
         cssRules,
         htmlRules,
         videoRules,
+        pugRules,
         fallbackRules,
       ],
     },
