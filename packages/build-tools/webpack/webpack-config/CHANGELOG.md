@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.12.0](https://github.com/goldwasserexchange/public/compare/v4.11.1...v4.12.0) (2018-10-23)
+
+
+### Bug Fixes
+
+* **webpack-config:** enable jarvis, dashboard and workbox plugins only when target is web ([#71](https://github.com/goldwasserexchange/public/issues/71)) ([5e6de50](https://github.com/goldwasserexchange/public/commit/5e6de50)), closes [#63](https://github.com/goldwasserexchange/public/issues/63)
+* **webpack-config:** use browser in mainFields only when target is web ([#84](https://github.com/goldwasserexchange/public/issues/84)) ([815b9eb](https://github.com/goldwasserexchange/public/commit/815b9eb))
+
+
+### Features
+
+* **webpack-config:** add pug loader ([#76](https://github.com/goldwasserexchange/public/issues/76)) ([2b40853](https://github.com/goldwasserexchange/public/commit/2b40853)), closes [#75](https://github.com/goldwasserexchange/public/issues/75)
+
+
+
+
+
 ## [4.11.1](https://github.com/goldwasserexchange/public/compare/v4.11.0...v4.11.1) (2018-10-16)
 
 **Note:** Version bump only for package @goldwasserexchange/webpack-config

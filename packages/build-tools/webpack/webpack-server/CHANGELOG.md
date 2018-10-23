@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.12.0](https://github.com/goldwasserexchange/public/compare/v4.11.1...v4.12.0) (2018-10-23)
+
+**Note:** Version bump only for package @goldwasserexchange/webpack-server
+
+
+
+
+
 ## [4.11.1](https://github.com/goldwasserexchange/public/compare/v4.11.0...v4.11.1) (2018-10-16)
 
 **Note:** Version bump only for package @goldwasserexchange/webpack-server
