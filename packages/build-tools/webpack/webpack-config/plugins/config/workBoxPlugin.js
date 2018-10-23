@@ -4,7 +4,7 @@ const {
 const WorkboxPlugin = require('workbox-webpack-plugin');
 
 const stringArrayToRegexArray = require('../../utils/stringArrayToRegexArray');
-const { workbox: workboxConfig = {} } = require('../../webpackPkgConfig');
+const { target, workbox: workboxConfig = {} } = require('../../webpackPkgConfig');
 
 const workBoxConfigInclude = workboxConfig.include || {};
 
@@ -25,7 +25,7 @@ const dontCacheBustUrlsMatching = {
     : null,
 };
 
-module.exports = process.env.NODE_ENV === 'production' && !(isEmpty(workboxConfig) || isNil(workboxConfig)) && new WorkboxPlugin.InjectManifest(Object.assign(
+module.exports = target === 'web' && process.env.NODE_ENV === 'production' && !(isEmpty(workboxConfig) || isNil(workboxConfig)) && new WorkboxPlugin.InjectManifest(Object.assign(
   {},
   workboxConfig,
   {

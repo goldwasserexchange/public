@@ -1,3 +1,4 @@
 const DashboardPlugin = require('webpack-dashboard/plugin');
+const { target } = require('../../webpackPkgConfig');
 
-module.exports = new DashboardPlugin();
+module.exports = target === 'web' && new DashboardPlugin();
