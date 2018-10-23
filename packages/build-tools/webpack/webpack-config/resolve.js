@@ -1,5 +1,6 @@
 const { getPkgSrcDir } = require('@goldwasserexchange/read-pkg-up-helpers');
 const {
+  target,
   extensions = [
     '.mjs',
     '.js',
@@ -10,9 +11,9 @@ const {
   mainFields = [
     'module',
     'jsnext:main',
-    'browser',
+    target === 'web' && 'browser',
     'main',
-  ],
+  ].filter(Boolean),
 } = require('./webpackPkgConfig');
 
 module.exports = {
