@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/webpack-config",
-  "version": "4.12.0",
+  "version": "4.12.1",
   "description": "The common webpack configuration for goldwasser exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {

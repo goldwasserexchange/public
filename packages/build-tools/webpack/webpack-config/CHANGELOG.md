@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.12.1](https://github.com/goldwasserexchange/public/compare/v4.12.0...v4.12.1) (2018-10-23)
+
+
+### Bug Fixes
+
+* **webpack-config:** fix define env config ([#86](https://github.com/goldwasserexchange/public/issues/86)) ([1eb0026](https://github.com/goldwasserexchange/public/commit/1eb0026)), closes [#85](https://github.com/goldwasserexchange/public/issues/85)
+
+
+
+
+
 # [4.12.0](https://github.com/goldwasserexchange/public/compare/v4.11.1...v4.12.0) (2018-10-23)
 
 
