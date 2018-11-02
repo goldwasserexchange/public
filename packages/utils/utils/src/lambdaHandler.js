@@ -15,7 +15,7 @@ const lambdaHandler = ({
   logError = T,
   logErrorTransform = identity,
   rethrow = F,
-  errorTransform = identity,
+  errorTransform = ({ error }) => error,
 } = {}) => handler => async (event, context, callback) => {
   try {
     if (returnEarly(event)) return event;
@@ -31,12 +31,12 @@ const lambdaHandler = ({
     if (logResponse({ event, validEvent, response })) logger('Response', logResponseTransform(response));
 
     return response;
-  } catch (err) {
-    if (logError({ event, err })) logger('Error', logErrorTransform(err));
+  } catch (error) { // eslint-disable-line unicorn/catch-error-name
+    if (logError({ event, error })) logger('Error', logErrorTransform(error));
 
-    if (rethrow({ event, err })) throw errorTransform({ event, err }); // Rejects
+    if (rethrow({ event, error })) throw errorTransform({ event, error }); // Rejects
 
-    return errorTransform({ event, err }); // Resolves
+    return errorTransform({ event, error }); // Resolves
   }
 };
 

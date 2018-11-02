@@ -14,8 +14,8 @@ const validateEvent = jest.fn(() => validEvent);
 const context = { context: 'context' };
 const callback = jest.fn();
 
-const err = new Error('UnkownError');
-const errorHandler = () => Promise.reject(err);
+const error = new Error('UnkownError');
+const errorHandler = () => Promise.reject(error);
 
 const logger = jest.fn();
 
@@ -167,25 +167,25 @@ describe('lambdaHandler', () => {
     it('should check for log', async () => {
       const logError = jest.fn();
       await lambdaHandler({ logError })(errorHandler)(event);
-      expect(logError).toHaveBeenCalledWith({ event, err });
+      expect(logError).toHaveBeenCalledWith({ event, error });
     });
 
     it('should log the error by default', async () => {
       await lambdaHandler({ logger })(errorHandler)(event);
-      expect(logger).toHaveBeenCalledWith('Error', err);
+      expect(logger).toHaveBeenCalledWith('Error', error);
     });
 
     it('should not log the error', async () => {
       const logError = F;
       await lambdaHandler({ logger, logError })(errorHandler)(event);
-      expect(logger).not.toHaveBeenCalledWith('Error', err);
+      expect(logger).not.toHaveBeenCalledWith('Error', error);
     });
 
     it('should transform the error', async () => {
       const logErrorTransform = jest.fn(() => 'error');
       await lambdaHandler({ logger, logErrorTransform })(errorHandler)(event);
       expect(logger).toHaveBeenCalledWith('Error', 'error');
-      expect(logErrorTransform).toHaveBeenCalledWith(err);
+      expect(logErrorTransform).toHaveBeenCalledWith(error);
     });
   });
 
@@ -193,33 +193,33 @@ describe('lambdaHandler', () => {
     it('should check for rethrow', async () => {
       const rethrow = jest.fn(F);
       await lambdaHandler({ rethrow })(errorHandler)(event);
-      expect(rethrow).toHaveBeenCalledWith({ event, err });
+      expect(rethrow).toHaveBeenCalledWith({ event, error });
     });
 
-    it('should rethrow with event and error', async () => {
+    it('should rethrow with error by default', async () => {
       const rethrow = jest.fn(T);
-      await expect(lambdaHandler({ rethrow })(errorHandler)(event)).rejects.toEqual({ event, err });
+      await expect(lambdaHandler({ rethrow })(errorHandler)(event)).rejects.toEqual(error);
     });
 
     it('should transform the error', async () => {
       const rethrow = T;
       const errorTransform = jest.fn(() => event);
       await expect(lambdaHandler({ rethrow, errorTransform })(errorHandler)(event)).rejects.toEqual(event);
-      expect(errorTransform).toHaveBeenCalledWith({ event, err });
+      expect(errorTransform).toHaveBeenCalledWith({ event, error });
     });
   });
 
   describe('error', () => {
-    it('should return event and error by default', async () => {
+    it('should return error by default', async () => {
       const resp = await lambdaHandler()(errorHandler)(event);
-      expect(resp).toEqual({ event, err });
+      expect(resp).toEqual(error);
     });
 
     it('should transform the error', async () => {
       const errorTransform = jest.fn(() => event);
       const resp = await lambdaHandler({ errorTransform })(errorHandler)(event);
       expect(resp).toEqual(event);
-      expect(errorTransform).toHaveBeenCalledWith({ event, err });
+      expect(errorTransform).toHaveBeenCalledWith({ event, error });
     });
   });
 });
