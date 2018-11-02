@@ -1,10 +1,11 @@
 {
   "name": "@goldwasserexchange/node-semver-tools",
-  "version": "4.6.0",
+  "version": "4.8.0",
   "description": "A series of tools to use the semver package with preloaded versions of node",
+  "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
     "type": "git",
-    "url": "https://github.com/goldwasserexchange/javascript/tree/master/packages/utils/node-semver-tools"
+    "url": "git+https://github.com/goldwasserexchange/public.git"
   },
   "license": "MIT",
   "author": "Hans Scheuren",

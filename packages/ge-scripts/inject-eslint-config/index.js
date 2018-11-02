@@ -1,23 +1,17 @@
 const path = require('path');
 
-const { appendToPkg, getPkgSrcDir } = require('@goldwasserexchange/read-pkg-up-helpers');
+const { appendToPkg } = require('@goldwasserexchange/read-pkg-up-helpers');
 
-const esLintConfigPath = path.relative(process.cwd(), require.resolve('@goldwasserexchange/eslint-config'));
+const getPath = configName => path.relative(process.cwd(), require.resolve(configName));
 
 const addEsLintConfig = pkg => ({
   eslintConfig: Object.assign(
     {},
     pkg.eslintConfig || {},
     {
-      extends: esLintConfigPath,
-      settings: {
-        'import/resolver': {
-          'babel-plugin-root-import': {
-            rootPathPrefix: '#',
-            rootPathSuffix: getPkgSrcDir(),
-          },
-        },
-      },
+      extends: [
+        getPath('@goldwasserexchange/eslint-config'),
+      ].filter(Boolean),
     }
   ),
 });

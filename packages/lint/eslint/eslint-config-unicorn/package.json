@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/eslint-config-unicorn",
-  "version": "4.6.0",
+  "version": "4.8.0",
   "description": "Goldwasser Exchange ES Lint Unicorn config",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/lint/eslint/eslint-config-unicorn",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",
@@ -10,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.1",
     "eslint-plugin-unicorn": "^6.0.1"
   },
   "publishConfig": {

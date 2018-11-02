@@ -1,10 +1,11 @@
 {
   "name": "@goldwasserexchange/webpack-server",
-  "version": "4.7.2",
-  "description": "the webpack server preconfigured with goldwasserexchange defaults",
+  "version": "4.12.1",
+  "description": "The webpack server preconfigured with goldwasserexchange defaults",
+  "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
     "type": "git",
-    "url": "https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-server"
+    "url": "git+https://github.com/goldwasserexchange/public.git"
   },
   "license": "MIT",
   "author": "Hans Scheuren",
@@ -13,13 +14,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@goldwasserexchange/read-pkg-up-helpers": "^4.6.0",
-    "@goldwasserexchange/webpack-config": "^4.7.2",
+    "@goldwasserexchange/read-pkg-up-helpers": "^4.8.0",
+    "@goldwasserexchange/webpack-config": "^4.12.1",
     "chalk": "^2.4.1",
     "compression": "^1.7.3",
     "express": "^4.16.3",
     "minimist": "^1.2.0",
-    "react-dev-utils": "6.0.0-next.3e165448",
+    "react-dev-utils": "^6.0.4",
     "webpack": "^4.18.0",
     "webpack-dev-server": "^3.1.8"
   },

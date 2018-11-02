@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/font-weights",
-  "version": "4.1.0",
-  "description": "the font weights used by Goldwasser Exchange",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/font-weights",
+  "version": "4.8.0",
+  "description": "The font weights used by Goldwasser Exchange",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "index.js",

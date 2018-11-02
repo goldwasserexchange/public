@@ -3,6 +3,71 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.12.1](https://github.com/goldwasserexchange/public/compare/v4.12.0...v4.12.1) (2018-10-23)
+
+
+### Bug Fixes
+
+* **webpack-config:** fix define env config ([#86](https://github.com/goldwasserexchange/public/issues/86)) ([1eb0026](https://github.com/goldwasserexchange/public/commit/1eb0026)), closes [#85](https://github.com/goldwasserexchange/public/issues/85)
+
+
+
+
+
+# [4.12.0](https://github.com/goldwasserexchange/public/compare/v4.11.1...v4.12.0) (2018-10-23)
+
+
+### Bug Fixes
+
+* **webpack-config:** enable jarvis, dashboard and workbox plugins only when target is web ([#71](https://github.com/goldwasserexchange/public/issues/71)) ([5e6de50](https://github.com/goldwasserexchange/public/commit/5e6de50)), closes [#63](https://github.com/goldwasserexchange/public/issues/63)
+* **webpack-config:** use browser in mainFields only when target is web ([#84](https://github.com/goldwasserexchange/public/issues/84)) ([815b9eb](https://github.com/goldwasserexchange/public/commit/815b9eb))
+
+
+### Features
+
+* **webpack-config:** add pug loader ([#76](https://github.com/goldwasserexchange/public/issues/76)) ([2b40853](https://github.com/goldwasserexchange/public/commit/2b40853)), closes [#75](https://github.com/goldwasserexchange/public/issues/75)
+
+
+
+
+
+## [4.11.1](https://github.com/goldwasserexchange/public/compare/v4.11.0...v4.11.1) (2018-10-16)
+
+**Note:** Version bump only for package @goldwasserexchange/webpack-config
+
+
+
+
+
+# [4.10.0](https://github.com/goldwasserexchange/public/compare/v4.9.2...v4.10.0) (2018-10-15)
+
+**Note:** Version bump only for package @goldwasserexchange/webpack-config
+
+
+
+
+
+<a name="4.8.0"></a>
+# [4.8.0](https://github.com/goldwasserexchange/public/compare/v4.7.3...v4.8.0) (2018-10-10)
+
+
+### Bug Fixes
+
+* **package:** update react-dev-utils to version 6.0.4 ([#68](https://github.com/goldwasserexchange/public/issues/68)) ([17cf793](https://github.com/goldwasserexchange/public/commit/17cf793))
+
+
+
+
+
+<a name="4.7.3"></a>
+## [4.7.3](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/compare/v4.7.2...v4.7.3) (2018-10-03)
+
+**Note:** Version bump only for package @goldwasserexchange/webpack-config
+
+
+
+
+
 <a name="4.7.2"></a>
 ## [4.7.2](https://github.com/goldwasserexchange/javascript/tree/master/packages/build-tools/webpack/webpack-config/compare/v4.7.1...v4.7.2) (2018-09-20)
 

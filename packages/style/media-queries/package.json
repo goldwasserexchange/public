@@ -1,8 +1,12 @@
 {
   "name": "@goldwasserexchange/media-queries",
-  "version": "4.4.0",
-  "description": "the media queries used by Goldwasser Exchange",
-  "repository": "https://github.com/goldwasserexchange/javascript/tree/master/packages/style/media-queries",
+  "version": "4.8.0",
+  "description": "The media queries used by Goldwasser Exchange",
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git"
+  },
   "license": "MIT",
   "author": "Hans Scheuren",
   "main": "lib/index.js",

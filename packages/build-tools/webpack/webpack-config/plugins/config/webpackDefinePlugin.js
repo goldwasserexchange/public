@@ -13,7 +13,7 @@ module.exports = target === 'web' && new webpack.DefinePlugin({
     {
       NODE_ENV: JSON.stringify(process.env.NODE_ENV),
     },
-    defineEnv && isEmpty(defineEnv)
+    defineEnv && !isEmpty(defineEnv)
       ? definedEnv
       : {}
   ),
