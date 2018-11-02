@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/goldwasserexchange/public/compare/v5.0.0...v5.1.0) (2018-11-02)
+
+
+### Bug Fixes
+
+* **utils:** add missing defaultLambdaHandler export in index ([bff2fbe](https://github.com/goldwasserexchange/public/commit/bff2fbe))
+
+
+### Features
+
+* **utils:** add errorTransform option in lambdaHandler ([bc16e3d](https://github.com/goldwasserexchange/public/commit/bc16e3d))
+
+
+
+
+
 # [5.0.0](https://github.com/goldwasserexchange/public/compare/v4.12.1...v5.0.0) (2018-11-02)
 
 
