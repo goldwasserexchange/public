@@ -4,6 +4,7 @@ export { default as addInvokeRejectOnFnError } from './addInvokeRejectOnFnError'
 export { default as awsEvent } from './awsEvent';
 export { default as awsGetAll } from './awsGetAll';
 export { default as combine } from './combine';
+export { default as defaultLambdaHandler } from './defaultLambdaHandler';
 export { default as eqProps } from './eqProps';
 export { default as etag } from './etag';
 export { default as filterLength } from './filterLength';
