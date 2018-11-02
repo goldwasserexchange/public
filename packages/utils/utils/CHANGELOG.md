@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/goldwasserexchange/public/compare/v4.12.1...v5.0.0) (2018-11-02)
+
+
+### Features
+
+* **utils:** improve lambdaHandler to cover more use cases ([b1a784c](https://github.com/goldwasserexchange/public/commit/b1a784c))
+
+
+### BREAKING CHANGES
+
+* **utils:** The function signature of lambdaHandler has changed: it now takes a configuration
+object and returns a function that takes the handler
+
+
+
+
+
 <a name="4.8.0"></a>
 # [4.8.0](https://github.com/goldwasserexchange/public/compare/v4.7.3...v4.8.0) (2018-10-10)
 

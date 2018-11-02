@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/goldwasserexchange/public/compare/v4.12.1...v5.0.0) (2018-11-02)
+
+
+### Bug Fixes
+
+* **webpack-config:** getStartUrl shouldn't be specific to our frontend ([#90](https://github.com/goldwasserexchange/public/issues/90)) ([61b78f7](https://github.com/goldwasserexchange/public/commit/61b78f7))
+
+
+### Features
+
+* **jest-config:** always clear mocks between tests ([d584c35](https://github.com/goldwasserexchange/public/commit/d584c35))
+* **utils:** improve lambdaHandler to cover more use cases ([b1a784c](https://github.com/goldwasserexchange/public/commit/b1a784c))
+
+
+### BREAKING CHANGES
+
+* **utils:** The function signature of lambdaHandler has changed: it now takes a configuration
+object and returns a function that takes the handler
+* **jest-config:** Mocks are now always cleared between tests
+
+
+
+
+
 ## [4.12.1](https://github.com/goldwasserexchange/public/compare/v4.12.0...v4.12.1) (2018-10-23)
 
 

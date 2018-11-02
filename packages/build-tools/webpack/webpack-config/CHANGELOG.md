@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/goldwasserexchange/public/compare/v4.12.1...v5.0.0) (2018-11-02)
+
+
+### Bug Fixes
+
+* **webpack-config:** getStartUrl shouldn't be specific to our frontend ([#90](https://github.com/goldwasserexchange/public/issues/90)) ([61b78f7](https://github.com/goldwasserexchange/public/commit/61b78f7))
+
+
+
+
+
 ## [4.12.1](https://github.com/goldwasserexchange/public/compare/v4.12.0...v4.12.1) (2018-10-23)
 
 

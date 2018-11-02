@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/goldwasserexchange/public/compare/v4.12.1...v5.0.0) (2018-11-02)
+
+
+### Features
+
+* **jest-config:** always clear mocks between tests ([d584c35](https://github.com/goldwasserexchange/public/commit/d584c35))
+
+
+### BREAKING CHANGES
+
+* **jest-config:** Mocks are now always cleared between tests
+
+
+
+
+
 <a name="4.8.0"></a>
 # [4.8.0](https://github.com/goldwasserexchange/public/compare/v4.7.3...v4.8.0) (2018-10-10)
 

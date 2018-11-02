@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/write-npmrc",
-  "version": "4.8.0",
+  "version": "5.0.0",
   "description": "Writes a .npmrc file in the current directory",
   "keywords": [],
   "homepage": "https://github.com/goldwasserexchange/public",

@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-base",
-  "version": "4.8.0",
+  "version": "5.0.0",
   "description": "Goldwasser Exchange ES Lint base config\"",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -14,8 +14,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@goldwasserexchange/eslint-config-import": "^4.8.0",
-    "@goldwasserexchange/eslint-config-style": "^4.8.0",
+    "@goldwasserexchange/eslint-config-import": "^5.0.0",
+    "@goldwasserexchange/eslint-config-style": "^5.0.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0"
   },
