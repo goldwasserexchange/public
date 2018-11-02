@@ -3,4 +3,5 @@ module.exports = {
   transform: {
     '^.+\\.jsx?$': require.resolve('./transformer'),
   },
+  clearMocks: true,
 };

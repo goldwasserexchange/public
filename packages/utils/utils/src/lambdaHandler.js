@@ -1,25 +1,42 @@
+import { T, F, identity } from 'ramda';
+
 import log from './log';
 
-const logEvent = event => log('Event', event);
-const logResult = result => log('Result', result);
-const logError = error => log('Error', error);
+const lambdaHandler = ({
+  returnEarly = F,
+  logger = log,
+  logEvent = T,
+  logEventTransform = identity,
+  validateEvent = identity,
+  logValidEvent = validateEvent === identity ? F : T,
+  logValidEventTransform = identity,
+  logResponse = T,
+  logResponseTransform = identity,
+  logError = T,
+  logErrorTransform = identity,
+  rethrow = F,
+} = {}) => handler => async (event, context, callback) => {
+  try {
+    if (returnEarly(event)) return event;
 
-const logAndSucceed = (data, callback) => {
-  logResult(data);
-  callback(null, data);
-};
+    if (logEvent({ event })) logger('Event', logEventTransform(event));
 
-const logAndFail = (err, callback) => {
-  logError(err);
-  callback(err);
-};
+    const validEvent = await validateEvent(event);
 
-const lambdaHandler = promiseChain => (event, context, callback) => {
-  logEvent(event);
+    if (logValidEvent({ event, validEvent })) logger('Valid event', logValidEventTransform(validEvent));
 
-  promiseChain(event)
-    .then(data => logAndSucceed(data, callback))
-    .catch(err => logAndFail(err, callback));
+    const response = await handler(validEvent, context, callback);
+
+    if (logResponse({ event, validEvent, response })) logger('Response', logResponseTransform(response));
+
+    return response;
+  } catch (err) {
+    if (logError({ event, err })) logger('Error', logErrorTransform(err));
+
+    if (rethrow({ event, err })) throw err; // Rejects with the err
+
+    return err; // Resolves with the err
+  }
 };
 
 export default lambdaHandler;
