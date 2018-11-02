@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.2.0](https://github.com/goldwasserexchange/public/compare/v5.1.0...v5.2.0) (2018-11-02)
+
+
+### Features
+
+* **utils:** change default errorTransform to return error only in lambdaHandler ([f0d8d0e](https://github.com/goldwasserexchange/public/commit/f0d8d0e))
+
+
+
+
+
 # [5.1.0](https://github.com/goldwasserexchange/public/compare/v5.0.0...v5.1.0) (2018-11-02)
 
 
