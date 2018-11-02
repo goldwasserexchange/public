@@ -15,6 +15,7 @@ const lambdaHandler = ({
   logError = T,
   logErrorTransform = identity,
   rethrow = F,
+  errorTransform = identity,
 } = {}) => handler => async (event, context, callback) => {
   try {
     if (returnEarly(event)) return event;
@@ -33,9 +34,9 @@ const lambdaHandler = ({
   } catch (err) {
     if (logError({ event, err })) logger('Error', logErrorTransform(err));
 
-    if (rethrow({ event, err })) throw err; // Rejects with the err
+    if (rethrow({ event, err })) throw errorTransform({ event, err }); // Rejects
 
-    return err; // Resolves with the err
+    return errorTransform({ event, err }); // Resolves
   }
 };
 

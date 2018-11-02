@@ -38,14 +38,14 @@
     "extends": "@goldwasserexchange"
   },
   "devDependencies": {
-    "@goldwasserexchange/jest-config": "^4.4.0",
-    "@goldwasserexchange/utils": "^4.4.0",
+    "@goldwasserexchange/jest-config": "^5.0.0",
+    "@goldwasserexchange/utils": "^5.0.0",
     "cloc": "^2.3.4",
     "commitizen": "^3.0.2",
     "cross-env": "^5.2.0",
     "cz-conventional-changelog": "^2.1.0",
     "fs-extra": "^7.0.0",
-    "ge-scripts": "^4.4.0",
+    "ge-scripts": "^5.0.0",
     "isomorphic-fetch": "^2.2.1",
     "jest": "^23.6.0",
     "lerna": "^3.4.1",
