@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@goldwasserexchange/jest-config": "^4.4.0",
-    "@goldwasserexchange/utils": "^4.4.0",
+    "@goldwasserexchange/utils": "^5.0.0",
     "cloc": "^2.3.4",
     "commitizen": "^3.0.2",
     "cross-env": "^5.2.0",
