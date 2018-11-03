@@ -20,7 +20,7 @@
   "dependencies": {
     "json-stringify-safe": "^5.0.1",
     "ramda": "^0.25.0",
-    "serialize-error": "^2.1.0"
+    "serialize-error": "^3.0.0"
   },
   "engines": {
     "node": ">=8.10"
