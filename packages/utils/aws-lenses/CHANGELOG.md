@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.1](https://github.com/goldwasserexchange/public/compare/v5.2.0...v5.2.1) (2018-11-05)
+
+
+### Bug Fixes
+
+* **aws-lenses:** fix bad naming for body in apiGateway ([0ac98c0](https://github.com/goldwasserexchange/public/commit/0ac98c0))
+
+
+
+
+
 # [5.2.0](https://github.com/goldwasserexchange/public/compare/v5.1.0...v5.2.0) (2018-11-02)
 
 **Note:** Version bump only for package @goldwasserexchange/aws-lenses
