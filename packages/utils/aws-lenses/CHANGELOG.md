@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.2](https://github.com/goldwasserexchange/public/compare/v5.2.1...v5.2.2) (2018-11-05)
+
+
+### Bug Fixes
+
+* **aws-lenses:** fix bad naming for httpMethod in apiGateway ([ebe5562](https://github.com/goldwasserexchange/public/commit/ebe5562))
+
+
+
+
+
 ## [5.2.1](https://github.com/goldwasserexchange/public/compare/v5.2.0...v5.2.1) (2018-11-05)
 
 

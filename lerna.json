@@ -12,7 +12,7 @@
       "conventionalCommits": true
     }
   },
-  "version": "5.2.1",
+  "version": "5.2.2",
   "useWorkspaces": true,
   "npmClient": "yarn"
 }
