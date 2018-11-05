@@ -15,4 +15,4 @@ export const claims = compose(authorizer, lensProp('claims'));
 export const iatClaim = compose(claims, lensProp('iat'));
 export const iatClaimDate = compose(iatClaim, lens(iat => new Date(iat), date => date.toString()));
 
-export const bodyLens = lensProp('body');
+export const body = lensProp('body');
