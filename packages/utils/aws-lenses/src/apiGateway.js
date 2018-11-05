@@ -1,6 +1,6 @@
 import { lensProp, compose, lens } from 'ramda';
 
-export const httpMethodLens = lensProp('httpMethod');
+export const httpMethod = lensProp('httpMethod');
 
 export const headers = lensProp('headers');
 
