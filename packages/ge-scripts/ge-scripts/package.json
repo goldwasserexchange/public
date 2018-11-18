@@ -25,7 +25,7 @@
     "@goldwasserexchange/babel": "^5.0.0",
     "@goldwasserexchange/lint-js": "^5.2.1",
     "cross-spawn": "^6.0.5",
-    "ramda": "^0.25.0"
+    "ramda": "^0.26.0"
   },
   "publishConfig": {
     "access": "public"
