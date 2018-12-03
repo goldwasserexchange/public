@@ -19,7 +19,7 @@
   "browser": "browser/index.js",
   "dependencies": {
     "json-stringify-safe": "^5.0.1",
-    "ramda": "^0.26.0",
+    "ramda": "^0.26.1",
     "serialize-error": "^3.0.0"
   },
   "engines": {
