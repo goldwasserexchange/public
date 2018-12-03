@@ -1,24 +1,8 @@
 const path = require('path');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
-const {
-  pipe,
-  prop,
-  split,
-  map,
-  join,
-  head,
-} = require('ramda');
-const _ = require('lodash');
 const { pkg } = require('@goldwasserexchange/read-pkg-up-helpers');
 const getStartUrl = require('../../utils/getStartUrl');
-const { target } = require('../../webpackPkgConfig');
-
-
-const nameParts = pipe(
-  prop('name'),
-  split('-'),
-  map(namePart => _.capitalize(namePart)),
-)(pkg);
+const { target, manifest: { name, shortName } = {} } = require('../../webpackPkgConfig');
 
 const pkgManifest = pkg.manifest || {};
 const pkgFavIcons = pkg.favicons || {};
@@ -27,8 +11,8 @@ module.exports = target === 'web' && new WebpackPwaManifest(Object.assign(
   {},
   {
     filename: 'static/manifest.[hash].json',
-    name: join(' ', nameParts),
-    short_name: head(nameParts),
+    name,
+    short_name: shortName,
     orientation: 'portrait',
     display: 'standalone',
     start_url: getStartUrl(),
