@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.3.0](https://github.com/goldwasserexchange/public/compare/v5.2.2...v5.3.0) (2018-12-03)
+
+
+### Bug Fixes
+
+* **package:** update ramda to version 0.26.0 ([#100](https://github.com/goldwasserexchange/public/issues/100)) ([2c66832](https://github.com/goldwasserexchange/public/commit/2c66832))
+* **package:** update ramda to version 0.26.1 ([9f3fbe9](https://github.com/goldwasserexchange/public/commit/9f3fbe9))
+
+
+
+
+
 # [5.0.0](https://github.com/goldwasserexchange/public/compare/v4.12.1...v5.0.0) (2018-11-02)
 
 **Note:** Version bump only for package @goldwasserexchange/babel-preset
