@@ -26,11 +26,12 @@
     "lint:pkg": "npmPkgJsonLint ./packages",
     "publish": "lerna publish",
     "sort": "sort-package-json && lerna exec sort-package-json",
-    "test": "yarn lint && yarn jest"
+    "test": "yarn lint && yarn type-check && yarn jest",
+    "type-check": "tsc"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "pre-commit": "lint-staged && yarn type-check",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -60,7 +61,8 @@
     "lint-staged": "^8.1.0",
     "npm-package-json-lint": "^3.4.1",
     "require-dir": "^1.2.0",
-    "sort-package-json": "^1.16.0"
+    "sort-package-json": "^1.16.0",
+    "typescript": "^3.3.3"
   },
   "lint-staged": {
     "*.js": [
