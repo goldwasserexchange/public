@@ -1,3 +1,5 @@
+const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
+
 module.exports = {
   parser: 'babel-eslint',
   extends: [
@@ -16,5 +18,8 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
+  },
+  rules: {
+    ...ifAnyDep('@aws-cdk/cdk', { 'no-new': 0 }, {}),
   },
 };

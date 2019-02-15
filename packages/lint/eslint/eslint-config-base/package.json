@@ -16,6 +16,7 @@
   "dependencies": {
     "@goldwasserexchange/eslint-config-import": "^5.0.0",
     "@goldwasserexchange/eslint-config-style": "^5.0.0",
+    "@goldwasserexchange/read-pkg-up-helpers": "^5.0.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0"
   },
