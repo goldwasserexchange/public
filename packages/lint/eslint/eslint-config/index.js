@@ -2,7 +2,7 @@ const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 const getOverridesFromLernaConfig = require('./getOverridesFromLerna');
 
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
   extends: [
     require.resolve('@goldwasserexchange/eslint-config-strict'),
     ifAnyDep('redux-saga', 'plugin:redux-saga/recommended'),
@@ -11,6 +11,7 @@ module.exports = {
     ifAnyDep('ramda', require.resolve('@goldwasserexchange/eslint-config-ramda')),
     ifAnyDep('jest', require.resolve('@goldwasserexchange/eslint-config-jest')),
     require.resolve('@goldwasserexchange/eslint-config-unicorn'),
+    require.resolve('@goldwasserexchange/eslint-config-typescript'),
   ].filter(Boolean),
   env: {
     browser: true,
