@@ -27,7 +27,7 @@
     "publish": "lerna publish",
     "sort": "sort-package-json && lerna exec sort-package-json",
     "test": "yarn lint && yarn type-check && yarn jest",
-    "type-check": "tsc"
+    "type-check": "tsc --noEmit"
   },
   "husky": {
     "hooks": {
