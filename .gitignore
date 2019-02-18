@@ -86,3 +86,6 @@ ge__browser
 
 # specific dist directories
 packages/utils/aws-lenses/services
+
+# typescript declaration files
+*.d.ts
