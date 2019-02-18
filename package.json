@@ -65,7 +65,7 @@
     "typescript": "^3.3.3"
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js,ts}": [
       "yarn lint:js"
     ],
     "packages/**/package.json": [
