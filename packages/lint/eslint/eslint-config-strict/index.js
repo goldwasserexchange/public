@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
   extends: [
     require.resolve('@goldwasserexchange/eslint-config-base'),
     require.resolve('eslint-config-airbnb-base/rules/strict'),

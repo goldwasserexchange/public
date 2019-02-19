@@ -23,7 +23,11 @@ const config = useBuiltinConfig
 
 const ignore = args.includes('--ignore')
   ? []
-  : ['--ignore', 'test,__tests__,__mocks__'];
+  : ['--ignore', 'test,__tests__,__mocks__,**/*.d.ts'];
+
+const extensions = args.includes('--extensions')
+  ? []
+  : ['--extensions', '.js,.jsx,.es6,.es,.ts'];
 
 const copyFiles = args.includes('--no-copy-files') ? [] : ['--copy-files'];
 
@@ -35,8 +39,17 @@ if (!useSpecifiedOutDir && !args.includes('--no-clean')) {
   rimraf.sync(fromRoot(outDir));
 }
 
+const runAndLog = (command, commandArgs, message) => {
+  const result = spawn.sync(command, commandArgs, { stdio: 'inherit' });
+  if (result.status !== 0) {
+    process.exit(result); // eslint-disable-line unicorn/no-process-exit
+  } else {
+    console.log(message); // eslint-disable-line no-console
+  }
+};
+
 if (process.env.BABEL_ES_TARGET) {
-  const result = spawn.sync(
+  runAndLog(
     resolveBin('cross-env', { executable: 'cross-env' }),
     [
       `BABEL_TARGET=${process.env.BABEL_TARGET || 'node'}`,
@@ -44,19 +57,15 @@ if (process.env.BABEL_ES_TARGET) {
       ...outDirParam,
       ...copyFiles,
       ...ignore,
+      ...extensions,
       ...config,
       'src',
     ].concat(args),
-    { stdio: 'inherit' }
+    'successfully generated es build'
   );
-  if (result.status !== 0) {
-    process.exit(result); // eslint-disable-line unicorn/no-process-exit
-  } else {
-    console.log('successfully generated es build'); // eslint-disable-line no-console
-  }
 } else {
   if (hasPkgProp('module')) {
-    const resultEs = spawn.sync(
+    runAndLog(
       resolveBin('cross-env', { executable: 'cross-env' }),
       [
         `BABEL_TARGET=${process.env.BABEL_TARGET || 'browser'}`,
@@ -65,21 +74,16 @@ if (process.env.BABEL_ES_TARGET) {
         ...['--out-dir', getPkgModuleDir()],
         ...copyFiles,
         ...ignore,
+        ...extensions,
         ...config,
         'src',
       ].concat(args),
-      { stdio: 'inherit' }
+      'successfully generated es build'
     );
-
-    if (resultEs.status !== 0) {
-      process.exit(resultEs); // eslint-disable-line unicorn/no-process-exit
-    } else {
-      console.log('successfully generated es build'); // eslint-disable-line no-console
-    }
   }
 
   if (hasPkgProp('main')) {
-    const resultMain = spawn.sync(
+    runAndLog(
       resolveBin('cross-env', { executable: 'cross-env' }),
       [
         `BABEL_TARGET=${process.env.BABEL_TARGET || 'node'}`,
@@ -88,21 +92,16 @@ if (process.env.BABEL_ES_TARGET) {
         ...['--out-dir', getPkgMainDir()],
         ...copyFiles,
         ...ignore,
+        ...extensions,
         ...config,
         'src',
       ].concat(args),
-      { stdio: 'inherit' }
+      'successfully generated commonjs build'
     );
-
-    if (resultMain.status !== 0) {
-      process.exit(resultMain); // eslint-disable-line unicorn/no-process-exit
-    } else {
-      console.log('successfully generated commonjs build'); // eslint-disable-line no-console
-    }
   }
 
   if (hasPkgProp('browser')) {
-    const resultEs = spawn.sync(
+    runAndLog(
       resolveBin('cross-env', { executable: 'cross-env' }),
       [
         'BABEL_TARGET=browser',
@@ -111,17 +110,12 @@ if (process.env.BABEL_ES_TARGET) {
         ...['--out-dir', getPkgBrowserDir()],
         ...copyFiles,
         ...ignore,
+        ...extensions,
         ...config,
         'src',
       ].concat(args),
-      { stdio: 'inherit' }
+      'successfully generated es build'
     );
-
-    if (resultEs.status !== 0) {
-      process.exit(resultEs); // eslint-disable-line unicorn/no-process-exit
-    } else {
-      console.log('successfully generated es build'); // eslint-disable-line no-console
-    }
   }
 
   if (!hasPkgProp('main') && !(hasPkgProp('module'))) {

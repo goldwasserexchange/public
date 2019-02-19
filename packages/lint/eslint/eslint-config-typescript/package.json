@@ -1,22 +1,21 @@
 {
-  "name": "@goldwasserexchange/eslint-config-import",
-  "version": "5.0.0",
-  "description": "Goldwasser Exchange ES Lint import config",
+  "name": "@goldwasserexchange/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "Goldwasser Exchange ES Lint tyepscript config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goldwasserexchange/public.git"
   },
   "license": "MIT",
-  "author": "Hans Scheuren",
+  "author": "Jonathan Goldwasser",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^1.3.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.7.0"
+    "@typescript-eslint/eslint-plugin": "^1.3.0",
+    "@typescript-eslint/parser": "^1.3.0"
   },
   "publishConfig": {
     "access": "public"

@@ -7,6 +7,7 @@ const {
     '.jsx',
     '.react.js',
     '.json',
+    '.ts',
   ],
   mainFields = [
     'module',

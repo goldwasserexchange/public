@@ -1,7 +1,7 @@
 const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
 
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
   extends: [
     require.resolve('eslint-config-airbnb-base'),
     require.resolve('@goldwasserexchange/eslint-config-import'),

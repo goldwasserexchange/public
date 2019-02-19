@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
   extends: require.resolve('eslint-config-airbnb-base/rules/style'),
   env: {
     browser: true,
