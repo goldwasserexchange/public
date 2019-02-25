@@ -30,6 +30,7 @@ export { default as moveCharsToEnd } from './moveCharsToEnd';
 export { default as onlyDigits } from './onlyDigits';
 export { default as operationOnUnitString } from './operationOnUnitString';
 export { default as parseInt10 } from './parseInt10';
+export { default as propIsNil } from './propIsNil';
 export { default as rejectNilOrEmpty } from './rejectNilOrEmpty';
 export { default as removeSpaces } from './removeSpaces';
 export { default as renameKeys } from './renameKeys';
