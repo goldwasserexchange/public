@@ -1,5 +1,3 @@
-import { compose, prop, isNil, curry } from 'ramda'
+import { propSatisfies, isNil } from 'ramda';
 
-const propIsNil = (property, obj) => compose(isNil, prop(property))(obj);
-
-export default curry(propIsNil);
+export default propSatisfies(isNil);
