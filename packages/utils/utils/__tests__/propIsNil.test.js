@@ -20,6 +20,6 @@ describe('propIsNil', () => {
   });
 
   it('should be curried', () => {
-    expect(propIsNil('propOther')(obj)).toBe(false);
+    expect(propIsNil('propOther')).toBeInstanceOf(Function);
   });
 });
