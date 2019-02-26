@@ -29,7 +29,7 @@
     "eslint-plugin-redux-saga": "^0.10.0",
     "globby": "^9.0.0",
     "ramda": "^0.26.1",
-    "redux-saga": "^0.16.0"
+    "redux-saga": "^1.0.2"
   },
   "publishConfig": {
     "access": "public"
