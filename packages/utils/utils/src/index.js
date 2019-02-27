@@ -22,6 +22,7 @@ export { default as lensIsEmpty } from './lensIsEmpty';
 export { default as lensIsNotEmpty } from './lensIsNotEmpty';
 export { default as lensLt } from './lensLt';
 export { default as lensMin } from './lensMin';
+export { default as lmlGet } from './lmlGet';
 export { default as log } from './log';
 export { default as matchBetween } from './matchBetween';
 export { default as mathMinSpread } from './mathMinSpread';
