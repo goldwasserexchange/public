@@ -1,7 +1,7 @@
 {
   "name": "@goldwasserexchange/aws-lookup",
   "version": "0.0.0",
-  "description": "Ramda lenses for AWS Lambda events",
+  "description": "Overrides core dns to lookup domains with AWS Service Discovery",
   "keywords": [
     "aws",
     "service discovery",
