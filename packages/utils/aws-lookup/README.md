@@ -3,7 +3,7 @@ Overrides core `dns` to lookup domains with AWS Service Discovery.
 
 ## Usage
 ```js
-const awsLookup = require('aws-lookup');
+const awsLookup = require('@goldwasserexchange/aws-lookup');
 
 awsLookup(
   [ // List of domain names to resolve via AWS Service Discovery
