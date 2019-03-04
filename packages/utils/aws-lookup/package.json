@@ -1,0 +1,34 @@
+{
+  "name": "@goldwasserexchange/aws-lookup",
+  "version": "0.0.0",
+  "description": "Ramda lenses for AWS Lambda events",
+  "keywords": [
+    "aws",
+    "service discovery",
+    "cloud map",
+    "dns",
+    "resolver",
+    "microservices"
+  ],
+  "homepage": "https://github.com/goldwasserexchange/public",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldwasserexchange/public.git",
+    "directory": "packages/utils/aws-lookup"
+  },
+  "license": "MIT",
+  "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.412.0"
+  },
+  "engines": {
+    "node": ">=8.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
