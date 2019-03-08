@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "npm-package-json-lint-config-default": "^2.0.0",
-    "sort-package-json": "^1.16.0"
+    "sort-package-json": "^1.21.0"
   },
   "publishConfig": {
     "access": "public"
