@@ -11,12 +11,12 @@
   "author": "Jonathan Goldwasser <jonathan@goldwasserexchange.be>",
   "main": "lib/index.js",
   "module": "es/index.js",
+  "browser": "browser/index.js",
   "scripts": {
     "build": "npm run generate-index && cross-env NODE_ENV=production BABEL_TARGET=node ge-scripts babel",
     "generate-index": "cross-env NODE_ENV=production BABEL_ES_TARGET=commonjs node ./scripts/generateIndex",
     "prepublishOnly": "npm run build"
   },
-  "browser": "browser/index.js",
   "dependencies": {
     "json-stringify-safe": "^5.0.1",
     "ramda": "^0.26.1",
