@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.4.0](https://github.com/goldwasserexchange/public/compare/v5.3.0...v5.4.0) (2019-03-08)
+
+
+### Bug Fixes
+
+* **package:** update react-dev-utils to version 8.0.0 ([#117](https://github.com/goldwasserexchange/public/issues/117)) ([c428fb9](https://github.com/goldwasserexchange/public/commit/c428fb9))
+
+
+
+
+
 # [5.3.0](https://github.com/goldwasserexchange/public/compare/v5.2.2...v5.3.0) (2018-12-03)
 
 **Note:** Version bump only for package @goldwasserexchange/webpack-server

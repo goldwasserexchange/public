@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.4.0](https://github.com/goldwasserexchange/public/compare/v5.3.0...v5.4.0) (2019-03-08)
+
+
+### Bug Fixes
+
+* **package:** update sort-package-json to version 1.21.0 ([#118](https://github.com/goldwasserexchange/public/issues/118)) ([077826b](https://github.com/goldwasserexchange/public/commit/077826b)), closes [#114](https://github.com/goldwasserexchange/public/issues/114)
+
+
+
+
+
 # [5.0.0](https://github.com/goldwasserexchange/public/compare/v4.12.1...v5.0.0) (2018-11-02)
 
 **Note:** Version bump only for package @goldwasserexchange/npm-package-json-lint-config

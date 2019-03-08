@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.4.0](https://github.com/goldwasserexchange/public/compare/v5.3.0...v5.4.0) (2019-03-08)
+
+
+### Features
+
+* **babel-preset:** add preset-typescript ([c87f07e](https://github.com/goldwasserexchange/public/commit/c87f07e))
+
+
+
+
+
 # [5.3.0](https://github.com/goldwasserexchange/public/compare/v5.2.2...v5.3.0) (2018-12-03)
 
 

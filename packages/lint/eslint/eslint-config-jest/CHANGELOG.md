@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.4.0](https://github.com/goldwasserexchange/public/compare/v5.3.0...v5.4.0) (2019-03-08)
+
+
+### Features
+
+* **eslint:** switch to [@typescript-eslint](https://github.com/typescript-eslint)/parser ([626b768](https://github.com/goldwasserexchange/public/commit/626b768))
+
+
+
+
+
 # [5.0.0](https://github.com/goldwasserexchange/public/compare/v4.12.1...v5.0.0) (2018-11-02)
 
 **Note:** Version bump only for package @goldwasserexchange/eslint-config-jest

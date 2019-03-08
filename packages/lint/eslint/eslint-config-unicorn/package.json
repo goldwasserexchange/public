@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-unicorn",
-  "version": "5.0.0",
+  "version": "5.4.0",
   "description": "Goldwasser Exchange ES Lint Unicorn config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {

@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.4.0](https://github.com/goldwasserexchange/public/compare/v5.3.0...v5.4.0) (2019-03-08)
+
+
+### Bug Fixes
+
+* **package:** update copy-webpack-plugin to version 5.0.0 ([#108](https://github.com/goldwasserexchange/public/issues/108)) ([c886272](https://github.com/goldwasserexchange/public/commit/c886272))
+* **package:** update react-dev-utils to version 8.0.0 ([#117](https://github.com/goldwasserexchange/public/issues/117)) ([c428fb9](https://github.com/goldwasserexchange/public/commit/c428fb9))
+* **package:** update webpack-dashboard to version 3.0.0 ([#106](https://github.com/goldwasserexchange/public/issues/106)) ([9c84730](https://github.com/goldwasserexchange/public/commit/9c84730))
+
+
+### Features
+
+* **webpack-config:** add .ts in resolve.extension ([7b27c01](https://github.com/goldwasserexchange/public/commit/7b27c01))
+
+
+
+
+
 # [5.3.0](https://github.com/goldwasserexchange/public/compare/v5.2.2...v5.3.0) (2018-12-03)
 
 

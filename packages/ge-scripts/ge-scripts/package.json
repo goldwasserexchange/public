@@ -1,6 +1,6 @@
 {
   "name": "ge-scripts",
-  "version": "5.3.0",
+  "version": "5.4.0",
   "description": "CLI toolbox for common scripts for Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -22,8 +22,8 @@
     ]
   },
   "dependencies": {
-    "@goldwasserexchange/babel": "^5.3.0",
-    "@goldwasserexchange/lint-js": "^5.3.0",
+    "@goldwasserexchange/babel": "^5.4.0",
+    "@goldwasserexchange/lint-js": "^5.4.0",
     "cross-spawn": "^6.0.5",
     "ramda": "^0.26.1"
   },

@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.4.0](https://github.com/goldwasserexchange/public/compare/v5.3.0...v5.4.0) (2019-03-08)
+
+
+### Bug Fixes
+
+* **package:** update copy-webpack-plugin to version 5.0.0 ([#108](https://github.com/goldwasserexchange/public/issues/108)) ([c886272](https://github.com/goldwasserexchange/public/commit/c886272))
+* **package:** update react-dev-utils to version 8.0.0 ([#117](https://github.com/goldwasserexchange/public/issues/117)) ([c428fb9](https://github.com/goldwasserexchange/public/commit/c428fb9))
+* **package:** update sort-package-json to version 1.21.0 ([#118](https://github.com/goldwasserexchange/public/issues/118)) ([077826b](https://github.com/goldwasserexchange/public/commit/077826b)), closes [#114](https://github.com/goldwasserexchange/public/issues/114)
+* **package:** update webpack-dashboard to version 3.0.0 ([#106](https://github.com/goldwasserexchange/public/issues/106)) ([9c84730](https://github.com/goldwasserexchange/public/commit/9c84730))
+
+
+### Features
+
+* **aws-lookup:** add aws-lookup ([#115](https://github.com/goldwasserexchange/public/issues/115)) ([7bc0732](https://github.com/goldwasserexchange/public/commit/7bc0732))
+* **babel:** add support for typescript ([cdead06](https://github.com/goldwasserexchange/public/commit/cdead06))
+* **babel-preset:** add preset-typescript ([c87f07e](https://github.com/goldwasserexchange/public/commit/c87f07e))
+* **eslint:** switch to [@typescript-eslint](https://github.com/typescript-eslint)/parser ([626b768](https://github.com/goldwasserexchange/public/commit/626b768))
+* **eslint-config-base:** disable no-new when using [@aws-cdk](https://github.com/aws-cdk)/cdk ([#107](https://github.com/goldwasserexchange/public/issues/107)) ([8ef48ca](https://github.com/goldwasserexchange/public/commit/8ef48ca))
+* **eslint-config-import:** add .ts extension for node resolver ([30717dd](https://github.com/goldwasserexchange/public/commit/30717dd))
+* **eslint-config-typescript:** add eslint-config-typescript ([3ba7b48](https://github.com/goldwasserexchange/public/commit/3ba7b48))
+* **lint-js:** add support for typescript ([a03fa99](https://github.com/goldwasserexchange/public/commit/a03fa99))
+* **utils:** add lmlGet ([e3bdbd9](https://github.com/goldwasserexchange/public/commit/e3bdbd9))
+* **utils:** add propIsNil ([bc0db30](https://github.com/goldwasserexchange/public/commit/bc0db30))
+* **webpack-config:** add .ts in resolve.extension ([7b27c01](https://github.com/goldwasserexchange/public/commit/7b27c01))
+
+
+
+
+
 # [5.3.0](https://github.com/goldwasserexchange/public/compare/v5.2.2...v5.3.0) (2018-12-03)
 
 
