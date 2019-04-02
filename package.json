@@ -19,15 +19,14 @@
     "build": "lerna run --stream build",
     "commit": "git-cz",
     "count": "cloc . --vcs=git",
-    "jest": "lerna run --stream test",
     "lerna": "lerna",
     "lint": "lerna run --stream lint",
     "lint:js": "lerna run --stream lint:js",
     "lint:pkg": "lerna run --stream lint:pkg",
     "publish": "lerna publish",
     "sort": "lerna run --stream sort",
-    "test": "yarn lint && yarn type-check && yarn jest",
-    "type-check": "tsc --noEmit"
+    "test": "lerna run --stream test",
+    "type-check": "lerna run --stream type-check"
   },
   "husky": {
     "hooks": {
