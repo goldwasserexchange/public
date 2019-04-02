@@ -15,13 +15,44 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production ge-scripts babel",
     "generate": "node ./scripts/generate",
+    "lint": "yarn lint:pkg && yarn lint:js",
+    "lint:js": "ge-scripts lint-js",
+    "lint:pkg": "npmPkgJsonLint .",
+    "precommit": "lint-staged",
     "prepublishOnly": "npm run generate && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sort": "sort-package-json"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "yarn lint:js"
+    ],
+    "package.json": [
+      "npmPkgJsonLint"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "@goldwasserexchange"
+  },
+  "devDependencies": {
+    "@goldwasserexchange/babel": "^5.4.0",
+    "@goldwasserexchange/eslint-config": "^5.4.0",
+    "@goldwasserexchange/npm-package-json-lint-config": "^5.4.0",
+    "@goldwasserexchange/utils": "^5.4.0",
+    "cross-env": "^5.2.0",
+    "fs-extra": "^7.0.1",
+    "ge-scripts": "^5.4.0",
+    "lint-staged": "^8.1.0",
+    "npm-package-json-lint": "^3.4.1",
+    "require-dir": "^1.2.0",
+    "sort-package-json": "^1.22.1"
   },
   "engines": {
     "node": ">=6.10"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "npmPackageJsonLintConfig": {
+    "extends": "@goldwasserexchange/npm-package-json-lint-config"
   }
 }

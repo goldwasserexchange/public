@@ -1,4 +1,4 @@
-const fetch = require('isomorphic-fetch'); // eslint-disable-line import/no-extraneous-dependencies
+const fetch = require('isomorphic-fetch');
 const fs = require('fs');
 const path = require('path');
 
