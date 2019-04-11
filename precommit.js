@@ -8,7 +8,7 @@ const precommit = async () => {
   const lernaLs = execAsync('npx lerna ls --json --all');
   const gitDiff = execAsync('git diff --cached --name-only');
 
-  const [{ stdout: ls }, { stdout: diff }] = await Promise.all([lernaLs, gitDiff])
+  const [{ stdout: ls }, { stdout: diff }] = await Promise.all([lernaLs, gitDiff]);
 
   const packages = JSON.parse(ls.trim());
   const staged = diff.trim().split('\n');
@@ -18,6 +18,6 @@ const precommit = async () => {
     .map(({ name }) => ['--scope', name]);
 
   if (scopes.length > 0) spawn('npx', ['lerna', 'run', '--concurrency', '1', '--stream', 'precommit', ...[].concat(...scopes)], { stdio: 'inherit' });
-}
+};
 
 precommit();

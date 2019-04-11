@@ -28,6 +28,9 @@
     "test": "lerna run --stream test",
     "type-check": "lerna run --stream type-check"
   },
+  "eslintConfig": {
+    "extends": "@goldwasserexchange"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "node precommit.js",
