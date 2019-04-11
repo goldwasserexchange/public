@@ -5,7 +5,7 @@ const { exec, spawn } = require('child_process');
 const execAsync = promisify(exec);
 
 const precommit = async () => {
-  const lernaLs = execAsync('npx lerna ls --json');
+  const lernaLs = execAsync('npx lerna ls --json --all');
   const gitDiff = execAsync('git diff --cached --name-only');
 
   const [{ stdout: ls }, { stdout: diff }] = await Promise.all([lernaLs, gitDiff])
