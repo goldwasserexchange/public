@@ -14,7 +14,7 @@ const precommit = async () => {
   const staged = diff.trim().split('\n');
 
   const scopes = packages
-    .filter(p => staged.reduce((acc, f) => acc || dirname(join(process.cwd(), f)).includes(p.location), false))
+    .filter(p => staged.some(f => dirname(join(process.cwd(), f)).includes(p.location)))
     .map(({ name }) => ['--scope', name]);
 
   if (scopes.length > 0) spawn('npx', ['lerna', 'run', '--concurrency', '1', '--stream', 'precommit', ...[].concat(...scopes)], { stdio: 'inherit' });
