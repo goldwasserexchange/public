@@ -11,7 +11,22 @@
   "author": "Hans Scheuren",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "yarn lint:pkg && yarn lint:js",
+    "lint:js": "eslint . --ignore-path .gitignore",
+    "lint:pkg": "npmPkgJsonLint .",
+    "precommit": "lint-staged",
+    "sort": "sort-package-json"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "yarn lint:js"
+    ],
+    "package.json": [
+      "npmPkgJsonLint"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "@goldwasserexchange"
   },
   "dependencies": {
     "@goldwasserexchange/eslint-config": "^5.4.0",
@@ -20,7 +35,18 @@
     "eslint": "^5.5.0",
     "yargs-parser": "^11.0.0"
   },
+  "devDependencies": {
+    "@goldwasserexchange/eslint-config": "^5.4.0",
+    "@goldwasserexchange/npm-package-json-lint-config": "^5.4.0",
+    "eslint": "^5.5.0",
+    "lint-staged": "^8.1.0",
+    "npm-package-json-lint": "^3.4.1",
+    "sort-package-json": "^1.22.1"
+  },
   "publishConfig": {
     "access": "public"
+  },
+  "npmPackageJsonLintConfig": {
+    "extends": "@goldwasserexchange/npm-package-json-lint-config"
   }
 }

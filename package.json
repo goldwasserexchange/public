@@ -16,63 +16,40 @@
     "packages/**/*"
   ],
   "scripts": {
-    "build": "lerna run build",
+    "build": "lerna run --stream build",
     "commit": "git-cz",
     "count": "cloc . --vcs=git",
-    "jest": "jest",
     "lerna": "lerna",
-    "lint": "yarn lint:pkg && yarn lint:js",
-    "lint:js": "ge-scripts lint-js --cache-location lint_cache/.eslintcache",
-    "lint:pkg": "npmPkgJsonLint ./packages",
+    "lint": "lerna run --stream lint",
+    "lint:js": "lerna run --stream lint:js",
+    "lint:pkg": "lerna run --stream lint:pkg",
     "publish": "lerna publish",
-    "sort": "sort-package-json && lerna exec sort-package-json",
-    "test": "yarn lint && yarn type-check && yarn jest",
-    "type-check": "tsc --noEmit"
+    "sort": "lerna run --stream sort",
+    "test": "lerna run --stream test",
+    "type-check": "lerna run --stream type-check"
+  },
+  "eslintConfig": {
+    "extends": "@goldwasserexchange"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && yarn type-check",
+      "pre-commit": "node precommit.js",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  },
-  "lint-staged": {
-    "*.{js,ts}": [
-      "yarn lint:js"
-    ],
-    "packages/**/package.json": [
-      "npmPkgJsonLint"
-    ]
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
   },
-  "eslintConfig": {
-    "extends": "@goldwasserexchange"
-  },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
-    "@goldwasserexchange/jest-config": "^5.0.0",
-    "@goldwasserexchange/utils": "^5.0.0",
     "cloc": "^2.3.4",
     "commitizen": "^3.0.5",
-    "cross-env": "^5.2.0",
     "cz-conventional-changelog": "^2.1.0",
-    "fs-extra": "^7.0.1",
-    "ge-scripts": "^5.0.0",
-    "husky": "^2.0.0",
-    "isomorphic-fetch": "^2.2.1",
-    "jest": "^23.6.0",
+    "husky": "^2.1.0",
     "lerna": "^3.5.1",
-    "lint-staged": "^8.1.0",
-    "npm-package-json-lint": "^3.4.1",
-    "require-dir": "^1.2.0",
-    "sort-package-json": "^1.22.1",
     "typescript": "^3.3.3"
-  },
-  "npmPackageJsonLintConfig": {
-    "extends": "./packages/lint/npm-package-json-lint/npm-package-json-lint-config/index.js"
   }
 }

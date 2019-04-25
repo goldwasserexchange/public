@@ -11,7 +11,22 @@
   "author": "Hans Scheuren",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "yarn lint:pkg && yarn lint:js",
+    "lint:js": "ge-scripts lint-js",
+    "lint:pkg": "npmPkgJsonLint .",
+    "precommit": "lint-staged",
+    "sort": "sort-package-json"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "yarn lint:js"
+    ],
+    "package.json": [
+      "npmPkgJsonLint"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "@goldwasserexchange"
   },
   "dependencies": {
     "@babel/core": "^7.0.0",
@@ -55,7 +70,18 @@
     "whatwg-fetch": "^3.0.0",
     "workbox-webpack-plugin": "^3.4.1"
   },
+  "devDependencies": {
+    "@goldwasserexchange/eslint-config": "^5.4.0",
+    "@goldwasserexchange/npm-package-json-lint-config": "^5.4.0",
+    "ge-scripts": "^5.4.0",
+    "lint-staged": "^8.1.0",
+    "npm-package-json-lint": "^3.4.1",
+    "sort-package-json": "^1.22.1"
+  },
   "publishConfig": {
     "access": "public"
+  },
+  "npmPackageJsonLintConfig": {
+    "extends": "@goldwasserexchange/npm-package-json-lint-config"
   }
 }
