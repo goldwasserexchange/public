@@ -1,5 +1,4 @@
 const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
-const getOverridesFromLernaConfig = require('./getOverridesFromLerna');
 
 module.exports = {
   parser: '@typescript-eslint/parser',
@@ -29,9 +28,4 @@ module.exports = {
       jsx: ifAnyDep('react', true, false),
     },
   },
-  overrides: getOverridesFromLernaConfig({
-    react: ['@goldwasserexchange/eslint-config-react', 'eslint-config-airbnb/rules/react-a11y'],
-    ramda: '@goldwasserexchange/eslint-config-ramda',
-    jest: '@goldwasserexchange/eslint-config-jest',
-  }),
 };
