@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/npm-package-json-lint-config",
-  "version": "5.4.0",
+  "version": "5.4.1",
   "description": "Config for npm-package-json-lint",
   "keywords": [
     "npm-package-json-lint",

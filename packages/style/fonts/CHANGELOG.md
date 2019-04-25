@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.4.1](https://github.com/goldwasserexchange/public/compare/v5.4.0...v5.4.1) (2019-04-25)
+
+**Note:** Version bump only for package @goldwasserexchange/fonts
+
+
+
+
+
 # [5.0.0](https://github.com/goldwasserexchange/public/compare/v4.12.1...v5.0.0) (2018-11-02)
 
 **Note:** Version bump only for package @goldwasserexchange/fonts

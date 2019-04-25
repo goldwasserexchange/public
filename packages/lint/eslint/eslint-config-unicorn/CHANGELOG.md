@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.4.1](https://github.com/goldwasserexchange/public/compare/v5.4.0...v5.4.1) (2019-04-25)
+
+
+### Bug Fixes
+
+* **package:** update eslint-plugin-unicorn to version 8.0.2 ([#132](https://github.com/goldwasserexchange/public/issues/132)) ([f8e792d](https://github.com/goldwasserexchange/public/commit/f8e792d)), closes [#123](https://github.com/goldwasserexchange/public/issues/123)
+
+
+
+
+
 # [5.4.0](https://github.com/goldwasserexchange/public/compare/v5.3.0...v5.4.0) (2019-03-08)
 
 

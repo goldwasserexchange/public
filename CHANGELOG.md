@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.4.1](https://github.com/goldwasserexchange/public/compare/v5.4.0...v5.4.1) (2019-04-25)
+
+
+### Bug Fixes
+
+* **package:** update arrify to version 2.0.1 ([#130](https://github.com/goldwasserexchange/public/issues/130)) ([2bcf7f7](https://github.com/goldwasserexchange/public/commit/2bcf7f7)), closes [#126](https://github.com/goldwasserexchange/public/issues/126)
+* **package:** update eslint-plugin-unicorn to version 8.0.2 ([#132](https://github.com/goldwasserexchange/public/issues/132)) ([f8e792d](https://github.com/goldwasserexchange/public/commit/f8e792d)), closes [#123](https://github.com/goldwasserexchange/public/issues/123)
+* **package:** update lodash to version 4.17.11 ([#131](https://github.com/goldwasserexchange/public/issues/131)) ([540f11d](https://github.com/goldwasserexchange/public/commit/540f11d))
+* **package:** update read-pkg-up to version 5.0.0 ([#120](https://github.com/goldwasserexchange/public/issues/120)) ([9e86286](https://github.com/goldwasserexchange/public/commit/9e86286))
+* **package:** update semver to version 6.0.0 ([#122](https://github.com/goldwasserexchange/public/issues/122)) ([994f6fa](https://github.com/goldwasserexchange/public/commit/994f6fa))
+* **package:** update serialize-error to version 4.0.0 ([#119](https://github.com/goldwasserexchange/public/issues/119)) ([91854b8](https://github.com/goldwasserexchange/public/commit/91854b8))
+
+
+
+
+
 # [5.4.0](https://github.com/goldwasserexchange/public/compare/v5.3.0...v5.4.0) (2019-03-08)
 
 

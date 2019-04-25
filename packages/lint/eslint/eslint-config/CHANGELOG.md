@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.4.1](https://github.com/goldwasserexchange/public/compare/v5.4.0...v5.4.1) (2019-04-25)
+
+
+### Bug Fixes
+
+* **package:** update arrify to version 2.0.1 ([#130](https://github.com/goldwasserexchange/public/issues/130)) ([2bcf7f7](https://github.com/goldwasserexchange/public/commit/2bcf7f7)), closes [#126](https://github.com/goldwasserexchange/public/issues/126)
+
+
+
+
+
 # [5.4.0](https://github.com/goldwasserexchange/public/compare/v5.3.0...v5.4.0) (2019-03-08)
 
 
