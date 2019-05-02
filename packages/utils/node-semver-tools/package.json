@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/node-semver-tools",
-  "version": "5.4.2",
+  "version": "5.4.3",
   "description": "A series of tools to use the semver package with preloaded versions of node",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -33,9 +33,9 @@
     "semver": "^6.0.0"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^5.4.2",
-    "@goldwasserexchange/npm-package-json-lint-config": "^5.4.1",
-    "ge-scripts": "^5.4.2",
+    "@goldwasserexchange/eslint-config": "^5.4.3",
+    "@goldwasserexchange/npm-package-json-lint-config": "^5.4.3",
+    "ge-scripts": "^5.4.3",
     "isomorphic-fetch": "^2.2.1",
     "lint-staged": "^8.1.0",
     "npm-package-json-lint": "^3.4.1",

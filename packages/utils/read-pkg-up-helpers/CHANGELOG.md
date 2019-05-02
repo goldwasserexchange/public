@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.4.3](https://github.com/goldwasserexchange/public/compare/v5.4.2...v5.4.3) (2019-05-02)
+
+
+### Bug Fixes
+
+* **package:** update write-pkg to version 4.0.0 ([#135](https://github.com/goldwasserexchange/public/issues/135)) ([77a6302](https://github.com/goldwasserexchange/public/commit/77a6302))
+
+
+
+
+
 ## [5.4.1](https://github.com/goldwasserexchange/public/compare/v5.4.0...v5.4.1) (2019-04-25)
 
 
