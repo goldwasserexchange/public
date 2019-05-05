@@ -33,7 +33,7 @@
     "@goldwasserexchange/read-pkg-up-helpers": "^5.4.3",
     "cross-spawn": "^6.0.5",
     "eslint": "^5.5.0",
-    "yargs-parser": "^11.0.0"
+    "yargs-parser": "^13.1.0"
   },
   "devDependencies": {
     "@goldwasserexchange/eslint-config": "^5.4.0",
