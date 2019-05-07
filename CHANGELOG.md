@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.4.4](https://github.com/goldwasserexchange/public/compare/v5.4.3...v5.4.4) (2019-05-07)
+
+
+### Bug Fixes
+
+* **webpack-config:** remove unknown css loader option ([#136](https://github.com/goldwasserexchange/public/issues/136)) ([6f1fc20](https://github.com/goldwasserexchange/public/commit/6f1fc20))
+
+
+
+
+
 ## [5.4.3](https://github.com/goldwasserexchange/public/compare/v5.4.2...v5.4.3) (2019-05-02)
 
 
