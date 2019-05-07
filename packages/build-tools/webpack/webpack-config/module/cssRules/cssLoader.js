@@ -15,7 +15,6 @@ module.exports = {
     process.env.NODE_ENV === 'production'
       ? {
         camelCase: true,
-        minimize: true,
       }
       : {},
   ),
