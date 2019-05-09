@@ -33,6 +33,8 @@ module.exports = {
       files: [
         '**/*.test.js',
         '**/__mocks__/*.js',
+        '**/*.test.ts',
+        '**/__mocks__/*.ts',
       ],
       rules: {
         'jest/no-disabled-tests': 'error',
