@@ -8,7 +8,7 @@ const which = require('which');
 const arrify = require('arrify');
 const { has } = require('lodash');
 
-const { pkg, path: pkgPath } = readPkgUp.sync({
+const { package: pkg, path: pkgPath } = readPkgUp.sync({
   cwd: fs.realpathSync(process.cwd()),
 });
 const appDirectory = path.dirname(pkgPath);

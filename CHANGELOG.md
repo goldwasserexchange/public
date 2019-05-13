@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.5.0](https://github.com/goldwasserexchange/public/compare/v5.4.4...v5.5.0) (2019-05-10)
+
+
+### Features
+
+* **eslint-config-import:** disable prefer-default-export ([#140](https://github.com/goldwasserexchange/public/issues/140)) ([91ff9a5](https://github.com/goldwasserexchange/public/commit/91ff9a5))
+* **eslint-config-jest:** add ts files ([#138](https://github.com/goldwasserexchange/public/issues/138)) ([ccdd4b3](https://github.com/goldwasserexchange/public/commit/ccdd4b3))
+* **eslint-config-typescript:** fine-tune config ([#141](https://github.com/goldwasserexchange/public/issues/141)) ([a22479f](https://github.com/goldwasserexchange/public/commit/a22479f))
+
+
+
+
+
+## [5.4.4](https://github.com/goldwasserexchange/public/compare/v5.4.3...v5.4.4) (2019-05-07)
+
+
+### Bug Fixes
+
+* **webpack-config:** remove unknown css loader option ([#136](https://github.com/goldwasserexchange/public/issues/136)) ([6f1fc20](https://github.com/goldwasserexchange/public/commit/6f1fc20))
+
+
+
+
+
 ## [5.4.3](https://github.com/goldwasserexchange/public/compare/v5.4.2...v5.4.3) (2019-05-02)
 
 
