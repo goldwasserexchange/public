@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/read-pkg-up-helpers",
-  "version": "5.4.3",
+  "version": "5.5.1",
   "description": "A serie of utilities to get info from the closest package.json going up in the directory tree",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {

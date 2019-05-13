@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.1](https://github.com/goldwasserexchange/public/compare/v5.5.0...v5.5.1) (2019-05-13)
+
+
+### Bug Fixes
+
+* **package:** update read-pkg-up to version 6.0.0 ([#143](https://github.com/goldwasserexchange/public/issues/143)) ([64e8e10](https://github.com/goldwasserexchange/public/commit/64e8e10))
+
+
+
+
+
 ## [5.4.3](https://github.com/goldwasserexchange/public/compare/v5.4.2...v5.4.3) (2019-05-02)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/webpack-config",
-  "version": "5.5.0",
+  "version": "5.5.1",
   "description": "The common webpack configuration for goldwasser exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -31,10 +31,10 @@
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
-    "@goldwasserexchange/babel-preset": "^5.5.0",
-    "@goldwasserexchange/node-semver-tools": "^5.5.0",
-    "@goldwasserexchange/postcss-config": "^5.5.0",
-    "@goldwasserexchange/read-pkg-up-helpers": "^5.4.3",
+    "@goldwasserexchange/babel-preset": "^5.5.1",
+    "@goldwasserexchange/node-semver-tools": "^5.5.1",
+    "@goldwasserexchange/postcss-config": "^5.5.1",
+    "@goldwasserexchange/read-pkg-up-helpers": "^5.5.1",
     "babel-loader": "^8.0.2",
     "case-sensitive-paths-webpack-plugin": "^2.1.2",
     "copy-webpack-plugin": "^5.0.0",
@@ -71,9 +71,9 @@
     "workbox-webpack-plugin": "^3.4.1"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^5.5.0",
+    "@goldwasserexchange/eslint-config": "^5.5.1",
     "@goldwasserexchange/npm-package-json-lint-config": "^5.4.3",
-    "ge-scripts": "^5.5.0",
+    "ge-scripts": "^5.5.1",
     "lint-staged": "^8.1.0",
     "npm-package-json-lint": "^3.4.1",
     "sort-package-json": "^1.22.1"

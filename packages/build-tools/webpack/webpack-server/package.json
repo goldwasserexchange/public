@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/webpack-server",
-  "version": "5.5.0",
+  "version": "5.5.1",
   "description": "The webpack server preconfigured with goldwasserexchange defaults",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -29,8 +29,8 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@goldwasserexchange/read-pkg-up-helpers": "^5.4.3",
-    "@goldwasserexchange/webpack-config": "^5.5.0",
+    "@goldwasserexchange/read-pkg-up-helpers": "^5.5.1",
+    "@goldwasserexchange/webpack-config": "^5.5.1",
     "chalk": "^2.4.1",
     "compression": "^1.7.3",
     "express": "^4.16.3",
@@ -40,9 +40,9 @@
     "webpack-dev-server": "^3.1.8"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^5.5.0",
+    "@goldwasserexchange/eslint-config": "^5.5.1",
     "@goldwasserexchange/npm-package-json-lint-config": "^5.4.3",
-    "ge-scripts": "^5.5.0",
+    "ge-scripts": "^5.5.1",
     "lint-staged": "^8.1.0",
     "npm-package-json-lint": "^3.4.1",
     "sort-package-json": "^1.22.1"
