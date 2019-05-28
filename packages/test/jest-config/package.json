@@ -29,7 +29,7 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.4.5",
     "@goldwasserexchange/babel-preset": "^5.5.1",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0"

@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.4.5",
     "@goldwasserexchange/babel-preset": "^5.5.1",
     "@goldwasserexchange/read-pkg-up-helpers": "^5.5.1",
     "cross-env": "^5.2.0",
