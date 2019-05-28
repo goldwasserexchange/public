@@ -36,7 +36,6 @@
     "yargs-parser": "^13.1.0"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^5.4.0",
     "@goldwasserexchange/npm-package-json-lint-config": "^5.4.3",
     "eslint": "^5.5.0",
     "lint-staged": "^8.1.0",
