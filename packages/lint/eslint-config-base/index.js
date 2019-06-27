@@ -20,6 +20,6 @@ module.exports = {
     },
   },
   rules: {
-    ...ifAnyDep('@aws-cdk/cdk', { 'no-new': 0 }, {}),
+    ...ifAnyDep('@aws-cdk/core', { 'no-new': 0 }, {}),
   },
 };
