@@ -29,7 +29,7 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@goldwasserexchange/browserslist": "^5.5.2",
+    "@goldwasserexchange/browserslist-config": "^5.5.3",
     "@goldwasserexchange/media-queries": "^5.5.2",
     "@goldwasserexchange/style-vars": "^5.5.2",
     "lost": "^8.2.0",
