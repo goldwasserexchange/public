@@ -1,5 +1,5 @@
 {
-  "name": "@goldwasserexchange/browserslist",
+  "name": "@goldwasserexchange/browserslist-config",
   "version": "5.5.2",
   "description": "The shared browserslist used by Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
