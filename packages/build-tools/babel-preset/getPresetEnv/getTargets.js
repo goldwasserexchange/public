@@ -1,4 +1,4 @@
-const browsers = require('@goldwasserexchange/browserslist');
+const browsers = require('@goldwasserexchange/browserslist-config');
 
 const node = nodeVersion => ({
   node: nodeVersion ? nodeVersion.replace(/v/g, '') : 'current',
