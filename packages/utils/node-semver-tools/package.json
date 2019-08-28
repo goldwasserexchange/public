@@ -37,7 +37,7 @@
     "@goldwasserexchange/npm-package-json-lint-config": "^5.5.2",
     "ge-scripts": "^5.5.2",
     "isomorphic-fetch": "^2.2.1",
-    "lint-staged": "^8.1.0",
+    "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",
     "sort-package-json": "^1.22.1"
   },
