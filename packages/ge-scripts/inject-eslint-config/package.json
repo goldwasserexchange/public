@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/inject-eslint-config",
-  "version": "5.5.2",
+  "version": "6.0.0",
   "description": "A script to inject the extends of our eslint config in the root package.json",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -29,12 +29,12 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@goldwasserexchange/read-pkg-up-helpers": "^5.5.2"
+    "@goldwasserexchange/read-pkg-up-helpers": "^6.0.0"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^5.5.2",
-    "@goldwasserexchange/npm-package-json-lint-config": "^5.5.2",
-    "ge-scripts": "^5.5.2",
+    "@goldwasserexchange/eslint-config": "^6.0.0",
+    "@goldwasserexchange/npm-package-json-lint-config": "^6.0.0",
+    "ge-scripts": "^6.0.0",
     "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",
     "sort-package-json": "^1.22.1"

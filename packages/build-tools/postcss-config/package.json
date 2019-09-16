@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/postcss-config",
-  "version": "5.5.2",
+  "version": "6.0.0",
   "description": "The postcss configuration for Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -29,18 +29,18 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@goldwasserexchange/browserslist-config": "^5.5.3",
-    "@goldwasserexchange/media-queries": "^5.5.2",
-    "@goldwasserexchange/style-vars": "^5.5.2",
+    "@goldwasserexchange/browserslist-config": "^6.0.0",
+    "@goldwasserexchange/media-queries": "^6.0.0",
+    "@goldwasserexchange/style-vars": "^6.0.0",
     "lost": "^8.2.0",
     "postcss-focus": "^4.0.0",
     "postcss-preset-env": "^6.0.10",
     "postcss-reporter": "^6.0.0"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^5.5.2",
-    "@goldwasserexchange/npm-package-json-lint-config": "^5.5.2",
-    "ge-scripts": "^5.5.2",
+    "@goldwasserexchange/eslint-config": "^6.0.0",
+    "@goldwasserexchange/npm-package-json-lint-config": "^6.0.0",
+    "ge-scripts": "^6.0.0",
     "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",
     "sort-package-json": "^1.22.1"

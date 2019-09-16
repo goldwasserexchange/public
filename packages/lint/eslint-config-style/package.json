@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-style",
-  "version": "5.5.2",
+  "version": "6.0.0",
   "description": "Goldwasser Exchange ES Lint code style config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -33,7 +33,7 @@
     "eslint-config-airbnb-base": "^14.0.0"
   },
   "devDependencies": {
-    "@goldwasserexchange/npm-package-json-lint-config": "^5.5.2",
+    "@goldwasserexchange/npm-package-json-lint-config": "^6.0.0",
     "eslint": "^6.4.0",
     "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",
