@@ -3,9 +3,9 @@ const addInvokeRejectOnFnError = (client) => {
 
   return {
     ...client,
-    invokeRejectOnFnError: params => ({
+    invokeRejectOnFnError: (params) => ({
       promise: () => client.invoke(params).promise()
-        .then(data => (
+        .then((data) => (
           data.FunctionError
             ? Promise.reject(new Error(data.Payload))
             : data

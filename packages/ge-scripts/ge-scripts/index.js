@@ -15,7 +15,7 @@ function getEnv() {
   // this is required to address an issue in cross-spawn
   // https://github.com/kentcdodds/kcd-scripts/issues/4
   return Object.keys(process.env)
-    .filter(key => process.env[key] !== undefined)
+    .filter((key) => process.env[key] !== undefined)
     .reduce(
       (envCopy, key) => {
         const keyLens = lensProp(key);

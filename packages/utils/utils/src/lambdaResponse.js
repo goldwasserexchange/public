@@ -1,6 +1,6 @@
 import etag from './etag';
 
-const httpSuccess = code => code >= 200 && code < 300;
+const httpSuccess = (code) => code >= 200 && code < 300;
 
 const lambdaResponse = (statusCode, body, resHeaders, reqHeaders) => {
   const response = { statusCode };
@@ -14,7 +14,7 @@ const lambdaResponse = (statusCode, body, resHeaders, reqHeaders) => {
     if (httpSuccess(statusCode) && reqHeaders && reqHeaders['If-None-Match'] === tag) response.statusCode = 304;
     else response.body = bodyString;
 
-    response.headers = Object.assign({}, response.headers, { ETag: tag });
+    response.headers = { ...response.headers, ETag: tag };
   }
 
   return response;

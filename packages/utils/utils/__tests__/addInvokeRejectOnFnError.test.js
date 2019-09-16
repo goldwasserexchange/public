@@ -10,7 +10,7 @@ const dataOK = {
 };
 
 const client = {
-  invoke: error => ({
+  invoke: (error) => ({
     promise: () => Promise.resolve(
       error
         ? dataError

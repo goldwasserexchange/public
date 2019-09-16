@@ -9,7 +9,7 @@ const breakPointsArbitrary = require('../src/breakPointsArbitrary');
 
 const basePath = path.resolve(__dirname, '../src/');
 
-const getMinMq = operationOnUnitString(val => val - 0.1);
+const getMinMq = operationOnUnitString((val) => val - 0.1);
 
 const templates = requireDir('../templates');
 
@@ -36,14 +36,14 @@ const minMaxBreakPoint = {
   ),
 };
 
-const outputTemplated = templateName => fse.outputFile(
+const outputTemplated = (templateName) => fse.outputFile(
   path.resolve(basePath, `./${templateName}.js`),
   templates[templateName](minMaxBreakPoint),
 ).then(() => Promise.resolve(templateName));
 
-Promise.all(Object.keys(templates).map(key => outputTemplated(key)))
+Promise.all(Object.keys(templates).map((key) => outputTemplated(key)))
   .then((results) => {
     console.log('files succesfully templated:'); // eslint-disable-line no-console
-    results.forEach(result => console.log(`templates/${result}.js => src/${result}.js`)); // eslint-disable-line no-console
+    results.forEach((result) => console.log(`templates/${result}.js => src/${result}.js`)); // eslint-disable-line no-console
   })
-  .catch(err => console.error('error in file generation', err)); // eslint-disable-line no-console
+  .catch((err) => console.error('error in file generation', err)); // eslint-disable-line no-console

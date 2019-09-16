@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "@goldwasserexchange/npm-package-json-lint-config": "^5.5.2",
-    "eslint": "^5.16.0",
-    "lint-staged": "^8.1.0",
+    "eslint": "^6.4.0",
+    "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",
     "sort-package-json": "^1.22.1"
   },

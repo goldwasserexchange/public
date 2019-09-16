@@ -13,19 +13,19 @@ const { package: pkg, path: pkgPath } = readPkgUp.sync({
 });
 const appDirectory = path.dirname(pkgPath);
 
-const appendToPkg = appendFn => writePkg(pkgPath, Object.assign({}, pkg || {}, appendFn(pkg) || {}));
+const appendToPkg = (appendFn) => writePkg(pkgPath, Object.assign({}, pkg || {}, appendFn(pkg) || {})); // eslint-disable-line prefer-object-spread
 
 const fromRoot = (...p) => path.join(appDirectory, ...p);
 const hasFile = (...p) => fs.existsSync(fromRoot(...p));
 
-const hasPkgProp = props => arrify(props).some(prop => has(pkg, prop));
+const hasPkgProp = (props) => arrify(props).some((prop) => has(pkg, prop));
 
-const hasPkgSubProp = pkgProp => props => hasPkgProp(arrify(props).map(p => `${pkgProp}.${p}`));
+const hasPkgSubProp = (pkgProp) => (props) => hasPkgProp(arrify(props).map((p) => `${pkgProp}.${p}`));
 
 const hasPeerDep = hasPkgSubProp('peerDependencies');
 const hasDep = hasPkgSubProp('dependencies');
 const hasDevDep = hasPkgSubProp('devDependencies');
-const hasAnyDep = args => [hasDep, hasDevDep, hasPeerDep].some(fn => fn(args));
+const hasAnyDep = (args) => [hasDep, hasDevDep, hasPeerDep].some((fn) => fn(args));
 
 const ifAnyDep = (deps, t, f) => (hasAnyDep(arrify(deps)) ? t : f);
 
