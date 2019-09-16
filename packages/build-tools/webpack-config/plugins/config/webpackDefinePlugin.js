@@ -9,7 +9,6 @@ const definedEnv = defineEnv.reduce(
 
 module.exports = target === 'web' && new webpack.DefinePlugin({
   'process.env': {
-
     NODE_ENV: JSON.stringify(process.env.NODE_ENV),
     ...(defineEnv && !isEmpty(defineEnv)
       ? definedEnv

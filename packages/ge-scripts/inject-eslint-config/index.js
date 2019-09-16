@@ -6,7 +6,6 @@ const getPath = (configName) => path.relative(process.cwd(), require.resolve(con
 
 const addEsLintConfig = (pkg) => ({
   eslintConfig: {
-
     ...pkg.eslintConfig || {},
     extends: [
       getPath('@goldwasserexchange/eslint-config'),

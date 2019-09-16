@@ -23,7 +23,6 @@ module.exports = () => {
   return [
     require.resolve('babel-plugin-transform-imports'),
     {
-
       ...goldwasserExchangeUtilsTransform(babelTarget),
     },
   ];

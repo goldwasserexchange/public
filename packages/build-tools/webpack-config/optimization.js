@@ -3,7 +3,6 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const { target } = require('./webpackPkgConfig');
 
 module.exports = {
-
   ...(process.env.NODE_ENV === 'production'
     ? {
       minimizer: [

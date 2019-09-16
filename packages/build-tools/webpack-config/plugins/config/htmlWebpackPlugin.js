@@ -3,7 +3,6 @@ const { fromRoot, getPkgSrcDir } = require('@goldwasserexchange/read-pkg-up-help
 const { target, htmlTemplate } = require('../../webpackPkgConfig');
 
 module.exports = target === 'web' && new HtmlWebpackPlugin({
-
   inject: true,
   env: process.env,
   template: htmlTemplate || `${fromRoot(getPkgSrcDir())}/index.ejs`,

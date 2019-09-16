@@ -8,7 +8,6 @@ const pkgManifest = pkg.manifest || {};
 const pkgFavIcons = pkg.favicons || {};
 
 module.exports = target === 'web' && new WebpackPwaManifest({
-
   filename: 'static/manifest.[hash].json',
   name,
   short_name: shortName,
