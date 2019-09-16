@@ -2,9 +2,9 @@ const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const { target } = require('./webpackPkgConfig');
 
-module.exports = Object.assign(
-  {},
-  process.env.NODE_ENV === 'production'
+module.exports = {
+
+  ...(process.env.NODE_ENV === 'production'
     ? {
       minimizer: [
         new TerserPlugin({
@@ -33,13 +33,13 @@ module.exports = Object.assign(
         target === 'web' && new OptimizeCSSAssetsPlugin(),
       ].filter(Boolean),
     }
-    : {},
-  target === 'web'
+    : {}),
+  ...(target === 'web'
     ? {
       splitChunks: {
         chunks: 'all',
       },
       runtimeChunk: true,
     }
-    : {}
-);
+    : {}),
+};

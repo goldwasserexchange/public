@@ -5,5 +5,5 @@ import serializeError from 'serialize-error';
 export default (title, data = '') => pipe(
   when(is(Error), serializeError),
   stringify,
-  s => console.log(`${title}${data ? `: ${s}` : ''}`) // eslint-disable-line no-console
+  (s) => console.log(`${title}${data ? `: ${s}` : ''}`) // eslint-disable-line no-console
 )(data);

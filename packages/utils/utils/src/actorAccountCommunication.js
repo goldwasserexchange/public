@@ -10,5 +10,5 @@ export default pipe(
   insertSlash(3),
   insertSlash(8),
   join(''),
-  s => `+++ ${s} +++`
+  (s) => `+++ ${s} +++`
 );

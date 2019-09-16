@@ -4,8 +4,8 @@ const yargsParser = require('yargs-parser');
 const { hasPkgProp, resolveBin, hasFile } = require('@goldwasserexchange/read-pkg-up-helpers');
 
 let args = process.argv.slice(2);
-const here = p => path.join(__dirname, p);
-const hereRelative = p => here(p).replace(process.cwd(), '.');
+const here = (p) => path.join(__dirname, p);
+const hereRelative = (p) => here(p).replace(process.cwd(), '.');
 const parsedArgs = yargsParser(args);
 
 const useBuiltinConfig = !args.includes('--config')
@@ -36,7 +36,7 @@ const filesGiven = parsedArgs._.length > 0;
 // we need to take all the flag-less arguments (the files that should be linted)
 // and filter out the ones that aren't js files. Otherwise json or css files
 // may be passed through
-args = filesGiven ? args.filter(a => parsedArgs._.includes(a) || a.endsWith('.js') || a.endsWith('.ts')) : [...args, '.'];
+args = filesGiven ? args.filter((a) => parsedArgs._.includes(a) || a.endsWith('.js') || a.endsWith('.ts')) : [...args, '.'];
 
 const result = spawn.sync(
   resolveBin('eslint'),

@@ -32,13 +32,13 @@
     "@goldwasserexchange/eslint-config": "^5.5.2",
     "@goldwasserexchange/read-pkg-up-helpers": "^5.5.2",
     "cross-spawn": "^6.0.5",
-    "eslint": "^5.16.0",
+    "eslint": "^6.4.0",
     "yargs-parser": "^13.1.0"
   },
   "devDependencies": {
     "@goldwasserexchange/npm-package-json-lint-config": "^5.5.2",
-    "eslint": "^5.16.0",
-    "lint-staged": "^8.1.0",
+    "eslint": "^6.4.0",
+    "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",
     "sort-package-json": "^1.22.1"
   },

@@ -7,7 +7,7 @@ const goldwasserExchangeUtilsEsTargets = {
   node: 'es',
 };
 
-const goldwasserExchangeUtilsTransform = babelTarget => ifAnyDep(
+const goldwasserExchangeUtilsTransform = (babelTarget) => ifAnyDep(
   '@goldwasserexchange/utils',
   {
     '@goldwasserexchange/utils': {
@@ -22,9 +22,9 @@ module.exports = () => {
   const babelTarget = getBabelTarget();
   return [
     require.resolve('babel-plugin-transform-imports'),
-    Object.assign(
-      {},
-      goldwasserExchangeUtilsTransform(babelTarget),
-    ),
+    {
+
+      ...goldwasserExchangeUtilsTransform(babelTarget),
+    },
   ];
 };

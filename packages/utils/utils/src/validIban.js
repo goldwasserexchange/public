@@ -5,7 +5,7 @@ import removeSpaces from './removeSpaces';
 import moveCharsToEnd from './moveCharsToEnd';
 import stringModulo from './stringModulo';
 
-const toDigit = when(test(/[A-Za-z]/), compose(char => `${char.charCodeAt(0) - 55}`, toUpper));
+const toDigit = when(test(/[A-Za-z]/), compose((char) => `${char.charCodeAt(0) - 55}`, toUpper));
 
 export default pipe(
   removeSpaces,

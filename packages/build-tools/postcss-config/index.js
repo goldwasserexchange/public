@@ -7,7 +7,7 @@ const styleVars = require('@goldwasserexchange/style-vars').default;
 const mediaQueries = require('@goldwasserexchange/media-queries').default;
 
 const browsers = require('@goldwasserexchange/browserslist-config');
-const addDashes = obj => Object.keys(obj).reduce(
+const addDashes = (obj) => Object.keys(obj).reduce(
   (acc, key) => ({
     ...acc,
     [`--${key}`]: obj[key],

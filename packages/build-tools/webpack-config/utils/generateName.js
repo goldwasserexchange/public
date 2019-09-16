@@ -1,8 +1,8 @@
-const chunkhash = distributionHash => (distributionHash
+const chunkhash = (distributionHash) => (distributionHash
   ? '.[hash]'
   : '.[contenthash]');
 
-const hash = distributionHash => (process.env.NODE_ENV === 'production'
+const hash = (distributionHash) => (process.env.NODE_ENV === 'production'
   ? chunkhash(distributionHash)
   : '');
 

@@ -6,8 +6,8 @@ const {
 
 const listFiles = () => fs.readdirSync(path.join(process.cwd(), 'src'));
 const removeIndex = reject(equals('index.js'));
-const moduleName = file => path.basename(file, '.js');
-const exportLine = file => `export { default as ${moduleName(file)} } from './${moduleName(file)}';`;
+const moduleName = (file) => path.basename(file, '.js');
+const exportLine = (file) => `export { default as ${moduleName(file)} } from './${moduleName(file)}';`;
 const exportLines = pipe(
   map(exportLine),
   join('\n'),
@@ -18,7 +18,7 @@ const generateIndex = pipe(
   listFiles,
   removeIndex,
   exportLines,
-  index => fs.writeFileSync(path.join(process.cwd(), 'src', 'index.js'), index),
+  (index) => fs.writeFileSync(path.join(process.cwd(), 'src', 'index.js'), index),
 );
 
 generateIndex();

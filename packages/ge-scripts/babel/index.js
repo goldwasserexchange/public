@@ -6,7 +6,7 @@ const {
 } = require('@goldwasserexchange/read-pkg-up-helpers');
 
 const args = process.argv.slice(2);
-const here = p => path.join(__dirname, p);
+const here = (p) => path.join(__dirname, p);
 
 const babelTargetOutDirs = {
   commonjs: 'lib',

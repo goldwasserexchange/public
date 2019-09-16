@@ -10,7 +10,7 @@ export const bodyJson = compose(body, json);
 
 export const messageAttributes = lensProp('messageAttributes');
 
-const messageAttribute = (type, valueKey, transform) => name => compose( // eslint-disable-line ramda/compose-pipe-style
+const messageAttribute = (type, valueKey, transform) => (name) => compose( // eslint-disable-line ramda/compose-pipe-style
   messageAttributes,
   lens(
     path([name, valueKey]),

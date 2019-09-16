@@ -25,11 +25,9 @@ const dontCacheBustUrlsMatching = {
     : null,
 };
 
-module.exports = target === 'web' && process.env.NODE_ENV === 'production' && !(isEmpty(workboxConfig) || isNil(workboxConfig)) && new WorkboxPlugin.InjectManifest(Object.assign(
-  {},
-  workboxConfig,
-  {
-    include,
-  },
-  dontCacheBustUrlsMatching,
-));
+module.exports = target === 'web' && process.env.NODE_ENV === 'production' && !(isEmpty(workboxConfig) || isNil(workboxConfig)) && new WorkboxPlugin.InjectManifest({
+
+  ...workboxConfig,
+  include,
+  ...dontCacheBustUrlsMatching,
+});

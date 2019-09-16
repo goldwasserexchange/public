@@ -1,4 +1,4 @@
-const template = minMaxBreakPoint => (
+const template = (minMaxBreakPoint) => (
   `const breakPointsMinMax = {
   ${Object.keys(minMaxBreakPoint).map((breakPoint, index) => `${index !== 0 ? '\n  ' : ''}${breakPoint}: '${minMaxBreakPoint[breakPoint]}'`)},
 };

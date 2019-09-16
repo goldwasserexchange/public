@@ -1,4 +1,4 @@
-const template = minMaxBreakPoint => (
+const template = (minMaxBreakPoint) => (
   `const watchableMediaQueries = {
   sm: '(min-width: ${minMaxBreakPoint.smMin})',
   md: '(min-width: ${minMaxBreakPoint.mdMin})',
