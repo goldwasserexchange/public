@@ -32,7 +32,7 @@
     "@goldwasserexchange/browserslist-config": "^6.0.1",
     "@goldwasserexchange/media-queries": "^6.0.1",
     "@goldwasserexchange/style-vars": "^6.0.1",
-    "lost": "^8.2.0",
+    "lost": "^8.3.1",
     "postcss-focus": "^4.0.0",
     "postcss-preset-env": "^6.0.10",
     "postcss-reporter": "^6.0.0"
