@@ -38,7 +38,7 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "aws-sdk": "^2.412.0"
+    "aws-sdk": "^2.533.0"
   },
   "devDependencies": {
     "@goldwasserexchange/eslint-config": "^6.0.1",
