@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/babel",
-  "version": "6.0.1",
+  "version": "6.1.0",
   "description": "A common script to preconfigure and use babel",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -31,14 +31,14 @@
   "dependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.4.5",
-    "@goldwasserexchange/babel-preset": "^6.0.1",
+    "@goldwasserexchange/babel-preset": "^6.1.0",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.0.1",
     "cross-env": "^5.2.0",
     "cross-spawn": "^6.0.5",
     "rimraf": "^2.6.2"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^6.0.1",
+    "@goldwasserexchange/eslint-config": "^6.1.0",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.0.1",
     "eslint": "^6.4.0",
     "lint-staged": "^9.2.5",

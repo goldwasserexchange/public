@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/goldwasserexchange/public/compare/v6.0.1...v6.1.0) (2019-09-23)
+
+
+### Bug Fixes
+
+* **webpack-server:** fix createCompiler signature ([#195](https://github.com/goldwasserexchange/public/issues/195)) ([cbe7f64](https://github.com/goldwasserexchange/public/commit/cbe7f64)), closes [#117](https://github.com/goldwasserexchange/public/issues/117)
+
+
+### Features
+
+* **eslint-config-typescript:** update rules ([#201](https://github.com/goldwasserexchange/public/issues/201)) ([e5b4fff](https://github.com/goldwasserexchange/public/commit/e5b4fff))
+
+
+
+
+
 ## [6.0.1](https://github.com/goldwasserexchange/public/compare/v6.0.0...v6.0.1) (2019-09-16)
 
 **Note:** Version bump only for package @goldwasserexchange/public
