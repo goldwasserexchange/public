@@ -37,7 +37,7 @@
     "minimist": "^1.2.0",
     "react-dev-utils": "^8.0.0",
     "webpack": "^4.33.0",
-    "webpack-dev-server": "^3.1.11"
+    "webpack-dev-server": "^3.8.1"
   },
   "devDependencies": {
     "@goldwasserexchange/eslint-config": "^6.1.0",
