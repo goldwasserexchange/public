@@ -55,7 +55,7 @@ module.exports = {
         '@typescript-eslint/no-use-before-define': 'error',
         '@typescript-eslint/no-useless-constructor': 'error',
         '@typescript-eslint/no-var-requires': 'error',
-        '@typescript-eslint/prefer-interface': 'error',
+        '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
         '@typescript-eslint/prefer-namespace-keyword': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
       },
