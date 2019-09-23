@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-react",
-  "version": "5.5.2",
+  "version": "6.0.1",
   "description": "Goldwasser Exchange ES Lint React config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -34,7 +34,7 @@
     "eslint-plugin-react": "^7.14.3"
   },
   "devDependencies": {
-    "@goldwasserexchange/npm-package-json-lint-config": "^5.5.2",
+    "@goldwasserexchange/npm-package-json-lint-config": "^6.0.1",
     "eslint": "^6.4.0",
     "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",

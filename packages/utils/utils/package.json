@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/utils",
-  "version": "5.5.2",
+  "version": "6.0.1",
   "description": "GE Utils",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -40,12 +40,12 @@
     "serialize-error": "^4.0.0"
   },
   "devDependencies": {
-    "@goldwasserexchange/babel": "^5.5.2",
-    "@goldwasserexchange/eslint-config": "^5.5.2",
-    "@goldwasserexchange/jest-config": "^5.5.2",
-    "@goldwasserexchange/npm-package-json-lint-config": "^5.5.2",
+    "@goldwasserexchange/babel": "^6.0.1",
+    "@goldwasserexchange/eslint-config": "^6.0.1",
+    "@goldwasserexchange/jest-config": "^6.0.1",
+    "@goldwasserexchange/npm-package-json-lint-config": "^6.0.1",
     "cross-env": "^5.2.0",
-    "ge-scripts": "^5.5.2",
+    "ge-scripts": "^6.0.1",
     "jest": "^24.6.0",
     "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",

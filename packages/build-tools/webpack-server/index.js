@@ -36,13 +36,13 @@ choosePort(HOST, DEFAULT_PORT).then((port) => {
   const urls = prepareUrls(protocol, HOST, port);
   let server;
   if (process.env.NODE_ENV !== 'production') {
-    const compiler = createCompiler(
+    const compiler = createCompiler({
       webpack,
-      webpackConfig,
+      config: webpackConfig,
       appName,
       urls,
-      false,
-    );
+      userYarn: false,
+    });
     const serverConfig = {
       disableHostCheck: process.env.DANGEROUSLY_DISABLE_HOST_CHECK === 'true',
       compress: true,

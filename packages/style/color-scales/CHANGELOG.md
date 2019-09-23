@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.1](https://github.com/goldwasserexchange/public/compare/v6.0.0...v6.0.1) (2019-09-16)
+
+**Note:** Version bump only for package @goldwasserexchange/color-scales
+
+
+
+
+
+# [6.0.0](https://github.com/goldwasserexchange/public/compare/v5.5.3...v6.0.0) (2019-09-16)
+
+
+### Features
+
+* **lint:** update eslint to v6.4.0 ([#191](https://github.com/goldwasserexchange/public/issues/191)) ([29d7145](https://github.com/goldwasserexchange/public/commit/29d7145))
+
+
+### BREAKING CHANGES
+
+* **lint:** will break linting
+
+
+
+
+
 ## [5.5.2](https://github.com/goldwasserexchange/public/compare/v5.5.1...v5.5.2) (2019-06-28)
 
 **Note:** Version bump only for package @goldwasserexchange/color-scales

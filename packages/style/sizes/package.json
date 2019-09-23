@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/sizes",
-  "version": "5.5.2",
+  "version": "6.0.1",
   "description": "The sizes used by Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -29,13 +29,13 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@goldwasserexchange/media-queries": "^5.5.2",
-    "@goldwasserexchange/utils": "^5.5.2"
+    "@goldwasserexchange/media-queries": "^6.0.1",
+    "@goldwasserexchange/utils": "^6.0.1"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^5.5.2",
-    "@goldwasserexchange/npm-package-json-lint-config": "^5.5.2",
-    "ge-scripts": "^5.5.2",
+    "@goldwasserexchange/eslint-config": "^6.0.1",
+    "@goldwasserexchange/npm-package-json-lint-config": "^6.0.1",
+    "ge-scripts": "^6.0.1",
     "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",
     "sort-package-json": "^1.22.1"
