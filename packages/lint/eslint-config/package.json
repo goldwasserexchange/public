@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "description": "Goldwasser Exchange ES Lint config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -33,7 +33,7 @@
     "@goldwasserexchange/eslint-config-ramda": "^6.0.1",
     "@goldwasserexchange/eslint-config-react": "^6.0.1",
     "@goldwasserexchange/eslint-config-strict": "^6.0.1",
-    "@goldwasserexchange/eslint-config-typescript": "^6.1.0",
+    "@goldwasserexchange/eslint-config-typescript": "^6.1.1",
     "@goldwasserexchange/eslint-config-unicorn": "^6.0.1",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.0.1",
     "@typescript-eslint/parser": "^2.2.0",

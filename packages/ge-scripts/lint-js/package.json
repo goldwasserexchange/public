@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/lint-js",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "description": "A common script to preconfigure and use eslint",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -29,7 +29,7 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@goldwasserexchange/eslint-config": "^6.1.0",
+    "@goldwasserexchange/eslint-config": "^6.1.1",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.0.1",
     "cross-spawn": "^6.0.5",
     "eslint": "^6.4.0",

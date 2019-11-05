@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.1](https://github.com/goldwasserexchange/public/compare/v6.1.0...v6.1.1) (2019-11-05)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** add support for tsx files ([#204](https://github.com/goldwasserexchange/public/issues/204)) ([d206573](https://github.com/goldwasserexchange/public/commit/d206573))
+
+
+
+
+
 # [6.1.0](https://github.com/goldwasserexchange/public/compare/v6.0.1...v6.1.0) (2019-09-23)
 
 

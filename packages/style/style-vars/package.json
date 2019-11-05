@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/style-vars",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "description": "The style variables used by Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -33,17 +33,17 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@goldwasserexchange/colors": "^6.1.0",
-    "@goldwasserexchange/font-weights": "^6.1.0",
-    "@goldwasserexchange/fonts": "^6.1.0",
-    "@goldwasserexchange/sizes": "^6.1.0"
+    "@goldwasserexchange/colors": "^6.1.1",
+    "@goldwasserexchange/font-weights": "^6.1.1",
+    "@goldwasserexchange/fonts": "^6.1.1",
+    "@goldwasserexchange/sizes": "^6.1.1"
   },
   "devDependencies": {
-    "@goldwasserexchange/babel": "^6.1.0",
-    "@goldwasserexchange/eslint-config": "^6.1.0",
+    "@goldwasserexchange/babel": "^6.1.1",
+    "@goldwasserexchange/eslint-config": "^6.1.1",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.0.1",
     "cross-env": "^5.2.0",
-    "ge-scripts": "^6.1.0",
+    "ge-scripts": "^6.1.1",
     "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",
     "sort-package-json": "^1.22.1"

@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/babel-preset",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "description": "The babel preset for Goldwasser Exchange projects",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -46,8 +46,8 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.1.0",
     "@babel/runtime": "^7.0.0",
-    "@goldwasserexchange/browserslist-config": "^6.1.0",
-    "@goldwasserexchange/node-semver-tools": "^6.1.0",
+    "@goldwasserexchange/browserslist-config": "^6.1.1",
+    "@goldwasserexchange/node-semver-tools": "^6.1.1",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.0.1",
     "babel-plugin-date-fns": "^0.2.1",
     "babel-plugin-dynamic-import-node": "^2.1.0",
@@ -63,9 +63,9 @@
     "react-loadable": "^5.3.1"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^6.1.0",
+    "@goldwasserexchange/eslint-config": "^6.1.1",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.0.1",
-    "ge-scripts": "^6.1.0",
+    "ge-scripts": "^6.1.1",
     "lint-staged": "^9.2.5",
     "npm-package-json-lint": "^3.4.1",
     "sort-package-json": "^1.22.1"
