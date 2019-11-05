@@ -19,6 +19,7 @@ module.exports = {
     {
       files: [
         '**/*.ts',
+        '**/*.tsx',
       ],
       rules: { // See https://github.com/typescript-eslint/typescript-eslint/tree/v1.7.0/packages/eslint-plugin/docs/rules
         '@typescript-eslint/adjacent-overload-signatures': 'error',
