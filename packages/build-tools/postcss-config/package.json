@@ -34,7 +34,7 @@
     "@goldwasserexchange/style-vars": "^6.1.1",
     "lost": "^8.3.1",
     "postcss-focus": "^4.0.0",
-    "postcss-preset-env": "^6.0.10",
+    "postcss-preset-env": "^6.7.0",
     "postcss-reporter": "^6.0.0"
   },
   "devDependencies": {
