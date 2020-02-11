@@ -29,7 +29,7 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^2.2.0",
+    "@typescript-eslint/parser": "^2.19.2",
     "eslint-plugin-jest": "^22.17.0"
   },
   "devDependencies": {
