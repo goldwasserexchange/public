@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/jest-config",
-  "version": "6.1.1",
+  "version": "6.1.2",
   "description": "Jest config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -30,14 +30,14 @@
   },
   "dependencies": {
     "@babel/core": "^7.8.4",
-    "@goldwasserexchange/babel-preset": "^6.1.1",
+    "@goldwasserexchange/babel-preset": "^6.1.2",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^6.1.1",
-    "@goldwasserexchange/npm-package-json-lint-config": "^6.0.1",
-    "ge-scripts": "^6.1.1",
+    "@goldwasserexchange/eslint-config": "^6.1.2",
+    "@goldwasserexchange/npm-package-json-lint-config": "^6.1.2",
+    "ge-scripts": "^6.1.2",
     "lint-staged": "^10.0.7",
     "npm-package-json-lint": "^4.6.0",
     "sort-package-json": "^1.39.1"
