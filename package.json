@@ -43,13 +43,13 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.5.2",
-    "@commitlint/config-conventional": "^7.5.0",
-    "cloc": "^2.3.4",
-    "commitizen": "^3.0.5",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "cloc": "^2.5.1",
+    "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^2.1.0",
     "husky": "^2.1.0",
-    "lerna": "^3.15.0",
+    "lerna": "^3.20.2",
     "typescript": "^3.7.5"
   }
 }

@@ -29,26 +29,26 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.4.5",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
     "@goldwasserexchange/babel-preset": "^6.1.1",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.0.1",
-    "cross-env": "^5.2.0",
+    "cross-env": "^7.0.0",
     "cross-spawn": "^6.0.5",
-    "rimraf": "^2.6.2"
+    "rimraf": "^3.0.2"
   },
   "devDependencies": {
     "@goldwasserexchange/eslint-config": "^6.1.1",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.0.1",
-    "eslint": "^6.4.0",
-    "lint-staged": "^9.2.5",
-    "npm-package-json-lint": "^3.4.1",
-    "sort-package-json": "^1.22.1"
+    "eslint": "^6.8.0",
+    "lint-staged": "^10.0.7",
+    "npm-package-json-lint": "^4.6.0",
+    "sort-package-json": "^1.39.1"
   },
   "publishConfig": {
     "access": "public"
   },
-  "npmPackageJsonLintConfig": {
+  "npmpackagejsonlint": {
     "extends": "@goldwasserexchange/npm-package-json-lint-config"
   }
 }

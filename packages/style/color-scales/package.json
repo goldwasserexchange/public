@@ -39,11 +39,11 @@
     "@goldwasserexchange/babel": "^6.1.1",
     "@goldwasserexchange/eslint-config": "^6.1.1",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.0.1",
-    "cross-env": "^5.2.0",
+    "cross-env": "^7.0.0",
     "ge-scripts": "^6.1.1",
-    "lint-staged": "^9.2.5",
-    "npm-package-json-lint": "^3.4.1",
-    "sort-package-json": "^1.22.1"
+    "lint-staged": "^10.0.7",
+    "npm-package-json-lint": "^4.6.0",
+    "sort-package-json": "^1.39.1"
   },
   "engines": {
     "node": ">=6.10"
@@ -51,7 +51,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "npmPackageJsonLintConfig": {
+  "npmpackagejsonlint": {
     "extends": "@goldwasserexchange/npm-package-json-lint-config"
   }
 }

@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import serializeError from 'serialize-error';
+import { serializeError } from 'serialize-error';
 import log from '../src/log';
 
 console.log = jest.fn();
