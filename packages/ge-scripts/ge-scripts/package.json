@@ -43,9 +43,9 @@
   "devDependencies": {
     "@goldwasserexchange/eslint-config": "^6.1.1",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.0.1",
-    "lint-staged": "^9.2.5",
-    "npm-package-json-lint": "^3.4.1",
-    "sort-package-json": "^1.22.1"
+    "lint-staged": "^10.0.7",
+    "npm-package-json-lint": "^4.6.0",
+    "sort-package-json": "^1.39.1"
   },
   "peerDependencies": {
     "@goldwasserexchange/babel": "^5.4.0",
@@ -54,7 +54,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "npmPackageJsonLintConfig": {
+  "npmpackagejsonlint": {
     "extends": "@goldwasserexchange/npm-package-json-lint-config",
     "rules": {
       "valid-values-name-scope": "off"
