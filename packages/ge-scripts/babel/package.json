@@ -34,7 +34,7 @@
     "@goldwasserexchange/babel-preset": "^6.1.2",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.1.2",
     "cross-env": "^7.0.0",
-    "cross-spawn": "^6.0.5",
+    "cross-spawn": "^7.0.1",
     "rimraf": "^3.0.2"
   },
   "devDependencies": {
