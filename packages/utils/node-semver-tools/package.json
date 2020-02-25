@@ -30,7 +30,7 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "semver": "^6.0.0"
+    "semver": "^7.1.3"
   },
   "devDependencies": {
     "@goldwasserexchange/eslint-config": "^6.1.2",
