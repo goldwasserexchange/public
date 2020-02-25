@@ -1,6 +1,6 @@
 {
   "name": "ge-scripts",
-  "version": "6.1.2",
+  "version": "6.1.3",
   "description": "CLI toolbox for common scripts for Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {

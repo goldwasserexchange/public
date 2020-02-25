@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.3](https://github.com/goldwasserexchange/public/compare/v6.1.2...v6.1.3) (2020-02-25)
+
+**Note:** Version bump only for package ge-scripts
+
+
+
+
+
 ## [6.1.2](https://github.com/goldwasserexchange/public/compare/v6.1.1...v6.1.2) (2020-02-12)
 
 **Note:** Version bump only for package ge-scripts
