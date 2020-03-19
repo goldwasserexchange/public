@@ -22,6 +22,15 @@ module.exports = {
     'import/prefer-default-export': 0, // TODO: enforce later with import/no-default-export, see https://github.com/goldwasserexchange/public/issues/139
   },
   settings: {
+    'import/extensions': [
+      '.js',
+      '.jsx',
+      '.ts',
+      '.tsx',
+    ],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
     'import/resolver': {
       node: {
         extensions: [
