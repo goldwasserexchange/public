@@ -45,7 +45,7 @@
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
-    "@babel/runtime": "^7.8.4",
+    "@babel/runtime": "^7.8.7",
     "@goldwasserexchange/browserslist-config": "^6.2.1",
     "@goldwasserexchange/node-semver-tools": "^6.2.1",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.1.2",
