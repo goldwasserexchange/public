@@ -1,10 +1,5 @@
-const recommended = require('@typescript-eslint/eslint-plugin/dist/configs/recommended.json');
-
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: [
-    'plugin:@typescript-eslint/eslint-recommended',
-  ],
   plugins: [
     '@typescript-eslint',
   ],
@@ -26,8 +21,11 @@ module.exports = {
         '**/*.ts',
         '**/*.tsx',
       ],
+      extends: [
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+      ],
       rules: { // See https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
-        ...recommended.rules,
         '@typescript-eslint/array-type': 'error',
         camelcase: 'off',
         '@typescript-eslint/camelcase': 'error',
