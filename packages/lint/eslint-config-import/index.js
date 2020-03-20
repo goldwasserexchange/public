@@ -20,6 +20,15 @@ module.exports = {
     'import/newline-after-import': 0,
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'import/prefer-default-export': 0, // TODO: enforce later with import/no-default-export, see https://github.com/goldwasserexchange/public/issues/139
+    'import/extensions': [
+      'error',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
   },
   settings: {
     'import/extensions': [
