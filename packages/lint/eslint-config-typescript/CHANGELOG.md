@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.2.0](https://github.com/goldwasserexchange/public/compare/v6.1.3...v6.2.0) (2020-03-20)
+
+
+### Features
+
+* **eslint-config-typescript:** update and use recommended rules ([#245](https://github.com/goldwasserexchange/public/issues/245)) ([f81b3f3](https://github.com/goldwasserexchange/public/commit/f81b3f3))
+
+
+
+
+
 ## [6.1.2](https://github.com/goldwasserexchange/public/compare/v6.1.1...v6.1.2) (2020-02-12)
 
 **Note:** Version bump only for package @goldwasserexchange/eslint-config-typescript

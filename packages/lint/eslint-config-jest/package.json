@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-jest",
-  "version": "6.1.2",
+  "version": "6.2.0",
   "description": "Goldwasser Exchange ES Lint Jest config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {

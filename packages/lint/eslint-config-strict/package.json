@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-strict",
-  "version": "6.1.2",
+  "version": "6.2.0",
   "description": "Goldwasser Exchange ES Lint strict config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -29,7 +29,7 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@goldwasserexchange/eslint-config-base": "^6.1.2",
+    "@goldwasserexchange/eslint-config-base": "^6.2.0",
     "@typescript-eslint/parser": "^2.19.2",
     "eslint-config-airbnb-base": "^14.0.0"
   },

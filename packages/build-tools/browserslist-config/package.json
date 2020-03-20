@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/browserslist-config",
-  "version": "6.1.3",
+  "version": "6.2.0",
   "description": "The shared browserslist used by Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -29,9 +29,9 @@
     "extends": "@goldwasserexchange"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^6.1.2",
+    "@goldwasserexchange/eslint-config": "^6.2.0",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.1.2",
-    "ge-scripts": "^6.1.3",
+    "ge-scripts": "^6.2.0",
     "lint-staged": "^10.0.7",
     "npm-package-json-lint": "^4.6.0",
     "sort-package-json": "^1.39.1"
