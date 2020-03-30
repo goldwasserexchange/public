@@ -8,7 +8,7 @@ const operationOnUnit = curry((f, unitString) => pipe(
       parseFloat,
       f
     ),
-    replace(/\d/g, ''),
+    replace(/\d|\./g, ''),
   ]),
   join(''),
 )(unitString));
