@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/color-scales",
-  "version": "6.2.1",
+  "version": "6.2.2",
   "description": "The color scales used by Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -36,7 +36,7 @@
     "@goldwasserexchange/colors": "^6.2.1"
   },
   "devDependencies": {
-    "@goldwasserexchange/babel": "^6.2.1",
+    "@goldwasserexchange/babel": "^6.2.2",
     "@goldwasserexchange/eslint-config": "^6.2.1",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.1.2",
     "cross-env": "^7.0.0",

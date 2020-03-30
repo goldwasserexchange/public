@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.2.2](https://github.com/goldwasserexchange/public/compare/v6.2.1...v6.2.2) (2020-03-30)
+
+
+### Bug Fixes
+
+* **utils:** fix operationOnUnitString was not stripping points ([#247](https://github.com/goldwasserexchange/public/issues/247)) ([1bb7c74](https://github.com/goldwasserexchange/public/commit/1bb7c74))
+
+
+
+
+
 ## [6.2.1](https://github.com/goldwasserexchange/public/compare/v6.2.0...v6.2.1) (2020-03-20)
 
 **Note:** Version bump only for package @goldwasserexchange/utils

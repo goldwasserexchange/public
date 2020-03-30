@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/babel-preset",
-  "version": "6.2.1",
+  "version": "6.2.2",
   "description": "The babel preset for Goldwasser Exchange projects",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -47,7 +47,7 @@
     "@babel/preset-typescript": "^7.8.3",
     "@babel/runtime": "^7.8.4",
     "@goldwasserexchange/browserslist-config": "^6.2.1",
-    "@goldwasserexchange/node-semver-tools": "^6.2.1",
+    "@goldwasserexchange/node-semver-tools": "^6.2.2",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.1.2",
     "babel-plugin-date-fns": "^0.2.1",
     "babel-plugin-dynamic-import-node": "^2.3.0",
