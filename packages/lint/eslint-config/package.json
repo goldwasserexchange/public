@@ -41,7 +41,7 @@
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-redux-saga": "^0.10.0",
+    "eslint-plugin-redux-saga": "^1.1.3",
     "ramda": "^0.26.1",
     "redux-saga": "^0.16.2"
   },
