@@ -34,7 +34,7 @@
     "chalk": "^3.0.0",
     "compression": "^1.7.3",
     "express": "^4.16.3",
-    "minimist": "^1.2.2",
+    "minimist": "^1.2.3",
     "react-dev-utils": "^8.0.0",
     "webpack": "^4.42.1",
     "webpack-dev-server": "^3.10.3"
