@@ -42,7 +42,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-redux-saga": "^0.10.0",
-    "ramda": "^0.26.1",
+    "ramda": "^0.27.0",
     "redux-saga": "^0.16.2"
   },
   "devDependencies": {

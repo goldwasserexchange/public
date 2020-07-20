@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "cross-spawn": "^7.0.1",
-    "ramda": "^0.26.1"
+    "ramda": "^0.27.0"
   },
   "devDependencies": {
     "@goldwasserexchange/eslint-config": "^6.2.3",
