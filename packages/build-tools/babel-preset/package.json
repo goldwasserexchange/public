@@ -58,7 +58,7 @@
     "babel-plugin-root-import": "^6.4.1",
     "babel-plugin-transform-imports": "^2.0.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-    "babel-plugin-universal-import": "^3.0.0",
+    "babel-plugin-universal-import": "^4.0.2",
     "ramda": "^0.26.1",
     "react-loadable": "^5.3.1"
   },
