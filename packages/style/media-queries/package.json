@@ -39,7 +39,7 @@
     "@goldwasserexchange/npm-package-json-lint-config": "^6.2.3",
     "@goldwasserexchange/utils": "^6.2.3",
     "cross-env": "^7.0.0",
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.1",
     "ge-scripts": "^6.2.3",
     "lint-staged": "^10.0.10",
     "npm-package-json-lint": "^4.6.0",
