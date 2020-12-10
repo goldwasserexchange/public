@@ -37,7 +37,7 @@
   "dependencies": {
     "json-stringify-safe": "^5.0.1",
     "ramda": "^0.26.1",
-    "serialize-error": "^5.0.0"
+    "serialize-error": "^7.0.1"
   },
   "devDependencies": {
     "@goldwasserexchange/babel": "^6.2.3",
