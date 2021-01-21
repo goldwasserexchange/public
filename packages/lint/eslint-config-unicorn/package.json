@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^2.19.2",
-    "eslint-plugin-unicorn": "^10.0.0"
+    "eslint-plugin-unicorn": "^26.0.1"
   },
   "devDependencies": {
     "@goldwasserexchange/npm-package-json-lint-config": "^6.2.3",
