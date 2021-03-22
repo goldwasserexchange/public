@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/font-weights",
-  "version": "6.2.3",
+  "version": "6.2.4",
   "description": "The font weights used by Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -29,9 +29,9 @@
     "extends": "@goldwasserexchange"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^6.2.3",
+    "@goldwasserexchange/eslint-config": "^6.2.4",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.2.3",
-    "ge-scripts": "^6.2.3",
+    "ge-scripts": "^6.2.4",
     "lint-staged": "^10.0.10",
     "npm-package-json-lint": "^4.6.0",
     "sort-package-json": "^1.39.1"

@@ -1,6 +1,6 @@
 {
   "name": "ge-scripts",
-  "version": "6.2.3",
+  "version": "6.2.4",
   "description": "CLI toolbox for common scripts for Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -41,7 +41,7 @@
     "ramda": "^0.26.1"
   },
   "devDependencies": {
-    "@goldwasserexchange/eslint-config": "^6.2.3",
+    "@goldwasserexchange/eslint-config": "^6.2.4",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.2.3",
     "lint-staged": "^10.0.10",
     "npm-package-json-lint": "^4.6.0",
