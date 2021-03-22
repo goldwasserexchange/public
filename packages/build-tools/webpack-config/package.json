@@ -29,13 +29,13 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/polyfill": "^7.8.7",
+    "@babel/core": "^7.13.8",
+    "@babel/polyfill": "^7.12.1",
     "@goldwasserexchange/babel-preset": "^6.2.3",
     "@goldwasserexchange/node-semver-tools": "^6.2.3",
     "@goldwasserexchange/postcss-config": "^6.2.3",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.2.3",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.2.2",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^2.1.1",
