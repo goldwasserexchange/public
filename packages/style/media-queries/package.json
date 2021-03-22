@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/media-queries",
-  "version": "6.2.5",
+  "version": "6.2.6",
   "description": "The media queries used by Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -34,13 +34,13 @@
     "extends": "@goldwasserexchange"
   },
   "devDependencies": {
-    "@goldwasserexchange/babel": "^6.2.5",
+    "@goldwasserexchange/babel": "^6.2.6",
     "@goldwasserexchange/eslint-config": "^6.2.4",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.2.3",
-    "@goldwasserexchange/utils": "^6.2.5",
+    "@goldwasserexchange/utils": "^6.2.6",
     "cross-env": "^7.0.0",
     "fs-extra": "^8.1.0",
-    "ge-scripts": "^6.2.4",
+    "ge-scripts": "^6.2.6",
     "lint-staged": "^10.0.10",
     "npm-package-json-lint": "^4.6.0",
     "require-dir": "^1.2.0",
