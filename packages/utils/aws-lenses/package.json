@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@goldwasserexchange/utils": "^6.2.6",
-    "ramda": "^0.26.1"
+    "ramda": "^0.27.1"
   },
   "devDependencies": {
     "@goldwasserexchange/babel": "^6.2.6",
