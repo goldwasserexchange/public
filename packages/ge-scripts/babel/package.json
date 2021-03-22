@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/babel",
-  "version": "6.2.4",
+  "version": "6.2.5",
   "description": "A common script to preconfigure and use babel",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -31,7 +31,7 @@
   "dependencies": {
     "@babel/cli": "^7.13.0",
     "@babel/core": "^7.13.8",
-    "@goldwasserexchange/babel-preset": "^6.2.4",
+    "@goldwasserexchange/babel-preset": "^6.2.5",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.2.4",
     "cross-env": "^7.0.0",
     "cross-spawn": "^7.0.1",

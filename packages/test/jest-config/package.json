@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/jest-config",
-  "version": "6.2.4",
+  "version": "6.2.5",
   "description": "Jest config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.13.8",
-    "@goldwasserexchange/babel-preset": "^6.2.4",
+    "@goldwasserexchange/babel-preset": "^6.2.5",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^26.6.3"
   },

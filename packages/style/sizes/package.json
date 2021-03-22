@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/sizes",
-  "version": "6.2.4",
+  "version": "6.2.5",
   "description": "The sizes used by Goldwasser Exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -29,8 +29,8 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@goldwasserexchange/media-queries": "^6.2.4",
-    "@goldwasserexchange/utils": "^6.2.4"
+    "@goldwasserexchange/media-queries": "^6.2.5",
+    "@goldwasserexchange/utils": "^6.2.5"
   },
   "devDependencies": {
     "@goldwasserexchange/eslint-config": "^6.2.4",

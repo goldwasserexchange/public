@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/aws-lenses",
-  "version": "6.2.4",
+  "version": "6.2.5",
   "description": "Ramda lenses for AWS Lambda events",
   "keywords": [
     "aws",
@@ -40,11 +40,11 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@goldwasserexchange/utils": "^6.2.4",
+    "@goldwasserexchange/utils": "^6.2.5",
     "ramda": "^0.26.1"
   },
   "devDependencies": {
-    "@goldwasserexchange/babel": "^6.2.4",
+    "@goldwasserexchange/babel": "^6.2.5",
     "@goldwasserexchange/eslint-config": "^6.2.4",
     "@goldwasserexchange/npm-package-json-lint-config": "^6.2.3",
     "cross-env": "^7.0.0",

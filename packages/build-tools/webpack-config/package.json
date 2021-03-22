@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/webpack-config",
-  "version": "6.2.4",
+  "version": "6.2.5",
   "description": "The common webpack configuration for goldwasser exchange",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -31,9 +31,9 @@
   "dependencies": {
     "@babel/core": "^7.13.8",
     "@babel/polyfill": "^7.12.1",
-    "@goldwasserexchange/babel-preset": "^6.2.4",
+    "@goldwasserexchange/babel-preset": "^6.2.5",
     "@goldwasserexchange/node-semver-tools": "^6.2.4",
-    "@goldwasserexchange/postcss-config": "^6.2.4",
+    "@goldwasserexchange/postcss-config": "^6.2.5",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.2.4",
     "babel-loader": "^8.2.2",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
