@@ -46,7 +46,7 @@
     "@goldwasserexchange/npm-package-json-lint-config": "^6.2.3",
     "cross-env": "^7.0.0",
     "ge-scripts": "^6.2.3",
-    "jest": "^25.1.0",
+    "jest": "^26.6.3",
     "lint-staged": "^10.0.10",
     "npm-package-json-lint": "^4.6.0",
     "sort-package-json": "^1.39.1"
