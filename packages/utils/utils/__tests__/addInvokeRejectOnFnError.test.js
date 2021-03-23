@@ -30,7 +30,6 @@ describe('lambdaInvokeFnError', () => {
     expect(() => addInvokeRejectOnFnError({ invoke: '' })).toThrow(/invoke/);
   });
 
-
   it('should throw if data contains FunctionError', async () => {
     await expect(clientWithError.invokeRejectOnFnError(true).promise()).rejects.toThrow(dataError.Payload);
   });

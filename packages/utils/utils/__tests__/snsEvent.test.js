@@ -3,7 +3,6 @@ import snsEventSubject from '../src/snsEventSubject';
 import snsEventRawMessage from '../src/snsEventRawMessage';
 import snsEventMessage from '../src/snsEventMessage';
 
-
 const sns = {
   Subject: 'hello',
   Message: '{"key":"value"}',

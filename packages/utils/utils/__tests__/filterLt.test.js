@@ -1,4 +1,3 @@
-
 import filterLt from '../src/filterLt';
 
 test('filterLt', () => {
