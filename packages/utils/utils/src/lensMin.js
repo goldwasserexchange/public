@@ -1,4 +1,3 @@
-
 import { pipe, view, curry } from 'ramda';
 
 import mathMinSpread from './mathMinSpread';

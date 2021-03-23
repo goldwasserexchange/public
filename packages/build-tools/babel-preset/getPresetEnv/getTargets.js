@@ -11,5 +11,4 @@ const getTargets = (env, target, nodeVersion) => ((target === 'node' || (target 
     browsers,
   });
 
-
 module.exports = getTargets;
