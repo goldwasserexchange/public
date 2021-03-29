@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^2.34.0",
-    "eslint-plugin-jest": "^23.20.0"
+    "eslint-plugin-jest": "^24.3.2"
   },
   "devDependencies": {
     "@goldwasserexchange/npm-package-json-lint-config": "^6.2.7",
