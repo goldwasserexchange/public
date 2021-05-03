@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.3.0](https://github.com/goldwasserexchange/public/compare/v6.2.7...v6.3.0) (2021-05-03)
+
+**Note:** Version bump only for package @goldwasserexchange/postcss-config
+
+
+
+
+
 ## [6.2.7](https://github.com/goldwasserexchange/public/compare/v6.2.6...v6.2.7) (2021-03-23)
 
 **Note:** Version bump only for package @goldwasserexchange/postcss-config

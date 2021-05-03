@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.3.0](https://github.com/goldwasserexchange/public/compare/v6.2.7...v6.3.0) (2021-05-03)
+
+
+### Features
+
+* **lint:** update eslint, parser and plugins ([#326](https://github.com/goldwasserexchange/public/issues/326)) ([3a7db64](https://github.com/goldwasserexchange/public/commit/3a7db64))
+
+
+
+
+
 ## [6.2.7](https://github.com/goldwasserexchange/public/compare/v6.2.6...v6.2.7) (2021-03-23)
 
 **Note:** Version bump only for package @goldwasserexchange/eslint-config-unicorn

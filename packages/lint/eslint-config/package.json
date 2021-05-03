@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config",
-  "version": "6.2.7",
+  "version": "6.3.0",
   "description": "Goldwasser Exchange ES Lint config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {
@@ -29,13 +29,13 @@
     "extends": "./index.js"
   },
   "dependencies": {
-    "@goldwasserexchange/eslint-config-jest": "^6.2.7",
-    "@goldwasserexchange/eslint-config-ramda": "^6.2.7",
-    "@goldwasserexchange/eslint-config-react": "^6.2.7",
-    "@goldwasserexchange/eslint-config-strict": "^6.2.7",
-    "@goldwasserexchange/eslint-config-typescript": "^6.2.7",
-    "@goldwasserexchange/eslint-config-unicorn": "^6.2.7",
-    "@goldwasserexchange/read-pkg-up-helpers": "^6.2.7",
+    "@goldwasserexchange/eslint-config-jest": "^6.3.0",
+    "@goldwasserexchange/eslint-config-ramda": "^6.3.0",
+    "@goldwasserexchange/eslint-config-react": "^6.3.0",
+    "@goldwasserexchange/eslint-config-strict": "^6.3.0",
+    "@goldwasserexchange/eslint-config-typescript": "^6.3.0",
+    "@goldwasserexchange/eslint-config-unicorn": "^6.3.0",
+    "@goldwasserexchange/read-pkg-up-helpers": "^6.3.0",
     "@typescript-eslint/parser": "^4.22.0",
     "arrify": "^2.0.1",
     "eslint-config-airbnb": "^18.2.1",
@@ -46,7 +46,7 @@
     "redux-saga": "^0.16.2"
   },
   "devDependencies": {
-    "@goldwasserexchange/npm-package-json-lint-config": "^6.2.7",
+    "@goldwasserexchange/npm-package-json-lint-config": "^6.3.0",
     "eslint": "^7.25.0",
     "lint-staged": "^10.5.4",
     "npm-package-json-lint": "^4.6.0",
