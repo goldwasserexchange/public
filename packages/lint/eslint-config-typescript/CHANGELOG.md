@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.3.1](https://github.com/goldwasserexchange/public/compare/v6.3.0...v6.3.1) (2021-05-03)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** configuration uses rules that were removed ([#327](https://github.com/goldwasserexchange/public/issues/327)) ([a2c12aa](https://github.com/goldwasserexchange/public/commit/a2c12aa))
+
+
+
+
+
 # [6.3.0](https://github.com/goldwasserexchange/public/compare/v6.2.7...v6.3.0) (2021-05-03)
 
 
