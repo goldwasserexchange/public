@@ -60,7 +60,8 @@ if (process.env.BABEL_ES_TARGET) {
       ...extensions,
       ...config,
       'src',
-    ].concat(args),
+      ...args,
+    ],
     'successfully generated es build'
   );
 } else {
@@ -77,7 +78,8 @@ if (process.env.BABEL_ES_TARGET) {
         ...extensions,
         ...config,
         'src',
-      ].concat(args),
+        ...args,
+      ],
       'successfully generated es build'
     );
   }
@@ -95,7 +97,8 @@ if (process.env.BABEL_ES_TARGET) {
         ...extensions,
         ...config,
         'src',
-      ].concat(args),
+        ...args,
+      ],
       'successfully generated commonjs build'
     );
   }
@@ -113,7 +116,8 @@ if (process.env.BABEL_ES_TARGET) {
         ...extensions,
         ...config,
         'src',
-      ].concat(args),
+        ...args,
+      ],
       'successfully generated es build'
     );
   }

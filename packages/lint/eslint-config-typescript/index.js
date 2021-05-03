@@ -26,6 +26,8 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
       ],
       rules: { // See https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
+        indent: 'off',
+        '@typescript-eslint/indent': ['error', 2],
         '@typescript-eslint/array-type': 'error',
         camelcase: 'off',
         '@typescript-eslint/camelcase': 'error',
