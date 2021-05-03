@@ -18,6 +18,16 @@ module.exports = {
   overrides: [
     {
       files: [
+        '**/*.js',
+        '**/*.jsx',
+      ],
+      rules: { // Avoid `'React' was used before it was defined` when importing React
+        'no-use-before-define': 'off',
+        '@typescript-eslint/no-use-before-define': ['error'],
+      },
+    },
+    {
+      files: [
         '**/*.ts',
         '**/*.tsx',
       ],
@@ -28,10 +38,11 @@ module.exports = {
       rules: { // See https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
         indent: 'off',
         '@typescript-eslint/indent': ['error', 2],
+        'no-use-before-define': 'off',
+        '@typescript-eslint/no-use-before-define': ['error'],
+        'no-shadow': 'off',
+        '@typescript-eslint/no-shadow': ['error'],
         '@typescript-eslint/array-type': 'error',
-        camelcase: 'off',
-        '@typescript-eslint/camelcase': 'error',
-        '@typescript-eslint/class-name-casing': 'error',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-member-accessibility': [
           'error',
@@ -42,7 +53,6 @@ module.exports = {
             },
           },
         ],
-        '@typescript-eslint/interface-name-prefix': 'error',
         '@typescript-eslint/member-ordering': 'error',
         '@typescript-eslint/member-delimiter-style': [
           'error',
