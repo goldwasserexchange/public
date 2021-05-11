@@ -1,6 +1,6 @@
 {
   "name": "@goldwasserexchange/eslint-config-typescript",
-  "version": "6.3.1",
+  "version": "6.3.2",
   "description": "Goldwasser Exchange ES Lint tyepscript config",
   "homepage": "https://github.com/goldwasserexchange/public",
   "repository": {

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.3.2](https://github.com/goldwasserexchange/public/compare/v6.3.1...v6.3.2) (2021-05-11)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** cannot read property 'loc' of undefined for js files ([#331](https://github.com/goldwasserexchange/public/issues/331)) ([0cfbe18](https://github.com/goldwasserexchange/public/commit/0cfbe18))
+
+
+
+
+
 ## [6.3.1](https://github.com/goldwasserexchange/public/compare/v6.3.0...v6.3.1) (2021-05-03)
 
 
