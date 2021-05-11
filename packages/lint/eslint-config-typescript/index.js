@@ -21,9 +21,13 @@ module.exports = {
         '**/*.js',
         '**/*.jsx',
       ],
-      rules: { // Avoid `'React' was used before it was defined` when importing React
+      rules: {
+        // Avoid `'React' was used before it was defined` when importing React
         'no-use-before-define': 'off',
         '@typescript-eslint/no-use-before-define': ['error'],
+        // Avoid loc error in VS Code
+        indent: 'off',
+        '@typescript-eslint/indent': ['error', 2],
       },
     },
     {
