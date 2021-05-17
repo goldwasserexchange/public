@@ -49,7 +49,7 @@
     "@goldwasserexchange/browserslist-config": "^6.3.2",
     "@goldwasserexchange/node-semver-tools": "^6.3.2",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.3.0",
-    "babel-plugin-date-fns": "^0.2.1",
+    "babel-plugin-date-fns": "^1.0.0",
     "babel-plugin-dynamic-import-node": "^2.3.3",
     "babel-plugin-lodash": "^3.3.2",
     "babel-plugin-minify-dead-code-elimination": "^0.5.1",
