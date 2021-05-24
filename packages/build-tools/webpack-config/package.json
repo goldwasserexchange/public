@@ -29,7 +29,7 @@
     "extends": "@goldwasserexchange"
   },
   "dependencies": {
-    "@babel/core": "^7.13.8",
+    "@babel/core": "^7.14.3",
     "@babel/polyfill": "^7.12.1",
     "@goldwasserexchange/babel-preset": "^6.3.2",
     "@goldwasserexchange/node-semver-tools": "^6.3.2",
