@@ -59,7 +59,7 @@ choosePort(HOST, DEFAULT_PORT).then((port) => {
       public: urls.lanUrlForConfig,
       before(app) {
         app.use(errorOverlayMiddleware());
-        app.use(noopServiceWorkerMiddleware());
+        app.use(noopServiceWorkerMiddleware('/'));
       },
     };
     server = new WebpackDevServer(compiler, serverConfig);
