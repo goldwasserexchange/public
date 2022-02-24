@@ -4,7 +4,7 @@ const { ServiceDiscovery } = require('aws-sdk');
 // Save dns.lookup
 const dnsLookup = dns.lookup;
 
-const awsLookup = (domains = [], clientOptions) => {
+const awsLookup = (domains = [], clientOptions) => { // eslint-disable-line default-param-last
   const uniqueDomains = new Set([...domains]);
 
   const serviceDiscovery = new ServiceDiscovery({

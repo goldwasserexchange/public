@@ -36,18 +36,18 @@
     "@goldwasserexchange/eslint-config-typescript": "^6.3.2",
     "@goldwasserexchange/eslint-config-unicorn": "^6.3.0",
     "@goldwasserexchange/read-pkg-up-helpers": "^6.3.0",
-    "@typescript-eslint/parser": "^4.22.0",
+    "@typescript-eslint/parser": "^5.12.1",
     "arrify": "^2.0.1",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-redux-saga": "^0.10.0",
     "ramda": "^0.26.1",
     "redux-saga": "^0.16.2"
   },
   "devDependencies": {
     "@goldwasserexchange/npm-package-json-lint-config": "^6.3.0",
-    "eslint": "^7.25.0",
+    "eslint": "^8.9.0",
     "lint-staged": "^10.5.4",
     "npm-package-json-lint": "^4.6.0",
     "sort-package-json": "^1.49.0"

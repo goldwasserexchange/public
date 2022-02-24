@@ -1,5 +1,5 @@
 const { ifAnyDep } = require('@goldwasserexchange/read-pkg-up-helpers');
-const R = require('ramda');
+const { concat } = require('ramda');
 const getBabelTarget = require('../getBabelTarget');
 
 const goldwasserExchangeUtilsEsTargets = {
@@ -11,7 +11,7 @@ const goldwasserExchangeUtilsTransform = (babelTarget) => ifAnyDep(
   '@goldwasserexchange/utils',
   {
     '@goldwasserexchange/utils': {
-      transform: R.concat(`@goldwasserexchange/utils/${goldwasserExchangeUtilsEsTargets[babelTarget]}/`),
+      transform: concat(`@goldwasserexchange/utils/${goldwasserExchangeUtilsEsTargets[babelTarget]}/`),
       preventFullImport: true,
     },
   },
