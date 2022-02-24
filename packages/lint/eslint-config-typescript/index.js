@@ -36,7 +36,7 @@ module.exports = {
         '**/*.tsx',
       ],
       extends: [
-        'plugin:@typescript-eslint/eslint-recommended',
+        'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
       ],
       rules: { // See https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin

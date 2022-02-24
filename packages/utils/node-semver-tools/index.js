@@ -1,5 +1,5 @@
 const semver = require('semver');
-const versions = require('./versions');
+const versions = require('./versions.json');
 
 const minSatisfying = (range) => semver.minSatisfying(versions, range);
 
