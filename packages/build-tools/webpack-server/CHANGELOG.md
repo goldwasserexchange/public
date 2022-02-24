@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.4.0](https://github.com/goldwasserexchange/public/compare/v6.3.2...v6.4.0) (2022-02-24)
+
+
+### Bug Fixes
+
+* **webpack-server:** the "path" argument must be of type string ([#341](https://github.com/goldwasserexchange/public/issues/341)) ([df89025](https://github.com/goldwasserexchange/public/commit/df890250f3b6802fda6f0a5cb653736c58de371d))
+
+
+
+
+
 ## [6.3.2](https://github.com/goldwasserexchange/public/compare/v6.3.1...v6.3.2) (2021-05-11)
 
 **Note:** Version bump only for package @goldwasserexchange/webpack-server
