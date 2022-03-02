@@ -19,7 +19,7 @@ const config = useBuiltinConfig
 
 const ext = args.includes('--ext')
   ? []
-  : ['--ext', '.js,.ts'];
+  : ['--ext', '.js,.ts,.tsx'];
 
 const useBuiltinIgnore = !args.includes('--ignore-path')
   && !hasFile('.eslintignore')
