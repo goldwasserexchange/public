@@ -35,7 +35,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.13.0",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-exponentiation-operator": "^7.12.1",
-    "@babel/plugin-transform-react-constant-elements": "^7.12.13",
+    "@babel/plugin-transform-react-constant-elements": "^7.17.6",
     "@babel/plugin-transform-react-inline-elements": "^7.10.4",
     "@babel/plugin-transform-react-jsx": "^7.10.4",
     "@babel/plugin-transform-react-jsx-self": "^7.10.4",
