@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.5.0](https://github.com/goldwasserexchange/public/compare/v6.4.0...v6.5.0) (2022-03-02)
+
+
+### Features
+
+* **lint-js:** lint .tsx files ([#359](https://github.com/goldwasserexchange/public/issues/359)) ([64424f5](https://github.com/goldwasserexchange/public/commit/64424f5d575c9fbb0d999f6f3d24a53688fae7aa))
+
+
+
+
+
 # [6.4.0](https://github.com/goldwasserexchange/public/compare/v6.3.2...v6.4.0) (2022-02-24)
 
 
